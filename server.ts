@@ -10,7 +10,7 @@ import {
 import { EN_PROVERBS } from "./data/sentences/en_proverbs.js";
 import { ES_PROVERBS } from "./data/sentences/es_proverbs.js";
 import { FR_PROVERBS } from "./data/sentences/fr_proverbs.js";
-import { addCompanionMessage } from "./services/companionService.js";
+import { addCompanionMessage } from "./services/companionChatServer.js";
 import { generateCompanionReply } from "./services/companionChatServer.js";
 
 const app = express();
