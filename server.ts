@@ -2,6 +2,17 @@ import express from "express";
 import path from "path";
 import { GoogleGenAI, Schema, Type, Modality } from "@google/genai";
 
+import {
+  getSentenceLibrary,
+  searchSentences,
+  pickDailySentence,
+} from "./services/sentenceLibrary.js";
+import { EN_PROVERBS } from "./data/sentences/en_proverbs.js";
+import { ES_PROVERBS } from "./data/sentences/es_proverbs.js";
+import { FR_PROVERBS } from "./data/sentences/fr_proverbs.js";
+import { addCompanionMessage } from "./services/companionService.js";
+import { generateCompanionReply } from "./services/companionChatServer.js";
+
 const app = express();
 const PORT = Number(process.env.PORT) || 3000;
 
@@ -55,7 +66,7 @@ function safeLabel(value: unknown, maxLen = 60): string {
 function safeSentence(value: unknown, maxLen = 500): string {
   if (typeof value !== "string") return "";
   return value
-    .replace(/[<>{}\\\\`]/g, "")
+    .replace(/[<>{}\\\`]/g, "")
     .replace(/\s+/g, " ")
     .trim()
     .slice(0, maxLen);
@@ -72,7 +83,7 @@ function getGemini(): GoogleGenAI {
       throw new Error("GEMINI_API_KEY environment variable is required");
     }
     ai = new GoogleGenAI({
-      apiKey: apiKey,
+      apiKey,
       httpOptions: {
         headers: {
           "User-Agent": "aistudio-build",
@@ -87,7 +98,7 @@ function getGemini(): GoogleGenAI {
 // Prevents leaking "GEMINI_API_KEY environment variable is required" to clients.
 function geminiUnavailable(res: express.Response, routeName: string) {
   console.error(`[${routeName}] Gemini unavailable — GEMINI_API_KEY not set or API error`);
-  res.status(500).json({ error: `Speech service unavailable. Please try again.` });
+  res.status(500).json({ error: "Speech service unavailable. Please try again." });
 }
 
 const SYSTEM_PROMPT = `
@@ -194,6 +205,16 @@ const analysisSchema: Schema = {
     confidence: { type: Type.NUMBER }
   },
   required: ["summary", "overall_score", "pronunciation_score", "intelligibility_score", "prioritized_actions", "model_phrase", "drills", "pitch_contour"]
+};
+
+// -----------------------------------------------------------------------
+// PROOF OF LIFE — cached at module init so Vercel cold-start can report
+// library health without hitting the route handlers.
+// -----------------------------------------------------------------------
+const LIBRARY_PROOF = {
+  en: { total: EN_PROVERBS.length, hasEn: true },
+  es: { total: ES_PROVERBS.length, hasEn: true },
+  fr: { total: FR_PROVERBS.length, hasEn: true },
 };
 
 // ---------------------------------------------------------------------------
@@ -388,7 +409,6 @@ app.get("/api/sentences/:lang", (req, res) => {
       'French': 'fr', 'french': 'fr',
     };
     const code = codeMap[lang] || 'en';
-    const { getSentenceLibrary } = require('./services/sentenceLibrary');
     const lib = getSentenceLibrary(lang);
     res.json({
       language: code,
@@ -406,7 +426,6 @@ app.get("/api/sentences/:lang/search", (req, res) => {
   try {
     const lang = safeLabel(req.query.lang as string || 'English', 10);
     const query = safeLabel(req.query.q as string || '', 100);
-    const { getSentenceLibrary, searchSentences } = require('./services/sentenceLibrary');
     const lib = getSentenceLibrary(lang);
     const results = searchSentences(lib, query);
     res.json({ sentences: results, count: results.length });
@@ -420,7 +439,6 @@ app.get("/api/sentences/:lang/random", (req, res) => {
   try {
     const lang = safeLabel(req.query.lang as string || 'English', 10);
     const level = safeLabel(req.query.level as string || 'intermediate', 20);
-    const { getSentenceLibrary, pickDailySentence } = require('./services/sentenceLibrary');
     const lib = getSentenceLibrary(lang);
     const sentence = pickDailySentence(lib, level);
     if (!sentence) return res.status(404).json({ error: "No sentence found" });
@@ -440,8 +458,10 @@ app.get("/api/proverbs/:lang", (req, res) => {
       'fr': 'fr', 'French': 'fr', 'french': 'fr',
     };
     const code = codeMap[lang] || 'en';
-    const proverbsModule = require(`./data/sentences/${code}_proverbs`);
-    const proverbs = proverbsModule[`${code.toUpperCase()}_PROVERBS`] || [];
+    let proverbs: any[] = [];
+    if (code === 'en') proverbs = EN_PROVERBS;
+    else if (code === 'es') proverbs = ES_PROVERBS;
+    else if (code === 'fr') proverbs = FR_PROVERBS;
     res.json({ language: code, proverbs, total_count: proverbs.length });
   } catch (err) {
     console.error("Proverbs error:", err);
@@ -465,9 +485,6 @@ app.post("/api/companion/chat", async (req, res) => {
     } catch {
       return geminiUnavailable(res, "companion-chat");
     }
-
-    const { addCompanionMessage } = require('./services/companionService');
-    const { generateCompanionReply } = require('./services/companionChatServer');
 
     let session: any = {
       id: sessionId || crypto.randomUUID(),
@@ -507,8 +524,10 @@ app.get("/api/proverbs/:lang/random", (req, res) => {
       'fr': 'fr', 'French': 'fr', 'french': 'fr',
     };
     const code = codeMap[lang] || 'en';
-    const proverbsModule = require(`./data/sentences/${code}_proverbs`);
-    const proverbsList = proverbsModule[`${code.toUpperCase()}_PROVERBS`] || [];
+    let proverbsList: any[] = [];
+    if (code === 'en') proverbsList = EN_PROVERBS;
+    else if (code === 'es') proverbsList = ES_PROVERBS;
+    else if (code === 'fr') proverbsList = FR_PROVERBS;
     if (proverbsList.length === 0) return res.status(404).json({ error: "No proverbs for this language" });
     const proverb = proverbsList[Math.floor(Math.random() * proverbsList.length)];
     res.json(proverb);
