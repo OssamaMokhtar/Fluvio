@@ -12,6 +12,14 @@ import { EN_SENTENCES as EN, EN_SENTENCE_COUNT as EN_COUNT } from '../data/sente
 import { ES_SENTENCES as ES, ES_SENTENCE_COUNT as ES_COUNT } from '../data/sentences/es_sentences';
 import { FR_SENTENCES as FR, FR_SENTENCE_COUNT as FR_COUNT } from '../data/sentences/fr_sentences';
 
+// TS widens literal array types to "string" for language/enums.
+// Cast at import site to restore the Sentence[] contract.
+const asSentence = <T extends readonly any[]>(items: T): T => items;
+
+const EN_SENTENCES_CAST = asSentence(EN) as Sentence[];
+const ES_SENTENCES_CAST = asSentence(ES) as Sentence[];
+const FR_SENTENCES_CAST = asSentence(FR) as Sentence[];
+
 export const LANG_CODES: Record<string, 'en' | 'es' | 'fr'> = {
   'English': 'en',
   'Spanish': 'es',
@@ -34,9 +42,9 @@ function buildLibrary(lang: 'en' | 'es' | 'fr', sentences: Sentence[], total: nu
   return { language: lang, sentences, total_count: total, by_level, by_topic };
 }
 
-export const EN_LIBRARY = buildLibrary('en', EN, EN_COUNT);
-export const ES_LIBRARY = buildLibrary('es', ES, ES_COUNT);
-export const FR_LIBRARY = buildLibrary('fr', FR, FR_COUNT);
+export const EN_LIBRARY = buildLibrary('en', EN_SENTENCES_CAST, EN_COUNT);
+export const ES_LIBRARY = buildLibrary('es', ES_SENTENCES_CAST, ES_COUNT);
+export const FR_LIBRARY = buildLibrary('fr', FR_SENTENCES_CAST, FR_COUNT);
 
 export function getSentenceLibrary(lang: string): SentenceLibrary {
   const code = LANG_CODES[lang] || 'en';
