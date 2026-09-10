@@ -2,16 +2,12 @@ import express from "express";
 import path from "path";
 import { GoogleGenAI, Schema, Type, Modality } from "@google/genai";
 
-import {
-  getSentenceLibrary,
-  searchSentences,
-  pickDailySentence,
-} from "./services/sentenceLibrary.js";
-import { EN_PROVERBS } from "./data/sentences/en_proverbs.js";
-import { ES_PROVERBS } from "./data/sentences/es_proverbs.js";
-import { FR_PROVERBS } from "./data/sentences/fr_proverbs.js";
-import { addCompanionMessage } from "./services/companionChatServer.js";
-import { generateCompanionReply } from "./services/companionChatServer.js";
+import { getSentenceLibrary, searchSentences, pickDailySentence } from "./services/sentenceLibrary.ts";
+import { EN_PROVERBS } from "./data/sentences/en_proverbs.ts";
+import { ES_PROVERBS } from "./data/sentences/es_proverbs.ts";
+import { FR_PROVERBS } from "./data/sentences/fr_proverbs.ts";
+import { addCompanionMessage } from "./services/companionChatServer.ts";
+import { generateCompanionReply } from "./services/companionChatServer.ts";
 
 const app = express();
 const PORT = Number(process.env.PORT) || 3000;
