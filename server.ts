@@ -408,16 +408,142 @@ app.post("/api/generate-lesson-plan", async (req, res) => {
     res.json(JSON.parse(textResponse));
   } catch (err: any) {
     console.error("Lesson Gen Express Error:", err);
-    // Keep the app usable, but mark the response as degraded so a broken
-    // deployment is distinguishable from a healthy one. Previously this
-    // returned a canned sentence indistinguishable from real output, which
-    // made a fully non-functional deployment look fine.
     res.setHeader("X-Degraded", "lesson-plan-fallback");
     res.json({
       context: "Daily Practice",
       prompt: "The quick brown fox jumps over the lazy dog.",
       degraded: true
     });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// Sentence library API
+// ---------------------------------------------------------------------------
+app.get("/api/sentences/:lang", (req, res) => {
+  try {
+    const lang = safeLabel(req.params.lang, 10);
+    // Map language name → code
+    const codeMap: Record<string, string> = {
+      'English': 'en', 'english': 'en',
+      'Spanish': 'es', 'spanish': 'es',
+      'French': 'fr', 'french': 'fr',
+    };
+    const code = codeMap[lang] || 'en';
+    const { getSentenceLibrary } = require('./services/sentenceLibrary');
+    const lib = getSentenceLibrary(lang);
+    res.json({
+      language: code,
+      total_count: lib.total_count,
+      by_level: lib.by_level,
+      by_topic: lib.by_topic,
+    });
+  } catch (err) {
+    console.error("Sentence library error:", err);
+    res.status(500).json({ error: "Failed to load sentence library" });
+  }
+});
+
+app.get("/api/sentences/:lang/search", (req, res) => {
+  try {
+    const lang = safeLabel(req.query.lang as string || 'English', 10);
+    const query = safeLabel(req.query.q as string || '', 100);
+    const { getSentenceLibrary, searchSentences } = require('./services/sentenceLibrary');
+    const lib = getSentenceLibrary(lang);
+    const results = searchSentences(lib, query);
+    res.json({ sentences: results, count: results.length });
+  } catch (err) {
+    console.error("Sentence search error:", err);
+    res.status(500).json({ error: "Search failed" });
+  }
+});
+
+app.get("/api/sentences/:lang/random", (req, res) => {
+  try {
+    const lang = safeLabel(req.query.lang as string || 'English', 10);
+    const level = safeLabel(req.query.level as string || 'intermediate', 20);
+    const { getSentenceLibrary, pickDailySentence } = require('./services/sentenceLibrary');
+    const lib = getSentenceLibrary(lang);
+    const sentence = pickDailySentence(lib, level);
+    if (!sentence) return res.status(404).json({ error: "No sentence found" });
+    res.json(sentence);
+  } catch (err) {
+    console.error("Sentence random error:", err);
+    res.status(500).json({ error: "Failed to get sentence" });
+  }
+});
+
+app.get("/api/proverbs/:lang", (req, res) => {
+  try {
+    const lang = safeLabel(req.params.lang, 10);
+    const codeMap: Record<string, string> = {
+      'en': 'en', 'English': 'en', 'english': 'en',
+      'es': 'es', 'Spanish': 'es', 'spanish': 'es',
+      'fr': 'fr', 'French': 'fr', 'french': 'fr',
+    };
+    const code = codeMap[lang] || 'en';
+    const proverbsModule = require(`./data/sentences/${code}_proverbs`);
+    const proverbs = proverbsModule[`${code.toUpperCase()}_PROVERBS`] || [];
+    res.json({ language: code, proverbs, total_count: proverbs.length });
+  } catch (err) {
+    console.error("Proverbs error:", err);
+    res.status(500).json({ error: "Failed to load proverbs" });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// AI Language Companion API
+// ---------------------------------------------------------------------------
+app.post("/api/companion/chat", async (req, res) => {
+  try {
+    const { sessionId, message, targetLanguage, level, transcribedAudio } = req.body;
+    if (!message || !targetLanguage) {
+      return res.status(400).json({ error: "Missing message or targetLanguage" });
+    }
+
+    const { createCompanionSession, addCompanionMessage } = require('./services/companionService');
+    const { generateCompanionReply } = require('./services/companionChatServer');
+    const gemini = getGemini();
+    
+    let session: any = { id: sessionId || crypto.randomUUID(), messages: [], language: targetLanguage, level: level || 'intermediate', started_at: Date.now(), last_active: Date.now() };
+    if (sessionId && req.body.messages) {
+      session.messages = req.body.messages;
+    }
+
+    const result = await generateCompanionReply(session, targetLanguage, level || 'intermediate', transcribedAudio, gemini);
+
+    const updatedSession = addCompanionMessage(session, 'user', message);
+    const finalSession = addCompanionMessage(updatedSession, 'companion', result.response, result.corrected_text || undefined, result.correction_note || undefined);
+
+    res.json({
+      ...result,
+      session: finalSession,
+      timestamp: Date.now(),
+    });
+  } catch (err: any) {
+    console.error("Companion chat error:", err);
+    res.status(500).json({ error: "Companion unavailable. Please try again." });
+  }
+});
+
+// Proverbs random endpoint
+app.get("/api/proverbs/:lang/random", (req, res) => {
+  try {
+    const lang = safeLabel(req.params.lang, 10);
+    const codeMap: Record<string, string> = {
+      'en': 'en', 'English': 'en', 'english': 'en',
+      'es': 'es', 'Spanish': 'es', 'spanish': 'es',
+      'fr': 'fr', 'French': 'fr', 'french': 'fr',
+    };
+    const code = codeMap[lang] || 'en';
+    const proverbsModule = require(`./data/sentences/${code}_proverbs`);
+    const proverbsList = proverbsModule[`${code.toUpperCase()}_PROVERBS`] || [];
+    if (proverbsList.length === 0) return res.status(404).json({ error: "No proverbs for this language" });
+    const proverb = proverbsList[Math.floor(Math.random() * proverbsList.length)];
+    res.json(proverb);
+  } catch (err) {
+    console.error("Proverbs random error:", err);
+    res.status(500).json({ error: "Failed to get proverb" });
   }
 });
 
@@ -460,3 +586,6 @@ async function startServer() {
 if (!process.env.VERCEL) {
   startServer();
 }
+
+// Export a client getter for use by companion service (SSR-safe)
+export const getGeminiClient = () => getGemini();

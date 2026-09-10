@@ -1,3 +1,9 @@
+// Type definitions for Slang Language app
+// Re-exports core data types from the library module
+
+import { Sentence, Proverb, CompanionMessage, CompanionSession } from './data/library';
+
+export type { Sentence, Proverb, CompanionMessage, CompanionSession };
 
 export interface PhonemeError {
   phoneme: string;
@@ -16,7 +22,7 @@ export interface ProsodyDeviation {
 
 export interface AnalysisDrill {
   type: string;
-  items: string[] | string; // Can be a list of pairs or a sentence
+  items: string[] | string;
   reps: number;
 }
 
