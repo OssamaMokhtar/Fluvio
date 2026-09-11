@@ -4,10 +4,11 @@
   "outputDirectory": "dist",
   "functions": {
     "api/index.cjs": {
-      "runtime": "@vercel/node"
+      "runtime": "@vercel/node@4.0.0"
     }
   },
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/index.cjs" }
-  ]
+  ],
+  "nodeVersion": "22.x"
 }
