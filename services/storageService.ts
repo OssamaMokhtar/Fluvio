@@ -1,5 +1,5 @@
 
-import { AnalysisResponse, SessionRecord } from '../types';
+import { AnalysisResponse, SessionRecord, TranscriptWord } from '../types';
 
 const DB_NAME = 'slang_db';
 const STORE_NAME = 'sessions';
@@ -22,7 +22,7 @@ const openDB = (): Promise<IDBDatabase> => {
   });
 };
 
-export const saveSession = async (analysis: AnalysisResponse, audioBlob: Blob | null, targetPhoneme?: string | null): Promise<void> => {
+export const saveSession = async (analysis: AnalysisResponse, audioBlob: Blob | null, targetPhoneme?: string | null, annotatedTranscriptWords?: TranscriptWord[]): Promise<void> => {
   try {
     const db = await openDB();
     const newRecord: SessionRecord = {

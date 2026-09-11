@@ -84,6 +84,7 @@ export interface SessionRecord {
   target_phoneme?: string | null;
   full_analysis: AnalysisResponse;
   audioBlob?: Blob;
+  annotatedTranscriptWords?: TranscriptWord[];
 }
 
 export interface TranscriptWord {

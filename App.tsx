@@ -297,8 +297,9 @@ export default function App() {
       setAnalysis(result);
 
       // Annotate transcript words with error info from analysis
+      let annotated: TranscriptWord[] | undefined;
       if (transcriptWords.length > 0 && result.phoneme_errors.length > 0) {
-        const annotated = transcriptWords.map(word => {
+        annotated = transcriptWords.map(word => {
           const err = result.phoneme_errors.find(e => {
             const wordStart = word.start;
             const wordEnd = word.start + 0.5; // rough word duration
@@ -309,7 +310,7 @@ export default function App() {
         setLiveTranscript(annotated);
       }
 
-      await saveSession(result, blob, targetPhoneme);
+      await saveSession(result, blob, targetPhoneme, annotated);
 
       // Record SRS review for this sentence
       if (currentSentence && currentSentence.id) {
@@ -525,7 +526,7 @@ export default function App() {
               </button>
               <div className="text-sm text-slate-500">Reviewing Session from {new Date(reviewSession.timestamp).toLocaleDateString()}</div>
             </div>
-            <ResultsView analysis={reviewSession.full_analysis} audioBlob={reviewSession.audioBlob || null} onRetry={handleCloseReview} isDarkMode={isDarkMode} />
+            <ResultsView analysis={reviewSession.full_analysis} audioBlob={reviewSession.audioBlob || null} onRetry={handleCloseReview} isDarkMode={isDarkMode} annotatedTranscriptWords={reviewSession.annotatedTranscriptWords} />
           </div>
         ) : (
           <>

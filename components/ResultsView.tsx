@@ -1,8 +1,10 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { AnalysisResponse, ProsodyDeviation, PhonemeError } from '../types';
+import { TranscriptWord } from '../types';
 import ScoreCard from './ScoreCard';
 import Waveform from './Waveform';
+import TranscriptView from './TranscriptView';
 import ComparisonPlayer from './ComparisonPlayer';
 import { Play, AlertCircle, Info, Pause, Loader2, RotateCcw, Activity, Zap, Sparkles, Link, MessageCircle, Users, Music, ListMusic, Globe, BookOpen } from 'lucide-react';
 import { LineChart, Line, ResponsiveContainer, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
@@ -14,6 +16,7 @@ interface ResultsViewProps {
   audioBlob: Blob | null;
   onRetry: () => void;
   isDarkMode?: boolean;
+  annotatedTranscriptWords?: TranscriptWord[];
 }
 
 const ProsodyItem: React.FC<{ deviation: ProsodyDeviation }> = ({ deviation }) => {
@@ -46,7 +49,7 @@ const ProsodyItem: React.FC<{ deviation: ProsodyDeviation }> = ({ deviation }) =
   );
 };
 
-const ResultsView: React.FC<ResultsViewProps> = ({ analysis, audioBlob, onRetry, isDarkMode = false }) => {
+const ResultsView: React.FC<ResultsViewProps> = ({ analysis, audioBlob, onRetry, isDarkMode = false, annotatedTranscriptWords }) => {
   const [currentTime, setCurrentTime] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [selectedError, setSelectedError] = useState<PhonemeError | null>(null);
@@ -124,6 +127,29 @@ const ResultsView: React.FC<ResultsViewProps> = ({ analysis, audioBlob, onRetry,
        animate();
     }
   }, [analysis.overall_score]);
+
+  // Handle word click: jump playback to that word's time + play TTS
+  const handleWordClick = (word: string, index: number) => {
+    if (!audioRef.current || !annotatedTranscriptWords) return;
+    const w = annotatedTranscriptWords[index];
+    if (!w) return;
+    audioRef.current.currentTime = w.start;
+    if (isPlaying) {
+      audioRef.current.pause();
+      setIsPlaying(false);
+      setIsSegmentPlaying(false);
+    } else {
+      audioRef.current.play();
+      setIsPlaying(true);
+    }
+    // Play the word's native TTS
+    generateTTS(word).then(base64 => {
+      if (base64) {
+        // Reuse playPCM to play native pronunciation
+        playPCM(base64).catch(console.error);
+      }
+    }).catch(console.error);
+  };
 
   const togglePlayback = () => {
     if (!audioRef.current) return;
@@ -229,6 +255,16 @@ const ResultsView: React.FC<ResultsViewProps> = ({ analysis, audioBlob, onRetry,
     }
   };
 
+  // Trigger waveform comparison when results are shown
+  useEffect(() => {
+    if (audioBlob && analysis && analysis.model_phrase?.text) {
+      // The ComparisonPlayer's useEffect will pick up the audioBlob + modelText
+      // and fetch TTS + decode waveforms automatically.
+      // Force a reflow by setting a dummy state trigger.
+      setCurrentTime(prev => prev);
+    }
+  }, [audioBlob, analysis]);
+
   return (
     <div className="w-full max-w-4xl mx-auto space-y-6 pb-12 animate-in fade-in duration-500">
       
@@ -330,7 +366,20 @@ const ResultsView: React.FC<ResultsViewProps> = ({ analysis, audioBlob, onRetry,
               )}
            </div>
 
-            {/* Phoneme Errors Table/List */}
+           {/* Annotated Transcript */}
+           {annotatedTranscriptWords && annotatedTranscriptWords.length > 0 && (
+            <div className="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700">
+              <h3 className="font-bold text-slate-800 dark:text-white mb-4 flex items-center gap-2">
+                Your Speech
+              </h3>
+              <div className="text-sm text-slate-500 dark:text-slate-400 mb-3">
+                Click any word to hear its native pronunciation.
+              </div>
+              <TranscriptView words={annotatedTranscriptWords} isDarkMode={isDarkMode} onWordClick={handleWordClick} />
+            </div>
+           )}
+
+           {/* Phoneme Errors Table/List */}
            {analysis.phoneme_errors.length > 0 && (
              <div className="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700">
                 <h3 className="font-bold text-slate-800 dark:text-white mb-4 flex items-center gap-2">
