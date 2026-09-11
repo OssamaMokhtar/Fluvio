@@ -10,6 +10,7 @@ import { createSpeechRecognition, isSpeechRecognitionAvailable, TranscriptWord a
 import { SCENARIOS, filterScenarios, Scenario } from './data/scenarios';
 import Waveform from './components/Waveform';
 import ResultsView from './components/ResultsView';
+import TranscriptView from './components/TranscriptView';
 import PhonemeSelector from './components/PhonemeSelector';
 import IPAChart from './components/IPAChart';
 import ProgressView from './components/ProgressView';
@@ -347,6 +348,27 @@ export default function App() {
     fetchDailyLesson();
   };
 
+  const handleWordClick = (word: string, index: number) => {
+    // Play native TTS for this word when clicked
+    generateTTS(word).then(base64 => {
+      if (base64) {
+        const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
+        const ctx = new AudioContextClass({ sampleRate: 24000 });
+        const bytes = atob(base64);
+        const len = bytes.length;
+        const u8 = new Uint8Array(len);
+        for (let i = 0; i < len; i++) u8[i] = bytes.charCodeAt(i);
+        const dataInt16 = new Int16Array(u8.buffer);
+        const buffer = ctx.createBuffer(1, dataInt16.length, 24000);
+        const channelData = buffer.getChannelData(0);
+        for (let i = 0; i < dataInt16.length; i++) channelData[i] = dataInt16[i] / 32768.0;
+        const source = ctx.createBufferSource();
+        source.buffer = buffer;
+        source.connect(ctx.destination);
+        source.start();
+      }
+    }).catch(console.error);
+  };
   const handlePhonemeSelect = (phoneme: string, prompt: string) => {
     setTargetPhoneme(phoneme);
     setCurrentPrompt(prompt);
@@ -531,7 +553,7 @@ export default function App() {
                 )}
 
                 {/* Sentence card */}
-                <div className="bg-white dark:bg-slate-800/50 p-8 md:p-12 rounded-3xl shadow-xl shadow-indigo-900/5 dark:shadow-none border border-slate-100 dark:border-slate-700 mb-8 relative group transition-all hover:border-indigo-200 dark:hover:border-indigo-800/50">
+                <div className="bg-white dark:bg-slate-800/50 p-8 md:p-12 rounded-3xl shadow-xl shadow-indigo-900/5 dark:shadow-none border border-slate-100 dark:border-slate-700 mb-6 relative group transition-all hover:border-indigo-200 dark:hover:border-indigo-800/50">
                   {/* Sentence badge */}
                   <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-indigo-50 dark:bg-indigo-900/50 border border-indigo-100 dark:border-indigo-800 text-indigo-600 dark:text-indigo-300 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider shadow-sm whitespace-nowrap">
                     {currentSentence ? `${currentSentence.cefr_level} • ${currentSentence.topic}` : promptContext}
@@ -603,6 +625,13 @@ export default function App() {
                     )}
                   </div>
                 </div>
+
+                {/* Live Transcript (Feature 5) */}
+                {appState === AppState.RECORDING && liveTranscript.length > 0 && (
+                  <div className="mb-6 max-w-xl mx-auto">
+                    <TranscriptView words={liveTranscript} isDarkMode={isDarkMode} />
+                  </div>
+                )}
 
                 {/* Waveform */}
                 <div className="w-full mb-8 px-4">
