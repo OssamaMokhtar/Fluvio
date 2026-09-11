@@ -9,6 +9,5 @@
   },
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/index.cjs" }
-  ],
-  "nodeVersion": "22.x"
+  ]
 }
