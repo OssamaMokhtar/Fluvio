@@ -10,6 +10,8 @@ import { EN_PROVERBS } from "./data/sentences/en_proverbs.ts";
 import { ES_PROVERBS } from "./data/sentences/es_proverbs.ts";
 import { FR_PROVERBS } from "./data/sentences/fr_proverbs.ts";
 import { addCompanionMessage, generateCompanionReply } from "./services/companionChatServer.ts";
+import { getScenarioById, SCENARIOS } from "./data/scenarios.ts";
+import { generateScenarioTurn } from "./services/scenarioService.ts";
 
 const app = express();
 const PORT = Number(process.env.PORT) || 3000;
@@ -670,6 +672,84 @@ app.post("/api/companion/chat", async (req, res) => {
   } catch (err: any) {
     console.error("Companion chat error:", err);
     res.status(500).json({ error: "Companion unavailable. Please try again." });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// Scenario Role-Play API
+// ---------------------------------------------------------------------------
+
+app.post("/api/companion/scenario", async (req, res) => {
+  try {
+    const { sessionId, scenarioId, message, targetLanguage, level, transcribedAudio, messages } = req.body;
+    if (!scenarioId || !message || !targetLanguage) {
+      return res.status(400).json({ error: "Missing scenarioId, message, or targetLanguage" });
+    }
+
+    // Resolve scenario
+    const scenario = getScenarioById(SCENARIOS, scenarioId);
+    if (!scenario) {
+      return res.status(404).json({ error: `Scenario not found: ${scenarioId}` });
+    }
+
+    // Build or resume session
+    let session: any = {
+      id: sessionId || crypto.randomUUID(),
+      scenario_id: scenarioId,
+      target_language: targetLanguage,
+      level: level || 'intermediate',
+      messages: [],
+      started_at: Date.now(),
+      last_active: Date.now(),
+    };
+    if (messages && Array.isArray(messages) && messages.length > 0) {
+      session.messages = messages;
+    }
+
+    // Get OpenAI client (null if no credits → uses local fallback)
+    let client: OpenAI | null = null;
+    try {
+      client = getOpenAI();
+    } catch {
+      client = null;
+    }
+
+    // Generate the AI's turn
+    const result = await generateScenarioTurn(scenario, session, message, client);
+
+    // Build updated session with the user's message and the AI's response
+    const updatedSession = {
+      ...session,
+      messages: [
+        ...session.messages,
+        {
+          id: crypto.randomUUID(),
+          role: 'user',
+          text: message,
+          timestamp: Date.now(),
+        },
+        {
+          id: crypto.randomUUID(),
+          role: 'ai',
+          text: result.response,
+          translation: result.translation,
+          scores: result.scores,
+          feedback: result.feedback,
+          corrected_version: result.corrected_version,
+          timestamp: Date.now(),
+        },
+      ],
+      last_active: Date.now(),
+    };
+
+    res.json({
+      ...result,
+      session: updatedSession,
+      timestamp: Date.now(),
+    });
+  } catch (err: any) {
+    console.error("Scenario route error:", err);
+    res.status(500).json({ error: "Scenario unavailable. Please try again." });
   }
 });
 
