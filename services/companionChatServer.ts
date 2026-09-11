@@ -1,9 +1,4 @@
-/**
- * Server-side companion chat handler.
- * Called by /api/companion/chat endpoint.
- */
-
-import { GoogleGenAI } from '@google/genai';
+import { OpenAI } from 'openai';
 import { CompanionSession } from '../data/library';
 import { safeLabel, safeSentence } from '../services/sanitization';
 
@@ -59,7 +54,7 @@ export const generateCompanionReply = async (
   session: CompanionSession,
   targetLanguage: string,
   level: string,
-  gemini: GoogleGenAI,
+  openai: OpenAI,
   transcribedAudio?: string,
 ): Promise<CompanionReplyResult> => {
   const messagesText = session.messages.map(m =>
@@ -77,30 +72,15 @@ ${transcribedAudio ? `\nTRANSCRIBED AUDIO: ${safeSentence(transcribedAudio, 500)
 Generate the next companion reply.
 `;
 
-  const response = await gemini.models.generateContent({
-    model: 'gemini-3.5-flash',
-    contents: [{ parts: [{ text: prompt }] }],
-    config: {
-      systemInstruction: SYSTEM_PROMPT,
-      responseMimeType: 'application/json',
-      responseSchema: {
-        type: 'OBJECT',
-        properties: {
-          response: { type: 'STRING' },
-          translation: { type: 'STRING' },
-          corrected_text: { type: 'STRING' },
-          correction_note: { type: 'STRING' },
-          suggest_proverb: { type: 'STRING' },
-          proverb_id: { type: 'STRING' },
-          next_prompt: { type: 'STRING' },
-        },
-        required: ['response', 'translation', 'next_prompt'],
-      },
-      temperature: 0.7,
-    },
+  const response = await openai.chat.completions.create({
+    model: 'gpt-4o',
+    messages: [{ role: 'user', content: prompt }],
+    response_format: { type: 'json_object' },
+    temperature: 0.7,
+    max_tokens: 1024,
   });
 
-  return JSON.parse(response.text);
+  return JSON.parse(response.choices[0].message.content);
 };
 
 export const addCompanionMessage = (

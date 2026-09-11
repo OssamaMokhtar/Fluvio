@@ -4,14 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx server.ts",
+    "dev": "tsx api/index.ts",
     "build": "vite build",
-    "start": "node dist/api/index.cjs",
+    "start": "node api/index.cjs",
     "preview": "vite preview",
-    "build:node": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs && mkdir -p dist/api && cp dist/server.cjs dist/api/index.cjs && rm -f dist/api/index.cjs.map"
+    "build:node": "vite build && esbuild api/index.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=api/index.cjs && rm -f api/index.cjs.map"
   },
   "dependencies": {
-    "@google/genai": "^1.30.0",
+    "openai": "^4.70.0",
     "express": "^5.2.1",
     "lucide-react": "^0.577.0",
     "react": "^19.2.8",
