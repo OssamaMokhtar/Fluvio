@@ -34900,4 +34900,4 @@ async function startServer() {
 if (!process.env.VERCEL) {
   startServer();
 }
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=index.cjs.map
