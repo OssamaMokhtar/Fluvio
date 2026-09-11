@@ -413,9 +413,40 @@ app.post("/api/generate-tts", async (req, res) => {
     });
 
     // Collect the streaming response into a buffer
-    const audioBuffer = Buffer.from(await speech);
+    const stream = speech;
+    const chunks: Uint8Array[] = [];
+    const decoder = new TextDecoder();
 
-    res.json({ audioData: audioBase64 });
+    // OpenAI SDK v4: speech is a ReadableStream (AudioSpeechStream).
+    // Read it via the body's getReader if available.
+    const body = (stream as any).body;
+    if (body && typeof (body as any).getReader === 'function') {
+      const reader = await (body as any).getReader();
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        chunks.push(new Uint8Array(value));
+      }
+    } else {
+      // Fallback: try treating the stream itself as the body.
+      if (typeof (stream as any).getReader === 'function') {
+        const reader = await (stream as any).getReader();
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          chunks.push(new Uint8Array(value));
+        }
+      } else {
+        // Last resort: convert whatever we got.
+        const buf = await stream;
+        if (buf instanceof Uint8Array) chunks.push(buf);
+        else if (Buffer.isBuffer(buf)) chunks.push(new Uint8Array(buf));
+        else chunks.push(new TextEncoder().encode(String(buf)));
+      }
+    }
+    const audioBuffer = Buffer.concat(chunks);
+
+    res.json({ audioData: audioBuffer.toString('base64') });
   } catch (err: any) {
     console.error("TTS Express Error:", err);
     res.status(500).json({ error: "Speech generation failed. Please try again." });

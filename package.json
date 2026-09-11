@@ -4,16 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx api/index.ts",
+    "dev": "tsx src/api/index.ts",
     "build": "vite build",
-    "start": "node api/index.cjs",
+    "start": "node api/index.js",
     "preview": "vite preview",
-    "build:node": "vite build && esbuild api/index.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=api/index.cjs && rm -f api/index.cjs.map"
+    "build:node": "vite build && esbuild src/api/index.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=api/index.js && rm -f api/index.js.map"
   },
   "dependencies": {
-    "openai": "^4.70.0",
     "express": "^5.2.1",
     "lucide-react": "^0.577.0",
+    "openai": "^4.104.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "recharts": "^3.10.1"
