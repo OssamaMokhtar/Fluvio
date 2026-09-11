@@ -11,6 +11,7 @@ import { Sentence, SentenceLibrary } from '../data/library';
 import { EN_SENTENCES as EN, EN_SENTENCE_COUNT as EN_COUNT } from '../data/sentences/en_sentences';
 import { ES_SENTENCES as ES, ES_SENTENCE_COUNT as ES_COUNT } from '../data/sentences/es_sentences';
 import { FR_SENTENCES as FR, FR_SENTENCE_COUNT as FR_COUNT } from '../data/sentences/fr_sentences';
+import { getDueSentences } from './srsService';
 
 // TS widens literal array types to "string" for language/enums.
 // Cast at import site to restore the Sentence[] contract.
@@ -53,7 +54,9 @@ export function getSentenceLibrary(lang: string): SentenceLibrary {
   return FR_LIBRARY;
 }
 
-export function pickDailySentence(library: SentenceLibrary, level: string): Sentence | null {
+export function pickDailySentence(library: SentenceLibrary, level: string, srsState?: Map<string, any>): Sentence | null {
+  const due = srsState ? getDueSentences(srsState, library) : [];
+  if (due.length > 0) return due[Math.floor(Math.random() * due.length)];
   const targetLevel = level.charAt(0).toUpperCase() + level.slice(1); // 'intermediate' → 'Intermediate'
   const levelMap: Record<string, string> = {
     'beginner': 'A1',

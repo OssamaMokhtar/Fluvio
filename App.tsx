@@ -5,6 +5,7 @@ import { blobToBase64 } from './services/audioUtils';
 import { saveSession, getHistory, deleteSession } from './services/storageService';
 import { AppState, AnalysisResponse, UserProfile, SessionRecord, CompanionSession } from './types';
 import { getSentenceLibrary, pickDailySentence, LANG_NAMES, LANG_CODES } from './services/sentenceLibrary';
+import { loadSRSState, recordReview } from './services/srsService';
 import Waveform from './components/Waveform';
 import ResultsView from './components/ResultsView';
 import PhonemeSelector from './components/PhonemeSelector';
