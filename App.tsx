@@ -630,7 +630,7 @@ export default function App() {
                 {/* Live Transcript (Feature 5) */}
                 {appState === AppState.RECORDING && liveTranscript.length > 0 && (
                   <div className="mb-6 max-w-xl mx-auto">
-                    <TranscriptView words={liveTranscript} isDarkMode={isDarkMode} />
+                    <TranscriptView words={liveTranscript} isDarkMode={isDarkMode} onWordClick={handleWordClick} />
                   </div>
                 )}
 
