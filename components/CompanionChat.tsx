@@ -2,15 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Send, Sparkles, Loader2, BookOpen, RefreshCcw, Globe } from 'lucide-react';
 import { companionChat, CompanionReply } from '../services/companionService';
 import { CompanionSession, addCompanionMessage } from '../services/companionClient';
-
-interface CompanionChatProps {
-  session: CompanionSession;
-  onSessionUpdate: (session: CompanionSession) => void;
-  targetLanguage: string;
-  level: string;
-  onVoiceInput?: () => void;
-  isRecording?: boolean;
-}
+import { Scenario } from '../data/scenarios';
 
 // Extend CompanionMessage for UI purposes (translation is added client-side from CompanionReply)
 interface DisplayMessage {
@@ -22,7 +14,17 @@ interface DisplayMessage {
   correction_note?: string;
 }
 
-export default function CompanionChat({ session, onSessionUpdate, targetLanguage, level, onVoiceInput, isRecording }: CompanionChatProps) {
+interface CompanionChatProps {
+  session: CompanionSession;
+  onSessionUpdate: (session: CompanionSession) => void;
+  targetLanguage: string;
+  level: string;
+  onVoiceInput?: () => void;
+  isRecording?: boolean;
+  scenario?: Scenario | null;
+}
+
+export default function CompanionChat({ session, onSessionUpdate, targetLanguage, level, onVoiceInput, isRecording, scenario }: CompanionChatProps) {
   const [input, setInput] = useState('');
   const [isSending, setIsSending] = useState(false);
   const [showTranslation, setShowTranslation] = useState(true);

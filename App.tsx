@@ -3,9 +3,11 @@ import { Mic, Loader2, ChevronRight, Globe, ArrowLeft, Moon, Sun, TrendingUp, Fl
 import { analyzeAudio, generateTTS } from './services/geminiService';
 import { blobToBase64 } from './services/audioUtils';
 import { saveSession, getHistory, deleteSession } from './services/storageService';
-import { AppState, AnalysisResponse, UserProfile, SessionRecord, CompanionSession } from './types';
+import { AppState, AnalysisResponse, UserProfile, SessionRecord, CompanionSession, TranscriptWord } from './types';
 import { getSentenceLibrary, pickDailySentence, LANG_NAMES, LANG_CODES } from './services/sentenceLibrary';
 import { loadSRSState, recordReview } from './services/srsService';
+import { createSpeechRecognition, isSpeechRecognitionAvailable, TranscriptWord as SRTranscriptWord } from './services/speechRecognition';
+import { SCENARIOS, filterScenarios, Scenario } from './data/scenarios';
 import Waveform from './components/Waveform';
 import ResultsView from './components/ResultsView';
 import PhonemeSelector from './components/PhonemeSelector';
@@ -123,6 +125,14 @@ export default function App() {
   const [srsState, setSrsState] = useState<Map<string, any>>(() => loadSRSState());
   const [dueCount, setDueCount] = useState(0);
 
+  // Scenario role-play state
+  const [scenarios, setScenarios] = useState<Scenario[]>([]);
+  const [selectedScenario, setSelectedScenario] = useState<Scenario | null>(null);
+
+  // Live transcription state
+  const [liveTranscript, setLiveTranscript] = useState<TranscriptWord[]>([]);
+  const [recordingAvailable, setRecordingAvailable] = useState(true);
+
   // Update due count whenever SRS state or library changes
   useEffect(() => {
     if (sentenceLibrary && srsState.size > 0) {
@@ -168,6 +178,17 @@ export default function App() {
     }
   }, [companionSession, activeTab, userProfile.target_language]);
 
+  // Init scenarios when companion tab is active
+  useEffect(() => {
+    if (hasOnboarded && activeTab === 'companion') {
+      const filtered = filterScenarios(SCENARIOS, userProfile.target_language, userProfile.level);
+      setScenarios(filtered);
+    } else {
+      setScenarios([]);
+      setSelectedScenario(null);
+    }
+  }, [hasOnboarded, activeTab, userProfile.target_language, userProfile.level]);
+
   // Fetch daily lesson
   useEffect(() => {
     if (hasOnboarded && activeTab === 'practice' && !targetPhoneme) {
@@ -208,6 +229,8 @@ export default function App() {
 
   const startRecording = async () => {
     setError(null);
+    setLiveTranscript([]);
+    setRecordingAvailable(true);
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
       const mediaRecorder = new MediaRecorder(stream);
@@ -218,6 +241,24 @@ export default function App() {
       };
       mediaRecorder.start();
       setAppState(AppState.RECORDING);
+
+      // Start live speech recognition if available
+      if (isSpeechRecognitionAvailable()) {
+        const sr = createSpeechRecognition();
+        if (sr) {
+          sr.start();
+          // Poll for words during recording
+          const pollInterval = setInterval(() => {
+            if (appState !== AppState.RECORDING) {
+              clearInterval(pollInterval);
+              return;
+            }
+            setLiveTranscript(sr.getWords());
+          }, 200);
+          (mediaRecorder as any)._srPoll = pollInterval;
+          (mediaRecorder as any)._srHandle = sr;
+        }
+      }
     } catch (err) {
       setError("Could not access microphone. Please allow permissions.");
       console.error(err);
@@ -226,21 +267,47 @@ export default function App() {
 
   const stopRecording = async () => {
     if (!mediaRecorderRef.current) return;
+    const mr = mediaRecorderRef.current;
+    const srHandle = (mr as any)._srHandle;
+    const pollInterval = (mr as any)._srPoll;
+
+    if (pollInterval) clearInterval(pollInterval);
+    if (srHandle) {
+      srHandle.stop();
+      // Merge final transcript words with error annotations from analysis
+      const finalWords = srHandle.getWords().filter(w => w.isFinal);
+      setLiveTranscript(finalWords);
+    }
+
     mediaRecorderRef.current.stop();
     mediaRecorderRef.current.onstop = async () => {
       const blob = new Blob(chunksRef.current, { type: 'audio/wav' });
       setAudioBlob(blob);
       mediaRecorderRef.current?.stream.getTracks().forEach(track => track.stop());
-      await processRecording(blob);
+      await processRecording(blob, srHandle ? srHandle.getWords() : []);
     };
   };
 
-  const processRecording = async (blob: Blob) => {
+  const processRecording = async (blob: Blob, transcriptWords: TranscriptWord[] = []) => {
     setAppState(AppState.ANALYZING);
     try {
       const base64Audio = await blobToBase64(blob);
       const result = await analyzeAudio(base64Audio, userProfile, currentPrompt, targetPhoneme);
       setAnalysis(result);
+
+      // Annotate transcript words with error info from analysis
+      if (transcriptWords.length > 0 && result.phoneme_errors.length > 0) {
+        const annotated = transcriptWords.map(word => {
+          const err = result.phoneme_errors.find(e => {
+            const wordStart = word.start;
+            const wordEnd = word.start + 0.5; // rough word duration
+            return e.start_ts >= wordStart && e.start_ts <= wordEnd;
+          });
+          return err ? { ...word, isError: true, errorType: 'pronunciation' as const, correction: err.phoneme } : word;
+        });
+        setLiveTranscript(annotated);
+      }
+
       await saveSession(result, blob, targetPhoneme);
 
       // Record SRS review for this sentence
@@ -605,15 +672,43 @@ export default function App() {
             {activeTab === 'companion' && (
               <div className="max-w-4xl mx-auto animate-in fade-in">
                 <div className="mb-6">
-                  <h1 className="text-3xl font-bold text-slate-900 dark:text-white">AI Language Companion</h1>
+                  <div className="flex items-center justify-between mb-2">
+                    <h1 className="text-3xl font-bold text-slate-900 dark:text-white">AI Language Companion</h1>
+                    {scenarios.length > 0 && (
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm text-slate-500 dark:text-slate-400">Practice scenario:</span>
+                        <select
+                          value={selectedScenario?.id || ''}
+                          onChange={(e) => {
+                            const scenario = scenarios.find(s => s.id === e.target.value);
+                            setSelectedScenario(scenario || null);
+                          }}
+                          className="bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 rounded-lg px-3 py-1.5 text-sm border border-slate-200 dark:border-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                        >
+                          <option value="">Free conversation</option>
+                          {scenarios.map(s => (
+                            <option key={s.id} value={s.id}>{s.title}</option>
+                          ))}
+                        </select>
+                      </div>
+                    )}
+                  </div>
                   <p className="text-slate-500 dark:text-slate-400 mt-1">
-                    Practice conversation with AI. I'll correct your grammar and teach you idioms.
+                    {selectedScenario
+                      ? `${selectedScenario.context} — AI plays the other role. Respond by voice or text.`
+                      : "Practice conversation with AI. I'll correct your grammar and teach you idioms."}
                   </p>
+                  {selectedScenario && (
+                    <div className="mt-3 p-3 bg-indigo-50 dark:bg-indigo-900/20 rounded-lg border border-indigo-100 dark:border-indigo-800 text-sm text-slate-600 dark:text-slate-300">
+                      <span className="font-bold text-indigo-600 dark:text-indigo-400">Scenario:</span> {selectedScenario.context}
+                    </div>
+                  )}
                 </div>
                 {companionSession && (
                   <CompanionChat
                     session={companionSession}
                     {...companionHandlers}
+                    scenario={selectedScenario}
                   />
                 )}
               </div>

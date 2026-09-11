@@ -86,12 +86,14 @@ export interface SessionRecord {
   audioBlob?: Blob;
 }
 
-export interface ArticulationGuide {
-  tongue_height: 'high' | 'mid' | 'low';
-  tongue_backness: 'front' | 'central' | 'back';
-  lip_shape: 'rounded' | 'unrounded' | 'neutral';
-  airflow: 'stop' | 'fricative' | 'nasal' | 'liquid' | 'glide';
-  description: string;
+export interface TranscriptWord {
+  word: string;
+  start: number;
+  confidence: number;
+  isFinal: boolean;
+  isError?: boolean;
+  errorType?: 'pronunciation' | 'grammar' | 'missing';
+  correction?: string;
 }
 
 export type CEFRBand = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
@@ -103,4 +105,29 @@ export interface CEFRLevel {
   ieltsEquivalent?: string;
   minScore: number;
   maxScore: number;
+}
+
+export interface ScenarioResult {
+  response: string;
+  translation: string;
+  tts_audio?: string;
+  scores: {
+    pronunciation: number;
+    grammar: number;
+    vocabulary: number;
+    fluency: number;
+    appropriateness: number;
+    overall: number;
+  };
+  feedback: string;
+  corrected_version?: string;
+  scenario_id: string;
+}
+
+export interface ArticulationGuide {
+  tongue_height: 'high' | 'mid' | 'low';
+  tongue_backness: 'front' | 'central' | 'back';
+  lip_shape: 'rounded' | 'unrounded' | 'neutral';
+  airflow: 'stop' | 'fricative' | 'nasal' | 'liquid' | 'glide';
+  description: string;
 }
