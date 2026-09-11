@@ -636,11 +636,13 @@ app.post("/api/companion/chat", async (req, res) => {
       return res.status(400).json({ error: "Missing message or targetLanguage" });
     }
 
-    let client: OpenAI;
+    // Try to get OpenAI client; fall back to local heuristic if unavailable
+    let client: OpenAI | null = null;
     try {
       client = getOpenAI();
     } catch {
-      return openAiUnavailable(res, "companion-chat");
+      // OpenAI key not set — generateCompanionReply has its own fallback chain
+      client = null;
     }
 
     let session: any = {
@@ -655,7 +657,7 @@ app.post("/api/companion/chat", async (req, res) => {
       session.messages = req.body.messages;
     }
 
-    const result = await generateCompanionReply(session, targetLanguage, level || 'intermediate', client, transcribedAudio);
+    const result = await generateCompanionReply(session, targetLanguage, level || 'intermediate', client!, transcribedAudio);
 
     const updatedSession = addCompanionMessage(session, 'user', message);
     const finalSession = addCompanionMessage(updatedSession, 'companion', result.response, result.corrected_text || undefined, result.correction_note || undefined);
