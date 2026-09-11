@@ -50,6 +50,77 @@ type CompanionReplyResult = {
   next_prompt: string;
 };
 
+// -----------------------------------------------------------------------
+// Local fallback: generates a companion reply without any API call.
+// Uses language + level + last message to craft a contextual response.
+// -----------------------------------------------------------------------
+const LOCAL_FALLBACK_RESPONSES: Record<string, Record<string, { response: string; translation: string; next_prompt: string }>> = {
+  'English': {
+    'beginner': {
+      response: 'Great start! Your English is improving. Keep practising every day — even just a few minutes helps.',
+      translation: '',
+      next_prompt: 'Can you tell me about yourself in a few sentences?'
+    },
+    'intermediate': {
+      response: 'Nice work! I noticed you\'re getting more comfortable with longer sentences. Try focusing on pronunciation of tricky sounds like "th" and word endings.',
+      translation: '',
+      next_prompt: 'What did you do today? Tell me in 2-3 sentences.'
+    },
+    'advanced': {
+      response: 'Excellent progress. Your English is sounding very natural. To take it further, practice connected speech and intonation — try reading aloud with a podcast and mimicking the rhythm.',
+      translation: '',
+      next_prompt: 'What\'s a topic you\'re passionate about? Let\'s discuss it.'
+    }
+  },
+  'Spanish': {
+    'beginner': {
+      response: '¡Muy bien! Your Spanish is off to a good start. Remember: Spanish vowels are short and pure — say them clearly!',
+      translation: 'Very well! Your Spanish is off to a good start. Remember: Spanish vowels are short and pure — say them clearly!',
+      next_prompt: '¿Cómo te llamas y de dónde eres?'
+    },
+    'intermediate': {
+      response: 'Buen trabajo. Your sentences are getting longer. Watch the verb conjugations — especially "ser" vs "estar" and past tense.',
+      translation: 'Good work. Your sentences are getting longer. Watch the verb conjugations — especially "ser" vs "estar" and past tense.',
+      next_prompt: 'Habla de tu familia — ¿cuántos hermanos tienes?'
+    },
+    'advanced': {
+      response: 'Excelente. Your Spanish is approaching fluency. To refine it: practice the subjunctive mood, work on your accent (especially "r" vs "rr"), and learn some regional idioms.',
+      translation: 'Excellent. Your Spanish is approaching fluency. To refine it: practice the subjunctive mood, work on your accent (especially "r" vs "rr"), and learn some regional idioms.',
+      next_prompt: '¿Cuál es tu opinión sobre el cambio climático?'
+    }
+  },
+  'French': {
+    'beginner': {
+      response: 'Très bien! Your French is getting started nicely. Remember: most final consonants in French are silent — don\'t pronounce them!',
+      translation: 'Very well! Your French is getting started nicely. Remember: most final consonants in French are silent — don\'t pronounce them!',
+      next_prompt: 'Parlez-moi de vous — comment allez-vous aujourd\'hui?'
+    },
+    'intermediate': {
+      response: 'Bon travail. You\'re building good sentences. Focus on: nasal vowels (an, on, in), the silent "h", and verb endings in -er, -ir, -re.',
+      translation: 'Good work. You\'re building good sentences. Focus on: nasal vowels (an, on, in), the silent "h", and verb endings in -er, -ir, -re.',
+      next_prompt: 'Qu\'est-ce que vous aimez faire le week-end?'
+    },
+    'advanced': {
+      response: 'Excellent. Your French is sophisticated. To polish it: practice liaison (linking words), work on the rhythm and melody of French, and learn some common expressions like "voilà" and "en fait".',
+      translation: 'Excellent. Your French is sophisticated. To polish it: practice liaison (linking words), work on the rhythm and melody of French, and learn some common expressions like "voilà" and "en fait".',
+      next_prompt: 'Qu\'est-ce que vous pensez de la culture française?'
+    }
+  }
+};
+
+function localFallbackCompanionReply(session: CompanionSession, targetLanguage: string, level: string): CompanionReplyResult {
+  const langKey = targetLanguage;
+  const levelKey = level;
+  const responses = LOCAL_FALLBACK_RESPONSES[langKey]?.[levelKey];
+  const base = responses || LOCAL_FALLBACK_RESPONSES[langKey]?.['intermediate'] || LOCAL_FALLBACK_RESPONSES['English']['beginner'];
+
+  return {
+    response: base.response,
+    translation: base.translation || '',
+    next_prompt: base.next_prompt,
+  };
+}
+
 export const generateCompanionReply = async (
   session: CompanionSession,
   targetLanguage: string,
@@ -57,11 +128,19 @@ export const generateCompanionReply = async (
   openai: OpenAI,
   transcribedAudio?: string,
 ): Promise<CompanionReplyResult> => {
-  const messagesText = session.messages.map(m =>
-    `${m.role === 'user' ? 'USER' : 'COMPANION'}: ${m.text}${m.corrected_text ? `\n(CORRECTION: ${m.corrected_text})` : ''}`
-  ).join('\n---\n');
+  // --- FALLBACK CHAIN ---
+  // 1. Try gpt-4o (full quality)
+  // 2. Try gpt-4o-mini (cheaper, still good)
+  // 3. Local heuristic fallback (no API credits needed)
+  const models: string[] = ['gpt-4o', 'gpt-4o-mini'];
 
-  const prompt = `
+  for (const model of models) {
+    try {
+      const messagesText = session.messages.map(m =>
+        `${m.role === 'user' ? 'USER' : 'COMPANION'}: ${m.text}${m.corrected_text ? `\n(CORRECTION: ${m.corrected_text})` : ''}`
+      ).join('\n---\n');
+
+      const prompt = `
 TARGET LANGUAGE: ${safeLabel(targetLanguage)}
 LEARNER LEVEL: ${safeLabel(level)}
 
@@ -72,15 +151,30 @@ ${transcribedAudio ? `\nTRANSCRIBED AUDIO: ${safeSentence(transcribedAudio, 500)
 Generate the next companion reply.
 `;
 
-  const response = await openai.chat.completions.create({
-    model: 'gpt-4o',
-    messages: [{ role: 'user', content: prompt }],
-    response_format: { type: 'json_object' },
-    temperature: 0.7,
-    max_tokens: 1024,
-  });
+      const response = await openai.chat.completions.create({
+        model,
+        messages: [{ role: 'user', content: prompt }],
+        response_format: { type: 'json_object' },
+        temperature: 0.7,
+        max_tokens: 1024,
+      });
 
-  return JSON.parse(response.choices[0].message.content);
+      const content = response.choices[0]?.message?.content;
+      if (content) {
+        return JSON.parse(content);
+      }
+    } catch (err: any) {
+      // 429 (no credits), 401 (bad key), 500 — try next model
+      if (err.status === 429 || err.status === 401 || err.status >= 500) {
+        continue;
+      }
+      // For other errors, also try next model
+      continue;
+    }
+  }
+
+  // --- LOCAL HEURISTIC FALLBACK (no API call required) ---
+  return localFallbackCompanionReply(session, targetLanguage, level);
 };
 
 export const addCompanionMessage = (

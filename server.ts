@@ -484,30 +484,65 @@ app.post("/api/generate-lesson-plan", async (req, res) => {
       - The prompt must be a single sentence or question suitable for speech practice.
     `;
 
-    const response = await client.chat.completions.create({
-      model: "gpt-4o",
-      messages: [
-        { role: "system", content: systemPrompt },
-        { role: "user", content: "Generate a practice prompt." }
-      ],
-      response_format: { type: "json_object" },
-      temperature: 0.7,
-      max_tokens: 256,
-    });
+    // --- FALLBACK CHAIN: gpt-4o → gpt-4o-mini → local heuristic ---
+    const models: string[] = ['gpt-4o', 'gpt-4o-mini'];
+    let lesson: any = null;
 
-    const textResponse = response.choices[0]?.message?.content;
-    if (!textResponse) {
-      return res.status(500).json({ error: "No response from AI" });
+    for (const model of models) {
+      try {
+        const response = await client.chat.completions.create({
+          model,
+          messages: [
+            { role: "system", content: systemPrompt },
+            { role: "user", content: "Generate a practice prompt." }
+          ],
+          response_format: { type: "json_object" },
+          temperature: 0.7,
+          max_tokens: 256,
+        });
+
+        const textResponse = response.choices[0]?.message?.content;
+        if (textResponse) {
+          lesson = JSON.parse(textResponse);
+          break;
+        }
+      } catch {
+        // 429/401/500 — try next model
+      }
     }
 
-    let lesson: any;
-    try {
-      lesson = JSON.parse(textResponse);
-    } catch {
-      return res.status(500).json({ error: "Invalid AI response" });
-    }
+    if (lesson) {
+      res.json(lesson);
+    } else {
+      // --- LOCAL HEURISTIC FALLBACK (no API credits needed) ---
+      const level = safeLabel(userProfile?.level, 20).toLowerCase();
+      const lang = safeLabel(userProfile?.target_language, 20);
 
-    res.json(lesson);
+      const prompts: Record<string, Record<string, { context: string; prompt: string }>> = {
+        'English': {
+          'beginner': { context: "Introducing Yourself", prompt: "My name is Carlos and I come from Madrid." },
+          'intermediate': { context: "Travel Experience", prompt: "Last summer I travelled to Barcelona and spent three days exploring the Gothic Quarter." },
+          'advanced': { context: "Professional Discussion", prompt: "Given the current market trends, I believe we should reconsider our approach to customer acquisition before Q4." }
+        },
+        'Spanish': {
+          'beginner': { context: "Presentaciones", prompt: "Me llamo María y vivo en Buenos Aires." },
+          'intermediate': { context: "Viajes", prompt: "El año pasado fui a México y probé la comida en el mercado central de Oaxaca." },
+          'advanced': { context: "Debate profesional", prompt: "A mi parecer, la implementación de la nueva estrategia requiere una evaluación más cuidadosa de los costos a largo plazo." }
+        },
+        'French': {
+          'beginner': { context: "Se présenter", prompt: "Je m'appelle Julien et je viens de Lyon." },
+          'intermediate': { context: "Voyage", prompt: "L'année dernière, je suis allé à Montréal et j'ai visité le Vieux Port pendant deux jours." },
+          'advanced': { context: "Discussion professionnelle", prompt: "Compte tenu des tendances actuelles du marché, je pense que nous devrions revoir notre approche de l'acquisition client d'ici le quatrième trimestre." }
+        }
+      };
+
+      const levelMap: Record<string, string> = { 'beginner': 'beginner', 'elementary': 'beginner', 'intermediate': 'intermediate', 'upper-intermediate': 'intermediate', 'advanced': 'advanced', 'mastery': 'advanced' };
+      const selectedLevel = levelMap[level] || 'intermediate';
+      const langPrompts = prompts[lang] || prompts['English'];
+      const selectedPrompt = langPrompts[selectedLevel] || langPrompts['intermediate'];
+
+      res.json({ context: selectedPrompt.context, prompt: selectedPrompt.prompt, fallback: true });
+    }
   } catch (err: any) {
     console.error("Lesson Gen Express Error:", err);
     res.setHeader("X-Degraded", "lesson-plan-fallback");
