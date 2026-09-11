@@ -120,12 +120,27 @@ export default function App() {
     if (savedStreak) setStreak(parseInt(savedStreak));
   }, []);
 
+  const [srsState, setSrsState] = useState<Map<string, any>>(() => loadSRSState());
+  const [dueCount, setDueCount] = useState(0);
+
+  // Update due count whenever SRS state or library changes
+  useEffect(() => {
+    if (sentenceLibrary && srsState.size > 0) {
+      let due = 0;
+      for (const [id, record] of srsState.entries()) {
+        if (record && record.nextReview && record.nextReview <= Date.now()) due++;
+      }
+      setDueCount(due);
+    }
+  }, [srsState, sentenceLibrary]);
+
   // Load sentence library when language changes
   useEffect(() => {
     if (hasOnboarded) {
       const code = LANG_CODES[userProfile.target_language] || 'en';
       const lib = getSentenceLibrary(userProfile.target_language);
       setSentenceLibrary(lib);
+      setSrsState(loadSRSState()); // Reload SRS state when language changes
     }
   }, [hasOnboarded, userProfile.target_language]);
 
@@ -165,7 +180,7 @@ export default function App() {
     if (isLessonLoading || !sentenceLibrary) return;
     setIsLessonLoading(true);
     try {
-      const sentence = pickDailySentence(sentenceLibrary, userProfile.level);
+      const sentence = pickDailySentence(sentenceLibrary, userProfile.level, srsState);
       if (sentence) {
         setCurrentSentence(sentence);
         setCurrentPrompt(sentence.text);
@@ -227,6 +242,14 @@ export default function App() {
       const result = await analyzeAudio(base64Audio, userProfile, currentPrompt, targetPhoneme);
       setAnalysis(result);
       await saveSession(result, blob, targetPhoneme);
+
+      // Record SRS review for this sentence
+      if (currentSentence && currentSentence.id) {
+        const score = result.overall_score ?? 50;
+        recordReview(srsState, currentSentence, score);
+        setSrsState(loadSRSState()); // Reload to get updated state
+      }
+
       const updatedHistory = await getHistory();
       setHistory(updatedHistory);
       setStreak(s => s + 1);
@@ -427,9 +450,16 @@ export default function App() {
                       <h1 className="text-3xl font-bold text-slate-900 dark:text-white">Your Daily Practice</h1>
                       <p className="text-slate-500 dark:text-slate-400 mt-1">{promptContext}</p>
                     </div>
-                    <button onClick={refreshPrompt} className="p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full transition-colors" title="New sentence">
-                      <RefreshCcw className="w-5 h-5 text-slate-400" />
-                    </button>
+                    <div className="flex items-center gap-3">
+                      {dueCount > 0 && (
+                        <span className="px-3 py-1 bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 rounded-full text-sm font-medium border border-amber-200 dark:border-amber-800/50">
+                          {dueCount} due for review
+                        </span>
+                      )}
+                      <button onClick={refreshPrompt} className="p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full transition-colors" title="New sentence">
+                        <RefreshCcw className="w-5 h-5 text-slate-400" />
+                      </button>
+                    </div>
                   </div>
                 )}
 
