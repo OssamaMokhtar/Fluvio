@@ -34168,6 +34168,20 @@ var FR_SENTENCES = [
 ];
 var FR_SENTENCE_COUNT = 1117;
 
+// services/srsService.ts
+var NOW = Date.now();
+var MS_PER_DAY = 24 * 60 * 60 * 1e3;
+function isDue(record, now = NOW) {
+  return now >= record.nextReview;
+}
+function getDueSentences(state, library, now = NOW) {
+  const dueIds = /* @__PURE__ */ new Set();
+  for (const record of state.values()) {
+    if (isDue(record, now)) dueIds.add(record.sentenceId);
+  }
+  return library.sentences.filter((s) => dueIds.has(s.id)).slice(0, 20);
+}
+
 // services/sentenceLibrary.ts
 var asSentence = (items) => items;
 var EN_SENTENCES_CAST = asSentence(EN_SENTENCES);
@@ -34196,7 +34210,9 @@ function getSentenceLibrary(lang) {
   if (code === "es") return ES_LIBRARY;
   return FR_LIBRARY;
 }
-function pickDailySentence(library, level) {
+function pickDailySentence(library, level, srsState) {
+  const due = srsState ? getDueSentences(srsState, library) : [];
+  if (due.length > 0) return due[Math.floor(Math.random() * due.length)];
   const targetLevel = level.charAt(0).toUpperCase() + level.slice(1);
   const levelMap = {
     "beginner": "A1",
@@ -34349,12 +34365,79 @@ function safeSentence(value, maxLen = 500) {
 }
 
 // services/companionChatServer.ts
+var LOCAL_FALLBACK_RESPONSES = {
+  "English": {
+    "beginner": {
+      response: "Great start! Your English is improving. Keep practising every day \u2014 even just a few minutes helps.",
+      translation: "",
+      next_prompt: "Can you tell me about yourself in a few sentences?"
+    },
+    "intermediate": {
+      response: `Nice work! I noticed you're getting more comfortable with longer sentences. Try focusing on pronunciation of tricky sounds like "th" and word endings.`,
+      translation: "",
+      next_prompt: "What did you do today? Tell me in 2-3 sentences."
+    },
+    "advanced": {
+      response: "Excellent progress. Your English is sounding very natural. To take it further, practice connected speech and intonation \u2014 try reading aloud with a podcast and mimicking the rhythm.",
+      translation: "",
+      next_prompt: "What's a topic you're passionate about? Let's discuss it."
+    }
+  },
+  "Spanish": {
+    "beginner": {
+      response: "\xA1Muy bien! Your Spanish is off to a good start. Remember: Spanish vowels are short and pure \u2014 say them clearly!",
+      translation: "Very well! Your Spanish is off to a good start. Remember: Spanish vowels are short and pure \u2014 say them clearly!",
+      next_prompt: "\xBFC\xF3mo te llamas y de d\xF3nde eres?"
+    },
+    "intermediate": {
+      response: 'Buen trabajo. Your sentences are getting longer. Watch the verb conjugations \u2014 especially "ser" vs "estar" and past tense.',
+      translation: 'Good work. Your sentences are getting longer. Watch the verb conjugations \u2014 especially "ser" vs "estar" and past tense.',
+      next_prompt: "Habla de tu familia \u2014 \xBFcu\xE1ntos hermanos tienes?"
+    },
+    "advanced": {
+      response: 'Excelente. Your Spanish is approaching fluency. To refine it: practice the subjunctive mood, work on your accent (especially "r" vs "rr"), and learn some regional idioms.',
+      translation: 'Excellent. Your Spanish is approaching fluency. To refine it: practice the subjunctive mood, work on your accent (especially "r" vs "rr"), and learn some regional idioms.',
+      next_prompt: "\xBFCu\xE1l es tu opini\xF3n sobre el cambio clim\xE1tico?"
+    }
+  },
+  "French": {
+    "beginner": {
+      response: "Tr\xE8s bien! Your French is getting started nicely. Remember: most final consonants in French are silent \u2014 don't pronounce them!",
+      translation: "Very well! Your French is getting started nicely. Remember: most final consonants in French are silent \u2014 don't pronounce them!",
+      next_prompt: "Parlez-moi de vous \u2014 comment allez-vous aujourd'hui?"
+    },
+    "intermediate": {
+      response: `Bon travail. You're building good sentences. Focus on: nasal vowels (an, on, in), the silent "h", and verb endings in -er, -ir, -re.`,
+      translation: `Good work. You're building good sentences. Focus on: nasal vowels (an, on, in), the silent "h", and verb endings in -er, -ir, -re.`,
+      next_prompt: "Qu'est-ce que vous aimez faire le week-end?"
+    },
+    "advanced": {
+      response: 'Excellent. Your French is sophisticated. To polish it: practice liaison (linking words), work on the rhythm and melody of French, and learn some common expressions like "voil\xE0" and "en fait".',
+      translation: 'Excellent. Your French is sophisticated. To polish it: practice liaison (linking words), work on the rhythm and melody of French, and learn some common expressions like "voil\xE0" and "en fait".',
+      next_prompt: "Qu'est-ce que vous pensez de la culture fran\xE7aise?"
+    }
+  }
+};
+function localFallbackCompanionReply(session, targetLanguage, level) {
+  const langKey = targetLanguage;
+  const levelKey = level;
+  const responses = LOCAL_FALLBACK_RESPONSES[langKey]?.[levelKey];
+  const base = responses || LOCAL_FALLBACK_RESPONSES[langKey]?.["intermediate"] || LOCAL_FALLBACK_RESPONSES["English"]["beginner"];
+  return {
+    response: base.response,
+    translation: base.translation || "",
+    next_prompt: base.next_prompt
+  };
+}
 var generateCompanionReply = async (session, targetLanguage, level, openai2, transcribedAudio) => {
-  const messagesText = session.messages.map(
-    (m) => `${m.role === "user" ? "USER" : "COMPANION"}: ${m.text}${m.corrected_text ? `
+  const models = ["gpt-4o", "gpt-4o-mini"];
+  for (const model of models) {
+    try {
+      const messagesText = session.messages.map(
+        (m) => `${m.role === "user" ? "USER" : "COMPANION"}: ${m.text}${m.corrected_text ? `
 (CORRECTION: ${m.corrected_text})` : ""}`
-  ).join("\n---\n");
-  const prompt = `
+      ).join("\n---\n");
+      const prompt = `
 TARGET LANGUAGE: ${safeLabel(targetLanguage)}
 LEARNER LEVEL: ${safeLabel(level)}
 
@@ -34365,14 +34448,25 @@ TRANSCRIBED AUDIO: ${safeSentence(transcribedAudio, 500)}` : ""}
 
 Generate the next companion reply.
 `;
-  const response = await openai2.chat.completions.create({
-    model: "gpt-4o",
-    messages: [{ role: "user", content: prompt }],
-    response_format: { type: "json_object" },
-    temperature: 0.7,
-    max_tokens: 1024
-  });
-  return JSON.parse(response.choices[0].message.content);
+      const response = await openai2.chat.completions.create({
+        model,
+        messages: [{ role: "user", content: prompt }],
+        response_format: { type: "json_object" },
+        temperature: 0.7,
+        max_tokens: 1024
+      });
+      const content = response.choices[0]?.message?.content;
+      if (content) {
+        return JSON.parse(content);
+      }
+    } catch (err) {
+      if (err.status === 429 || err.status === 401 || err.status >= 500) {
+        continue;
+      }
+      continue;
+    }
+  }
+  return localFallbackCompanionReply(session, targetLanguage, level);
 };
 var addCompanionMessage = (session, role, text, corrected_text, correction_note) => ({
   ...session,
@@ -34710,27 +34804,56 @@ app.post("/api/generate-lesson-plan", async (req, res) => {
       - Ensure vocabulary aligns with the Target Language & Accent.
       - The prompt must be a single sentence or question suitable for speech practice.
     `;
-    const response = await client.chat.completions.create({
-      model: "gpt-4o",
-      messages: [
-        { role: "system", content: systemPrompt },
-        { role: "user", content: "Generate a practice prompt." }
-      ],
-      response_format: { type: "json_object" },
-      temperature: 0.7,
-      max_tokens: 256
-    });
-    const textResponse = response.choices[0]?.message?.content;
-    if (!textResponse) {
-      return res.status(500).json({ error: "No response from AI" });
+    const models = ["gpt-4o", "gpt-4o-mini"];
+    let lesson = null;
+    for (const model of models) {
+      try {
+        const response = await client.chat.completions.create({
+          model,
+          messages: [
+            { role: "system", content: systemPrompt },
+            { role: "user", content: "Generate a practice prompt." }
+          ],
+          response_format: { type: "json_object" },
+          temperature: 0.7,
+          max_tokens: 256
+        });
+        const textResponse = response.choices[0]?.message?.content;
+        if (textResponse) {
+          lesson = JSON.parse(textResponse);
+          break;
+        }
+      } catch {
+      }
     }
-    let lesson;
-    try {
-      lesson = JSON.parse(textResponse);
-    } catch {
-      return res.status(500).json({ error: "Invalid AI response" });
+    if (lesson) {
+      res.json(lesson);
+    } else {
+      const level = safeLabel2(userProfile?.level, 20).toLowerCase();
+      const lang = safeLabel2(userProfile?.target_language, 20);
+      const prompts = {
+        "English": {
+          "beginner": { context: "Introducing Yourself", prompt: "My name is Carlos and I come from Madrid." },
+          "intermediate": { context: "Travel Experience", prompt: "Last summer I travelled to Barcelona and spent three days exploring the Gothic Quarter." },
+          "advanced": { context: "Professional Discussion", prompt: "Given the current market trends, I believe we should reconsider our approach to customer acquisition before Q4." }
+        },
+        "Spanish": {
+          "beginner": { context: "Presentaciones", prompt: "Me llamo Mar\xEDa y vivo en Buenos Aires." },
+          "intermediate": { context: "Viajes", prompt: "El a\xF1o pasado fui a M\xE9xico y prob\xE9 la comida en el mercado central de Oaxaca." },
+          "advanced": { context: "Debate profesional", prompt: "A mi parecer, la implementaci\xF3n de la nueva estrategia requiere una evaluaci\xF3n m\xE1s cuidadosa de los costos a largo plazo." }
+        },
+        "French": {
+          "beginner": { context: "Se pr\xE9senter", prompt: "Je m'appelle Julien et je viens de Lyon." },
+          "intermediate": { context: "Voyage", prompt: "L'ann\xE9e derni\xE8re, je suis all\xE9 \xE0 Montr\xE9al et j'ai visit\xE9 le Vieux Port pendant deux jours." },
+          "advanced": { context: "Discussion professionnelle", prompt: "Compte tenu des tendances actuelles du march\xE9, je pense que nous devrions revoir notre approche de l'acquisition client d'ici le quatri\xE8me trimestre." }
+        }
+      };
+      const levelMap = { "beginner": "beginner", "elementary": "beginner", "intermediate": "intermediate", "upper-intermediate": "intermediate", "advanced": "advanced", "mastery": "advanced" };
+      const selectedLevel = levelMap[level] || "intermediate";
+      const langPrompts = prompts[lang] || prompts["English"];
+      const selectedPrompt = langPrompts[selectedLevel] || langPrompts["intermediate"];
+      res.json({ context: selectedPrompt.context, prompt: selectedPrompt.prompt, fallback: true });
     }
-    res.json(lesson);
   } catch (err) {
     console.error("Lesson Gen Express Error:", err);
     res.setHeader("X-Degraded", "lesson-plan-fallback");

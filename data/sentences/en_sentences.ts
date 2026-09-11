@@ -3,7 +3,7 @@
 
 import { Sentence } from '../library';
 
-export const EN_SENTENCES: Sentence[] = [
+export const EN_SENTENCES /* : Sentence[] */ = [
   {
     id: 'en_s00000',
     language: 'en',
