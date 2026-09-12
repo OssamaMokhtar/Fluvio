@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Slang Language — Architecture Documentation</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #14141f;
+    --surface2: #1a1a2e;
+    --border: #2a2a3e;
+    --text: #e4e4f0;
+    --muted: #8888a0;
+    --accent: #818cf8;
+    --accent2: #a78bfa;
+    --green: #34d399;
+    --orange: #fb923c;
+    --red: #f87171;
+    --blue: #60a5fa;
+    --yellow: #fbbf24;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 14px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 24px;
+  }
+  h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 8px; background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  h2 { font-size: 1.4rem; font-weight: 700; margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border); color: var(--text); letter-spacing: -0.01em; }
+  h3 { font-size: 1.1rem; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  p { margin-bottom: 12px; color: var(--muted); }
+  .subtitle { color: var(--muted); font-size: 1rem; margin-bottom: 32px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; margin: 20px 0; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    transition: border-color 0.2s;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card h3 { margin-top: 0; font-size: 1rem; }
+  .card p { font-size: 0.9rem; margin-bottom: 8px; }
+  .card .meta { font-size: 0.8rem; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .badge.green { background: rgba(52,211,153,0.15); color: var(--green); }
+  .badge.orange { background: rgba(251,146,60,0.15); color: var(--orange); }
+  .badge.blue { background: rgba(96,165,250,0.15); color: var(--blue); }
+  .badge.purple { background: rgba(168,85,247,0.15); color: var(--accent2); }
+  .badge.red { background: rgba(248,113,113,0.15); color: var(--red); }
+  .badge.yellow { background: rgba(251,191,36,0.15); color: var(--yellow); }
+  code {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.85em;
+    background: rgba(129,140,248,0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: var(--accent);
+  }
+  pre {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    overflow-x: auto;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin: 12px 0;
+    color: var(--text);
+  }
+  pre code { background: none; padding: 0; color: var(--text); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 0.9rem;
+  }
+  th {
+    text-align: left;
+    padding: 8px 12px;
+    background: var(--surface2);
+    color: var(--accent);
+    font-weight: 600;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+    color: var(--muted);
+  }
+  tr:hover td { color: var(--text); background: rgba(129,140,248,0.03); }
+  .endpoint { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--blue); }
+  .method { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 700; margin-right: 8px; text-transform: uppercase; }
+  .method.get { background: rgba(96,165,250,0.2); color: var(--blue); }
+  .method.post { background: rgba(52,211,153,0.2); color: var(--green); }
+  .tree { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; line-height: 1.8; color: var(--muted); }
+  .tree .dir { color: var(--accent); font-weight: 600; }
+  .tree .file { color: var(--muted); }
+  .tree .ext.ts { color: var(--blue); }
+  .tree .ext.tsx { color: var(--accent2); }
+  .tree .ext.md { color: var(--green); }
+  .kpi-row { display: flex; gap: 16px; margin: 20px 0; flex-wrap: wrap; }
+  .kpi {
+    flex: 1;
+    min-width: 140px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+  }
+  .kpi .num { font-size: 1.8rem; font-weight: 800; color: var(--accent); line-height: 1; }
+  .kpi .label { font-size: 0.8rem; color: var(--muted); margin-top: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .section-desc { color: var(--muted); font-size: 0.95rem; margin-bottom: 20px; }
+  .flow-arrow { color: var(--accent); margin: 0 8px; }
+  .flow-box {
+    display: inline-block;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    color: var(--text);
+    margin: 4px;
+  }
+  footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem; text-align: center; }
+  @media (max-width: 768px) {
+    body { padding: 24px 16px; }
+    h1 { font-size: 1.8rem; }
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Slang Language</h1>
+<p class="subtitle">AI-Powered Language Companion — Architecture &amp; System Documentation</p>
+
+<div class="kpi-row">
+  <div class="kpi"><div class="num">8</div><div class="label">Languages</div></div>
+  <div class="kpi"><div class="num">8,800</div><div class="label">Sentences</div></div>
+  <div class="kpi"><div class="num">280</div><div class="label">Proverbs</div></div>
+  <div class="kpi"><div class="num">15</div><div class="label">Scenarios</div></div>
+  <div class="kpi"><div class="num">10</div><div class="label">API Endpoints</div></div>
+  <div class="kpi"><div class="num">39</div><div class="label">Source Files</div></div>
+</div>
+
+<h2>1. System Overview</h2>
+<p class="section-desc">Slang Language is a full-stack AI-powered language learning platform. The frontend is a React 19 SPA built with Vite, and the backend is an Express server running on Vercel (serverless). The app uses OpenAI GPT-4o and TTS-1 for AI-powered pronunciation analysis, lesson generation, conversation practice, and scenario role-play. When OpenAI credits are unavailable, the system degrades gracefully through local heuristic fallbacks — no crashes, no dead ends.</p>
+
+<h3>Architecture Diagram</h3>
+<pre>
+┌─────────────────────────────────────────────────────────────┐
+│                      VERCEL EDGE (SPA)                       │
+│  ┌──────────────────────────────────────────────────────┐   │
+│  │                   React 19 Frontend                   │   │
+│  │  App.tsx → 5 Tabs: Practice | Sentences | Companion  │   │
+│  │  Onboarding → UserProfile → localStorage persistence  │   │
+│  │  Components: Waveform, ResultsView, TranscriptView   │   │
+│  │  CompanionChat, ProverbViewer, SentenceBrowser,      │   │
+│  │  ProgressView, PhonemeSelector, IPAChart, ScoreCard  │   │
+│  └───────────────────────┬──────────────────────────────┘   │
+│                          │ fetch() to /api/*                  │
+└──────────────────────────┼────────────────────────────────────┘
+                           │
+┌──────────────────────────┼────────────────────────────────────┐
+│                   VERCEL SERVERLESS (Express)                │
+│  ┌──────────────────────────────────────────────────────┐   │
+│  │                    server.ts (870 lines)              │   │
+│  │  Rate limiting · Sanitization · OpenAI client        │   │
+│  │  Synthetic audio analysis (pitch/phoneme/prosody)    │   │
+│  └───────────────────────┬──────────────────────────────┘   │
+│                          │                                      │
+│  ┌───────────────────────┴──────────────────────────────┐   │
+│  │                    API Routes                         │   │
+│  │  POST /api/analyze-audio        → Whisper + GPT-4o   │   │
+│  │  POST /api/generate-tts         → TTS-1 (mp3 base64) │   │
+│  │  POST /api/generate-lesson-plan → GPT-4o + fallback  │   │
+│  │  GET  /api/sentences/:lang      → Sentence library    │   │
+│  │  GET  /api/sentences/:lang/search → Search            │   │
+│  │  GET  /api/sentences/:lang/random → SRS daily pick   │   │
+│  │  GET  /api/proverbs/:lang       → 35 proverbs/lang   │   │
+│  │  GET  /api/proverbs/:lang/random → Random proverb    │   │
+│  │  POST /api/companion/chat      → AI conversation     │   │
+│  │  POST /api/companion/scenario  → Role-play + scores  │   │
+│  └──────────────────────────────────────────────────────┘   │
+│                          │                                      │
+│  ┌───────────────────────┴──────────────────────────────┐   │
+│  │                   Service Layer                        │   │
+│  │  sentenceLibrary.ts · scenarioService.ts               │   │
+│  │  companionChatServer.ts · srsService.ts               │   │
+│  │  speechRecognition.ts · storageService.ts              │   │
+│  └──────────────────────────────────────────────────────┘   │
+│                          │                                      │
+│  ┌───────────────────────┴──────────────────────────────┐   │
+│  │                    Data Layer                          │   │
+│  │  data/sentences/*.ts (8 langs × 1100 sentences)      │   │
+│  │  data/sentences/*_proverbs.ts (8 langs × 35 proverbs)│   │
+│  │  data/scenarios.ts (15 role-play scenarios)           │   │
+│  │  data/library.ts (types + interfaces)                 │   │
+│  └──────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────┘
+</pre>
+
+<h2>2. Frontend Architecture</h2>
+
+<h3>File Structure</h3>
+<pre class="tree">
+Slang/
+├── <span class="dir">components/</span>
+│   ├── <span class="file ext.tsx">App.tsx</span>           — Main app shell, 5-tab navigation, state orchestration
+│   ├── <span class="file ext.tsx">Onboarding.tsx</span>     — User profile setup (target lang, level, motivation)
+│   ├── <span class="file ext.tsx">Waveform.tsx</span>       — Live audio visualization during recording
+│   ├── <span class="file ext.tsx">ResultsView.tsx</span>    — Post-analysis dashboard: scores, pitch chart, phoneme errors
+│   ├── <span class="file ext.tsx">TranscriptView.tsx</span> — Live transcription with confidence-colored words, click-to-TTS
+│   ├── <span class="file ext.tsx">CompanionChat.tsx</span>  — AI conversation UI with scenario mode, TTS playback, score grid
+│   ├── <span class="file ext.tsx">ProverbViewer.tsx</span>  — Proverb browser with search, language tabs, detail view
+│   ├── <span class="file ext.tsx">SentenceBrowser.tsx</span>— Sentence library with CEFR/topic filters, search
+│   ├── <span class="file ext.tsx">ProgressView.tsx</span>   — Session history, streak/XP, SRS due count, review mode
+│   ├── <span class="file ext.tsx">PhonemeSelector.tsx</span>— Target phoneme drill selector
+│   ├── <span class="file ext.tsx">IPAChart.tsx</span>       — Interactive IPA chart visualization (recharts)
+│   ├── <span class="file ext.tsx">ScoreCard.tsx</span>      — Reusable score display component
+│   ├── <span class="file ext.tsx">ArticulationVisualizer.tsx</span>
+│   ├── <span class="file ext.tsx">ComparisonPlayer.tsx</span>
+│   └── <span class="file ext.tsx">AudioVisualizer.tsx</span>
+│
+├── <span class="dir">services/</span>
+│   ├── <span class="file ext.ts">geminiService.ts</span>      — OpenAI analysis + TTS client (analyzeAudio, generateTTS)
+│   ├── <span class="file ext.ts">audioUtils.ts</span>        — Blob ↔ base64 conversion, audio handling
+│   ├── <span class="file ext.ts">sentenceLibrary.ts</span>   — Unified sentence library service (8 languages)
+│   ├── <span class="file ext.ts">scenarioService.ts</span>   — Scenario turn generation + 5-dimension scoring
+│   ├── <span class="file ext.ts">companionChatServer.ts</span>— Server-side companion reply generation
+│   ├── <span class="file ext.ts">companionClient.ts</span>   — Client-side companion helpers (createSession, addMessage)
+│   ├── <span class="file ext.ts">speechRecognition.ts</span> — Browser SpeechRecognition wrapper
+│   ├── <span class="file ext.ts">srsService.ts</span>        — Spaced repetition state (load, recordReview)
+│   ├── <span class="file ext.ts">storageService.ts</span>     — IndexedDB session persistence (save, getHistory, delete)
+│   ├── <span class="file ext.ts">waveformUtils.ts</span>     — Waveform data generation
+│   ├── <span class="file ext.ts">sanitization.ts</span>      — Input sanitization (safeLabel, safeSentence)
+│   └── <span class="file ext.ts">assessmentService.ts</span>  — Assessment utilities
+│
+├── <span class="dir">data/</span>
+│   ├── <span class="file ext.ts">library.ts</span>           — Shared types: Sentence, Proverb, CompanionMessage, SentenceLibrary, ProverbLibrary
+│   ├── <span class="file ext.ts">scenarios.ts</span>         — 15 role-play scenarios with 5-dimension rubrics
+│   ├── <span class="file ext.ts">ipaReference.ts</span>      — IPA phoneme reference data
+│   ├── <span class="file ext.ts">phonemes.ts</span>          — Phoneme definitions
+│   └── <span class="dir">sentences/</span>
+│       ├── en_sentences.ts (12,653 lines, 1,100 sentences)
+│       ├── es_sentences.ts (11,409 lines, 1,100 sentences)
+│       ├── fr_sentences.ts (11,179 lines, 1,100 sentences)
+│       ├── de_sentences.ts (1,110 lines, 1,100 sentences)
+│       ├── it_sentences.ts (1,110 lines, 1,100 sentences)
+│       ├── ja_sentences.ts (1,110 lines, 1,100 sentences)
+│       ├── pt_sentences.ts (1,110 lines, 1,100 sentences)
+│       ├── zh_sentences.ts (1,110 lines, 1,100 sentences)
+│       ├── en_proverbs.ts (46 lines, 35 proverbs)
+│       ├── es_proverbs.ts (45 lines, 35 proverbs)
+│       ├── fr_proverbs.ts (45 lines, 35 proverbs)
+│       ├── de_proverbs.ts (41 lines, 35 proverbs)
+│       ├── it_proverbs.ts (42 lines, 35 proverbs)
+│       ├── ja_proverbs.ts (41 lines, 35 proverbs)
+│       ├── pt_proverbs.ts (41 lines, 35 proverbs)
+│       └── zh_proverbs.ts (36 lines, 35 proverbs)
+│
+├── <span class="dir">src/api/</span>
+│   └── <span class="file ext.ts">index.ts</span>            — Server entry point (Express app exported from server.ts)
+│
+├── <span class="file ext.ts">server.ts</span>              — Express server: routes, middleware, OpenAI client, synthetic analysis
+├── <span class="file ext.tsx">index.tsx</span>             — Vite entry point
+├── <span class="file ext.ts">types.ts</span>              — App-level types: AppState, AnalysisResponse, UserProfile, SessionRecord
+├── <span class="file ext.json">package.json</span>        — Dependencies: react, react-dom, express, openai, lucide-react, recharts
+├── <span class="file ext.json">tsconfig.json</span>       — TypeScript config (ES2022, bundler module resolution, skipLibCheck)
+├── <span class="file ext.ts">vite.config.ts</span>       — Vite config with @ path alias
+└── <span class="file ext.css">index.css</span>            — Tailwind CSS + custom styles
+</pre>
+
+<h3>Component Tree</h3>
+<pre class="tree">
+&lt;App&gt;
+├── &lt;Onboarding&gt;                          (when !hasOnboarded)
+│
+└── &lt;div: min-h-screen, gradient bg&gt;
+    ├── &lt;header: sticky&gt;
+    │   ├── Logo (Globe icon + "Slang Language")
+    │   ├── XP badge + Streak badge
+    │   ├── Theme toggle (Moon/Sun)
+    │   ├── Native language select
+    │   ├── Target language select
+    │   └── Accent select (English only)
+    │
+    ├── &lt;nav: sticky tabs&gt;
+    │   ├── Practice (Target icon)
+    │   ├── Sentences (BookOpen icon)
+    │   ├── Companion (MessageCircle icon)
+    │   ├── Proverbs (Sparkles icon)
+    │   └── Progress (TrendingUp icon)
+    │
+    └── &lt;main&gt;
+        ├── [error banner]
+        │
+        ├── &lt;ResultsView&gt;                     (reviewSession)
+        │
+        ├── [activeTab === 'practice']
+        │   ├── Lesson header (CEFR badge, due count, refresh)
+        │   ├── Sentence card (text, translation, IPA, native TTS button)
+        │   ├── &lt;TranscriptView&gt;              (live, during recording)
+        │   ├── &lt;Waveform&gt;
+        │   ├── Record button (Mic/Stop)
+        │   └── Translation/IPA toggle chips
+        │
+        ├── [activeTab === 'sentences']
+        │   ├── SentenceBrowser (filter + search + list)
+        │   └── SentenceBrowser (browse + select → practice)
+        │
+        ├── [activeTab === 'companion']
+        │   ├── Scenario selector dropdown
+        │   └── &lt;CompanionChat&gt;
+        │       ├── Message list (user/companion/ai roles)
+        │       ├── Scenario score grid (5 dimensions)
+        │       ├── Scenario feedback text
+        │       ├── TTS playback + replay button
+        │       ├── Scenario selector
+        │       └── Input + send button + voice record button
+        │
+        ├── [activeTab === 'proverbs']
+        │   └── &lt;ProverbViewer&gt;
+        │       ├── Language tabs
+        │       ├── Search bar
+        │       ├── Proverb cards (text, literal, meaning, usage)
+        │       └── Random proverb button
+        │
+        ├── [activeTab === 'progress']
+        │   ├── Streak/XP header
+        │   └── &lt;ProgressView&gt;
+        │       ├── Session history list
+        │       ├── Review session modal
+        │       └── Delete session
+        │
+        ├── [activeTab === phoneme drill]
+        │   └── &lt;PhonemeSelector&gt;
+        │
+        ├── [appState === ANALYZING]             Loading screen
+        ├── [appState === RESULTS]               &lt;ResultsView&gt; (live analysis)
+        └── [appState === ERROR]                 Error screen
+</pre>
+
+<h3>State Management</h3>
+<table>
+  <tr><th>State</th><th>Location</th><th>Persistence</th><th>Update Trigger</th></tr>
+  <tr><td><code>userProfile</code></td><td>App.tsx useState</td><td>localStorage (slang_profile)</td><td>Onboarding complete, select change</td></tr>
+  <tr><td><code>hasOnboarded</code></td><td>App.tsx useState (lazy)</td><td>localStorage (slang_onboarded)</td><td>Onboarding complete</td></tr>
+  <tr><td><code>activeTab</code></td><td>App.tsx useState</td><td>None (UI state)</td><td>Tab click</td></tr>
+  <tr><td><code>appState</code></td><td>App.tsx useState (AppState enum)</td><td>None</td><td>Recording start/stop, analysis start/done</td></tr>
+  <tr><td><code>sentenceLibrary</code></td><td>App.tsx useState</td><td>None (loaded from service)</td><td>Language change</td></tr>
+  <tr><td><code>currentSentence</code></td><td>App.tsx useState</td><td>None</td><td>Daily lesson fetch, sentence select</td></tr>
+  <tr><td><code>companionSession</code></td><td>App.tsx useState</td><td>localStorage (companion_{lang})</td><td>Message send, scenario turn</td></tr>
+  <tr><td><code>analysis</code></td><td>App.tsx useState</td><td>None (API response)</td><td>Audio analysis complete</td></tr>
+  <tr><td><code>history</code></td><td>App.tsx useState</td><td>IndexedDB via storageService</td><td>Session save, delete</td></tr>
+  <tr><td><code>srsState</code></td><td>App.tsx useState (Map)</td><td>localStorage via srsService</td><td>Review record, language change</td></tr>
+  <tr><td><code>scenarios</code></td><td>App.tsx useState</td><td>None (filtered from data/scenarios.ts)</td><td>Companion tab active, language/level change</td></tr>
+  <tr><td><code>liveTranscript</code></td><td>App.tsx useState</td><td>None</td><td>SpeechRecognition poll, recording stop</td></tr>
+  <tr><td><code>isDarkMode</code></td><td>App.tsx useState (lazy)</td><td>localStorage (slang_theme)</td><td>Toggle click</td></tr>
+</table>
+
+<h3>Key Hooks &amp; Effects</h3>
+<table>
+  <tr><th>Effect</th><th>Dependencies</th><th>Purpose</th></tr>
+  <tr><td>Profile persistence</td><td>[userProfile]</td><td>Writes userProfile to localStorage on change</td></tr>
+  <tr><td>Theme persistence</td><td>[isDarkMode]</td><td>Sets dark class on HTML, writes to localStorage</td></tr>
+  <tr><td>History + streak load</td><td>[]</td><td>Loads session history from IndexedDB, reads streak from localStorage</td></tr>
+  <tr><td>SRS due count</td><td>[srsState, sentenceLibrary]</td><td>Counts overdue SRS reviews, updates dueCount</td></tr>
+  <tr><td>Sentence library load</td><td>[hasOnboarded, userProfile.target_language]</td><td>Loads library for current language via getSentenceLibrary()</td></tr>
+  <tr><td>Companion session init</td><td>[hasOnboarded, activeTab, target_language, level]</td><td>Creates or restores companion session from localStorage</td></tr>
+  <tr><td>Companion session save</td><td>[companionSession, activeTab, target_language]</td><td>Persists companion session to localStorage</td></tr>
+  <tr><td>Scenario filter</td><td>[hasOnboarded, activeTab, target_language, level]</td><td>Filters SCENARIOS by language + level when companion tab active</td></tr>
+  <tr><td>Daily lesson fetch</td><td>[hasOnboarded, activeTab, targetPhoneme]</td><td>Picks daily sentence from library via pickDailySentence()</td></tr>
+</table>
+
+<h2>3. Backend Architecture</h2>
+
+<h3>Server Entry Point</h3>
+<pre>
+src/api/index.ts  →  exports { app } from "../server.ts"
+                        (Vercel serverless handler)
+</pre>
+
+<h3>server.ts Internal Architecture</h3>
+<pre>
+┌──────────────────────────────────────────────────────────┐
+│                    server.ts (870 lines)                  │
+│                                                         │
+│  Lines 1-52:   Express setup + rate limiting (in-memory)│
+│  Lines 54-73:  Input sanitization (safeLabel, safeSentence)│
+│  Lines 75-97:  OpenAI client lazy-init + error helper   │
+│  Lines 100-204: Synthetic analysis generators:           │
+│    · generatePitchContour()    → 16-point pitch array   │
+│    · generatePhonemeErrors()   → phoneme mistake list   │
+│    · generateProsodyDeviations() → stress/rhythm devs  │
+│    · generatePronunciationGuide() → per-lang tips       │
+│  Lines 206-309: SYSTEM_PROMPT + analysisSchema (JSON)   │
+│  Lines 315-394: POST /api/analyze-audio                  │
+│  Lines 396-456: POST /api/generate-tts                   │
+│  Lines 458-557: POST /api/generate-lesson-plan           │
+│  Lines 562-582: GET  /api/sentences/:lang                │
+│  Lines 584-595: GET  /api/sentences/:lang/search         │
+│  Lines 597-609: GET  /api/sentences/:lang/random         │
+│  Lines 611-629: GET  /api/proverbs/:lang                 │
+│  Lines 634-676: POST /api/companion/chat                 │
+│  Lines 682-717: SCENARIO_SYSTEM_PROMPT                   │
+│  Lines 719-791: POST /api/companion/scenario             │
+│  Lines 794-814: GET  /api/proverbs/:lang/random          │
+│  Lines 819-845: Export + bootstrap                       │
+└──────────────────────────────────────────────────────────┘
+</pre>
+
+<h3>OpenAI Integration Pattern</h3>
+<p>Every OpenAI-dependent route follows the same pattern:</p>
+<pre>
+1. Try to get OpenAI client via getOpenAI()
+   → Throws if OPENAI_API_KEY not set
+2. Catch → client = null (graceful degradation)
+3. Use client if available, otherwise local heuristic fallback
+4. Catch API errors → try next model / fallback chain
+</pre>
+
+<p>Example fallback chains:</p>
+<table>
+  <tr><th>Route</th><th>Primary</th><th>Secondary</th><th>Tertiary (local)</th></tr>
+  <tr><td><code>/api/generate-lesson-plan</code></td><td>gpt-4o</td><td>gpt-4o-mini</td><td>Pre-written prompts by language + level</td></tr>
+  <tr><td><code>/api/companion/chat</code></td><td>gpt-4o (via companionChatServer)</td><td>—</td><td>Heuristic reply generator in companionChatServer.ts</td></tr>
+  <tr><td><code>/api/companion/scenario</code></td><td>gpt-4o (via scenarioService)</td><td>—</td><td>Heuristic scenario response in scenarioService.ts</td></tr>
+  <tr><td><code>/api/generate-tts</code></td><td>tts-1</td><td>—</td><td>null (no synthetic TTS fallback)</td></tr>
+  <tr><td><code>/api/analyze-audio</code></td><td>whisper-1 + gpt-4o</td><td>—</td><td>Synthetic pitch/phoneme data always added</td></tr>
+</table>
+
+<h3>Rate Limiting</h3>
+<pre>
+Fixed-window rate limiter keyed by IP:
+  · Window: 60 seconds
+  · Max requests: 20 per window (configurable via RATE_LIMIT_PER_MIN env)
+  · Storage: in-memory Map (resets on server restart — Vercel serverless = per-invocation)
+  · Response: 429 with Retry-After header
+  · Applied to: /api/* routes only
+</pre>
+
+<h3>Input Sanitization</h3>
+<table>
+  <tr><th>Function</th><th>Max Length</th><th>Filter</th><th>Used For</th></tr>
+  <tr><td><code>safeLabel(value, maxLen=60)</code></td><td>60 chars</td><td>Keep only Unicode letters, numbers, spaces, hyphens, apostrophes</td><td>Language names, levels, phonemes, accents</td></tr>
+  <tr><td><code>safeSentence(value, maxLen=500)</code></td><td>500 chars</td><td>Strip HTML/JS injection chars (&lt; &gt; { } \ \ `)</td><td>Reference text, user messages</td></tr>
+</table>
+
+<h3>Synthetic Audio Analysis (Local Fallback Data)</h3>
+<p>When OpenAI analysis is unavailable or as enrichment on top of GPT-4o output, the server generates plausible synthetic data:</p>
+<pre>
+generatePitchContour(durationSec, refText):
+  → 16 time-series points comparing user_pitch vs native_pitch
+  → Native: sinusoidal pattern around 180Hz
+  → User: native + random offset (±45Hz, biased toward error)
+
+generatePhonemeErrors(refText, targetPhoneme?):
+  → Scans words for target phoneme or random phoneme substitutions
+  → Returns: [{ phoneme, expected_word, start_ts, end_ts, detected, confidence }]
+  → Typical: 0-3 errors per sentence
+
+generateProsodyDeviations(refText):
+  → Random word-stress and sentence-rhythm deviations
+  → Returns: [{ type: "word-stress"|"sentence-rhythm", word, measure }]
+
+generatePronunciationGuide(refText, targetLang, userLang):
+  → Hardcoded tips per language (EN/ES/FR currently)
+  → Returns: [{ segment, tip }]
+</pre>
+
+<h2>4. API Reference</h2>
+
+<h3>Authentication</h3>
+<p>All API endpoints are unauthenticated (Vercel serverless). The OpenAI API key is stored as an environment variable on the Vercel project. No API keys are exposed to the client.</p>
+
+<h3>Endpoints</h3>
+
+<table>
+  <tr><th>Method</th><th>Endpoint</th><th>Purpose</th><th>Auth</th><th>Rate Limit</th></tr>
+  <tr>
+    <td><span class="method post">POST</span></td>
+    <td class="endpoint">/api/analyze-audio</td>
+    <td>Upload voice recording (base64 WAV), get AI pronunciation analysis with scores, phoneme errors, pitch contour, prosody deviations, pronunciation guide</td>
+    <td>None</td>
+    <td>20/min</td>
+  </tr>
+  <tr>
+    <td><span class="method post">POST</span></td>
+    <td class="endpoint">/api/generate-tts</td>
+    <td>Generate native-speaker audio for a text string (OpenAI TTS-1, mp3 → base64)</td>
+    <td>None</td>
+    <td>20/min</td>
+  </tr>
+  <tr>
+    <td><span class="method post">POST</span></td>
+    <td class="endpoint">/api/generate-lesson-plan</td>
+    <td>Generate a daily practice sentence tailored to user profile (GPT-4o → fallback to gpt-4o-mini → local heuristic)</td>
+    <td>None</td>
+    <td>20/min</td>
+  </tr>
+  <tr>
+    <td><span class="method get">GET</span></td>
+    <td class="endpoint">/api/sentences/:lang</td>
+    <td>Get sentence library metadata for a language (total_count, by_level, by_topic). :lang = language name (e.g. "English", "German")</td>
+    <td>None</td>
+    <td>20/min</td>
+  </tr>
+  <tr>
+    <td><span class="method get">GET</span></td>
+    <td class="endpoint">/api/sentences/:lang/search</td>
+    <td>Search sentences by query string. Query params: lang, q</td>
+    <td>None</td>
+    <td>20/min</td>
+  </tr>
+  <tr>
+    <td><span class="method get">GET</span></td>
+    <td class="endpoint">/api/sentences/:lang/random</td>
+    <td>Get a random sentence from the library, optionally filtered by CEFR level. Query params: lang, level</td>
+    <td>None</td>
+    <td>20/min</td>
+  </tr>
+  <tr>
+    <td><span class="method get">GET</span></td>
+    <td class="endpoint">/api/proverbs/:lang</td>
+    <td>Get all 35 proverbs for a language. :lang = language name</td>
+    <td>None</td>
+    <td>20/min</td>
+  </tr>
+  <tr>
+    <td><span class="method get">GET</span></td>
+    <td class="endpoint">/api/proverbs/:lang/random</td>
+    <td>Get a random proverb for a language</td>
+    <td>None</td>
+    <td>20/min</td>
+  </tr>
+  <tr>
+    <td><span class="method post">POST</span></td>
+    <td class="endpoint">/api/companion/chat</td>
+    <td>Send a message to the AI language companion. Get response + corrections + updated session</td>
+    <td>None</td>
+    <td>20/min</td>
+  </tr>
+  <tr>
+    <td><span class="method post">POST</span></td>
+    <td class="endpoint">/api/companion/scenario</td>
+    <td>Role-play a scenario. Send user message, get in-character response + 5-dimension scores + feedback + next prompt + TTS audio</td>
+    <td>None</td>
+    <td>20/min</td>
+  </tr>
+</table>
+
+<h3>Request/Response Schemas</h3>
+
+<h4>POST /api/analyze-audio</h4>
+<p><strong>Request body:</strong></p>
+<pre><code>{
+  "audioBase64": string,      // WAV audio as base64
+  "userProfile": {
+    "target_language": string,
+    "native_language": string,
+    "level": string,          // beginner | intermediate | advanced
+    "motivation": string,
+    "accent_reduction_goal": string
+  },
+  "referenceText": string,    // The sentence the user was supposed to say
+  "targetPhoneme": string?    // Optional: focus analysis on this phoneme
+}</code></pre>
+<p><strong>Response:</strong> <code>AnalysisResponse</code> (see types.ts)</p>
+
+<h4>POST /api/generate-tts</h4>
+<p><strong>Request body:</strong></p>
+<pre><code>{
+  "text": string,             // Text to synthesize
+  "voice": string?            // OpenAI voice name (default: "alloy")
+}</code></pre>
+<p><strong>Response:</strong></p>
+<pre><code>{
+  "audioData": string         // MP3 as base64
+}</code></pre>
+
+<h4>POST /api/generate-lesson-plan</h4>
+<p><strong>Request body:</strong></p>
+<pre><code>{
+  "userProfile": {
+    "target_language": string,
+    "native_language": string,
+    "level": string,
+    "motivation": string,
+    "accent_reduction_goal": string
+  }
+}</code></pre>
+<p><strong>Response:</strong></p>
+<pre><code>{
+  "context": string,          // Scenario title (e.g. "Ordering Coffee")
+  "prompt": string,           // Practice sentence
+  "fallback"?: boolean,       // true if local heuristic was used
+  "degraded"?: boolean        // true if all OpenAI attempts failed
+}</code></pre>
+
+<h4>POST /api/companion/chat</h4>
+<p><strong>Request body:</strong></p>
+<pre><code>{
+  "sessionId": string,
+  "message": string,          // User's message
+  "targetLanguage": string,
+  "level": string,
+  "messages": CompanionMessage[]  // Previous conversation history
+}</code></pre>
+<p><strong>Response:</strong></p>
+<pre><code>{
+  "response": string,         // AI's reply
+  "corrected_text"?: string,  // Grammar-corrected version
+  "correction_note"?: string, // Explanation of corrections
+  "session": CompanionSession,// Updated session with messages appended
+  "timestamp": number
+}</code></pre>
+
+<h4>POST /api/companion/scenario</h4>
+<p><strong>Request body:</strong></p>
+<pre><code>{
+  "sessionId": string,
+  "scenarioId": string,       // Scenario ID (e.g. "en-cafe", "es-restaurant")
+  "message": string,          // User's response in character
+  "targetLanguage": string,
+  "level": string,
+  "transcribedAudio"?: string,
+  "messages": (CompanionMessage | ScenarioMessage)[]  // Conversation history
+}</code></pre>
+<p><strong>Response:</strong></p>
+<pre><code>{
+  "response": string,         // AI's in-character reply
+  "translation"?: string,     // English translation (for beginner level)
+  "scores": {
+    "pronunciation": number,
+    "grammar": number,
+    "vocabulary": number,
+    "fluency": number,
+    "appropriateness": number
+  },
+  "feedback": string,         // Encouraging specific feedback
+  "corrected_version"?: string,
+  "next_prompt": string,      // Follow-up to keep conversation going
+  "session": Session,         // Updated session
+  "timestamp": number
+}</code></pre>
+
+<h3>Language Code Mapping</h3>
+<p>The API accepts language names (e.g. "English", "German") and maps them to ISO codes internally:</p>
+<table>
+  <tr><th>API Input</th><th>Internal Code</th><th>Sentence File</th><th>Proverbs File</th></tr>
+  <tr><td>English</td><td>en</td><td>en_sentences.ts</td><td>en_proverbs.ts</td></tr>
+  <tr><td>Spanish</td><td>es</td><td>es_sentences.ts</td><td>es_proverbs.ts</td></tr>
+  <tr><td>French</td><td>fr</td><td>fr_sentences.ts</td><td>fr_proverbs.ts</td></tr>
+  <tr><td>German</td><td>de</td><td>de_sentences.ts</td><td>de_proverbs.ts</td></tr>
+  <tr><td>Italian</td><td>it</td><td>it_sentences.ts</td><td>it_proverbs.ts</td></tr>
+  <tr><td>Japanese</td><td>ja</td><td>ja_sentences.ts</td><td>ja_proverbs.ts</td></tr>
+  <tr><td>Portuguese</td><td>pt</td><td>pt_sentences.ts</td><td>pt_proverbs.ts</td></tr>
+  <tr><td>Chinese</td><td>zh</td><td>zh_sentences.ts</td><td>zh_proverbs.ts</td></tr>
+</table>
+
+<h2>5. Data Layer</h2>
+
+<h3>Sentence Library Schema</h3>
+<pre><code>interface Sentence {
+  id: string;                        // e.g. "en_s00042"
+  language: 'en' | 'es' | 'fr' | 'de' | 'it' | 'ja' | 'pt' | 'zh';
+  cefr_level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+  topic: string;                     // e.g. "greetings", "travel", "food"
+  text: string;                      // Target language sentence
+  translation: string;               // Native language translation
+  ipa_hint?: string;                 // IPA transcription hint
+  tags: string[];                    // e.g. ["greetings", "a1", "question"]
+  native_audio_available: boolean;   // Always true (synthetic)
+}</code></pre>
+
+<h3>Sentence Distribution (8 languages × 1,100 sentences = 8,800 total)</h3>
+<table>
+  <tr><th>Language</th><th>Total</th><th>A1</th><th>A2</th><th>B1</th><th>B2</th><th>C1</th><th>C2</th><th>Topics</th></tr>
+  <tr><td>English</td><td>1,100</td><td>184</td><td>183</td><td>184</td><td>183</td><td>183</td><td>183</td><td>12</td></tr>
+  <tr><td>Spanish</td><td>1,100</td><td>184</td><td>183</td><td>184</td><td>183</td><td>183</td><td>183</td><td>12</td></tr>
+  <tr><td>French</td><td>1,100</td><td>184</td><td>183</td><td>184</td><td>183</td><td>183</td><td>183</td><td>12</td></tr>
+  <tr><td>German</td><td>1,100</td><td>184</td><td>183</td><td>184</td><td>183</td><td>183</td><td>183</td><td>12</td></tr>
+  <tr><td>Italian</td><td>1,100</td><td>184</td><td>183</td><td>184</td><td>183</td><td>183</td><td>183</td><td>12</td></tr>
+  <tr><td>Japanese</td><td>1,100</td><td>184</td><td>183</td><td>184</td><td>183</td><td>183</td><td>183</td><td>12</td></tr>
+  <tr><td>Portuguese</td><td>1,100</td><td>184</td><td>183</td><td>184</td><td>183</td><td>183</td><td>183</td><td>12</td></tr>
+  <tr><td>Chinese</td><td>1,100</td><td>184</td><td>183</td><td>184</td><td>183</td><td>183</td><td>183</td><td>12</td></tr>
+</table>
+<p><strong>12 CEFR-aligned topics:</strong> greetings, introductions, numbers, family, food, shopping, travel, daily-routine, weather, health, hobbies, work, education, culture, technology, emotions, opinions, advice, future-plans, past-experiences, questions</p>
+
+<h3>Proverb Schema</h3>
+<pre><code>interface Proverb {
+  id: string;                        // e.g. "en_p1"
+  language: 'en' | 'es' | 'fr' | 'de' | 'it' | 'ja' | 'pt' | 'zh';
+  text: string;                      // The proverb in target language
+  literal_translation: string;       // Word-for-word translation
+  meaning: string;                   // Explained meaning
+  usage_note: string;                // When/how to use it
+  tags: string[];                    // e.g. ["wisdom", "daily-life"]
+  common_variant?: string;           // Regional/alternative version
+}</code></pre>
+
+<h3>Proverbs per Language (8 × 35 = 280 total)</h3>
+<table>
+  <tr><th>Language</th><th>Count</th><th>Cultural Focus</th></tr>
+  <tr><td>English</td><td>35</td><td>Western idioms, everyday wisdom</td></tr>
+  <tr><td>Spanish</td><td>35</td><td>Latin American + Peninsular sayings</td></tr>
+  <tr><td>French</td><td>35</td><td>French literary + everyday proverbs</td></tr>
+  <tr><td>German</td><td>35</td><td>German practicality, work ethic sayings</td></tr>
+  <tr><td>Italian</td><td>35</td><td>Italian food, family, passion proverbs</td></tr>
+  <tr><td>Japanese</td><td>35</td><td>Japanese seasonality, perseverance, harmony</td></tr>
+  <tr><td>Portuguese</td><td>35</td><td>Brazilian + Portuguese cultural sayings</td></tr>
+  <tr><td>Chinese</td><td>35</td><td>Chinese philosophy, family, perseverance proverbs</td></tr>
+</table>
+
+<h3>Scenario Schema</h3>
+<pre><code>interface Scenario {
+  id: string;                        // e.g. "en-cafe", "es-restaurant", "ja-convenience-store"
+  title: string;                     // Display title (e.g. "Ordering at a Cafe")
+  language: string;                  // Target language
+  context: string;                   // Setting description
+  role: string;                      // AI's role (e.g. "barista")
+  rubric: {
+    pronunciation: { weight: number; description: string };
+    grammar:       { weight: number; description: string };
+    vocabulary:    { weight: number; description: string };
+    fluency:       { weight: number; description: string };
+    appropriateness: { weight: number; description: string };
+  };
+  sample_exchange: {
+    user: string[];                  // Example user turns
+    ai: string[];                    // Example AI turns
+  };
+  difficulty: 'beginner' | 'intermediate' | 'advanced';
+}</code></pre>
+
+<h3>15 Scenarios</h3>
+<table>
+  <tr><th>ID</th><th>Title</th><th>Language</th><th>AI Role</th><th>Level</th></tr>
+  <tr><td>en-cafe</td><td>Ordering at a Cafe</td><td>English</td><td>Barista</td><td>Beginner</td></tr>
+  <tr><td>en-restaurant</td><td>Making a Restaurant Reservation</td><td>English</td><td>Host</td><td>Intermediate</td></tr>
+  <tr><td>en-hotel</td><td>Checking into a Hotel</td><td>English</td><td>Receptionist</td><td>Intermediate</td></tr>
+  <tr><td>en-shopping</td><td>Shopping for Clothes</td><td>English</td><td>Sales Assistant</td><td>Beginner</td></tr>
+  <tr><td>en-job-interview</td><td>Job Interview</td><td>English</td><td>Interviewer</td><td>Advanced</td></tr>
+  <tr><td>en-doctor</td><td>At the Doctor's Office</td><td>English</td><td>Doctor</td><td>Intermediate</td></tr>
+  <tr><td>en-airport</td><td>Airport Check-in</td><td>English</td><td>Agent</td><td>Intermediate</td></tr>
+  <tr><td>en-bank</td><td>At the Bank</td><td>English</td><td>Teller</td><td>Advanced</td></tr>
+  <tr><td>en-taxi</td><td>Getting a Taxi</td><td>English</td><td>Driver</td><td>Beginner</td></tr>
+  <tr><td>en-market</td><td>At the Market</td><td>English</td><td>Vendor</td><td>Beginner</td></tr>
+  <tr><td>es-restaurant</td><td>Pedir en un Restaurante</td><td>Spanish</td><td>Mesero</td><td>Beginner</td></tr>
+  <tr><td>es-hotel</td><td>Llegar al Hotel</td><td>Spanish</td><td>Recepcionista</td><td>Intermediate</td></tr>
+  <tr><td>fr-cafe</td><td>Commander au Cafe</td><td>French</td><td>Serveur</td><td>Beginner</td></tr>
+  <tr><td>fr-restaurant</td><td>Reserver une Table</td><td>French</td><td>Host</td><td>Intermediate</td></tr>
+  <tr><td>fr-shop</td><td>Achats de Vêtements</td><td>French</td><td>Vendeur</td><td>Beginner</td></tr>
+</table>
+
+<h2>6. Cross-Cutting Concerns</h2>
+
+<h3>Fallback Chain Design</h3>
+<p>The app is designed to never crash when OpenAI credits are unavailable. Every OpenAI-dependent feature has a degradation path:</p>
+<pre>
+analyze-audio: Whisper + GPT-4o → 500 error with message
+               (synthetic pitch/phoneme data always generated locally)
+
+generate-tts: TTS-1 → 500 error with message
+              (no synthetic fallback — audio is optional)
+
+generate-lesson-plan: gpt-4o → gpt-4o-mini → pre-written prompts by
+                      language + CEFR level (always works)
+
+companion/chat: GPT-4o → local heuristic reply generator
+                (greeting-based + template responses)
+
+companion/scenario: GPT-4o → local heuristic scenario response
+                    (pre-written scenario turns + heuristic 5-dimension scores)
+</pre>
+
+<h3>TypeScript Strict Mode</h3>
+<p>The project uses <code>npx tsc --noEmit --skipLibCheck</code> for verification. Large generated data files (1,100 sentence arrays per language) trigger TS2590 "type instantiation is excessively deep" errors that are non-functional at runtime — these are suppressed via <code>--skipLibCheck</code>. The manually authored source files (server.ts, services/*.ts, components/*.tsx, App.tsx, types.ts, data/library.ts) are all type-clean.</p>
+
+<h3>Build Pipeline</h3>
+<pre>
+Frontend:  npx vite build
+            → dist/index.html (1.6kB)
+            → dist/assets/index-{hash}.js (3MB, includes all 8 language datasets)
+
+Server:    npx esbuild src/api/index.ts --bundle --platform=node --format=cjs
+            --packages=external --sourcemap --outfile=api/index.cjs
+            → api/index.cjs (2.7MB, bundled Express server)
+            → api/index.cjs.map (source map)
+
+Combined:  npm run build:node
+            (runs both steps sequentially)
+</pre>
+
+<h3>Deployment</h3>
+<pre>
+1. Build:  npm run build:node
+2. Deploy: npx vercel deploy --prod --yes
+3. Verify: npx vercel curl https://{deployment-id}.vercel.app/api/proverbs/en
+4. Promote: npx vercel deploy --prod --yes (auto-promotes to production)
+
+Node version: 22.x (set via: npx vercel project update slang --node-version 22.x --yes)
+Vercel project: ossamamokhtars-projects/slang
+Production URL: https://slang-e6mm37v73-ossamamokhtars-projects.vercel.app
+</pre>
+
+<h3>Data Persistence</h3>
+<table>
+  <tr><th>Data</th><th>Storage</th><th>API</th></tr>
+  <tr><td>User profile</td><td>localStorage</td><td>slang_profile key</td></tr>
+  <tr><td>Onboarding flag</td><td>localStorage</td><td>slang_onboarded key</td></tr>
+  <tr><td>Theme preference</td><td>localStorage</td><td>slang_theme key</td></tr>
+  <tr><td>Companion session</td><td>localStorage</td><td>companion_{target_language} key</td></tr>
+  <tr><td>SRS state</td><td>localStorage</td><td>Via srsService.loadSRSState()/saveSRSState()</td></tr>
+  <tr><td>Session history (recordings + analysis)</td><td>IndexedDB</td><td>storageService.saveSession()/getHistory()/deleteSession()</td></tr>
+  <tr><td>Streak count</td><td>localStorage</td><td>user_streak key</td></tr>
+</table>
+
+<h2>7. Key Interfaces &amp; Types</h2>
+
+<h3>App-Level Types (types.ts)</h3>
+<pre><code>type AppState = 'IDLE' | 'RECORDING' | 'ANALYZING' | 'RESULTS' | 'ERROR';
+
+interface UserProfile {
+  level: 'beginner' | 'intermediate' | 'advanced';
+  native_language: string;
+  target_language: string;
+  accent_reduction_goal: string;
+  motivation: string;
+  daily_goal_minutes: number;
+}
+
+interface SessionRecord {
+  id: string;
+  timestamp: number;
+  target_language: string;
+  native_language: string;
+  level: string;
+  audioBlob: Blob | null;
+  full_analysis: AnalysisResponse | null;
+  annotatedTranscriptWords?: TranscriptWord[];
+}
+
+interface AnalysisResponse {
+  summary: string;
+  overall_score: number;        // 0-100
+  pronunciation_score: number;  // 0-100
+  intelligibility_score: number;// 0-100
+  prioritized_actions: string[];
+  model_phrase: { text: string; tempo_percent: string; ipa_hint?: string };
+  drills: { type: string; items: string[]; reps: number }[];
+  explanation_notes: string[];
+  phoneme_errors: {
+    phoneme: string; expected_word: string;
+    start_ts: number; end_ts: number;
+    detected: string; confidence: number;
+  }[];
+  prosody_deviations: { type: string; word: string; measure: number }[];
+  pitch_contour: { time: number; user_pitch: number; native_pitch: number }[];
+  pronunciation_guide: { segment: string; tip: string }[];
+  confidence: number;
+}
+
+type TranscriptWord = {
+  word: string; start: number; end: number;
+  confidence: number; isFinal: boolean;
+  isError?: boolean; errorType?: string; correction?: string;
+};</code></pre>
+
+<h3>Shared Types (data/library.ts)</h3>
+<pre><code>interface Sentence {
+  id: string;
+  language: 'en' | 'es' | 'fr' | 'de' | 'it' | 'ja' | 'pt' | 'zh';
+  cefr_level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+  topic: string;
+  text: string;
+  translation: string;
+  ipa_hint?: string;
+  tags: string[];
+  native_audio_available: boolean;
+}
+
+interface Proverb {
+  id: string;
+  language: 'en' | 'es' | 'fr' | 'de' | 'it' | 'ja' | 'pt' | 'zh';
+  text: string;
+  literal_translation: string;
+  meaning: string;
+  usage_note: string;
+  tags: string[];
+  common_variant?: string;
+}
+
+interface CompanionMessage {
+  id: string;
+  role: 'user' | 'companion' | 'ai';
+  text: string;
+  translation?: string;
+  corrected_text?: string;
+  correction_note?: string;
+  scores?: { pronunciation: number; grammar: number; vocabulary: number; fluency: number; appropriateness: number; overall: number };
+  feedback?: string;
+  tts_audio?: string;
+  timestamp: number;
+}
+
+interface ScenarioMessage {
+  id: string;
+  role: 'user' | 'ai';
+  text: string;
+  translation?: string;
+  scores?: { pronunciation: number; grammar: number; vocabulary: number; fluency: number; appropriateness: number };
+  feedback?: string;
+  corrected_version?: string;
+  next_prompt?: string;
+  tts_audio?: string;
+  timestamp: number;
+}</code></pre>
+
+<h2>8. Key Dependencies</h2>
+<table>
+  <tr><th>Package</th><th>Version</th><th>Purpose</th></tr>
+  <tr><td>react</td><td>^19.2.8</td><td>UI framework</td></tr>
+  <tr><td>react-dom</td><td>^19.2.8</td><td>DOM rendering</td></tr>
+  <tr><td>express</td><td>^5.2.1</td><td>Server framework (Vercel serverless)</td></tr>
+  <tr><td>openai</td><td>^4.104.0</td><td>OpenAI SDK — GPT-4o, Whisper, TTS-1</td></tr>
+  <tr><td>lucide-react</td><td>^0.577.0</td><td>Icon library (30+ icons used throughout UI)</td></tr>
+  <tr><td>recharts</td><td>^3.10.1</td><td>Chart visualizations (pitch contour, IPA chart)</td></tr>
+  <tr><td>vite</td><td>^6.2.0</td><td>Frontend bundler + dev server</td></tr>
+  <tr><td>@vitejs/plugin-react</td><td>^5.0.0</td><td>React support for Vite</td></tr>
+  <tr><td>esbuild</td><td>^0.28.2</td><td>Server bundle (fast, small output)</td></tr>
+  <tr><td>tsx</td><td>^4.23.13</td><td>TypeScript execution (dev mode)</td></tr>
+  <tr><td>typescript</td><td>~5.9.3</td><td>Type system</td></tr>
+  <tr><td>@types/express</td><td>^5.0.6</td><td>Express type definitions</td></tr>
+  <tr><td>@types/node</td><td>^22.14.0</td><td>Node.js type definitions</td></tr>
+</table>
+
+<h2>9. Environment Variables</h2>
+<table>
+  <tr><th>Variable</th><th>Required</th><th>Purpose</th></tr>
+  <tr><td>OPENAI_API_KEY</td><td>No (features degrade gracefully without it)</td><td>OpenAI API key for GPT-4o, Whisper, TTS-1</td></tr>
+  <tr><td>PORT</td><td>No (default: 3000)</td><td>Server port (local development only)</td></tr>
+  <tr><td>RATE_LIMIT_PER_MIN</td><td>No (default: 20)</td><td>Max requests per minute per IP</td></tr>
+  <tr><td>NODE_ENV</td><td>No</td><td>Set to "production" to skip Vite middleware (Vercel sets this automatically)</td></tr>
+  <tr><td>VERCEL</td><td>No (set by Vercel platform)</td><td>When present, skips local server startup</td></tr>
+</table>
+
+<h2>10. Quality Gates</h2>
+<table>
+  <tr><th>Check</th><th>Command</th><th>Pass Condition</th></tr>
+  <tr><td>TypeScript (manual source)</td><td>npx tsc --noEmit --skipLibCheck</td><td>0 errors from all .ts/.tsx files except generated data files (TS2590 suppressed by skipLibCheck)</td></tr>
+  <tr><td>Frontend build</td><td>npx vite build</td><td>dist/ produced without errors</td></tr>
+  <tr><td>Server bundle</td><td>npx esbuild src/api/index.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=api/index.cjs</td><td>api/index.cjs produced without errors</td></tr>
+  <tr><td>Combined build</td><td>npm run build:node</td><td>Both frontend + server build successfully</td></tr>
+  <tr><td>Production deploy</td><td>npx vercel deploy --prod --yes</td><td>Deployment reaches "Ready" state</td></tr>
+  <tr><td>API smoke test</td><td>curl /api/proverbs/en + /api/sentences/English + POST /api/companion/scenario</td><td>200 OK, correct JSON structure, expected counts</td></tr>
+</table>
+
+<footer>
+  Slang Language — Architecture Documentation · Generated September 2026 · Vercel Production: slang-e6mm37v73-ossamamokhtars-projects.vercel.app
+</footer>
+
+</body>
+</html>
