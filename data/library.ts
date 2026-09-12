@@ -23,11 +23,14 @@ export interface Proverb {
 
 export interface CompanionMessage {
   id: string;
-  role: 'user' | 'companion';
+  role: 'user' | 'companion' | 'ai';
   text: string;
-  translation?: string;       // English translation (when companion responds in target language)
-  corrected_text?: string;   // if companion corrected the user
-  correction_note?: string;  // explanation of correction
+  translation?: string;
+  corrected_text?: string;
+  correction_note?: string;
+  scores?: { pronunciation: number; grammar: number; vocabulary: number; fluency: number; appropriateness: number; overall: number };
+  feedback?: string;
+  tts_audio?: string;
   timestamp: number;
 }
 

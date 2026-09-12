@@ -1,6 +1,6 @@
 // Companion client-side helpers (used by CompanionChat component)
 
-import { CompanionSession } from '../data/library';
+import { CompanionSession, CompanionMessage } from '../data/library';
 
 export const createCompanionSession = (language: 'en' | 'es' | 'fr', level: string): CompanionSession => ({
   id: crypto.randomUUID(),
@@ -13,7 +13,7 @@ export const createCompanionSession = (language: 'en' | 'es' | 'fr', level: stri
 
 export const addCompanionMessage = (
   session: CompanionSession,
-  role: 'user' | 'companion',
+  role: 'user' | 'companion' | 'ai',
   text: string,
   corrected_text?: string,
   correction_note?: string,
@@ -34,4 +34,4 @@ export const addCompanionMessage = (
 });
 
 // Re-export for consumers who need the type
-export type { CompanionSession };
+export type { CompanionSession, CompanionMessage };

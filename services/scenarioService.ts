@@ -20,6 +20,7 @@ export interface ScenarioMessage {
   scores?: ScenarioScores;
   feedback?: string;
   corrected_version?: string;
+  tts_audio?: string;
   timestamp: number;
 }
 
