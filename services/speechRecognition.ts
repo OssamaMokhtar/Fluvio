@@ -14,6 +14,9 @@ export interface TranscriptWord {
   start: number;        // relative time from recording start (seconds)
   confidence: number;   // 0–1 from SpeechRecognition API
   isFinal: boolean;     // true when the utterance is finalized
+  isError?: boolean;    // set after analysis: true if this word contains a pronunciation error
+  errorType?: 'pronunciation' | 'grammar' | 'missing';
+  correction?: string;  // the correct phoneme or word if there's an error
 }
 
 export interface SpeechRecognitionHandle {
