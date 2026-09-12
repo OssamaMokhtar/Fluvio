@@ -233,7 +233,7 @@ export default function CompanionChat({ session, onSessionUpdate, targetLanguage
             )}
           </div>
         ) : (
-          (session.messages as (CompanionMessage | ScenarioMessage)[]).map((msg) => {
+          (session.messages as (CompanionMessage | ScenarioMessage)[]).map((msg: CompanionMessage | ScenarioMessage) => {
             const isUser = msg.role === 'user';
             const isAI = msg.role === 'ai';
             const isCompanion = msg.role === 'companion';
