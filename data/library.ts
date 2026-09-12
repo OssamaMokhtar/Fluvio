@@ -1,23 +1,23 @@
 export interface Sentence {
   id: string;
-  language: 'en' | 'es' | 'fr';
+  language: 'en' | 'es' | 'fr' | 'de' | 'it' | 'ja' | 'pt' | 'zh';
   cefr_level: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
   topic: string;
   text: string;
   translation: string;
-  ipa_hint?: string;         // optional IPA for tricky sounds
-  tags: string[];            // e.g. ['greeting', 'question', 'polite']
+  ipa_hint?: string;
+  tags: string[];
   native_audio_available: boolean;
 }
 
 export interface Proverb {
   id: string;
-  language: 'en' | 'es' | 'fr';
+  language: 'en' | 'es' | 'fr' | 'de' | 'it' | 'ja' | 'pt' | 'zh';
   text: string;
   literal_translation: string;
   meaning: string;
   usage_note: string;
-  tags: string[];            // e.g. ['wisdom', 'daily-life', 'humor']
+  tags: string[];
   common_variant?: string;
 }
 
@@ -36,15 +36,15 @@ export interface CompanionMessage {
 
 export interface CompanionSession {
   id: string;
-  language: 'en' | 'es' | 'fr';
-  level: 'beginner' | 'intermediate' | 'advanced';
+  language: 'en' | 'es' | 'fr' | 'de' | 'it' | 'ja' | 'pt' | 'zh';
+  level: string;
   messages: CompanionMessage[];
   started_at: number;
   last_active: number;
 }
 
 export interface SentenceLibrary {
-  language: 'en' | 'es' | 'fr';
+  language: string;
   sentences: Sentence[];
   total_count: number;
   by_level: Record<string, number>;
@@ -52,13 +52,7 @@ export interface SentenceLibrary {
 }
 
 export interface ProverbLibrary {
-  language: 'en' | 'es' | 'fr';
-  proverbs: Proverb[];
-  total_count: number;
-}
-
-export interface ProverbLibrary {
-  language: 'en' | 'es' | 'fr';
+  language: string;
   proverbs: Proverb[];
   total_count: number;
 }

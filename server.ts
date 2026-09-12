@@ -9,6 +9,11 @@ import {
 import { EN_PROVERBS } from "./data/sentences/en_proverbs.ts";
 import { ES_PROVERBS } from "./data/sentences/es_proverbs.ts";
 import { FR_PROVERBS } from "./data/sentences/fr_proverbs.ts";
+import { DE_PROVERBS } from "./data/sentences/de_proverbs.ts";
+import { IT_PROVERBS } from "./data/sentences/it_proverbs.ts";
+import { JA_PROVERBS } from "./data/sentences/ja_proverbs.ts";
+import { PT_PROVERBS } from "./data/sentences/pt_proverbs.ts";
+import { ZH_PROVERBS } from "./data/sentences/zh_proverbs.ts";
 import { addCompanionMessage, generateCompanionReply } from "./services/companionChatServer.ts";
 import { getScenarioById, SCENARIOS } from "./data/scenarios.ts";
 import { generateScenarioTurn } from "./services/scenarioService.ts";
@@ -615,12 +620,22 @@ app.get("/api/proverbs/:lang", (req, res) => {
       'en': 'en', 'English': 'en', 'english': 'en',
       'es': 'es', 'Spanish': 'es', 'spanish': 'es',
       'fr': 'fr', 'French': 'fr', 'french': 'fr',
+      'de': 'de', 'German': 'de', 'german': 'de',
+      'it': 'it', 'Italian': 'it', 'italian': 'it',
+      'ja': 'ja', 'Japanese': 'ja', 'japanese': 'ja',
+      'pt': 'pt', 'Portuguese': 'pt', 'portuguese': 'pt',
+      'zh': 'zh', 'Chinese': 'zh', 'chinese': 'zh',
     };
     const code = codeMap[lang] || 'en';
     let proverbs: any[] = [];
     if (code === 'en') proverbs = EN_PROVERBS;
     else if (code === 'es') proverbs = ES_PROVERBS;
     else if (code === 'fr') proverbs = FR_PROVERBS;
+    else if (code === 'de') proverbs = DE_PROVERBS;
+    else if (code === 'it') proverbs = IT_PROVERBS;
+    else if (code === 'ja') proverbs = JA_PROVERBS;
+    else if (code === 'pt') proverbs = PT_PROVERBS;
+    else if (code === 'zh') proverbs = ZH_PROVERBS;
     res.json({ language: code, proverbs, total_count: proverbs.length });
   } catch (err) {
     console.error("Proverbs error:", err);
@@ -798,12 +813,22 @@ app.get("/api/proverbs/:lang/random", (req, res) => {
       'en': 'en', 'English': 'en', 'english': 'en',
       'es': 'es', 'Spanish': 'es', 'spanish': 'es',
       'fr': 'fr', 'French': 'fr', 'french': 'fr',
+      'de': 'de', 'German': 'de', 'german': 'de',
+      'it': 'it', 'Italian': 'it', 'italian': 'it',
+      'ja': 'ja', 'Japanese': 'ja', 'japanese': 'ja',
+      'pt': 'pt', 'Portuguese': 'pt', 'portuguese': 'pt',
+      'zh': 'zh', 'Chinese': 'zh', 'chinese': 'zh',
     };
     const code = codeMap[lang] || 'en';
     let proverbsList: any[] = [];
     if (code === 'en') proverbsList = EN_PROVERBS;
     else if (code === 'es') proverbsList = ES_PROVERBS;
     else if (code === 'fr') proverbsList = FR_PROVERBS;
+    else if (code === 'de') proverbsList = DE_PROVERBS;
+    else if (code === 'it') proverbsList = IT_PROVERBS;
+    else if (code === 'ja') proverbsList = JA_PROVERBS;
+    else if (code === 'pt') proverbsList = PT_PROVERBS;
+    else if (code === 'zh') proverbsList = ZH_PROVERBS;
     if (proverbsList.length === 0) return res.status(404).json({ error: "No proverbs for this language" });
     const proverb = proverbsList[Math.floor(Math.random() * proverbsList.length)];
     res.json(proverb);

@@ -2,9 +2,9 @@
 
 import { CompanionSession, CompanionMessage } from '../data/library';
 
-export const createCompanionSession = (language: 'en' | 'es' | 'fr', level: string): CompanionSession => ({
+export const createCompanionSession = (language: string, level: string): CompanionSession => ({
   id: crypto.randomUUID(),
-  language,
+  language: language as any,
   level: level as 'beginner' | 'intermediate' | 'advanced',
   messages: [],
   started_at: Date.now(),
