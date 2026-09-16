@@ -1,5 +1,5 @@
-# Slang Language
-
+# Fluvio Language
+Fluidity + fluency + forward motion.
 AI-powered language learning app — speak into your microphone, get instant pronunciation feedback, practice real-world scenarios with an AI role-play partner, and track your progress over time.
 
 **Live demo:** [vercel.com/…](#deployment)
