@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Search, BookOpen, Filter, X, ChevronRight, Speaker, Globe, Grid, List } from 'lucide-react';
-import { getSentenceLibrary, searchSentences, pickDailySentence, LANG_NAMES } from '../services/sentenceLibrary';
+import { getSentenceLibrary, pickDailySentence, LANG_NAMES, type SentenceLibrary } from '../services/clientLibrary';
 
 interface SentenceBrowserProps {
   language: string;
@@ -18,19 +18,29 @@ export default function SentenceBrowser({ language, level, onSelectSentence, com
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
 
   useEffect(() => {
-    const lib = getSentenceLibrary(language);
-    setLibrary(lib);
-    // Load default results — all sentences for this language
-    setResults(lib.sentences.slice(0, 50));
+    const loadLibrary = async () => {
+      const lib = await getSentenceLibrary(language);
+      setLibrary(lib);
+      // Load default results — first 50 sentences
+      setResults((lib.sentences || []).slice(0, 50));
+    };
+    loadLibrary();
   }, [language]);
 
   useEffect(() => {
+    if (!library) return;
     if (searchQuery.trim()) {
-      const found = searchSentences(library!, searchQuery);
-      setResults(found);
+      // Client-side filter of loaded sentences
+      const q = searchQuery.toLowerCase();
+      const found = (library.sentences || []).filter((s: any) =>
+        s.text?.toLowerCase().includes(q) ||
+        s.translation?.toLowerCase().includes(q) ||
+        s.topic?.toLowerCase().includes(q)
+      );
+      setResults(found.slice(0, 50));
     } else {
       // Filtered by level/topic or show all
-      let subset = library!.sentences;
+      let subset = library.sentences || [];
       if (selectedLevel) {
         subset = subset.filter((s: any) => s.cefr_level === selectedLevel);
       }
@@ -41,8 +51,8 @@ export default function SentenceBrowser({ language, level, onSelectSentence, com
     }
   }, [searchQuery, library, selectedLevel, selectedTopic]);
 
-  const levels = library ? Object.keys(library.by_level) : [];
-  const topics = library ? Object.keys(library.by_topic).slice(0, 15) : [];
+  const levels = library?.by_level ? Object.keys(library.by_level) : [];
+  const topics = library?.by_topic ? Object.keys(library.by_topic).slice(0, 15) : [];
 
   const handleSelect = (sentence: any) => {
     if (onSelectSentence) onSelectSentence(sentence);
@@ -108,7 +118,7 @@ export default function SentenceBrowser({ language, level, onSelectSentence, com
           >
             <option value="">All Levels</option>
             {levels.map(l => (
-              <option key={l} value={l}>{l} ({library.by_level[l]})</option>
+              <option key={l} value={l}>{l} ({(library.by_level?.[l] as any) || 0})</option>
             ))}
           </select>
           <select

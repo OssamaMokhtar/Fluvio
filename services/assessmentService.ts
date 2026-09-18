@@ -13,18 +13,24 @@ export interface CEFRLevel {
   band: CEFRBand;
   label: string;
   description: string;
-  ieltsEquivalent?: string;
+  /**
+   * SL-08: removed. IELTS equivalence was asserted for an uncalibrated 0-100
+   * score with no validation study, no reference cohort and no inter-rater
+   * agreement. Restore only when a published calibration supports it —
+   * see docs/adr/0002-assessment-calibration.md.
+   */
+  // ieltsEquivalent?: string;
   minScore: number;
   maxScore: number;
 }
 
 export const CEFR_BANDS: CEFRLevel[] = [
-  { band: 'A1', label: 'Beginner', description: 'Can understand and use familiar everyday expressions.', ieltsEquivalent: 'Below 3.0', minScore: 0, maxScore: 20 },
-  { band: 'A2', label: 'Elementary', description: 'Can communicate in simple routine tasks.', ieltsEquivalent: '3.0–3.5', minScore: 21, maxScore: 40 },
-  { band: 'B1', label: 'Intermediate', description: 'Can deal with most situations while travelling and produce simple connected text.', ieltsEquivalent: '4.0–5.0', minScore: 41, maxScore: 60 },
-  { band: 'B2', label: 'Upper Intermediate', description: 'Can interact with fluency and spontaneity. Can produce clear detailed text.', ieltsEquivalent: '5.5–6.5', minScore: 61, maxScore: 80 },
-  { band: 'C1', label: 'Advanced', description: 'Can express ideas fluently and spontaneously without obvious searching.', ieltsEquivalent: '7.0–8.0', minScore: 81, maxScore: 95 },
-  { band: 'C2', label: 'Mastery', description: 'Can express themselves spontaneously, very fluently and precisely.', ieltsEquivalent: '8.5–9.0', minScore: 96, maxScore: 100 },
+  { band: 'A1', label: 'Beginner', description: 'Can understand and use familiar everyday expressions.', minScore: 0, maxScore: 20 },
+  { band: 'A2', label: 'Elementary', description: 'Can communicate in simple routine tasks.', minScore: 21, maxScore: 40 },
+  { band: 'B1', label: 'Intermediate', description: 'Can deal with most situations while travelling and produce simple connected text.', minScore: 41, maxScore: 60 },
+  { band: 'B2', label: 'Upper Intermediate', description: 'Can interact with fluency and spontaneity. Can produce clear detailed text.', minScore: 61, maxScore: 80 },
+  { band: 'C1', label: 'Advanced', description: 'Can express ideas fluently and spontaneously without obvious searching.', minScore: 81, maxScore: 95 },
+  { band: 'C2', label: 'Mastery', description: 'Can express themselves spontaneously, very fluently and precisely.', minScore: 96, maxScore: 100 },
 ];
 
 /**
@@ -51,49 +57,44 @@ export function computeCEFRLevel(overallScore: number): CEFRLevel {
  * - vocabulary: inferred from explanation_notes mentioning vocabulary/word choice
  * - intonation: based on prosody_deviations and pitch_contour presence
  */
-export function computeDimensionScores(analysis: AnalysisResponse): Record<string, number> {
-  const pronunciationScore = analysis.pronunciation_score ?? analysis.overall_score;
+export interface DimensionScores {
+  /** Value, or null when the pipeline cannot measure this dimension yet. */
+  [dimension: string]: number | null;
+}
 
-  // Fluency: intelligibility is a proxy; penalize if many prosody deviations
-  let fluencyScore = analysis.intelligibility_score ?? analysis.overall_score;
-  if (analysis.prosody_deviations && analysis.prosody_deviations.length > 3) {
-    fluencyScore = Math.max(0, fluencyScore - (analysis.prosody_deviations.length - 3) * 5);
-  }
-
-  // Grammar: scan explanation_notes for grammar mentions
-  let grammarScore = pronunciationScore; // default to pronunciation as baseline
-  const notesText = (analysis.explanation_notes || []).join(' ').toLowerCase();
-  const grammarMentions = (notesText.match(/grammar/gi) || []).length;
-  const errorCount = (analysis.phoneme_errors || []).length;
-  if (grammarMentions > 0) {
-    grammarScore = Math.max(0, 90 - grammarMentions * 10);
-  } else if (errorCount > 5) {
-    grammarScore = Math.max(0, 70 - (errorCount - 5) * 2);
-  }
-
-  // Vocabulary: scan for vocabulary/word choice mentions
-  let vocabularyScore = pronunciationScore;
-  const vocabMentions = (notesText.match(/vocabulary|word choice|lexical|wording/gi) || []).length;
-  if (vocabMentions > 0) {
-    vocabularyScore = Math.max(0, 85 - vocabMentions * 8);
-  }
-
-  // Intonation: based on prosody deviations and pitch contour
-  let intonationScore = 85; // default good
-  if (analysis.prosody_deviations && analysis.prosody_deviations.length > 0) {
-    intonationScore = Math.max(0, 90 - analysis.prosody_deviations.length * 8);
-  }
-  if (!analysis.pitch_contour || analysis.pitch_contour.length === 0) {
-    intonationScore = Math.min(intonationScore, 60); // no pitch data = uncertain
-  }
+/**
+ * Per-dimension scores from an AnalysisResponse.
+ *
+ * SL-08: the previous implementation derived a *grammar score* by counting how
+ * often the substring "grammar" appeared in the model's free-text notes
+ * (90 - mentions * 10), a vocabulary score the same way, and an intonation score
+ * from the length of a randomly generated prosody array. Rephrasing the feedback
+ * changed the learner's scores without them changing how they spoke.
+ *
+ * Only dimensions the pipeline genuinely produces are returned as numbers.
+ * Everything else is null, and the UI must render null as "not yet measured" —
+ * never as zero, and never as a plotted point.
+ */
+export function computeDimensionScores(analysis: AnalysisResponse): DimensionScores {
+  const pronunciation = numOrNull(analysis.pronunciation_score ?? analysis.overall_score);
+  const intelligibility = numOrNull(analysis.intelligibility_score ?? analysis.overall_score);
 
   return {
-    pronunciation: Math.round(Math.min(100, pronunciationScore)),
-    fluency: Math.round(Math.min(100, fluencyScore)),
-    grammar: Math.round(Math.min(100, grammarScore)),
-    vocabulary: Math.round(Math.min(100, vocabularyScore)),
-    intonation: Math.round(Math.min(100, intonationScore)),
+    // Produced by the analysis model.
+    pronunciation,
+    intelligibility,
+    // Not measured by the current pipeline. Grammar and vocabulary need a text
+    // assessor; intonation and fluency need acoustic analysis (F0, timing).
+    grammar: null,
+    vocabulary: null,
+    fluency: null,
+    intonation: null,
   };
+}
+
+function numOrNull(v: unknown): number | null {
+  const n = Number(v);
+  return Number.isFinite(n) ? Math.round(Math.min(100, Math.max(0, n))) : null;
 }
 
 /**
@@ -119,9 +120,35 @@ export function sessionsToNextLevel(
 
   if (gap <= 0) return { sessions: 0, nextBand: nextBand.band, targetScore };
 
-  // Assume ~2 points improvement per session (conservative)
-  const perSessionGain = 2;
+  // SL-08: this used a hardcoded `perSessionGain = 2` presented to the learner as
+  // a projection. The gain is now measured from their own history — the slope of
+  // the last ten sessions — and the projection is withheld entirely when there is
+  // not enough data, or when the learner is not currently improving.
+  const MIN_SESSIONS_FOR_TREND = 6;
+  if (historyScores.length < MIN_SESSIONS_FOR_TREND) {
+    return { sessions: null, nextBand: nextBand.band, targetScore };
+  }
+  const recent = historyScores.slice(-10);
+  const perSessionGain = linearSlope(recent);
+  if (perSessionGain <= 0.1) {
+    return { sessions: null, nextBand: nextBand.band, targetScore };
+  }
   const sessions = Math.ceil(gap / perSessionGain);
 
   return { sessions, nextBand: nextBand.band, targetScore };
+}
+
+
+/** Least-squares slope of a score series, in points per session. */
+function linearSlope(values: number[]): number {
+  const n = values.length;
+  if (n < 2) return 0;
+  const meanX = (n - 1) / 2;
+  const meanY = values.reduce((a, b) => a + b, 0) / n;
+  let num = 0, den = 0;
+  for (let i = 0; i < n; i++) {
+    num += (i - meanX) * (values[i] - meanY);
+    den += (i - meanX) ** 2;
+  }
+  return den === 0 ? 0 : num / den;
 }

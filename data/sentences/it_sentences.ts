@@ -1,8 +1,7 @@
 // Auto-generated Italian sentence library
 // 1100 sentences across CEFR levels A1-C2
 
-// @ts-nocheck
-import { Sentence, SentenceLibrary } from '../library';
+import { Sentence } from '../library';
 
 export const IT_SENTENCES = [
   { id: 'it_s00000', language: 'it', cefr_level: 'A1', topic: 'greetings', text: 'Il mio nome è Sofia.', translation: '[Italian] Il mio nome è Sofia.', tags: ['greetings', 'a1', 'question'], native_audio_available: true, ipa_hint: '/Il mio nome è Sofia./' },

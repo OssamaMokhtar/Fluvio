@@ -1,8 +1,7 @@
 // Auto-generated Portuguese sentence library
 // 1100 sentences across CEFR levels A1-C2
 
-// @ts-nocheck
-import { Sentence, SentenceLibrary } from '../library';
+import { Sentence } from '../library';
 
 export const PT_SENTENCES = [
   { id: 'pt_s00000', language: 'pt', cefr_level: 'A1', topic: 'greetings', text: 'O meu nome é Pedro.', translation: '[Portuguese] O meu nome é Pedro.', tags: ['greetings', 'a1', 'question'], native_audio_available: true, ipa_hint: '/O meu nome é Pedro./' },

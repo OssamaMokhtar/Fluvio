@@ -16,12 +16,10 @@ export const blobToBase64 = (blob: Blob): Promise<string> => {
 };
 
 /**
- * Creates a visualizer data array from an audio stream (mock implementation for UI).
- * In a real app, we would use AnalyserNode.
+ * SL-07: removed. This returned Math.random() values that were drawn as if they
+ * were an audio envelope. Use an AnalyserNode against the live MediaStream when
+ * a real recording visualiser is needed.
  */
-export const generateVisualizerData = (length: number): number[] => {
-  return Array.from({ length }, () => Math.random() * 0.5 + 0.2);
-};
 
 /**
  * Helper to play audio blob
@@ -55,40 +53,34 @@ function decodeBase64(base64: string): Uint8Array {
 }
 
 /**
- * Decodes and plays raw PCM data from a base64 string (from Gemini TTS).
- * Assumes 24kHz mono, which is typical for the Gemini 2.5 Flash TTS model.
+ * Plays base64-encoded TTS audio returned by /api/generate-tts.
+ *
+ * SL-13: this function was called playPCM and decoded the bytes as 24 kHz mono
+ * Int16 PCM, with comments describing Gemini's TTS format. The server has
+ * requested MP3 from OpenAI since the migration in commit aa2118a, so the bytes
+ * were never PCM. `new Int16Array(bytes.buffer)` also threw a RangeError on any
+ * odd-length payload. decodeAudioData handles MP3, WAV, Opus and AAC and asks
+ * the browser to tell us the real sample rate instead of assuming one.
+ *
+ * The old name is kept as an alias so existing call sites keep working.
  */
-export const playPCM = async (base64Audio: string): Promise<void> => {
+export const playEncodedAudio = async (base64Audio: string): Promise<void> => {
   const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
-  const ctx = new AudioContextClass({sampleRate: 24000});
-  
+  const ctx = new AudioContextClass();
   try {
     const bytes = decodeBase64(base64Audio);
-
-    // The raw PCM from Gemini is typically 16-bit Little Endian.
-    const dataInt16 = new Int16Array(bytes.buffer);
-    
-    const buffer = ctx.createBuffer(1, dataInt16.length, 24000);
-    const channelData = buffer.getChannelData(0);
-    
-    for (let i = 0; i < dataInt16.length; i++) {
-      // Normalize Int16 to Float32 [-1.0, 1.0]
-      channelData[i] = dataInt16[i] / 32768.0;
-    }
-
+    const buffer = await ctx.decodeAudioData(bytes.buffer.slice(0) as ArrayBuffer);
     const source = ctx.createBufferSource();
     source.buffer = buffer;
     source.connect(ctx.destination);
     source.start();
-
-    return new Promise((resolve) => {
-      source.onended = () => {
-        resolve();
-        ctx.close();
-      };
-    });
+    await new Promise<void>((resolve) => { source.onended = () => resolve(); });
   } catch (e) {
-    console.error("Error playing PCM", e);
-    ctx.close();
+    console.error('Could not play TTS audio', e);
+  } finally {
+    try { await ctx.close(); } catch { /* already closed */ }
   }
 };
+
+/** @deprecated Misnamed — the payload is encoded audio, not raw PCM. Use playEncodedAudio. */
+export const playPCM = playEncodedAudio;

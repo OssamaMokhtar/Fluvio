@@ -1,10 +1,7 @@
 {
   "name": "Slang",
-  "description": "An AI-powered pronunciation and fluency coach that provides real-time phonetic analysis, corrective feedback, and tailored exercises.",
-  "requestFramePermissions": [
-    "microphone"
-  ],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
+  "description": "Pronunciation coaching for Arabic speakers learning English — acoustic scoring, L1-aware feedback, and scenario practice.",
+  "requestFramePermissions": ["microphone"],
+  "aiProvider": "openai",
+  "_note": "SL-20: majorCapabilities previously declared MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API. The app migrated from Gemini to OpenAI in commit aa2118a."
 }

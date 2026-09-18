@@ -285,7 +285,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00029',
+    id: 'fr_s00028',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'philosophy',
@@ -295,7 +295,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00030',
+    id: 'fr_s00029',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'greetings',
@@ -305,7 +305,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00031',
+    id: 'fr_s00030',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'daily-life',
@@ -315,7 +315,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00034',
+    id: 'fr_s00031',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'family',
@@ -325,7 +325,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00035',
+    id: 'fr_s00032',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'work',
@@ -335,7 +335,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00036',
+    id: 'fr_s00033',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'shopping',
@@ -345,7 +345,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00038',
+    id: 'fr_s00034',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'technology',
@@ -355,7 +355,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00039',
+    id: 'fr_s00035',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'weather',
@@ -365,7 +365,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00040',
+    id: 'fr_s00036',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'hobbies',
@@ -375,7 +375,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00041',
+    id: 'fr_s00037',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'education',
@@ -385,7 +385,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00042',
+    id: 'fr_s00038',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'politics',
@@ -395,7 +395,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00043',
+    id: 'fr_s00039',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'art',
@@ -405,7 +405,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00044',
+    id: 'fr_s00040',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'nature',
@@ -415,7 +415,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00046',
+    id: 'fr_s00041',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'time',
@@ -425,7 +425,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00052',
+    id: 'fr_s00042',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'media',
@@ -435,7 +435,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00053',
+    id: 'fr_s00043',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'culture',
@@ -445,7 +445,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00055',
+    id: 'fr_s00044',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'relationships',
@@ -455,7 +455,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00056',
+    id: 'fr_s00045',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'emergency',
@@ -465,7 +465,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00058',
+    id: 'fr_s00046',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'celebrations',
@@ -475,7 +475,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00059',
+    id: 'fr_s00047',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'philosophy',
@@ -485,7 +485,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00060',
+    id: 'fr_s00048',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'greetings',
@@ -495,7 +495,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00062',
+    id: 'fr_s00049',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'travel',
@@ -505,7 +505,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00070',
+    id: 'fr_s00050',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'hobbies',
@@ -515,7 +515,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00071',
+    id: 'fr_s00051',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'education',
@@ -525,7 +525,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00073',
+    id: 'fr_s00052',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'art',
@@ -535,7 +535,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00075',
+    id: 'fr_s00053',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'emotions',
@@ -545,7 +545,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00076',
+    id: 'fr_s00054',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'time',
@@ -555,7 +555,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00077',
+    id: 'fr_s00055',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'numbers',
@@ -565,7 +565,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00080',
+    id: 'fr_s00056',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'transport',
@@ -575,7 +575,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00082',
+    id: 'fr_s00057',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'media',
@@ -585,7 +585,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00083',
+    id: 'fr_s00058',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'culture',
@@ -595,7 +595,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00084',
+    id: 'fr_s00059',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'business',
@@ -605,7 +605,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00086',
+    id: 'fr_s00060',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'emergency',
@@ -615,7 +615,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00087',
+    id: 'fr_s00061',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'leisure',
@@ -625,7 +625,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00088',
+    id: 'fr_s00062',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'celebrations',
@@ -635,7 +635,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00090',
+    id: 'fr_s00063',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'greetings',
@@ -645,7 +645,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00091',
+    id: 'fr_s00064',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'daily-life',
@@ -655,7 +655,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00093',
+    id: 'fr_s00065',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'food',
@@ -665,7 +665,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00100',
+    id: 'fr_s00066',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'hobbies',
@@ -675,7 +675,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00103',
+    id: 'fr_s00067',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'art',
@@ -685,7 +685,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00105',
+    id: 'fr_s00068',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'emotions',
@@ -695,7 +695,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00107',
+    id: 'fr_s00069',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'numbers',
@@ -705,7 +705,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00108',
+    id: 'fr_s00070',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'directions',
@@ -715,7 +715,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00109',
+    id: 'fr_s00071',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'housing',
@@ -725,7 +725,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00113',
+    id: 'fr_s00072',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'culture',
@@ -735,7 +735,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00118',
+    id: 'fr_s00073',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'celebrations',
@@ -745,7 +745,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00121',
+    id: 'fr_s00074',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'daily-life',
@@ -755,7 +755,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00123',
+    id: 'fr_s00075',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'food',
@@ -765,7 +765,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00124',
+    id: 'fr_s00076',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'family',
@@ -775,7 +775,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00125',
+    id: 'fr_s00077',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'work',
@@ -785,7 +785,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00126',
+    id: 'fr_s00078',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'shopping',
@@ -795,7 +795,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00133',
+    id: 'fr_s00079',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'art',
@@ -805,7 +805,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00135',
+    id: 'fr_s00080',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'emotions',
@@ -815,7 +815,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00136',
+    id: 'fr_s00081',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'time',
@@ -825,7 +825,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00138',
+    id: 'fr_s00082',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'directions',
@@ -835,7 +835,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00140',
+    id: 'fr_s00083',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'transport',
@@ -845,7 +845,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00141',
+    id: 'fr_s00084',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'sports',
@@ -855,7 +855,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00142',
+    id: 'fr_s00085',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'media',
@@ -865,7 +865,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00143',
+    id: 'fr_s00086',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'culture',
@@ -875,7 +875,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00151',
+    id: 'fr_s00087',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'daily-life',
@@ -885,7 +885,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00154',
+    id: 'fr_s00088',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'family',
@@ -895,7 +895,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00155',
+    id: 'fr_s00089',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'work',
@@ -905,7 +905,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00156',
+    id: 'fr_s00090',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'shopping',
@@ -915,7 +915,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00159',
+    id: 'fr_s00091',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'weather',
@@ -925,7 +925,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00161',
+    id: 'fr_s00092',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'education',
@@ -935,7 +935,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00162',
+    id: 'fr_s00093',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'politics',
@@ -945,7 +945,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00169',
+    id: 'fr_s00094',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'housing',
@@ -955,7 +955,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00177',
+    id: 'fr_s00095',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'leisure',
@@ -965,7 +965,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00178',
+    id: 'fr_s00096',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'celebrations',
@@ -975,7 +975,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00182',
+    id: 'fr_s00097',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'travel',
@@ -985,7 +985,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00184',
+    id: 'fr_s00098',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'family',
@@ -995,7 +995,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00186',
+    id: 'fr_s00099',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'shopping',
@@ -1005,7 +1005,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00188',
+    id: 'fr_s00100',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'technology',
@@ -1015,7 +1015,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00191',
+    id: 'fr_s00101',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'education',
@@ -1025,7 +1025,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00192',
+    id: 'fr_s00102',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'politics',
@@ -1035,7 +1035,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00197',
+    id: 'fr_s00103',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'numbers',
@@ -1045,7 +1045,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00198',
+    id: 'fr_s00104',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'directions',
@@ -1055,7 +1055,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00199',
+    id: 'fr_s00105',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'housing',
@@ -1065,7 +1065,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00207',
+    id: 'fr_s00106',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'leisure',
@@ -1075,7 +1075,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00211',
+    id: 'fr_s00107',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'daily-life',
@@ -1085,7 +1085,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00213',
+    id: 'fr_s00108',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'food',
@@ -1095,7 +1095,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00216',
+    id: 'fr_s00109',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'shopping',
@@ -1105,7 +1105,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00217',
+    id: 'fr_s00110',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'health',
@@ -1115,7 +1115,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00218',
+    id: 'fr_s00111',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'technology',
@@ -1125,7 +1125,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00219',
+    id: 'fr_s00112',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'weather',
@@ -1135,7 +1135,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00225',
+    id: 'fr_s00113',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'emotions',
@@ -1145,7 +1145,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00226',
+    id: 'fr_s00114',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'time',
@@ -1155,7 +1155,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00228',
+    id: 'fr_s00115',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'directions',
@@ -1165,7 +1165,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00231',
+    id: 'fr_s00116',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'sports',
@@ -1175,7 +1175,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00233',
+    id: 'fr_s00117',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'culture',
@@ -1185,7 +1185,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00236',
+    id: 'fr_s00118',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'emergency',
@@ -1195,7 +1195,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00240',
+    id: 'fr_s00119',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'greetings',
@@ -1205,7 +1205,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00248',
+    id: 'fr_s00120',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'technology',
@@ -1215,7 +1215,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00251',
+    id: 'fr_s00121',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'education',
@@ -1225,7 +1225,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00255',
+    id: 'fr_s00122',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'emotions',
@@ -1235,7 +1235,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00257',
+    id: 'fr_s00123',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'numbers',
@@ -1245,7 +1245,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00258',
+    id: 'fr_s00124',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'directions',
@@ -1255,7 +1255,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00259',
+    id: 'fr_s00125',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'housing',
@@ -1265,7 +1265,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00260',
+    id: 'fr_s00126',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'transport',
@@ -1275,7 +1275,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00266',
+    id: 'fr_s00127',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'emergency',
@@ -1285,7 +1285,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00267',
+    id: 'fr_s00128',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'leisure',
@@ -1295,7 +1295,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00271',
+    id: 'fr_s00129',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'daily-life',
@@ -1305,7 +1305,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00277',
+    id: 'fr_s00130',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'health',
@@ -1315,7 +1315,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00278',
+    id: 'fr_s00131',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'technology',
@@ -1325,7 +1325,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00281',
+    id: 'fr_s00132',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'education',
@@ -1335,7 +1335,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00282',
+    id: 'fr_s00133',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'politics',
@@ -1345,7 +1345,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00284',
+    id: 'fr_s00134',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'nature',
@@ -1355,7 +1355,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00287',
+    id: 'fr_s00135',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'numbers',
@@ -1365,7 +1365,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00289',
+    id: 'fr_s00136',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'housing',
@@ -1375,7 +1375,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00290',
+    id: 'fr_s00137',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'transport',
@@ -1385,7 +1385,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00294',
+    id: 'fr_s00138',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'business',
@@ -1395,7 +1395,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00300',
+    id: 'fr_s00139',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'greetings',
@@ -1405,7 +1405,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00301',
+    id: 'fr_s00140',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'daily-life',
@@ -1415,7 +1415,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00302',
+    id: 'fr_s00141',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'travel',
@@ -1425,7 +1425,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00303',
+    id: 'fr_s00142',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'food',
@@ -1435,7 +1435,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00313',
+    id: 'fr_s00143',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'art',
@@ -1445,7 +1445,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00314',
+    id: 'fr_s00144',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'nature',
@@ -1455,7 +1455,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00315',
+    id: 'fr_s00145',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'emotions',
@@ -1465,7 +1465,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00323',
+    id: 'fr_s00146',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'culture',
@@ -1475,7 +1475,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00330',
+    id: 'fr_s00147',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'greetings',
@@ -1485,7 +1485,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00334',
+    id: 'fr_s00148',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'family',
@@ -1495,7 +1495,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00342',
+    id: 'fr_s00149',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'politics',
@@ -1505,7 +1505,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00344',
+    id: 'fr_s00150',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'nature',
@@ -1515,7 +1515,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00348',
+    id: 'fr_s00151',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'directions',
@@ -1525,7 +1525,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00350',
+    id: 'fr_s00152',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'transport',
@@ -1535,7 +1535,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00354',
+    id: 'fr_s00153',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'business',
@@ -1545,7 +1545,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00358',
+    id: 'fr_s00154',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'celebrations',
@@ -1555,7 +1555,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00365',
+    id: 'fr_s00155',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'work',
@@ -1565,7 +1565,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00366',
+    id: 'fr_s00156',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'shopping',
@@ -1575,7 +1575,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00372',
+    id: 'fr_s00157',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'politics',
@@ -1585,7 +1585,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00373',
+    id: 'fr_s00158',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'art',
@@ -1595,7 +1595,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00377',
+    id: 'fr_s00159',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'numbers',
@@ -1605,7 +1605,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00381',
+    id: 'fr_s00160',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'sports',
@@ -1615,7 +1615,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00390',
+    id: 'fr_s00161',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'greetings',
@@ -1625,7 +1625,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00395',
+    id: 'fr_s00162',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'work',
@@ -1635,7 +1635,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00398',
+    id: 'fr_s00163',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'technology',
@@ -1645,7 +1645,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00400',
+    id: 'fr_s00164',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'hobbies',
@@ -1655,7 +1655,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00404',
+    id: 'fr_s00165',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'nature',
@@ -1665,7 +1665,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00407',
+    id: 'fr_s00166',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'numbers',
@@ -1675,7 +1675,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00419',
+    id: 'fr_s00167',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'philosophy',
@@ -1685,7 +1685,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00420',
+    id: 'fr_s00168',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'greetings',
@@ -1695,7 +1695,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00427',
+    id: 'fr_s00169',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'health',
@@ -1705,7 +1705,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00436',
+    id: 'fr_s00170',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'time',
@@ -1715,7 +1715,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00437',
+    id: 'fr_s00171',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'numbers',
@@ -1725,7 +1725,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00444',
+    id: 'fr_s00172',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'business',
@@ -1735,7 +1735,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00445',
+    id: 'fr_s00173',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'relationships',
@@ -1745,7 +1745,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00447',
+    id: 'fr_s00174',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'leisure',
@@ -1755,7 +1755,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00463',
+    id: 'fr_s00175',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'art',
@@ -1765,7 +1765,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00464',
+    id: 'fr_s00176',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'nature',
@@ -1775,7 +1775,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00467',
+    id: 'fr_s00177',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'numbers',
@@ -1785,7 +1785,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00481',
+    id: 'fr_s00178',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'daily-life',
@@ -1795,7 +1795,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00484',
+    id: 'fr_s00179',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'family',
@@ -1805,7 +1805,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00499',
+    id: 'fr_s00180',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'housing',
@@ -1815,7 +1815,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00507',
+    id: 'fr_s00181',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'leisure',
@@ -1825,7 +1825,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00508',
+    id: 'fr_s00182',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'celebrations',
@@ -1835,7 +1835,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00512',
+    id: 'fr_s00183',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'travel',
@@ -1845,7 +1845,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00553',
+    id: 'fr_s00184',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'art',
@@ -1855,7 +1855,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00558',
+    id: 'fr_s00185',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'directions',
@@ -1865,7 +1865,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00570',
+    id: 'fr_s00186',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'greetings',
@@ -1875,7 +1875,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00576',
+    id: 'fr_s00187',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'shopping',
@@ -1885,7 +1885,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00592',
+    id: 'fr_s00188',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'media',
@@ -1895,7 +1895,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00598',
+    id: 'fr_s00189',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'celebrations',
@@ -1905,7 +1905,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00623',
+    id: 'fr_s00190',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'culture',
@@ -1915,7 +1915,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00626',
+    id: 'fr_s00191',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'emergency',
@@ -1925,7 +1925,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00631',
+    id: 'fr_s00192',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'daily-life',
@@ -1935,7 +1935,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00645',
+    id: 'fr_s00193',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'emotions',
@@ -1945,7 +1945,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00657',
+    id: 'fr_s00194',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'leisure',
@@ -1955,7 +1955,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00676',
+    id: 'fr_s00195',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'time',
@@ -1965,7 +1965,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00681',
+    id: 'fr_s00196',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'sports',
@@ -1975,7 +1975,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00692',
+    id: 'fr_s00197',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'travel',
@@ -1985,7 +1985,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00707',
+    id: 'fr_s00198',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'numbers',
@@ -1995,7 +1995,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00710',
+    id: 'fr_s00199',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'transport',
@@ -2005,7 +2005,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00721',
+    id: 'fr_s00200',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'daily-life',
@@ -2015,7 +2015,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00734',
+    id: 'fr_s00201',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'nature',
@@ -2025,7 +2025,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00773',
+    id: 'fr_s00202',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'culture',
@@ -2035,7 +2035,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00796',
+    id: 'fr_s00203',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'time',
@@ -2045,7 +2045,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00808',
+    id: 'fr_s00204',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'celebrations',
@@ -2055,7 +2055,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00830',
+    id: 'fr_s00205',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'transport',
@@ -2065,7 +2065,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00852',
+    id: 'fr_s00206',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'politics',
@@ -2075,7 +2075,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00862',
+    id: 'fr_s00207',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'media',
@@ -2085,7 +2085,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00866',
+    id: 'fr_s00208',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'emergency',
@@ -2095,7 +2095,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00926',
+    id: 'fr_s00209',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'emergency',
@@ -2105,7 +2105,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00937',
+    id: 'fr_s00210',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'health',
@@ -2115,7 +2115,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01019',
+    id: 'fr_s00211',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'philosophy',
@@ -2125,7 +2125,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01036',
+    id: 'fr_s00212',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'time',
@@ -2135,7 +2135,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01040',
+    id: 'fr_s00213',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'transport',
@@ -2145,7 +2145,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01053',
+    id: 'fr_s00214',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'food',
@@ -2155,7 +2155,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01071',
+    id: 'fr_s00215',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'sports',
@@ -2165,7 +2165,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01078',
+    id: 'fr_s00216',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'celebrations',
@@ -2175,7 +2175,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01087',
+    id: 'fr_s00217',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'health',
@@ -2185,7 +2185,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01088',
+    id: 'fr_s00218',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'technology',
@@ -2195,7 +2195,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01101',
+    id: 'fr_s00219',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'sports',
@@ -2205,7 +2205,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01135',
+    id: 'fr_s00220',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'relationships',
@@ -2215,7 +2215,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01202',
+    id: 'fr_s00221',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'travel',
@@ -2225,7 +2225,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01228',
+    id: 'fr_s00222',
     language: 'fr',
     cefr_level: 'A1',
     topic: 'celebrations',
@@ -2235,7 +2235,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00000',
+    id: 'fr_s00223',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'greetings',
@@ -2245,7 +2245,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00001',
+    id: 'fr_s00224',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'daily-life',
@@ -2255,7 +2255,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00002',
+    id: 'fr_s00225',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'travel',
@@ -2265,7 +2265,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00004',
+    id: 'fr_s00226',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'family',
@@ -2275,7 +2275,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00005',
+    id: 'fr_s00227',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -2285,7 +2285,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00006',
+    id: 'fr_s00228',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'shopping',
@@ -2295,7 +2295,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00007',
+    id: 'fr_s00229',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'health',
@@ -2305,7 +2305,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00010',
+    id: 'fr_s00230',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'hobbies',
@@ -2315,7 +2315,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00011',
+    id: 'fr_s00231',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'education',
@@ -2325,7 +2325,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00012',
+    id: 'fr_s00232',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'politics',
@@ -2335,7 +2335,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00013',
+    id: 'fr_s00233',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'art',
@@ -2345,7 +2345,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00014',
+    id: 'fr_s00234',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'nature',
@@ -2355,7 +2355,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00015',
+    id: 'fr_s00235',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emotions',
@@ -2365,7 +2365,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00016',
+    id: 'fr_s00236',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'time',
@@ -2375,7 +2375,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00017',
+    id: 'fr_s00237',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'numbers',
@@ -2385,7 +2385,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00018',
+    id: 'fr_s00238',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'directions',
@@ -2395,7 +2395,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00019',
+    id: 'fr_s00239',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'housing',
@@ -2405,7 +2405,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00020',
+    id: 'fr_s00240',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'transport',
@@ -2415,7 +2415,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00022',
+    id: 'fr_s00241',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'media',
@@ -2425,7 +2425,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00023',
+    id: 'fr_s00242',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'culture',
@@ -2435,7 +2435,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00024',
+    id: 'fr_s00243',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'business',
@@ -2445,7 +2445,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00025',
+    id: 'fr_s00244',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'relationships',
@@ -2455,7 +2455,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00026',
+    id: 'fr_s00245',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emergency',
@@ -2465,7 +2465,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00027',
+    id: 'fr_s00246',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'leisure',
@@ -2475,7 +2475,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00028',
+    id: 'fr_s00247',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'celebrations',
@@ -2485,7 +2485,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00029',
+    id: 'fr_s00248',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'philosophy',
@@ -2495,7 +2495,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00030',
+    id: 'fr_s00249',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'greetings',
@@ -2505,7 +2505,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00031',
+    id: 'fr_s00250',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'daily-life',
@@ -2515,7 +2515,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00032',
+    id: 'fr_s00251',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'travel',
@@ -2525,7 +2525,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00033',
+    id: 'fr_s00252',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'food',
@@ -2535,7 +2535,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00034',
+    id: 'fr_s00253',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'family',
@@ -2545,7 +2545,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00035',
+    id: 'fr_s00254',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -2555,7 +2555,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00036',
+    id: 'fr_s00255',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'shopping',
@@ -2565,7 +2565,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00037',
+    id: 'fr_s00256',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'health',
@@ -2575,7 +2575,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00038',
+    id: 'fr_s00257',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'technology',
@@ -2585,7 +2585,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00039',
+    id: 'fr_s00258',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'weather',
@@ -2595,7 +2595,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00040',
+    id: 'fr_s00259',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'hobbies',
@@ -2605,7 +2605,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00041',
+    id: 'fr_s00260',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'education',
@@ -2615,7 +2615,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00042',
+    id: 'fr_s00261',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'politics',
@@ -2625,7 +2625,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00046',
+    id: 'fr_s00262',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'time',
@@ -2635,7 +2635,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00047',
+    id: 'fr_s00263',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'numbers',
@@ -2645,7 +2645,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00048',
+    id: 'fr_s00264',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'directions',
@@ -2655,7 +2655,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00049',
+    id: 'fr_s00265',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'housing',
@@ -2665,7 +2665,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00051',
+    id: 'fr_s00266',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'sports',
@@ -2675,7 +2675,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00053',
+    id: 'fr_s00267',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'culture',
@@ -2685,7 +2685,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00054',
+    id: 'fr_s00268',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'business',
@@ -2695,7 +2695,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00055',
+    id: 'fr_s00269',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'relationships',
@@ -2705,7 +2705,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00056',
+    id: 'fr_s00270',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emergency',
@@ -2715,7 +2715,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00057',
+    id: 'fr_s00271',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'leisure',
@@ -2725,7 +2725,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00061',
+    id: 'fr_s00272',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'daily-life',
@@ -2735,7 +2735,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00065',
+    id: 'fr_s00273',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -2745,7 +2745,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00066',
+    id: 'fr_s00274',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'shopping',
@@ -2755,7 +2755,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00067',
+    id: 'fr_s00275',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'health',
@@ -2765,7 +2765,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00068',
+    id: 'fr_s00276',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'technology',
@@ -2775,7 +2775,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00069',
+    id: 'fr_s00277',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'weather',
@@ -2785,7 +2785,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00070',
+    id: 'fr_s00278',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'hobbies',
@@ -2795,7 +2795,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00071',
+    id: 'fr_s00279',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'education',
@@ -2805,7 +2805,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00072',
+    id: 'fr_s00280',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'politics',
@@ -2815,7 +2815,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00073',
+    id: 'fr_s00281',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'art',
@@ -2825,7 +2825,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00075',
+    id: 'fr_s00282',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emotions',
@@ -2835,7 +2835,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00077',
+    id: 'fr_s00283',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'numbers',
@@ -2845,7 +2845,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00078',
+    id: 'fr_s00284',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'directions',
@@ -2855,7 +2855,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00079',
+    id: 'fr_s00285',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'housing',
@@ -2865,7 +2865,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00080',
+    id: 'fr_s00286',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'transport',
@@ -2875,7 +2875,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00082',
+    id: 'fr_s00287',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'media',
@@ -2885,7 +2885,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00083',
+    id: 'fr_s00288',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'culture',
@@ -2895,7 +2895,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00085',
+    id: 'fr_s00289',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'relationships',
@@ -2905,7 +2905,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00086',
+    id: 'fr_s00290',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emergency',
@@ -2915,7 +2915,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00089',
+    id: 'fr_s00291',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'philosophy',
@@ -2925,7 +2925,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00090',
+    id: 'fr_s00292',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'greetings',
@@ -2935,7 +2935,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00091',
+    id: 'fr_s00293',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'daily-life',
@@ -2945,7 +2945,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00092',
+    id: 'fr_s00294',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'travel',
@@ -2955,7 +2955,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00093',
+    id: 'fr_s00295',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'food',
@@ -2965,7 +2965,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00094',
+    id: 'fr_s00296',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'family',
@@ -2975,7 +2975,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00095',
+    id: 'fr_s00297',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -2985,7 +2985,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00098',
+    id: 'fr_s00298',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'technology',
@@ -2995,7 +2995,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00099',
+    id: 'fr_s00299',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'weather',
@@ -3005,7 +3005,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00100',
+    id: 'fr_s00300',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'hobbies',
@@ -3015,7 +3015,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00101',
+    id: 'fr_s00301',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'education',
@@ -3025,7 +3025,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00103',
+    id: 'fr_s00302',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'art',
@@ -3035,7 +3035,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00105',
+    id: 'fr_s00303',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emotions',
@@ -3045,7 +3045,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00106',
+    id: 'fr_s00304',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'time',
@@ -3055,7 +3055,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00108',
+    id: 'fr_s00305',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'directions',
@@ -3065,7 +3065,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00109',
+    id: 'fr_s00306',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'housing',
@@ -3075,7 +3075,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00110',
+    id: 'fr_s00307',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'transport',
@@ -3085,7 +3085,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00112',
+    id: 'fr_s00308',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'media',
@@ -3095,7 +3095,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00113',
+    id: 'fr_s00309',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'culture',
@@ -3105,7 +3105,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00116',
+    id: 'fr_s00310',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emergency',
@@ -3115,7 +3115,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00117',
+    id: 'fr_s00311',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'leisure',
@@ -3125,7 +3125,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00121',
+    id: 'fr_s00312',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'daily-life',
@@ -3135,7 +3135,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00125',
+    id: 'fr_s00313',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -3145,7 +3145,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00127',
+    id: 'fr_s00314',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'health',
@@ -3155,7 +3155,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00129',
+    id: 'fr_s00315',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'weather',
@@ -3165,7 +3165,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00133',
+    id: 'fr_s00316',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'art',
@@ -3175,7 +3175,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00135',
+    id: 'fr_s00317',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emotions',
@@ -3185,7 +3185,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00137',
+    id: 'fr_s00318',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'numbers',
@@ -3195,7 +3195,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00139',
+    id: 'fr_s00319',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'housing',
@@ -3205,7 +3205,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00140',
+    id: 'fr_s00320',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'transport',
@@ -3215,7 +3215,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00142',
+    id: 'fr_s00321',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'media',
@@ -3225,7 +3225,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00144',
+    id: 'fr_s00322',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'business',
@@ -3235,7 +3235,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00148',
+    id: 'fr_s00323',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'celebrations',
@@ -3245,7 +3245,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00150',
+    id: 'fr_s00324',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'greetings',
@@ -3255,7 +3255,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00151',
+    id: 'fr_s00325',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'daily-life',
@@ -3265,7 +3265,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00153',
+    id: 'fr_s00326',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'food',
@@ -3275,7 +3275,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00155',
+    id: 'fr_s00327',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -3285,7 +3285,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00158',
+    id: 'fr_s00328',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'technology',
@@ -3295,7 +3295,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00162',
+    id: 'fr_s00329',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'politics',
@@ -3305,7 +3305,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00164',
+    id: 'fr_s00330',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'nature',
@@ -3315,7 +3315,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00168',
+    id: 'fr_s00331',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'directions',
@@ -3325,7 +3325,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00169',
+    id: 'fr_s00332',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'housing',
@@ -3335,7 +3335,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00172',
+    id: 'fr_s00333',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'media',
@@ -3345,7 +3345,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00173',
+    id: 'fr_s00334',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'culture',
@@ -3355,7 +3355,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00178',
+    id: 'fr_s00335',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'celebrations',
@@ -3365,7 +3365,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00180',
+    id: 'fr_s00336',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'greetings',
@@ -3375,7 +3375,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00181',
+    id: 'fr_s00337',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'daily-life',
@@ -3385,7 +3385,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00184',
+    id: 'fr_s00338',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'family',
@@ -3395,7 +3395,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00188',
+    id: 'fr_s00339',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'technology',
@@ -3405,7 +3405,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00192',
+    id: 'fr_s00340',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'politics',
@@ -3415,7 +3415,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00193',
+    id: 'fr_s00341',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'art',
@@ -3425,7 +3425,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00194',
+    id: 'fr_s00342',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'nature',
@@ -3435,7 +3435,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00195',
+    id: 'fr_s00343',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emotions',
@@ -3445,7 +3445,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00197',
+    id: 'fr_s00344',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'numbers',
@@ -3455,7 +3455,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00198',
+    id: 'fr_s00345',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'directions',
@@ -3465,7 +3465,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00201',
+    id: 'fr_s00346',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'sports',
@@ -3475,7 +3475,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00205',
+    id: 'fr_s00347',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'relationships',
@@ -3485,7 +3485,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00209',
+    id: 'fr_s00348',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'philosophy',
@@ -3495,7 +3495,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00210',
+    id: 'fr_s00349',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'greetings',
@@ -3505,7 +3505,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00211',
+    id: 'fr_s00350',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'daily-life',
@@ -3515,7 +3515,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00212',
+    id: 'fr_s00351',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'travel',
@@ -3525,7 +3525,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00213',
+    id: 'fr_s00352',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'food',
@@ -3535,7 +3535,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00215',
+    id: 'fr_s00353',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -3545,7 +3545,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00219',
+    id: 'fr_s00354',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'weather',
@@ -3555,7 +3555,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00220',
+    id: 'fr_s00355',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'hobbies',
@@ -3565,7 +3565,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00224',
+    id: 'fr_s00356',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'nature',
@@ -3575,7 +3575,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00226',
+    id: 'fr_s00357',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'time',
@@ -3585,7 +3585,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00227',
+    id: 'fr_s00358',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'numbers',
@@ -3595,7 +3595,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00228',
+    id: 'fr_s00359',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'directions',
@@ -3605,7 +3605,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00229',
+    id: 'fr_s00360',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'housing',
@@ -3615,7 +3615,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00235',
+    id: 'fr_s00361',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'relationships',
@@ -3625,7 +3625,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00239',
+    id: 'fr_s00362',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'philosophy',
@@ -3635,7 +3635,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00242',
+    id: 'fr_s00363',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'travel',
@@ -3645,7 +3645,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00245',
+    id: 'fr_s00364',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -3655,7 +3655,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00252',
+    id: 'fr_s00365',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'politics',
@@ -3665,7 +3665,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00255',
+    id: 'fr_s00366',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emotions',
@@ -3675,7 +3675,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00256',
+    id: 'fr_s00367',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'time',
@@ -3685,7 +3685,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00259',
+    id: 'fr_s00368',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'housing',
@@ -3695,7 +3695,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00260',
+    id: 'fr_s00369',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'transport',
@@ -3705,7 +3705,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00261',
+    id: 'fr_s00370',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'sports',
@@ -3715,7 +3715,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00262',
+    id: 'fr_s00371',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'media',
@@ -3725,7 +3725,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00263',
+    id: 'fr_s00372',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'culture',
@@ -3735,7 +3735,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00264',
+    id: 'fr_s00373',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'business',
@@ -3745,7 +3745,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00266',
+    id: 'fr_s00374',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emergency',
@@ -3755,7 +3755,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00269',
+    id: 'fr_s00375',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'philosophy',
@@ -3765,7 +3765,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00270',
+    id: 'fr_s00376',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'greetings',
@@ -3775,7 +3775,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00273',
+    id: 'fr_s00377',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'food',
@@ -3785,7 +3785,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00275',
+    id: 'fr_s00378',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -3795,7 +3795,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00281',
+    id: 'fr_s00379',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'education',
@@ -3805,7 +3805,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00286',
+    id: 'fr_s00380',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'time',
@@ -3815,7 +3815,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00288',
+    id: 'fr_s00381',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'directions',
@@ -3825,7 +3825,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00292',
+    id: 'fr_s00382',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'media',
@@ -3835,7 +3835,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00306',
+    id: 'fr_s00383',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'shopping',
@@ -3845,7 +3845,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00309',
+    id: 'fr_s00384',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'weather',
@@ -3855,7 +3855,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00310',
+    id: 'fr_s00385',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'hobbies',
@@ -3865,7 +3865,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00315',
+    id: 'fr_s00386',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emotions',
@@ -3875,7 +3875,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00316',
+    id: 'fr_s00387',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'time',
@@ -3885,7 +3885,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00317',
+    id: 'fr_s00388',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'numbers',
@@ -3895,7 +3895,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00318',
+    id: 'fr_s00389',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'directions',
@@ -3905,7 +3905,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00320',
+    id: 'fr_s00390',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'transport',
@@ -3915,7 +3915,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00321',
+    id: 'fr_s00391',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'sports',
@@ -3925,7 +3925,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00325',
+    id: 'fr_s00392',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'relationships',
@@ -3935,7 +3935,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00327',
+    id: 'fr_s00393',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'leisure',
@@ -3945,7 +3945,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00329',
+    id: 'fr_s00394',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'philosophy',
@@ -3955,7 +3955,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00333',
+    id: 'fr_s00395',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'food',
@@ -3965,7 +3965,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00344',
+    id: 'fr_s00396',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'nature',
@@ -3975,7 +3975,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00352',
+    id: 'fr_s00397',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'media',
@@ -3985,7 +3985,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00357',
+    id: 'fr_s00398',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'leisure',
@@ -3995,7 +3995,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00365',
+    id: 'fr_s00399',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -4005,7 +4005,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00371',
+    id: 'fr_s00400',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'education',
@@ -4015,7 +4015,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00372',
+    id: 'fr_s00401',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'politics',
@@ -4025,7 +4025,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00375',
+    id: 'fr_s00402',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emotions',
@@ -4035,7 +4035,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00376',
+    id: 'fr_s00403',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'time',
@@ -4045,7 +4045,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00384',
+    id: 'fr_s00404',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'business',
@@ -4055,7 +4055,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00398',
+    id: 'fr_s00405',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'technology',
@@ -4065,7 +4065,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00404',
+    id: 'fr_s00406',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'nature',
@@ -4075,7 +4075,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00420',
+    id: 'fr_s00407',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'greetings',
@@ -4085,7 +4085,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00428',
+    id: 'fr_s00408',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'technology',
@@ -4095,7 +4095,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00433',
+    id: 'fr_s00409',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'art',
@@ -4105,7 +4105,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00443',
+    id: 'fr_s00410',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'culture',
@@ -4115,7 +4115,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00453',
+    id: 'fr_s00411',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'food',
@@ -4125,7 +4125,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00454',
+    id: 'fr_s00412',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'family',
@@ -4135,7 +4135,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00455',
+    id: 'fr_s00413',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -4145,7 +4145,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00470',
+    id: 'fr_s00414',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'transport',
@@ -4155,7 +4155,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00473',
+    id: 'fr_s00415',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'culture',
@@ -4165,7 +4165,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00474',
+    id: 'fr_s00416',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'business',
@@ -4175,7 +4175,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00486',
+    id: 'fr_s00417',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'shopping',
@@ -4185,7 +4185,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00489',
+    id: 'fr_s00418',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'weather',
@@ -4195,7 +4195,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00494',
+    id: 'fr_s00419',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'nature',
@@ -4205,7 +4205,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00505',
+    id: 'fr_s00420',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'relationships',
@@ -4215,7 +4215,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00514',
+    id: 'fr_s00421',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'family',
@@ -4225,7 +4225,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00515',
+    id: 'fr_s00422',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -4235,7 +4235,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00527',
+    id: 'fr_s00423',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'numbers',
@@ -4245,7 +4245,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00529',
+    id: 'fr_s00424',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'housing',
@@ -4255,7 +4255,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00530',
+    id: 'fr_s00425',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'transport',
@@ -4265,7 +4265,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00532',
+    id: 'fr_s00426',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'media',
@@ -4275,7 +4275,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00538',
+    id: 'fr_s00427',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'celebrations',
@@ -4285,7 +4285,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00555',
+    id: 'fr_s00428',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emotions',
@@ -4295,7 +4295,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00563',
+    id: 'fr_s00429',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'culture',
@@ -4305,7 +4305,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00564',
+    id: 'fr_s00430',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'business',
@@ -4315,7 +4315,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00567',
+    id: 'fr_s00431',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'leisure',
@@ -4325,7 +4325,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00575',
+    id: 'fr_s00432',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -4335,7 +4335,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00578',
+    id: 'fr_s00433',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'technology',
@@ -4345,7 +4345,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00584',
+    id: 'fr_s00434',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'nature',
@@ -4355,7 +4355,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00589',
+    id: 'fr_s00435',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'housing',
@@ -4365,7 +4365,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00596',
+    id: 'fr_s00436',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emergency',
@@ -4375,7 +4375,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00602',
+    id: 'fr_s00437',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'travel',
@@ -4385,7 +4385,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00626',
+    id: 'fr_s00438',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emergency',
@@ -4395,7 +4395,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00629',
+    id: 'fr_s00439',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'philosophy',
@@ -4405,7 +4405,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00646',
+    id: 'fr_s00440',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'time',
@@ -4415,7 +4415,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00650',
+    id: 'fr_s00441',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'transport',
@@ -4425,7 +4425,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00671',
+    id: 'fr_s00442',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'education',
@@ -4435,7 +4435,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00676',
+    id: 'fr_s00443',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'time',
@@ -4445,7 +4445,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00688',
+    id: 'fr_s00444',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'celebrations',
@@ -4455,7 +4455,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00690',
+    id: 'fr_s00445',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'greetings',
@@ -4465,7 +4465,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00691',
+    id: 'fr_s00446',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'daily-life',
@@ -4475,7 +4475,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00698',
+    id: 'fr_s00447',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'technology',
@@ -4485,7 +4485,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00699',
+    id: 'fr_s00448',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'weather',
@@ -4495,7 +4495,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00702',
+    id: 'fr_s00449',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'politics',
@@ -4505,7 +4505,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00706',
+    id: 'fr_s00450',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'time',
@@ -4515,7 +4515,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00708',
+    id: 'fr_s00451',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'directions',
@@ -4525,7 +4525,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00711',
+    id: 'fr_s00452',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'sports',
@@ -4535,7 +4535,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00736',
+    id: 'fr_s00453',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'time',
@@ -4545,7 +4545,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00741',
+    id: 'fr_s00454',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'sports',
@@ -4555,7 +4555,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00747',
+    id: 'fr_s00455',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'leisure',
@@ -4565,7 +4565,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00754',
+    id: 'fr_s00456',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'family',
@@ -4575,7 +4575,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00768',
+    id: 'fr_s00457',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'directions',
@@ -4585,7 +4585,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00772',
+    id: 'fr_s00458',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'media',
@@ -4595,7 +4595,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00778',
+    id: 'fr_s00459',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'celebrations',
@@ -4605,7 +4605,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00782',
+    id: 'fr_s00460',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'travel',
@@ -4615,7 +4615,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00787',
+    id: 'fr_s00461',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'health',
@@ -4625,7 +4625,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00796',
+    id: 'fr_s00462',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'time',
@@ -4635,7 +4635,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00814',
+    id: 'fr_s00463',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'family',
@@ -4645,7 +4645,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00831',
+    id: 'fr_s00464',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'sports',
@@ -4655,7 +4655,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00844',
+    id: 'fr_s00465',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'family',
@@ -4665,7 +4665,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00849',
+    id: 'fr_s00466',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'weather',
@@ -4675,7 +4675,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00858',
+    id: 'fr_s00467',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'directions',
@@ -4685,7 +4685,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00859',
+    id: 'fr_s00468',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'housing',
@@ -4695,7 +4695,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00866',
+    id: 'fr_s00469',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emergency',
@@ -4705,7 +4705,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00869',
+    id: 'fr_s00470',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'philosophy',
@@ -4715,7 +4715,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00885',
+    id: 'fr_s00471',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emotions',
@@ -4725,7 +4725,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00887',
+    id: 'fr_s00472',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'numbers',
@@ -4735,7 +4735,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00896',
+    id: 'fr_s00473',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'emergency',
@@ -4745,7 +4745,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00897',
+    id: 'fr_s00474',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'leisure',
@@ -4755,7 +4755,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00905',
+    id: 'fr_s00475',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -4765,7 +4765,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00918',
+    id: 'fr_s00476',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'directions',
@@ -4775,7 +4775,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00929',
+    id: 'fr_s00477',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'philosophy',
@@ -4785,7 +4785,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00940',
+    id: 'fr_s00478',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'hobbies',
@@ -4795,7 +4795,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00943',
+    id: 'fr_s00479',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'art',
@@ -4805,7 +4805,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00952',
+    id: 'fr_s00480',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'media',
@@ -4815,7 +4815,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00963',
+    id: 'fr_s00481',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'food',
@@ -4825,7 +4825,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00974',
+    id: 'fr_s00482',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'nature',
@@ -4835,7 +4835,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00982',
+    id: 'fr_s00483',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'media',
@@ -4845,7 +4845,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00984',
+    id: 'fr_s00484',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'business',
@@ -4855,7 +4855,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00998',
+    id: 'fr_s00485',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'technology',
@@ -4865,7 +4865,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01001',
+    id: 'fr_s00486',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'education',
@@ -4875,7 +4875,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01008',
+    id: 'fr_s00487',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'directions',
@@ -4885,7 +4885,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01024',
+    id: 'fr_s00488',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'family',
@@ -4895,7 +4895,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01052',
+    id: 'fr_s00489',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'travel',
@@ -4905,7 +4905,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01055',
+    id: 'fr_s00490',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -4915,7 +4915,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01067',
+    id: 'fr_s00491',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'numbers',
@@ -4925,7 +4925,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01102',
+    id: 'fr_s00492',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'media',
@@ -4935,7 +4935,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01104',
+    id: 'fr_s00493',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'business',
@@ -4945,7 +4945,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01114',
+    id: 'fr_s00494',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'family',
@@ -4955,7 +4955,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01115',
+    id: 'fr_s00495',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'work',
@@ -4965,7 +4965,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01117',
+    id: 'fr_s00496',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'health',
@@ -4975,7 +4975,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01187',
+    id: 'fr_s00497',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'numbers',
@@ -4985,7 +4985,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01199',
+    id: 'fr_s00498',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'philosophy',
@@ -4995,7 +4995,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01206',
+    id: 'fr_s00499',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'shopping',
@@ -5005,7 +5005,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01211',
+    id: 'fr_s00500',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'education',
@@ -5015,7 +5015,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01214',
+    id: 'fr_s00501',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'nature',
@@ -5025,7 +5025,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01249',
+    id: 'fr_s00502',
     language: 'fr',
     cefr_level: 'A2',
     topic: 'housing',
@@ -5035,7 +5035,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00000',
+    id: 'fr_s00503',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'greetings',
@@ -5045,7 +5045,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00001',
+    id: 'fr_s00504',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'daily-life',
@@ -5055,7 +5055,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00002',
+    id: 'fr_s00505',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'travel',
@@ -5065,7 +5065,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00003',
+    id: 'fr_s00506',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'food',
@@ -5075,7 +5075,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00004',
+    id: 'fr_s00507',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'family',
@@ -5085,7 +5085,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00005',
+    id: 'fr_s00508',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'work',
@@ -5095,7 +5095,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00006',
+    id: 'fr_s00509',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'shopping',
@@ -5105,7 +5105,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00007',
+    id: 'fr_s00510',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'health',
@@ -5115,7 +5115,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00008',
+    id: 'fr_s00511',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'technology',
@@ -5125,7 +5125,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00009',
+    id: 'fr_s00512',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'weather',
@@ -5135,7 +5135,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00010',
+    id: 'fr_s00513',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'hobbies',
@@ -5145,7 +5145,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00011',
+    id: 'fr_s00514',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'education',
@@ -5155,7 +5155,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00012',
+    id: 'fr_s00515',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'politics',
@@ -5165,7 +5165,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00013',
+    id: 'fr_s00516',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'art',
@@ -5175,7 +5175,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00014',
+    id: 'fr_s00517',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'nature',
@@ -5185,7 +5185,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00015',
+    id: 'fr_s00518',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'emotions',
@@ -5195,7 +5195,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00016',
+    id: 'fr_s00519',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'time',
@@ -5205,7 +5205,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00017',
+    id: 'fr_s00520',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'numbers',
@@ -5215,7 +5215,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00018',
+    id: 'fr_s00521',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'directions',
@@ -5225,7 +5225,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00019',
+    id: 'fr_s00522',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'housing',
@@ -5235,7 +5235,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00020',
+    id: 'fr_s00523',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'transport',
@@ -5245,7 +5245,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00021',
+    id: 'fr_s00524',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'sports',
@@ -5255,7 +5255,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00022',
+    id: 'fr_s00525',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'media',
@@ -5265,7 +5265,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00023',
+    id: 'fr_s00526',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'culture',
@@ -5275,7 +5275,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00024',
+    id: 'fr_s00527',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'business',
@@ -5285,7 +5285,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00025',
+    id: 'fr_s00528',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'relationships',
@@ -5295,7 +5295,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00026',
+    id: 'fr_s00529',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'emergency',
@@ -5305,7 +5305,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00027',
+    id: 'fr_s00530',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'leisure',
@@ -5315,7 +5315,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00028',
+    id: 'fr_s00531',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'celebrations',
@@ -5325,7 +5325,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00029',
+    id: 'fr_s00532',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'philosophy',
@@ -5335,7 +5335,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00030',
+    id: 'fr_s00533',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'greetings',
@@ -5345,7 +5345,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00033',
+    id: 'fr_s00534',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'food',
@@ -5355,7 +5355,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00034',
+    id: 'fr_s00535',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'family',
@@ -5365,7 +5365,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00035',
+    id: 'fr_s00536',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'work',
@@ -5375,7 +5375,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00036',
+    id: 'fr_s00537',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'shopping',
@@ -5385,7 +5385,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00037',
+    id: 'fr_s00538',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'health',
@@ -5395,7 +5395,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00038',
+    id: 'fr_s00539',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'technology',
@@ -5405,7 +5405,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00039',
+    id: 'fr_s00540',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'weather',
@@ -5415,7 +5415,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00040',
+    id: 'fr_s00541',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'hobbies',
@@ -5425,7 +5425,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00042',
+    id: 'fr_s00542',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'politics',
@@ -5435,7 +5435,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00045',
+    id: 'fr_s00543',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'emotions',
@@ -5445,7 +5445,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00046',
+    id: 'fr_s00544',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'time',
@@ -5455,7 +5455,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00047',
+    id: 'fr_s00545',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'numbers',
@@ -5465,7 +5465,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00049',
+    id: 'fr_s00546',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'housing',
@@ -5475,7 +5475,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00050',
+    id: 'fr_s00547',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'transport',
@@ -5485,7 +5485,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00051',
+    id: 'fr_s00548',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'sports',
@@ -5495,7 +5495,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00052',
+    id: 'fr_s00549',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'media',
@@ -5505,7 +5505,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00053',
+    id: 'fr_s00550',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'culture',
@@ -5515,7 +5515,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00054',
+    id: 'fr_s00551',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'business',
@@ -5525,7 +5525,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00056',
+    id: 'fr_s00552',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'emergency',
@@ -5535,7 +5535,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00057',
+    id: 'fr_s00553',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'leisure',
@@ -5545,7 +5545,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00058',
+    id: 'fr_s00554',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'celebrations',
@@ -5555,7 +5555,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00060',
+    id: 'fr_s00555',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'greetings',
@@ -5565,7 +5565,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00061',
+    id: 'fr_s00556',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'daily-life',
@@ -5575,7 +5575,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00062',
+    id: 'fr_s00557',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'travel',
@@ -5585,7 +5585,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00063',
+    id: 'fr_s00558',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'food',
@@ -5595,7 +5595,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00065',
+    id: 'fr_s00559',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'work',
@@ -5605,7 +5605,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00066',
+    id: 'fr_s00560',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'shopping',
@@ -5615,7 +5615,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00068',
+    id: 'fr_s00561',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'technology',
@@ -5625,7 +5625,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00069',
+    id: 'fr_s00562',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'weather',
@@ -5635,7 +5635,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00073',
+    id: 'fr_s00563',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'art',
@@ -5645,7 +5645,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00075',
+    id: 'fr_s00564',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'emotions',
@@ -5655,7 +5655,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00076',
+    id: 'fr_s00565',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'time',
@@ -5665,7 +5665,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00077',
+    id: 'fr_s00566',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'numbers',
@@ -5675,7 +5675,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00078',
+    id: 'fr_s00567',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'directions',
@@ -5685,7 +5685,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00079',
+    id: 'fr_s00568',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'housing',
@@ -5695,7 +5695,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00080',
+    id: 'fr_s00569',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'transport',
@@ -5705,7 +5705,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00081',
+    id: 'fr_s00570',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'sports',
@@ -5715,7 +5715,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00084',
+    id: 'fr_s00571',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'business',
@@ -5725,7 +5725,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00086',
+    id: 'fr_s00572',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'emergency',
@@ -5735,7 +5735,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00089',
+    id: 'fr_s00573',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'philosophy',
@@ -5745,7 +5745,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00091',
+    id: 'fr_s00574',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'daily-life',
@@ -5755,7 +5755,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00092',
+    id: 'fr_s00575',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'travel',
@@ -5765,7 +5765,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00093',
+    id: 'fr_s00576',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'food',
@@ -5775,7 +5775,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00094',
+    id: 'fr_s00577',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'family',
@@ -5785,7 +5785,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00095',
+    id: 'fr_s00578',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'work',
@@ -5795,7 +5795,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00096',
+    id: 'fr_s00579',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'shopping',
@@ -5805,7 +5805,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00097',
+    id: 'fr_s00580',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'health',
@@ -5815,7 +5815,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00098',
+    id: 'fr_s00581',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'technology',
@@ -5825,7 +5825,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00101',
+    id: 'fr_s00582',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'education',
@@ -5835,7 +5835,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00103',
+    id: 'fr_s00583',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'art',
@@ -5845,7 +5845,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00104',
+    id: 'fr_s00584',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'nature',
@@ -5855,7 +5855,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00105',
+    id: 'fr_s00585',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'emotions',
@@ -5865,7 +5865,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00108',
+    id: 'fr_s00586',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'directions',
@@ -5875,7 +5875,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00110',
+    id: 'fr_s00587',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'transport',
@@ -5885,7 +5885,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00112',
+    id: 'fr_s00588',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'media',
@@ -5895,7 +5895,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00113',
+    id: 'fr_s00589',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'culture',
@@ -5905,7 +5905,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00114',
+    id: 'fr_s00590',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'business',
@@ -5915,7 +5915,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00119',
+    id: 'fr_s00591',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'philosophy',
@@ -5925,7 +5925,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00120',
+    id: 'fr_s00592',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'greetings',
@@ -5935,7 +5935,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00121',
+    id: 'fr_s00593',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'daily-life',
@@ -5945,7 +5945,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00122',
+    id: 'fr_s00594',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'travel',
@@ -5955,7 +5955,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00124',
+    id: 'fr_s00595',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'family',
@@ -5965,7 +5965,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00125',
+    id: 'fr_s00596',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'work',
@@ -5975,7 +5975,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00131',
+    id: 'fr_s00597',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'education',
@@ -5985,7 +5985,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00132',
+    id: 'fr_s00598',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'politics',
@@ -5995,7 +5995,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00133',
+    id: 'fr_s00599',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'art',
@@ -6005,7 +6005,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00136',
+    id: 'fr_s00600',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'time',
@@ -6015,7 +6015,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00139',
+    id: 'fr_s00601',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'housing',
@@ -6025,7 +6025,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00140',
+    id: 'fr_s00602',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'transport',
@@ -6035,7 +6035,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00141',
+    id: 'fr_s00603',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'sports',
@@ -6045,7 +6045,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00142',
+    id: 'fr_s00604',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'media',
@@ -6055,7 +6055,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00143',
+    id: 'fr_s00605',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'culture',
@@ -6065,7 +6065,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00145',
+    id: 'fr_s00606',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'relationships',
@@ -6075,7 +6075,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00146',
+    id: 'fr_s00607',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'emergency',
@@ -6085,7 +6085,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00151',
+    id: 'fr_s00608',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'daily-life',
@@ -6095,7 +6095,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00152',
+    id: 'fr_s00609',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'travel',
@@ -6105,7 +6105,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00153',
+    id: 'fr_s00610',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'food',
@@ -6115,7 +6115,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00154',
+    id: 'fr_s00611',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'family',
@@ -6125,7 +6125,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00155',
+    id: 'fr_s00612',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'work',
@@ -6135,7 +6135,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00161',
+    id: 'fr_s00613',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'education',
@@ -6145,7 +6145,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00162',
+    id: 'fr_s00614',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'politics',
@@ -6155,7 +6155,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00164',
+    id: 'fr_s00615',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'nature',
@@ -6165,7 +6165,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00166',
+    id: 'fr_s00616',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'time',
@@ -6175,7 +6175,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00168',
+    id: 'fr_s00617',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'directions',
@@ -6185,7 +6185,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00169',
+    id: 'fr_s00618',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'housing',
@@ -6195,7 +6195,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00171',
+    id: 'fr_s00619',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'sports',
@@ -6205,7 +6205,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00172',
+    id: 'fr_s00620',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'media',
@@ -6215,7 +6215,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00177',
+    id: 'fr_s00621',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'leisure',
@@ -6225,7 +6225,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00185',
+    id: 'fr_s00622',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'work',
@@ -6235,7 +6235,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00186',
+    id: 'fr_s00623',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'shopping',
@@ -6245,7 +6245,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00188',
+    id: 'fr_s00624',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'technology',
@@ -6255,7 +6255,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00189',
+    id: 'fr_s00625',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'weather',
@@ -6265,7 +6265,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00191',
+    id: 'fr_s00626',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'education',
@@ -6275,7 +6275,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00194',
+    id: 'fr_s00627',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'nature',
@@ -6285,7 +6285,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00199',
+    id: 'fr_s00628',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'housing',
@@ -6295,7 +6295,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00203',
+    id: 'fr_s00629',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'culture',
@@ -6305,7 +6305,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00207',
+    id: 'fr_s00630',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'leisure',
@@ -6315,7 +6315,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00210',
+    id: 'fr_s00631',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'greetings',
@@ -6325,7 +6325,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00211',
+    id: 'fr_s00632',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'daily-life',
@@ -6335,7 +6335,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00212',
+    id: 'fr_s00633',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'travel',
@@ -6345,7 +6345,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00214',
+    id: 'fr_s00634',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'family',
@@ -6355,7 +6355,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00222',
+    id: 'fr_s00635',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'politics',
@@ -6365,7 +6365,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00227',
+    id: 'fr_s00636',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'numbers',
@@ -6375,7 +6375,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00231',
+    id: 'fr_s00637',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'sports',
@@ -6385,7 +6385,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00232',
+    id: 'fr_s00638',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'media',
@@ -6395,7 +6395,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00234',
+    id: 'fr_s00639',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'business',
@@ -6405,7 +6405,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00236',
+    id: 'fr_s00640',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'emergency',
@@ -6415,7 +6415,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00240',
+    id: 'fr_s00641',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'greetings',
@@ -6425,7 +6425,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00243',
+    id: 'fr_s00642',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'food',
@@ -6435,7 +6435,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00248',
+    id: 'fr_s00643',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'technology',
@@ -6445,7 +6445,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00251',
+    id: 'fr_s00644',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'education',
@@ -6455,7 +6455,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00253',
+    id: 'fr_s00645',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'art',
@@ -6465,7 +6465,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00258',
+    id: 'fr_s00646',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'directions',
@@ -6475,7 +6475,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00260',
+    id: 'fr_s00647',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'transport',
@@ -6485,7 +6485,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00262',
+    id: 'fr_s00648',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'media',
@@ -6495,7 +6495,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00269',
+    id: 'fr_s00649',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'philosophy',
@@ -6505,7 +6505,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00270',
+    id: 'fr_s00650',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'greetings',
@@ -6515,7 +6515,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00272',
+    id: 'fr_s00651',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'travel',
@@ -6525,7 +6525,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00276',
+    id: 'fr_s00652',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'shopping',
@@ -6535,7 +6535,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00282',
+    id: 'fr_s00653',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'politics',
@@ -6545,7 +6545,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00288',
+    id: 'fr_s00654',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'directions',
@@ -6555,7 +6555,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00290',
+    id: 'fr_s00655',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'transport',
@@ -6565,7 +6565,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00308',
+    id: 'fr_s00656',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'technology',
@@ -6575,7 +6575,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00310',
+    id: 'fr_s00657',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'hobbies',
@@ -6585,7 +6585,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00312',
+    id: 'fr_s00658',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'politics',
@@ -6595,7 +6595,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00314',
+    id: 'fr_s00659',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'nature',
@@ -6605,7 +6605,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00316',
+    id: 'fr_s00660',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'time',
@@ -6615,7 +6615,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00318',
+    id: 'fr_s00661',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'directions',
@@ -6625,7 +6625,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00319',
+    id: 'fr_s00662',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'housing',
@@ -6635,7 +6635,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00320',
+    id: 'fr_s00663',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'transport',
@@ -6645,7 +6645,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00321',
+    id: 'fr_s00664',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'sports',
@@ -6655,7 +6655,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00324',
+    id: 'fr_s00665',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'business',
@@ -6665,7 +6665,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00326',
+    id: 'fr_s00666',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'emergency',
@@ -6675,7 +6675,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00333',
+    id: 'fr_s00667',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'food',
@@ -6685,7 +6685,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00335',
+    id: 'fr_s00668',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'work',
@@ -6695,7 +6695,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00337',
+    id: 'fr_s00669',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'health',
@@ -6705,7 +6705,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00340',
+    id: 'fr_s00670',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'hobbies',
@@ -6715,7 +6715,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00344',
+    id: 'fr_s00671',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'nature',
@@ -6725,7 +6725,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00361',
+    id: 'fr_s00672',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'daily-life',
@@ -6735,7 +6735,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00367',
+    id: 'fr_s00673',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'health',
@@ -6745,7 +6745,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00378',
+    id: 'fr_s00674',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'directions',
@@ -6755,7 +6755,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00381',
+    id: 'fr_s00675',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'sports',
@@ -6765,7 +6765,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00382',
+    id: 'fr_s00676',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'media',
@@ -6775,7 +6775,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00384',
+    id: 'fr_s00677',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'business',
@@ -6785,7 +6785,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00389',
+    id: 'fr_s00678',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'philosophy',
@@ -6795,7 +6795,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00391',
+    id: 'fr_s00679',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'daily-life',
@@ -6805,7 +6805,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00400',
+    id: 'fr_s00680',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'hobbies',
@@ -6815,7 +6815,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00402',
+    id: 'fr_s00681',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'politics',
@@ -6825,7 +6825,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00408',
+    id: 'fr_s00682',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'directions',
@@ -6835,7 +6835,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00409',
+    id: 'fr_s00683',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'housing',
@@ -6845,7 +6845,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00413',
+    id: 'fr_s00684',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'culture',
@@ -6855,7 +6855,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00414',
+    id: 'fr_s00685',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'business',
@@ -6865,7 +6865,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00419',
+    id: 'fr_s00686',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'philosophy',
@@ -6875,7 +6875,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00430',
+    id: 'fr_s00687',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'hobbies',
@@ -6885,7 +6885,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00434',
+    id: 'fr_s00688',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'nature',
@@ -6895,7 +6895,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00438',
+    id: 'fr_s00689',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'directions',
@@ -6905,7 +6905,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00444',
+    id: 'fr_s00690',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'business',
@@ -6915,7 +6915,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00454',
+    id: 'fr_s00691',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'family',
@@ -6925,7 +6925,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00463',
+    id: 'fr_s00692',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'art',
@@ -6935,7 +6935,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00470',
+    id: 'fr_s00693',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'transport',
@@ -6945,7 +6945,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00476',
+    id: 'fr_s00694',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'emergency',
@@ -6955,7 +6955,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00489',
+    id: 'fr_s00695',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'weather',
@@ -6965,7 +6965,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00491',
+    id: 'fr_s00696',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'education',
@@ -6975,7 +6975,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00505',
+    id: 'fr_s00697',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'relationships',
@@ -6985,7 +6985,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00511',
+    id: 'fr_s00698',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'daily-life',
@@ -6995,7 +6995,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00520',
+    id: 'fr_s00699',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'hobbies',
@@ -7005,7 +7005,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00543',
+    id: 'fr_s00700',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'food',
@@ -7015,7 +7015,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00584',
+    id: 'fr_s00701',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'nature',
@@ -7025,7 +7025,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00589',
+    id: 'fr_s00702',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'housing',
@@ -7035,7 +7035,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00593',
+    id: 'fr_s00703',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'culture',
@@ -7045,7 +7045,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00610',
+    id: 'fr_s00704',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'hobbies',
@@ -7055,7 +7055,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00616',
+    id: 'fr_s00705',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'time',
@@ -7065,7 +7065,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00619',
+    id: 'fr_s00706',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'housing',
@@ -7075,7 +7075,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00646',
+    id: 'fr_s00707',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'time',
@@ -7085,7 +7085,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00649',
+    id: 'fr_s00708',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'housing',
@@ -7095,7 +7095,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00653',
+    id: 'fr_s00709',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'culture',
@@ -7105,7 +7105,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00654',
+    id: 'fr_s00710',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'business',
@@ -7115,7 +7115,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00656',
+    id: 'fr_s00711',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'emergency',
@@ -7125,7 +7125,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00665',
+    id: 'fr_s00712',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'work',
@@ -7135,7 +7135,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00666',
+    id: 'fr_s00713',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'shopping',
@@ -7145,7 +7145,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00694',
+    id: 'fr_s00714',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'family',
@@ -7155,7 +7155,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00695',
+    id: 'fr_s00715',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'work',
@@ -7165,7 +7165,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00698',
+    id: 'fr_s00716',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'technology',
@@ -7175,7 +7175,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00701',
+    id: 'fr_s00717',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'education',
@@ -7185,7 +7185,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00736',
+    id: 'fr_s00718',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'time',
@@ -7195,7 +7195,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00753',
+    id: 'fr_s00719',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'food',
@@ -7205,7 +7205,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00758',
+    id: 'fr_s00720',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'technology',
@@ -7215,7 +7215,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00766',
+    id: 'fr_s00721',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'time',
@@ -7225,7 +7225,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00785',
+    id: 'fr_s00722',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'work',
@@ -7235,7 +7235,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00835',
+    id: 'fr_s00723',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'relationships',
@@ -7245,7 +7245,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00888',
+    id: 'fr_s00724',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'directions',
@@ -7255,7 +7255,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00933',
+    id: 'fr_s00725',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'food',
@@ -7265,7 +7265,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01007',
+    id: 'fr_s00726',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'numbers',
@@ -7275,7 +7275,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01056',
+    id: 'fr_s00727',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'shopping',
@@ -7285,7 +7285,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01104',
+    id: 'fr_s00728',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'business',
@@ -7295,7 +7295,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01173',
+    id: 'fr_s00729',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'food',
@@ -7305,7 +7305,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01188',
+    id: 'fr_s00730',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'directions',
@@ -7315,7 +7315,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01217',
+    id: 'fr_s00731',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'numbers',
@@ -7325,7 +7325,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01224',
+    id: 'fr_s00732',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'business',
@@ -7335,7 +7335,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01228',
+    id: 'fr_s00733',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'celebrations',
@@ -7345,7 +7345,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01230',
+    id: 'fr_s00734',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'greetings',
@@ -7355,7 +7355,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s01234',
+    id: 'fr_s00735',
     language: 'fr',
     cefr_level: 'B1',
     topic: 'family',
@@ -7365,7 +7365,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00000',
+    id: 'fr_s00736',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'greetings',
@@ -7375,7 +7375,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00001',
+    id: 'fr_s00737',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'daily-life',
@@ -7385,7 +7385,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00002',
+    id: 'fr_s00738',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'travel',
@@ -7395,7 +7395,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00003',
+    id: 'fr_s00739',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'food',
@@ -7405,7 +7405,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00004',
+    id: 'fr_s00740',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'family',
@@ -7415,7 +7415,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00005',
+    id: 'fr_s00741',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'work',
@@ -7425,7 +7425,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00006',
+    id: 'fr_s00742',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'shopping',
@@ -7435,7 +7435,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00007',
+    id: 'fr_s00743',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'health',
@@ -7445,7 +7445,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00008',
+    id: 'fr_s00744',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'technology',
@@ -7455,7 +7455,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00009',
+    id: 'fr_s00745',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'weather',
@@ -7465,7 +7465,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00010',
+    id: 'fr_s00746',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'hobbies',
@@ -7475,7 +7475,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00011',
+    id: 'fr_s00747',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'education',
@@ -7485,7 +7485,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00012',
+    id: 'fr_s00748',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'politics',
@@ -7495,7 +7495,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00013',
+    id: 'fr_s00749',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'art',
@@ -7505,7 +7505,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00014',
+    id: 'fr_s00750',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'nature',
@@ -7515,7 +7515,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00015',
+    id: 'fr_s00751',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'emotions',
@@ -7525,7 +7525,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00017',
+    id: 'fr_s00752',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'numbers',
@@ -7535,7 +7535,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00018',
+    id: 'fr_s00753',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'directions',
@@ -7545,7 +7545,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00021',
+    id: 'fr_s00754',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'sports',
@@ -7555,7 +7555,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00022',
+    id: 'fr_s00755',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'media',
@@ -7565,7 +7565,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00023',
+    id: 'fr_s00756',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'culture',
@@ -7575,7 +7575,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00024',
+    id: 'fr_s00757',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'business',
@@ -7585,7 +7585,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00025',
+    id: 'fr_s00758',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'relationships',
@@ -7595,7 +7595,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00026',
+    id: 'fr_s00759',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'emergency',
@@ -7605,7 +7605,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00027',
+    id: 'fr_s00760',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'leisure',
@@ -7615,7 +7615,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00028',
+    id: 'fr_s00761',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'celebrations',
@@ -7625,7 +7625,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00029',
+    id: 'fr_s00762',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'philosophy',
@@ -7635,7 +7635,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00030',
+    id: 'fr_s00763',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'greetings',
@@ -7645,7 +7645,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00031',
+    id: 'fr_s00764',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'daily-life',
@@ -7655,7 +7655,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00032',
+    id: 'fr_s00765',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'travel',
@@ -7665,7 +7665,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00033',
+    id: 'fr_s00766',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'food',
@@ -7675,7 +7675,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00034',
+    id: 'fr_s00767',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'family',
@@ -7685,7 +7685,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00036',
+    id: 'fr_s00768',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'shopping',
@@ -7695,7 +7695,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00037',
+    id: 'fr_s00769',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'health',
@@ -7705,7 +7705,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00038',
+    id: 'fr_s00770',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'technology',
@@ -7715,7 +7715,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00039',
+    id: 'fr_s00771',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'weather',
@@ -7725,7 +7725,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00041',
+    id: 'fr_s00772',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'education',
@@ -7735,7 +7735,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00042',
+    id: 'fr_s00773',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'politics',
@@ -7745,7 +7745,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00043',
+    id: 'fr_s00774',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'art',
@@ -7755,7 +7755,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00044',
+    id: 'fr_s00775',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'nature',
@@ -7765,7 +7765,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00045',
+    id: 'fr_s00776',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'emotions',
@@ -7775,7 +7775,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00046',
+    id: 'fr_s00777',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'time',
@@ -7785,7 +7785,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00050',
+    id: 'fr_s00778',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'transport',
@@ -7795,7 +7795,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00051',
+    id: 'fr_s00779',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'sports',
@@ -7805,7 +7805,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00053',
+    id: 'fr_s00780',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'culture',
@@ -7815,7 +7815,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00054',
+    id: 'fr_s00781',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'business',
@@ -7825,7 +7825,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00055',
+    id: 'fr_s00782',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'relationships',
@@ -7835,7 +7835,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00059',
+    id: 'fr_s00783',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'philosophy',
@@ -7845,7 +7845,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00061',
+    id: 'fr_s00784',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'daily-life',
@@ -7855,7 +7855,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00062',
+    id: 'fr_s00785',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'travel',
@@ -7865,7 +7865,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00065',
+    id: 'fr_s00786',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'work',
@@ -7875,7 +7875,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00066',
+    id: 'fr_s00787',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'shopping',
@@ -7885,7 +7885,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00069',
+    id: 'fr_s00788',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'weather',
@@ -7895,7 +7895,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00070',
+    id: 'fr_s00789',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'hobbies',
@@ -7905,7 +7905,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00073',
+    id: 'fr_s00790',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'art',
@@ -7915,7 +7915,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00074',
+    id: 'fr_s00791',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'nature',
@@ -7925,7 +7925,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00076',
+    id: 'fr_s00792',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'time',
@@ -7935,7 +7935,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00077',
+    id: 'fr_s00793',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'numbers',
@@ -7945,7 +7945,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00078',
+    id: 'fr_s00794',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'directions',
@@ -7955,7 +7955,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00079',
+    id: 'fr_s00795',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'housing',
@@ -7965,7 +7965,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00082',
+    id: 'fr_s00796',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'media',
@@ -7975,7 +7975,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00083',
+    id: 'fr_s00797',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'culture',
@@ -7985,7 +7985,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00085',
+    id: 'fr_s00798',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'relationships',
@@ -7995,7 +7995,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00088',
+    id: 'fr_s00799',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'celebrations',
@@ -8005,7 +8005,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00090',
+    id: 'fr_s00800',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'greetings',
@@ -8015,7 +8015,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00093',
+    id: 'fr_s00801',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'food',
@@ -8025,7 +8025,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00096',
+    id: 'fr_s00802',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'shopping',
@@ -8035,7 +8035,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00098',
+    id: 'fr_s00803',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'technology',
@@ -8045,7 +8045,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00099',
+    id: 'fr_s00804',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'weather',
@@ -8055,7 +8055,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00102',
+    id: 'fr_s00805',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'politics',
@@ -8065,7 +8065,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00106',
+    id: 'fr_s00806',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'time',
@@ -8075,7 +8075,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00107',
+    id: 'fr_s00807',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'numbers',
@@ -8085,7 +8085,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00108',
+    id: 'fr_s00808',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'directions',
@@ -8095,7 +8095,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00110',
+    id: 'fr_s00809',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'transport',
@@ -8105,7 +8105,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00111',
+    id: 'fr_s00810',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'sports',
@@ -8115,7 +8115,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00113',
+    id: 'fr_s00811',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'culture',
@@ -8125,7 +8125,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00116',
+    id: 'fr_s00812',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'emergency',
@@ -8135,7 +8135,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00117',
+    id: 'fr_s00813',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'leisure',
@@ -8145,7 +8145,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00121',
+    id: 'fr_s00814',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'daily-life',
@@ -8155,7 +8155,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00122',
+    id: 'fr_s00815',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'travel',
@@ -8165,7 +8165,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00125',
+    id: 'fr_s00816',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'work',
@@ -8175,7 +8175,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00129',
+    id: 'fr_s00817',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'weather',
@@ -8185,7 +8185,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00130',
+    id: 'fr_s00818',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'hobbies',
@@ -8195,7 +8195,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00133',
+    id: 'fr_s00819',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'art',
@@ -8205,7 +8205,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00134',
+    id: 'fr_s00820',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'nature',
@@ -8215,7 +8215,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00135',
+    id: 'fr_s00821',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'emotions',
@@ -8225,7 +8225,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00136',
+    id: 'fr_s00822',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'time',
@@ -8235,7 +8235,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00137',
+    id: 'fr_s00823',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'numbers',
@@ -8245,7 +8245,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00138',
+    id: 'fr_s00824',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'directions',
@@ -8255,7 +8255,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00141',
+    id: 'fr_s00825',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'sports',
@@ -8265,7 +8265,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00145',
+    id: 'fr_s00826',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'relationships',
@@ -8275,7 +8275,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00152',
+    id: 'fr_s00827',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'travel',
@@ -8285,7 +8285,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00154',
+    id: 'fr_s00828',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'family',
@@ -8295,7 +8295,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00155',
+    id: 'fr_s00829',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'work',
@@ -8305,7 +8305,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00158',
+    id: 'fr_s00830',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'technology',
@@ -8315,7 +8315,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00163',
+    id: 'fr_s00831',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'art',
@@ -8325,7 +8325,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00164',
+    id: 'fr_s00832',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'nature',
@@ -8335,7 +8335,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00167',
+    id: 'fr_s00833',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'numbers',
@@ -8345,7 +8345,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00168',
+    id: 'fr_s00834',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'directions',
@@ -8355,7 +8355,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00170',
+    id: 'fr_s00835',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'transport',
@@ -8365,7 +8365,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00171',
+    id: 'fr_s00836',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'sports',
@@ -8375,7 +8375,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00172',
+    id: 'fr_s00837',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'media',
@@ -8385,7 +8385,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00186',
+    id: 'fr_s00838',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'shopping',
@@ -8395,7 +8395,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00189',
+    id: 'fr_s00839',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'weather',
@@ -8405,7 +8405,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00190',
+    id: 'fr_s00840',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'hobbies',
@@ -8415,7 +8415,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00191',
+    id: 'fr_s00841',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'education',
@@ -8425,7 +8425,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00195',
+    id: 'fr_s00842',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'emotions',
@@ -8435,7 +8435,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00197',
+    id: 'fr_s00843',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'numbers',
@@ -8445,7 +8445,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00202',
+    id: 'fr_s00844',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'media',
@@ -8455,7 +8455,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00209',
+    id: 'fr_s00845',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'philosophy',
@@ -8465,7 +8465,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00210',
+    id: 'fr_s00846',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'greetings',
@@ -8475,7 +8475,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00211',
+    id: 'fr_s00847',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'daily-life',
@@ -8485,7 +8485,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00218',
+    id: 'fr_s00848',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'technology',
@@ -8495,7 +8495,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00225',
+    id: 'fr_s00849',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'emotions',
@@ -8505,7 +8505,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00227',
+    id: 'fr_s00850',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'numbers',
@@ -8515,7 +8515,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00228',
+    id: 'fr_s00851',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'directions',
@@ -8525,7 +8525,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00229',
+    id: 'fr_s00852',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'housing',
@@ -8535,7 +8535,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00230',
+    id: 'fr_s00853',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'transport',
@@ -8545,7 +8545,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00236',
+    id: 'fr_s00854',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'emergency',
@@ -8555,7 +8555,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00244',
+    id: 'fr_s00855',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'family',
@@ -8565,7 +8565,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00250',
+    id: 'fr_s00856',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'hobbies',
@@ -8575,7 +8575,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00254',
+    id: 'fr_s00857',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'nature',
@@ -8585,7 +8585,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00256',
+    id: 'fr_s00858',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'time',
@@ -8595,7 +8595,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00257',
+    id: 'fr_s00859',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'numbers',
@@ -8605,7 +8605,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00263',
+    id: 'fr_s00860',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'culture',
@@ -8615,7 +8615,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00267',
+    id: 'fr_s00861',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'leisure',
@@ -8625,7 +8625,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00273',
+    id: 'fr_s00862',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'food',
@@ -8635,7 +8635,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00277',
+    id: 'fr_s00863',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'health',
@@ -8645,7 +8645,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00279',
+    id: 'fr_s00864',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'weather',
@@ -8655,7 +8655,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00282',
+    id: 'fr_s00865',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'politics',
@@ -8665,7 +8665,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00287',
+    id: 'fr_s00866',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'numbers',
@@ -8675,7 +8675,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00306',
+    id: 'fr_s00867',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'shopping',
@@ -8685,7 +8685,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00313',
+    id: 'fr_s00868',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'art',
@@ -8695,7 +8695,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00321',
+    id: 'fr_s00869',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'sports',
@@ -8705,7 +8705,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00322',
+    id: 'fr_s00870',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'media',
@@ -8715,7 +8715,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00327',
+    id: 'fr_s00871',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'leisure',
@@ -8725,7 +8725,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00333',
+    id: 'fr_s00872',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'food',
@@ -8735,7 +8735,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00341',
+    id: 'fr_s00873',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'education',
@@ -8745,7 +8745,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00352',
+    id: 'fr_s00874',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'media',
@@ -8755,7 +8755,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00358',
+    id: 'fr_s00875',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'celebrations',
@@ -8765,7 +8765,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00359',
+    id: 'fr_s00876',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'philosophy',
@@ -8775,7 +8775,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00364',
+    id: 'fr_s00877',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'family',
@@ -8785,7 +8785,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00370',
+    id: 'fr_s00878',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'hobbies',
@@ -8795,7 +8795,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00371',
+    id: 'fr_s00879',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'education',
@@ -8805,7 +8805,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00372',
+    id: 'fr_s00880',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'politics',
@@ -8815,7 +8815,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00380',
+    id: 'fr_s00881',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'transport',
@@ -8825,7 +8825,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00391',
+    id: 'fr_s00882',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'daily-life',
@@ -8835,7 +8835,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00403',
+    id: 'fr_s00883',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'art',
@@ -8845,7 +8845,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00413',
+    id: 'fr_s00884',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'culture',
@@ -8855,7 +8855,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00417',
+    id: 'fr_s00885',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'leisure',
@@ -8865,7 +8865,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00419',
+    id: 'fr_s00886',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'philosophy',
@@ -8875,7 +8875,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00420',
+    id: 'fr_s00887',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'greetings',
@@ -8885,7 +8885,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00440',
+    id: 'fr_s00888',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'transport',
@@ -8895,7 +8895,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00443',
+    id: 'fr_s00889',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'culture',
@@ -8905,7 +8905,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00444',
+    id: 'fr_s00890',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'business',
@@ -8915,7 +8915,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00446',
+    id: 'fr_s00891',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'emergency',
@@ -8925,7 +8925,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00454',
+    id: 'fr_s00892',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'family',
@@ -8935,7 +8935,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00468',
+    id: 'fr_s00893',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'directions',
@@ -8945,7 +8945,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00477',
+    id: 'fr_s00894',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'leisure',
@@ -8955,7 +8955,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00486',
+    id: 'fr_s00895',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'shopping',
@@ -8965,7 +8965,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00490',
+    id: 'fr_s00896',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'hobbies',
@@ -8975,7 +8975,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00496',
+    id: 'fr_s00897',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'time',
@@ -8985,7 +8985,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00515',
+    id: 'fr_s00898',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'work',
@@ -8995,7 +8995,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00522',
+    id: 'fr_s00899',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'politics',
@@ -9005,7 +9005,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00523',
+    id: 'fr_s00900',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'art',
@@ -9015,7 +9015,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00526',
+    id: 'fr_s00901',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'time',
@@ -9025,7 +9025,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00563',
+    id: 'fr_s00902',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'culture',
@@ -9035,7 +9035,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00568',
+    id: 'fr_s00903',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'celebrations',
@@ -9045,7 +9045,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00583',
+    id: 'fr_s00904',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'art',
@@ -9055,7 +9055,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00591',
+    id: 'fr_s00905',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'sports',
@@ -9065,7 +9065,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00614',
+    id: 'fr_s00906',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'nature',
@@ -9075,7 +9075,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00618',
+    id: 'fr_s00907',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'directions',
@@ -9085,7 +9085,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00621',
+    id: 'fr_s00908',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'sports',
@@ -9095,7 +9095,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00629',
+    id: 'fr_s00909',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'philosophy',
@@ -9105,7 +9105,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00646',
+    id: 'fr_s00910',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'time',
@@ -9115,7 +9115,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00649',
+    id: 'fr_s00911',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'housing',
@@ -9125,7 +9125,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00650',
+    id: 'fr_s00912',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'transport',
@@ -9135,7 +9135,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00659',
+    id: 'fr_s00913',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'philosophy',
@@ -9145,7 +9145,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00660',
+    id: 'fr_s00914',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'greetings',
@@ -9155,7 +9155,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00665',
+    id: 'fr_s00915',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'work',
@@ -9165,7 +9165,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00669',
+    id: 'fr_s00916',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'weather',
@@ -9175,7 +9175,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00671',
+    id: 'fr_s00917',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'education',
@@ -9185,7 +9185,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00676',
+    id: 'fr_s00918',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'time',
@@ -9195,7 +9195,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00682',
+    id: 'fr_s00919',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'media',
@@ -9205,7 +9205,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00692',
+    id: 'fr_s00920',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'travel',
@@ -9215,7 +9215,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00693',
+    id: 'fr_s00921',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'food',
@@ -9225,7 +9225,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00698',
+    id: 'fr_s00922',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'technology',
@@ -9235,7 +9235,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00732',
+    id: 'fr_s00923',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'politics',
@@ -9245,7 +9245,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00747',
+    id: 'fr_s00924',
     language: 'fr',
     cefr_level: 'B2',
     topic: 'leisure',
@@ -9255,7 +9255,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00000',
+    id: 'fr_s00925',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'greetings',
@@ -9265,7 +9265,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00001',
+    id: 'fr_s00926',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'daily-life',
@@ -9275,7 +9275,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00002',
+    id: 'fr_s00927',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'travel',
@@ -9285,7 +9285,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00003',
+    id: 'fr_s00928',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'food',
@@ -9295,7 +9295,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00004',
+    id: 'fr_s00929',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'family',
@@ -9305,7 +9305,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00005',
+    id: 'fr_s00930',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'work',
@@ -9315,7 +9315,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00006',
+    id: 'fr_s00931',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'shopping',
@@ -9325,7 +9325,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00007',
+    id: 'fr_s00932',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'health',
@@ -9335,7 +9335,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00008',
+    id: 'fr_s00933',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'technology',
@@ -9345,7 +9345,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00009',
+    id: 'fr_s00934',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'weather',
@@ -9355,7 +9355,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00010',
+    id: 'fr_s00935',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'hobbies',
@@ -9365,7 +9365,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00011',
+    id: 'fr_s00936',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'education',
@@ -9375,7 +9375,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00012',
+    id: 'fr_s00937',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'politics',
@@ -9385,7 +9385,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00014',
+    id: 'fr_s00938',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'nature',
@@ -9395,7 +9395,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00015',
+    id: 'fr_s00939',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'emotions',
@@ -9405,7 +9405,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00017',
+    id: 'fr_s00940',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'numbers',
@@ -9415,7 +9415,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00018',
+    id: 'fr_s00941',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'directions',
@@ -9425,7 +9425,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00019',
+    id: 'fr_s00942',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'housing',
@@ -9435,7 +9435,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00020',
+    id: 'fr_s00943',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'transport',
@@ -9445,7 +9445,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00021',
+    id: 'fr_s00944',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'sports',
@@ -9455,7 +9455,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00022',
+    id: 'fr_s00945',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'media',
@@ -9465,7 +9465,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00023',
+    id: 'fr_s00946',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'culture',
@@ -9475,7 +9475,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00024',
+    id: 'fr_s00947',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'business',
@@ -9485,7 +9485,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00025',
+    id: 'fr_s00948',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'relationships',
@@ -9495,7 +9495,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00026',
+    id: 'fr_s00949',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'emergency',
@@ -9505,7 +9505,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00029',
+    id: 'fr_s00950',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'philosophy',
@@ -9515,7 +9515,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00030',
+    id: 'fr_s00951',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'greetings',
@@ -9525,7 +9525,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00033',
+    id: 'fr_s00952',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'food',
@@ -9535,7 +9535,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00036',
+    id: 'fr_s00953',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'shopping',
@@ -9545,7 +9545,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00038',
+    id: 'fr_s00954',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'technology',
@@ -9555,7 +9555,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00039',
+    id: 'fr_s00955',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'weather',
@@ -9565,7 +9565,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00040',
+    id: 'fr_s00956',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'hobbies',
@@ -9575,7 +9575,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00041',
+    id: 'fr_s00957',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'education',
@@ -9585,7 +9585,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00042',
+    id: 'fr_s00958',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'politics',
@@ -9595,7 +9595,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00043',
+    id: 'fr_s00959',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'art',
@@ -9605,7 +9605,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00044',
+    id: 'fr_s00960',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'nature',
@@ -9615,7 +9615,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00045',
+    id: 'fr_s00961',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'emotions',
@@ -9625,7 +9625,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00047',
+    id: 'fr_s00962',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'numbers',
@@ -9635,7 +9635,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00048',
+    id: 'fr_s00963',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'directions',
@@ -9645,7 +9645,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00049',
+    id: 'fr_s00964',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'housing',
@@ -9655,7 +9655,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00050',
+    id: 'fr_s00965',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'transport',
@@ -9665,7 +9665,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00051',
+    id: 'fr_s00966',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'sports',
@@ -9675,7 +9675,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00053',
+    id: 'fr_s00967',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'culture',
@@ -9685,7 +9685,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00054',
+    id: 'fr_s00968',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'business',
@@ -9695,7 +9695,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00056',
+    id: 'fr_s00969',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'emergency',
@@ -9705,7 +9705,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00057',
+    id: 'fr_s00970',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'leisure',
@@ -9715,7 +9715,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00058',
+    id: 'fr_s00971',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'celebrations',
@@ -9725,7 +9725,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00059',
+    id: 'fr_s00972',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'philosophy',
@@ -9735,7 +9735,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00069',
+    id: 'fr_s00973',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'weather',
@@ -9745,7 +9745,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00071',
+    id: 'fr_s00974',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'education',
@@ -9755,7 +9755,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00072',
+    id: 'fr_s00975',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'politics',
@@ -9765,7 +9765,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00073',
+    id: 'fr_s00976',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'art',
@@ -9775,7 +9775,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00080',
+    id: 'fr_s00977',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'transport',
@@ -9785,7 +9785,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00081',
+    id: 'fr_s00978',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'sports',
@@ -9795,7 +9795,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00083',
+    id: 'fr_s00979',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'culture',
@@ -9805,7 +9805,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00086',
+    id: 'fr_s00980',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'emergency',
@@ -9815,7 +9815,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00088',
+    id: 'fr_s00981',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'celebrations',
@@ -9825,7 +9825,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00089',
+    id: 'fr_s00982',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'philosophy',
@@ -9835,7 +9835,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00091',
+    id: 'fr_s00983',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'daily-life',
@@ -9845,7 +9845,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00095',
+    id: 'fr_s00984',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'work',
@@ -9855,7 +9855,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00097',
+    id: 'fr_s00985',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'health',
@@ -9865,7 +9865,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00102',
+    id: 'fr_s00986',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'politics',
@@ -9875,7 +9875,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00107',
+    id: 'fr_s00987',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'numbers',
@@ -9885,7 +9885,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00109',
+    id: 'fr_s00988',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'housing',
@@ -9895,7 +9895,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00112',
+    id: 'fr_s00989',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'media',
@@ -9905,7 +9905,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00114',
+    id: 'fr_s00990',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'business',
@@ -9915,7 +9915,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00115',
+    id: 'fr_s00991',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'relationships',
@@ -9925,7 +9925,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00117',
+    id: 'fr_s00992',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'leisure',
@@ -9935,7 +9935,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00118',
+    id: 'fr_s00993',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'celebrations',
@@ -9945,7 +9945,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00124',
+    id: 'fr_s00994',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'family',
@@ -9955,7 +9955,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00127',
+    id: 'fr_s00995',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'health',
@@ -9965,7 +9965,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00131',
+    id: 'fr_s00996',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'education',
@@ -9975,7 +9975,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00133',
+    id: 'fr_s00997',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'art',
@@ -9985,7 +9985,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00134',
+    id: 'fr_s00998',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'nature',
@@ -9995,7 +9995,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00136',
+    id: 'fr_s00999',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'time',
@@ -10005,7 +10005,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00138',
+    id: 'fr_s01000',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'directions',
@@ -10015,7 +10015,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00144',
+    id: 'fr_s01001',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'business',
@@ -10025,7 +10025,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00146',
+    id: 'fr_s01002',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'emergency',
@@ -10035,7 +10035,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00148',
+    id: 'fr_s01003',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'celebrations',
@@ -10045,7 +10045,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00149',
+    id: 'fr_s01004',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'philosophy',
@@ -10055,7 +10055,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00152',
+    id: 'fr_s01005',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'travel',
@@ -10065,7 +10065,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00153',
+    id: 'fr_s01006',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'food',
@@ -10075,7 +10075,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00162',
+    id: 'fr_s01007',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'politics',
@@ -10085,7 +10085,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00163',
+    id: 'fr_s01008',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'art',
@@ -10095,7 +10095,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00164',
+    id: 'fr_s01009',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'nature',
@@ -10105,7 +10105,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00165',
+    id: 'fr_s01010',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'emotions',
@@ -10115,7 +10115,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00171',
+    id: 'fr_s01011',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'sports',
@@ -10125,7 +10125,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00176',
+    id: 'fr_s01012',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'emergency',
@@ -10135,7 +10135,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00180',
+    id: 'fr_s01013',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'greetings',
@@ -10145,7 +10145,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00181',
+    id: 'fr_s01014',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'daily-life',
@@ -10155,7 +10155,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00189',
+    id: 'fr_s01015',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'weather',
@@ -10165,7 +10165,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00190',
+    id: 'fr_s01016',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'hobbies',
@@ -10175,7 +10175,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00201',
+    id: 'fr_s01017',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'sports',
@@ -10185,7 +10185,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00208',
+    id: 'fr_s01018',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'celebrations',
@@ -10195,7 +10195,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00210',
+    id: 'fr_s01019',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'greetings',
@@ -10205,7 +10205,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00212',
+    id: 'fr_s01020',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'travel',
@@ -10215,7 +10215,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00213',
+    id: 'fr_s01021',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'food',
@@ -10225,7 +10225,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00214',
+    id: 'fr_s01022',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'family',
@@ -10235,7 +10235,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00217',
+    id: 'fr_s01023',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'health',
@@ -10245,7 +10245,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00218',
+    id: 'fr_s01024',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'technology',
@@ -10255,7 +10255,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00224',
+    id: 'fr_s01025',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'nature',
@@ -10265,7 +10265,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00231',
+    id: 'fr_s01026',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'sports',
@@ -10275,7 +10275,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00232',
+    id: 'fr_s01027',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'media',
@@ -10285,7 +10285,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00238',
+    id: 'fr_s01028',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'celebrations',
@@ -10295,7 +10295,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00240',
+    id: 'fr_s01029',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'greetings',
@@ -10305,7 +10305,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00246',
+    id: 'fr_s01030',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'shopping',
@@ -10315,7 +10315,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00247',
+    id: 'fr_s01031',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'health',
@@ -10325,7 +10325,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00249',
+    id: 'fr_s01032',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'weather',
@@ -10335,7 +10335,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00255',
+    id: 'fr_s01033',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'emotions',
@@ -10345,7 +10345,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00258',
+    id: 'fr_s01034',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'directions',
@@ -10355,7 +10355,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00277',
+    id: 'fr_s01035',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'health',
@@ -10365,7 +10365,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00282',
+    id: 'fr_s01036',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'politics',
@@ -10375,7 +10375,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00298',
+    id: 'fr_s01037',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'celebrations',
@@ -10385,7 +10385,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00322',
+    id: 'fr_s01038',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'media',
@@ -10395,7 +10395,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00323',
+    id: 'fr_s01039',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'culture',
@@ -10405,7 +10405,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00329',
+    id: 'fr_s01040',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'philosophy',
@@ -10415,7 +10415,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00335',
+    id: 'fr_s01041',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'work',
@@ -10425,7 +10425,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00343',
+    id: 'fr_s01042',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'art',
@@ -10435,7 +10435,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00344',
+    id: 'fr_s01043',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'nature',
@@ -10445,7 +10445,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00349',
+    id: 'fr_s01044',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'housing',
@@ -10455,7 +10455,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00398',
+    id: 'fr_s01045',
     language: 'fr',
     cefr_level: 'C1',
     topic: 'technology',
@@ -10465,7 +10465,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00000',
+    id: 'fr_s01046',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'greetings',
@@ -10475,7 +10475,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00001',
+    id: 'fr_s01047',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'daily-life',
@@ -10485,7 +10485,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00002',
+    id: 'fr_s01048',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'travel',
@@ -10495,7 +10495,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00003',
+    id: 'fr_s01049',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'food',
@@ -10505,7 +10505,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00004',
+    id: 'fr_s01050',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'family',
@@ -10515,7 +10515,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00005',
+    id: 'fr_s01051',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'work',
@@ -10525,7 +10525,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00007',
+    id: 'fr_s01052',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'health',
@@ -10535,7 +10535,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00008',
+    id: 'fr_s01053',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'technology',
@@ -10545,7 +10545,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00009',
+    id: 'fr_s01054',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'weather',
@@ -10555,7 +10555,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00010',
+    id: 'fr_s01055',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'hobbies',
@@ -10565,7 +10565,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00011',
+    id: 'fr_s01056',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'education',
@@ -10575,7 +10575,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00012',
+    id: 'fr_s01057',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'politics',
@@ -10585,7 +10585,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00013',
+    id: 'fr_s01058',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'art',
@@ -10595,7 +10595,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00014',
+    id: 'fr_s01059',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'nature',
@@ -10605,7 +10605,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00015',
+    id: 'fr_s01060',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'emotions',
@@ -10615,7 +10615,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00016',
+    id: 'fr_s01061',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'time',
@@ -10625,7 +10625,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00017',
+    id: 'fr_s01062',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'numbers',
@@ -10635,7 +10635,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00018',
+    id: 'fr_s01063',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'directions',
@@ -10645,7 +10645,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00019',
+    id: 'fr_s01064',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'housing',
@@ -10655,7 +10655,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00021',
+    id: 'fr_s01065',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'sports',
@@ -10665,7 +10665,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00022',
+    id: 'fr_s01066',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'media',
@@ -10675,7 +10675,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00023',
+    id: 'fr_s01067',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'culture',
@@ -10685,7 +10685,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00024',
+    id: 'fr_s01068',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'business',
@@ -10695,7 +10695,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00025',
+    id: 'fr_s01069',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'relationships',
@@ -10705,7 +10705,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00026',
+    id: 'fr_s01070',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'emergency',
@@ -10715,7 +10715,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00027',
+    id: 'fr_s01071',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'leisure',
@@ -10725,7 +10725,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00028',
+    id: 'fr_s01072',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'celebrations',
@@ -10735,7 +10735,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00029',
+    id: 'fr_s01073',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'philosophy',
@@ -10745,7 +10745,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00030',
+    id: 'fr_s01074',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'greetings',
@@ -10755,7 +10755,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00031',
+    id: 'fr_s01075',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'daily-life',
@@ -10765,7 +10765,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00032',
+    id: 'fr_s01076',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'travel',
@@ -10775,7 +10775,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00033',
+    id: 'fr_s01077',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'food',
@@ -10785,7 +10785,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00036',
+    id: 'fr_s01078',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'shopping',
@@ -10795,7 +10795,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00037',
+    id: 'fr_s01079',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'health',
@@ -10805,7 +10805,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00039',
+    id: 'fr_s01080',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'weather',
@@ -10815,7 +10815,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00040',
+    id: 'fr_s01081',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'hobbies',
@@ -10825,7 +10825,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00041',
+    id: 'fr_s01082',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'education',
@@ -10835,7 +10835,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00044',
+    id: 'fr_s01083',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'nature',
@@ -10845,7 +10845,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00046',
+    id: 'fr_s01084',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'time',
@@ -10855,7 +10855,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00047',
+    id: 'fr_s01085',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'numbers',
@@ -10865,7 +10865,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00048',
+    id: 'fr_s01086',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'directions',
@@ -10875,7 +10875,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00049',
+    id: 'fr_s01087',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'housing',
@@ -10885,7 +10885,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00050',
+    id: 'fr_s01088',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'transport',
@@ -10895,7 +10895,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00051',
+    id: 'fr_s01089',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'sports',
@@ -10905,7 +10905,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00052',
+    id: 'fr_s01090',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'media',
@@ -10915,7 +10915,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00053',
+    id: 'fr_s01091',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'culture',
@@ -10925,7 +10925,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00054',
+    id: 'fr_s01092',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'business',
@@ -10935,7 +10935,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00057',
+    id: 'fr_s01093',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'leisure',
@@ -10945,7 +10945,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00058',
+    id: 'fr_s01094',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'celebrations',
@@ -10955,7 +10955,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00059',
+    id: 'fr_s01095',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'philosophy',
@@ -10965,7 +10965,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00060',
+    id: 'fr_s01096',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'greetings',
@@ -10975,7 +10975,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00061',
+    id: 'fr_s01097',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'daily-life',
@@ -10985,7 +10985,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00062',
+    id: 'fr_s01098',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'travel',
@@ -10995,7 +10995,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00065',
+    id: 'fr_s01099',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'work',
@@ -11005,7 +11005,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00066',
+    id: 'fr_s01100',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'shopping',
@@ -11015,7 +11015,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00067',
+    id: 'fr_s01101',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'health',
@@ -11025,7 +11025,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00070',
+    id: 'fr_s01102',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'hobbies',
@@ -11035,7 +11035,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00073',
+    id: 'fr_s01103',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'art',
@@ -11045,7 +11045,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00074',
+    id: 'fr_s01104',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'nature',
@@ -11055,7 +11055,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00075',
+    id: 'fr_s01105',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'emotions',
@@ -11065,7 +11065,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00077',
+    id: 'fr_s01106',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'numbers',
@@ -11075,7 +11075,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00078',
+    id: 'fr_s01107',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'directions',
@@ -11085,7 +11085,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00083',
+    id: 'fr_s01108',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'culture',
@@ -11095,7 +11095,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00084',
+    id: 'fr_s01109',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'business',
@@ -11105,7 +11105,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00085',
+    id: 'fr_s01110',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'relationships',
@@ -11115,7 +11115,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00086',
+    id: 'fr_s01111',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'emergency',
@@ -11125,7 +11125,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00087',
+    id: 'fr_s01112',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'leisure',
@@ -11135,7 +11135,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00088',
+    id: 'fr_s01113',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'celebrations',
@@ -11145,7 +11145,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00089',
+    id: 'fr_s01114',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'philosophy',
@@ -11155,7 +11155,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00098',
+    id: 'fr_s01115',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'technology',
@@ -11165,7 +11165,7 @@ export const FR_SENTENCES /* : Sentence[] */ = [
     native_audio_available: true,
   },
   {
-    id: 'fr_s00099',
+    id: 'fr_s01116',
     language: 'fr',
     cefr_level: 'C2',
     topic: 'weather',

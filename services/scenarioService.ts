@@ -25,12 +25,18 @@ export interface ScenarioMessage {
 }
 
 export interface ScenarioScores {
-  pronunciation: number;
+  /**
+   * SL-02: null in text-chat scenarios. There is no audio in a typed exchange,
+   * so any pronunciation number would be invented. Render "not assessed", never 0.
+   */
+  pronunciation: number | null;
   grammar: number;
   vocabulary: number;
   fluency: number;
   appropriateness: number;
   overall: number;
+  /** false = placeholder values from a static table, not an assessment. */
+  measured: boolean;
 }
 
 export interface ScenarioSession {
@@ -102,31 +108,68 @@ export function addScenarioMessage(
 // Heuristic scoring (no API required)
 // ---------------------------------------------------------------------------
 
-const HEURISTIC_BASE: Record<string, Record<string, Omit<ScenarioScores, 'overall'>>> = {
+/**
+ * SL-02: placeholder values used ONLY when no model evaluation is available.
+ * Pronunciation is absent by design — see ScenarioScores.pronunciation.
+ * Anything built from this table is returned with measured: false.
+ */
+type TextDimensions = Pick<ScenarioScores, 'grammar' | 'vocabulary' | 'fluency' | 'appropriateness'>;
+
+const HEURISTIC_BASE: Record<string, Record<string, TextDimensions>> = {
   'English': {
-    'beginner':   { pronunciation: 65, grammar: 60, vocabulary: 62, fluency: 55, appropriateness: 70 },
-    'intermediate': { pronunciation: 72, grammar: 68, vocabulary: 70, fluency: 65, appropriateness: 75 },
-    'advanced':   { pronunciation: 80, grammar: 78, vocabulary: 76, fluency: 72, appropriateness: 82 },
+    'beginner':   { grammar: 60, vocabulary: 62, fluency: 55, appropriateness: 70 },
+    'intermediate': { grammar: 68, vocabulary: 70, fluency: 65, appropriateness: 75 },
+    'advanced':   { grammar: 78, vocabulary: 76, fluency: 72, appropriateness: 82 },
   },
   'Spanish': {
-    'beginner':   { pronunciation: 63, grammar: 58, vocabulary: 60, fluency: 52, appropriateness: 68 },
-    'intermediate': { pronunciation: 70, grammar: 65, vocabulary: 68, fluency: 62, appropriateness: 73 },
-    'advanced':   { pronunciation: 78, grammar: 75, vocabulary: 73, fluency: 70, appropriateness: 80 },
+    'beginner':   { grammar: 58, vocabulary: 60, fluency: 52, appropriateness: 68 },
+    'intermediate': { grammar: 65, vocabulary: 68, fluency: 62, appropriateness: 73 },
+    'advanced':   { grammar: 75, vocabulary: 73, fluency: 70, appropriateness: 80 },
   },
   'French': {
-    'beginner':   { pronunciation: 60, grammar: 55, vocabulary: 58, fluency: 50, appropriateness: 65 },
-    'intermediate': { pronunciation: 68, grammar: 63, vocabulary: 66, fluency: 60, appropriateness: 70 },
-    'advanced':   { pronunciation: 76, grammar: 72, vocabulary: 70, fluency: 68, appropriateness: 78 },
+    'beginner':   { grammar: 55, vocabulary: 58, fluency: 50, appropriateness: 65 },
+    'intermediate': { grammar: 63, vocabulary: 66, fluency: 60, appropriateness: 70 },
+    'advanced':   { grammar: 72, vocabulary: 70, fluency: 68, appropriateness: 78 },
   },
 };
+
+/**
+ * SL-02: validate model-returned scores.
+ *
+ * Returns `measured: true` only when the model supplied usable numbers for every
+ * text-judgeable dimension. `pronunciation` is deliberately null: this is a text
+ * chat and no audio exists, so a pronunciation score here would be fabricated.
+ * The client must not render a null dimension as a zero or as a bar.
+ */
+function coerceScores(raw: any, targetLanguage: string, level: string): ScenarioScores {
+  const dims = ['grammar', 'vocabulary', 'fluency', 'appropriateness'] as const;
+  const clean: Record<string, number> = {};
+  let ok = true;
+  for (const d of dims) {
+    const v = Number(raw?.[d]);
+    if (!Number.isFinite(v) || v < 0 || v > 100) { ok = false; break; }
+    clean[d] = Math.round(v);
+  }
+  if (!ok) return { ...heuristicScores(targetLanguage, level), measured: false };
+  const overall = Math.round(dims.reduce((a, d) => a + clean[d], 0) / dims.length);
+  return {
+    pronunciation: null,
+    grammar: clean.grammar,
+    vocabulary: clean.vocabulary,
+    fluency: clean.fluency,
+    appropriateness: clean.appropriateness,
+    overall,
+    measured: true,
+  };
+}
 
 function heuristicScores(targetLanguage: string, level: string): ScenarioScores {
   const base = HEURISTIC_BASE[targetLanguage]?.[level] ||
     HEURISTIC_BASE['English']['intermediate'];
   const overall = Math.round(
-    (base.pronunciation + base.grammar + base.vocabulary + base.fluency + base.appropriateness) / 5
+    (base.grammar + base.vocabulary + base.fluency + base.appropriateness) / 4
   );
-  return { ...base, overall };
+  return { ...base, pronunciation: null, overall, measured: false };
 }
 
 // ---------------------------------------------------------------------------
@@ -258,13 +301,25 @@ Generate the AI's next reply in character. Respond primarily in the TARGET LANGU
 `
 }
 
+EVALUATE the learner's turn on four dimensions you can actually judge from text.
+Score each 0-100. Be honest and discriminating: a beginner making real errors
+should score in the 40s and 50s, not the 70s. Do NOT score pronunciation — you
+are reading text, not listening to audio.
+
 OUTPUT FORMAT (JSON):
 {
   "response": "Your reply in the target language",
   "translation": "English translation (required for beginner, optional for others)",
   "next_prompt": "A follow-up question or prompt to keep the conversation going",
   "corrected_version": "Corrected version of user's message if errors found, otherwise omit this key",
-  "feedback": "Brief encouraging feedback on the learner's turn (1-2 sentences)"
+  "feedback": "Brief encouraging feedback on the learner's turn (1-2 sentences)",
+  "scores": {
+    "grammar": 0-100,
+    "vocabulary": 0-100,
+    "fluency": 0-100,
+    "appropriateness": 0-100
+  },
+  "score_rationale": "One sentence explaining the lowest score"
 }
 
 Always respond in JSON. Do not include any text outside the JSON object.
@@ -290,7 +345,13 @@ Always respond in JSON. Do not include any text outside the JSON object.
       const content = response.choices[0]?.message?.content;
       if (content) {
         const parsed = JSON.parse(content);
-        const scores = heuristicScores(targetLanguage, level);
+        // SL-02: this line used to be
+        //   const scores = heuristicScores(targetLanguage, level);
+        // which threw away the model's evaluation and returned a constant from a
+        // static table — on the SUCCESS path, not the fallback. Every learner at
+        // a given language/level saw identical scores on every turn, forever.
+        // The model is now asked for scores and its answer is used, validated.
+        const scores = coerceScores(parsed.scores, targetLanguage, level);
         return {
           response: parsed.response || '',
           translation: parsed.translation || '',

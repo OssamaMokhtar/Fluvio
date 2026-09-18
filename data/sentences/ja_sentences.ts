@@ -1,8 +1,7 @@
 // Auto-generated Japanese sentence library
 // 1100 sentences across CEFR levels A1-C2
 
-// @ts-nocheck
-import { Sentence, SentenceLibrary } from '../library';
+import { Sentence } from '../library';
 
 export const JA_SENTENCES = [
   { id: 'ja_s00000', language: 'ja', cefr_level: 'A1', topic: 'greetings', text: '私の名前はヤマダです。', translation: '[Japanese] 私の名前はヤマダです。', tags: ['greetings', 'a1', 'question'], native_audio_available: true, ipa_hint: '/私の名前はヤマダです。/' },

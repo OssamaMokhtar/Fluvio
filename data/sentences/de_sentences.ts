@@ -1,8 +1,7 @@
 // Auto-generated German sentence library
 // 1100 sentences across CEFR levels A1-C2
 
-// @ts-nocheck
-import { Sentence, SentenceLibrary } from '../library';
+import { Sentence } from '../library';
 
 export const DE_SENTENCES = [
   { id: 'de_s00000', language: 'de', cefr_level: 'A1', topic: 'greetings', text: 'Mein Name ist Bernd.', translation: '[German] Mein Name ist Bernd.', tags: ['greetings', 'a1', 'question'], native_audio_available: true, ipa_hint: '/Mein Name ist Bernd./' },

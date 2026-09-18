@@ -1,8 +1,7 @@
 // Auto-generated Chinese sentence library
 // 1100 sentences across CEFR levels A1-C2
 
-// @ts-nocheck
-import { Sentence, SentenceLibrary } from '../library';
+import { Sentence } from '../library';
 
 export const ZH_SENTENCES = [
   { id: 'zh_s00000', language: 'zh', cefr_level: 'A1', topic: 'greetings', text: '我的名字是王。', translation: '[Chinese] 我的名字是王。', tags: ['greetings', 'a1', 'question'], native_audio_available: true, ipa_hint: '/我的名字是王。/' },

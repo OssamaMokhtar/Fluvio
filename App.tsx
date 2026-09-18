@@ -4,7 +4,7 @@ import { analyzeAudio, generateTTS } from './services/geminiService';
 import { blobToBase64 } from './services/audioUtils';
 import { saveSession, getHistory, deleteSession } from './services/storageService';
 import { AppState, AnalysisResponse, UserProfile, SessionRecord, CompanionSession, TranscriptWord } from './types';
-import { getSentenceLibrary, pickDailySentence, LANG_NAMES, LANG_CODES } from './services/sentenceLibrary';
+import { getSentenceLibrary, pickDailySentence, LANG_NAMES, LANG_CODES, type SentenceLibrary, type WordLibrary } from './services/clientLibrary';
 import { loadSRSState, recordReview } from './services/srsService';
 import { createSpeechRecognition, isSpeechRecognitionAvailable, TranscriptWord as SRTranscriptWord } from './services/speechRecognition';
 import { SCENARIOS, filterScenarios, Scenario } from './data/scenarios';

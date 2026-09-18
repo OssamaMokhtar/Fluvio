@@ -484,4 +484,11 @@ A fixed-window rate limiter (60s window, default 20 requests/minute per IP, conf
 
 ## License
 
-Private project.
+MIT — see [LICENSE](./LICENSE).
+
+**SL-22:** this section previously read "Private project" while the repository
+shipped an MIT `LICENSE` file on a public remote. MIT governed, and the
+contradiction was the only thing in doubt. MIT is the deliberate choice for a
+portfolio repository. The Arabic-L1 error corpus and the phoneme confusion map
+are versioned separately under `data/licensed/` and are **not** MIT — see
+`data/licensed/LICENSE-DATA.md`.

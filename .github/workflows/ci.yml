@@ -1,36 +1,49 @@
 name: CI
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  push: { branches: [main] }
+  pull_request: { branches: [main] }
+
+# SL-16: the previous workflow presented five steps, three of which could not
+# fail — `npm run lint --if-present || echo`, `npm test --if-present || echo`, and
+# `npm audit || true`. The only real gate was tsc, and @ts-nocheck on five data
+# files exempted the largest and most defective part of the codebase from it.
+# Every step below fails the build.
 
 jobs:
-  build:
+  verify:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'
           cache: 'npm'
 
-      - name: Install dependencies
-        run: npm ci
+      - run: npm ci
 
-      - name: Lint
-        run: npm run lint --if-present || echo 'No lint script'
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: No @ts-nocheck anywhere
+        run: |
+          if grep -rl "@ts-nocheck" --include="*.ts" --include="*.tsx" . \
+             --exclude-dir=node_modules --exclude-dir=dist; then
+            echo "::error::@ts-nocheck found — typecheck exemptions are not allowed"
+            exit 1
+          fi
+
+      - name: Unit + contract tests
+        run: npm test
+
+      - name: Verify documented claims against source
+        run: node scripts/verify-claims.mjs
 
       - name: Build
-        run: npx tsc --noEmit --skipLibCheck && npx vite build
+        run: npm run build
 
-      - name: Test
-        run: npm test --if-present || echo 'No test script'
+      - name: Server boots in production mode
+        run: npm run build:node && node scripts/boot-check.mjs
 
       - name: Dependency audit
-        run: npm audit --omit=dev || true
+        run: npm audit --omit=dev --audit-level=high

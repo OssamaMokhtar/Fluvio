@@ -93,9 +93,9 @@ const ProgressView: React.FC<ProgressViewProps> = ({ history, isDarkMode, onRevi
                   <p className="text-sm text-slate-500 dark:text-slate-400 font-medium">Estimated CEFR Level</p>
                   <p className="text-xl font-bold text-slate-800 dark:text-white">{cefr.label}</p>
                   <p className="text-sm text-slate-500 dark:text-slate-400">{cefr.description}</p>
-                  {cefr.ieltsEquivalent && (
-                    <p className="text-xs text-indigo-500 dark:text-indigo-400 mt-1">IELTS equivalent: ~{cefr.ieltsEquivalent}</p>
-                  )}
+                  {/* SL-08: the IELTS equivalence line was removed. The band above is an
+                      uncalibrated estimate from an LLM score, not an exam-equivalent result. */}
+                  <p className="text-xs text-slate-400 dark:text-slate-500 mt-1">Estimate only — not an exam score</p>
                 </div>
               </div>
               {nextInfo.nextBand && nextInfo.sessions !== null && nextInfo.sessions > 0 && (
@@ -116,14 +116,17 @@ const ProgressView: React.FC<ProgressViewProps> = ({ history, isDarkMode, onRevi
             <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-700">
               <p className="text-sm font-medium text-slate-700 dark:text-slate-200 mb-4">Skill Breakdown</p>
               <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
+                {/* SL-08: a null dimension is one the pipeline cannot measure yet.
+                    It renders as an em dash, never as a zero. */}
                 {Object.entries(dimensions).map(([dim, score]) => (
                   <div key={dim} className="text-center">
                     <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mb-1 ${
+                      score === null ? 'bg-slate-100 text-slate-400 dark:bg-slate-800 dark:text-slate-500' :
                       score >= 80 ? 'bg-emerald-100 text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-400' :
                       score >= 60 ? 'bg-amber-100 text-amber-600 dark:bg-amber-900/30 dark:text-amber-400' :
                       'bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-400'
-                    }`}>
-                      {score}
+                    }`} title={score === null ? 'Not yet measured' : undefined}>
+                      {score === null ? '—' : score}
                     </div>
                     <p className="text-xs capitalize text-slate-500 dark:text-slate-400">{dim}</p>
                   </div>
@@ -131,7 +134,8 @@ const ProgressView: React.FC<ProgressViewProps> = ({ history, isDarkMode, onRevi
               </div>
               <div className="h-48 w-full mt-4">
                 <ResponsiveContainer width="100%" height="100%">
-                  <RadarChart data={Object.entries(dimensions).map(([name, value]) => ({ name, value }))}>
+                  {/* SL-08: only plot dimensions that were actually measured. */}
+                  <RadarChart data={Object.entries(dimensions).filter(([, v]) => v !== null).map(([name, value]) => ({ name, value }))}>
                     <PolarGrid stroke={isDarkMode ? '#334155' : '#e2e8f0'} />
                     <PolarAngleAxis dataKey="name" tick={{ fill: isDarkMode ? '#94a3b8' : '#64748b', fontSize: 11 }} />
                     <PolarRadiusAxis angle={90} domain={[0, 100]} tick={false} fontSize={0} />

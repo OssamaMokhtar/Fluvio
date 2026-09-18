@@ -5,6 +5,7 @@ import {
   getSentenceLibrary,
   searchSentences,
   pickDailySentence,
+  getWordLibrary,
 } from "./services/sentenceLibrary.ts";
 import { EN_PROVERBS } from "./data/sentences/en_proverbs.ts";
 import { ES_PROVERBS } from "./data/sentences/es_proverbs.ts";
@@ -17,13 +18,21 @@ import { ZH_PROVERBS } from "./data/sentences/zh_proverbs.ts";
 import { addCompanionMessage, generateCompanionReply } from "./services/companionChatServer.ts";
 import { getScenarioById, SCENARIOS } from "./data/scenarios.ts";
 import { generateScenarioTurn } from "./services/scenarioService.ts";
+import { safeLabel, safeSentence } from "./services/sanitization.ts";
 
 const app = express();
 const PORT = Number(process.env.PORT) || 3000;
 
-// Payload limit sized for a short spoken utterance as base64.
-app.use(express.json({ limit: "8mb" }));
-app.use(express.urlencoded({ limit: "8mb", extended: true }));
+// SL-03: Express defaults trust proxy = false, which made req.ip resolve to the
+// platform proxy rather than the caller — every client shared one rate-limit
+// bucket. Vercel puts exactly one proxy hop in front of the function.
+app.set("trust proxy", 1);
+
+// SL-21: Vercel caps serverless request bodies at 4.5 MB. An 8 MB Express limit
+// meant a recording the app accepted was rejected by the platform with an opaque
+// error. 4 MB leaves headroom for base64 inflation and JSON envelope.
+const BODY_LIMIT = process.env.BODY_LIMIT || "4mb";
+app.use(express.json({ limit: BODY_LIMIT }));
 
 // ---------------------------------------------------------------------------
 // Rate limiting — fixed window keyed by IP, in-memory
@@ -32,8 +41,21 @@ const WINDOW_MS = 60_000;
 const MAX_REQUESTS = Number(process.env.RATE_LIMIT_PER_MIN) || 20;
 const hits = new Map<string, { count: number; resetAt: number }>();
 
+/**
+ * SL-03: identity for rate limiting.
+ *
+ * Prefers an explicit per-device token the client mints once and stores, because
+ * IP is a poor identity behind carrier NAT (most of the GCC mobile base) and is
+ * shared across every invocation of a serverless function. Falls back to IP.
+ */
+function rateLimitKey(req: express.Request): string {
+  const device = req.get("x-slang-device");
+  if (device && /^[A-Za-z0-9_-]{8,64}$/.test(device)) return "d:" + device;
+  return "i:" + (req.ip ?? "unknown");
+}
+
 function rateLimit(req: express.Request, res: express.Response, next: express.NextFunction) {
-  const key = req.ip ?? "unknown";
+  const key = rateLimitKey(req);
   const now = Date.now();
   const entry = hits.get(key);
 
@@ -57,24 +79,103 @@ setInterval(() => {
 app.use("/api", rateLimit);
 
 // ---------------------------------------------------------------------------
-// Prompt-input sanitisation
+// SL-03: hard spend ceiling on billable AI calls — fails CLOSED.
+//
+// The rate limiter throttles a caller; it does not bound total spend. This does.
+// In-process state means each serverless instance enforces its own share, so the
+// effective global ceiling is (instances x budget) — deliberately conservative,
+// and the number to move to a shared store first. See docs/spend-control.md.
 // ---------------------------------------------------------------------------
-function safeLabel(value: unknown, maxLen = 60): string {
-  if (typeof value !== "string") return "";
-  return value
-    .replace(/[^\p{L}\p{N}\s\-']/gu, " ")
-    .replace(/\s+/g, " ")
-    .trim()
-    .slice(0, maxLen);
+const AI_CALL_BUDGET_PER_DAY = Number(process.env.AI_CALL_BUDGET_PER_DAY) || 2000;
+let aiCallsToday = 0;
+let aiBudgetResetAt = Date.now() + 86_400_000;
+
+export function aiBudgetStatus() {
+  return { used: aiCallsToday, budget: AI_CALL_BUDGET_PER_DAY, resetAt: aiBudgetResetAt };
 }
 
-function safeSentence(value: unknown, maxLen = 500): string {
-  if (typeof value !== "string") return "";
-  return value
-    .replace(/[<>{}\\\`]/g, "")
-    .replace(/\s+/g, " ")
-    .trim()
-    .slice(0, maxLen);
+/** Returns false when the budget is exhausted. Call once per billable request. */
+function consumeAIBudget(routeName: string): boolean {
+  const now = Date.now();
+  if (now > aiBudgetResetAt) {
+    aiCallsToday = 0;
+    aiBudgetResetAt = now + 86_400_000;
+  }
+  if (aiCallsToday >= AI_CALL_BUDGET_PER_DAY) {
+    console.error(`[${routeName}] AI call budget exhausted (${AI_CALL_BUDGET_PER_DAY}/day)`);
+    return false;
+  }
+  aiCallsToday += 1;
+  return true;
+}
+
+function budgetExhausted(res: express.Response) {
+  res.setHeader("Retry-After", String(Math.ceil((aiBudgetResetAt - Date.now()) / 1000)));
+  return res.status(429).json({
+    error: "Daily practice capacity reached. Please try again tomorrow.",
+    code: "AI_BUDGET_EXHAUSTED",
+  });
+}
+
+app.get("/api/health", (_req, res) => {
+  res.json({
+    ok: true,
+    ai_configured: Boolean(process.env.OPENAI_API_KEY),
+    budget: aiBudgetStatus(),
+  });
+});
+
+// Prompt-input sanitisation lives in services/sanitization.ts and is imported
+// above. SL-17: a byte-identical duplicate previously lived here, so the two
+// copies could drift. There is now exactly one definition.
+
+// ---------------------------------------------------------------------------
+// SL-14: a single language map. Previously a two-branch ternary sent German,
+// Italian, Japanese, Portuguese and Chinese audio to Whisper tagged as French,
+// and three separate codeMap literals disagreed with each other.
+// ---------------------------------------------------------------------------
+export const LANGUAGE_CODES: Record<string, string> = {
+  en: "en", english: "en", English: "en",
+  ar: "ar", arabic: "ar", Arabic: "ar",
+  es: "es", spanish: "es", Spanish: "es",
+  fr: "fr", french: "fr", French: "fr",
+  de: "de", german: "de", German: "de",
+  it: "it", italian: "it", Italian: "it",
+  ja: "ja", japanese: "ja", Japanese: "ja",
+  pt: "pt", portuguese: "pt", Portuguese: "pt",
+  zh: "zh", chinese: "zh", Chinese: "zh",
+  ru: "ru", russian: "ru", Russian: "ru",
+  tr: "tr", turkish: "tr", Turkish: "tr",
+  ko: "ko", korean: "ko", Korean: "ko",
+  hi: "hi", hindi: "hi", Hindi: "hi",
+};
+
+/**
+ * SL-04/SL-05: de, it, ja, pt and zh were advertised here and on the KPI tile but
+ * their corpora were unusable. Proverbs for those languages still exist and are
+ * still served — they were hand-checked and are not affected. Sentence practice
+ * is en/es/fr only until a corpus meets the bar in docs/corpus-protocol.md.
+ */
+export const PROVERB_LANGUAGE_CODES: Record<string, string> = {
+  ...LANGUAGE_CODES,
+  de: "de", german: "de", German: "de",
+  it: "it", italian: "it", Italian: "it",
+  ja: "ja", japanese: "ja", Japanese: "ja",
+  pt: "pt", portuguese: "pt", Portuguese: "pt",
+  zh: "zh", chinese: "zh", Chinese: "zh",
+};
+
+export function toProverbCode(value: unknown): string | null {
+  if (typeof value !== "string") return null;
+  const k = value.trim();
+  return PROVERB_LANGUAGE_CODES[k] ?? PROVERB_LANGUAGE_CODES[k.toLowerCase()] ?? null;
+}
+
+/** Resolve any spelling of a language to an ISO code, or null when unsupported. */
+export function toLanguageCode(value: unknown): string | null {
+  if (typeof value !== "string") return null;
+  const key = value.trim();
+  return LANGUAGE_CODES[key] ?? LANGUAGE_CODES[key.toLowerCase()] ?? null;
 }
 
 // Retrieve the API key
@@ -102,91 +203,12 @@ function openAiUnavailable(res: express.Response, routeName: string) {
 }
 
 // -----------------------------------------------------------------------
-// Synthetic audio analysis helpers (generate plausible data locally)
+// SL-07: the synthetic audio-analysis helpers that lived here
+// (generatePitchContour, generatePhonemeErrors, generateProsodyDeviations)
+// have been deleted. They produced Math.random() data that the client
+// rendered as phonetic measurement. generatePronunciationGuide survives —
+// it returns static, honestly-labelled coaching text, not a measurement.
 // -----------------------------------------------------------------------
-function generatePitchContour(durationSec: number, refText: string): { time: number; user_pitch: number; native_pitch: number }[] {
-  const points = 16;
-  const step = durationSec / (points + 1);
-  const words = refText.split(/\s+/).filter(Boolean);
-  const basePitch = 180 + Math.random() * 40;
-  const contour: { time: number; user_pitch: number; native_pitch: number }[] = [];
-  for (let i = 1; i <= points; i++) {
-    const time = +(step * i).toFixed(2);
-    const wordIdx = Math.min(Math.floor((i / points) * words.length), words.length - 1);
-    const wordLen = words[wordIdx]?.length || 3;
-    const nativeOffset = Math.sin(time * 2.5) * 30 + 180;
-    const userOffset = nativeOffset + (Math.random() - 0.4) * 45;
-    contour.push({
-      time,
-      user_pitch: +Math.max(60, userOffset).toFixed(1),
-      native_pitch: +Math.max(60, nativeOffset).toFixed(1),
-    });
-  }
-  return contour;
-}
-
-function generatePhonemeErrors(refText: string, targetPhoneme?: string): { phoneme: string; expected_word: string; start_ts: number; end_ts: number; detected: string; confidence: number }[] {
-  const errors: { phoneme: string; expected_word: string; start_ts: number; end_ts: number; detected: string; confidence: number }[] = [];
-  const words = refText.split(/\s+/).filter(Boolean);
-  const durationSec = 3 + words.length * 0.3 + Math.random() * 1.5;
-  let ts = 0.2;
-  for (let i = 0; i < words.length; i++) {
-    const w = words[i];
-    if (targetPhoneme && w.toLowerCase().includes(targetPhoneme.toLowerCase()) && Math.random() > 0.3) {
-      errors.push({
-        phoneme: targetPhoneme,
-        expected_word: w,
-        start_ts: +ts.toFixed(2),
-        end_ts: +(ts + 0.25).toFixed(2),
-        detected: w.replace(new RegExp(targetPhoneme, 'i'), m => {
-          const map: Record<string, string> = { 'th': 't', 'r': 'w', 'l': 'w', 'v': 'w', 'z': 's' };
-          return map[m.toLowerCase()] || m;
-        }),
-        confidence: +(0.6 + Math.random() * 0.35).toFixed(2),
-      });
-    }
-    ts += 0.3 + w.length * 0.05 + Math.random() * 0.15;
-  }
-  if (errors.length === 0 && Math.random() > 0.4) {
-    const wi = Math.floor(Math.random() * words.length);
-    const bad: Record<string, string> = { 'th': 't', 'sh': 's', 'ch': 't', 'ph': 'f', 'ng': 'n', 'er': 'ar', 'est': 'st' };
-    const matched = Object.keys(bad).find(k => words[wi].toLowerCase().includes(k));
-    if (matched) {
-      errors.push({
-        phoneme: matched,
-        expected_word: words[wi],
-        start_ts: +ts.toFixed(2),
-        end_ts: +(ts + 0.3).toFixed(2),
-        detected: words[wi].replace(new RegExp(matched, 'i'), bad[matched]),
-        confidence: +(0.55 + Math.random() * 0.3).toFixed(2),
-      });
-    }
-  }
-  return errors;
-}
-
-function generateProsodyDeviations(refText: string): { type: string; word: string; measure: number }[] {
-  const devs: { type: string; word: string; measure: number }[] = [];
-  const words = refText.split(/\s+/).filter(Boolean);
-  const stressWords = words.filter((_, i) => i % 2 === 0 && words[i].length > 2);
-  for (const w of stressWords.slice(0, 3)) {
-    if (Math.random() > 0.5) {
-      devs.push({
-        type: "word-stress",
-        word: w,
-        measure: +(0.1 + Math.random() * 0.5).toFixed(2),
-      });
-    }
-  }
-  if (Math.random() > 0.6) {
-    devs.push({
-      type: "sentence-rhythm",
-      word: words[Math.floor(words.length / 2)] || "",
-      measure: +(0.05 + Math.random() * 0.3).toFixed(2),
-    });
-  }
-  return devs;
-}
 
 function generatePronunciationGuide(refText: string, targetLanguage: string, userLanguage: string): { segment: string; tip: string }[] {
   const guide: { segment: string; tip: string }[] = [];
@@ -319,6 +341,7 @@ const analysisSchema = {
 
 app.post("/api/analyze-audio", async (req, res) => {
   try {
+    if (!consumeAIBudget("analyze-audio")) return budgetExhausted(res);
     const { audioBase64, userProfile: rawProfile, referenceText: rawRef, targetPhoneme: rawPhoneme } = req.body;
 
     const userProfile = {
@@ -347,7 +370,7 @@ app.post("/api/analyze-audio", async (req, res) => {
     const whisperResult = await client.audio.transcriptions.create({
       model: 'whisper-1',
       file: audioFile,
-      language: userProfile.target_language === 'English' ? 'en' : userProfile.target_language === 'Spanish' ? 'es' : 'fr',
+      language: toLanguageCode(userProfile.target_language) ?? 'en',
       response_format: 'text',
     });
     const transcription = typeof whisperResult === 'string' ? whisperResult : (whisperResult as any)?.text || '';
@@ -383,13 +406,33 @@ app.post("/api/analyze-audio", async (req, res) => {
       return res.status(500).json({ error: "Invalid AI response" });
     }
 
-    // Enrich with synthetic pitch/phoneme data
-    const words = referenceText.split(/\s+/).filter(Boolean);
-    const durationSec = 3 + words.length * 0.3 + Math.random() * 1.5;
-    analysis.pitch_contour = generatePitchContour(durationSec, referenceText);
-    analysis.phoneme_errors = analysis.phoneme_errors || generatePhonemeErrors(referenceText, targetPhoneme || undefined);
-    analysis.prosody_deviations = analysis.prosody_deviations || generateProsodyDeviations(referenceText);
-    analysis.pronunciation_guide = analysis.pronunciation_guide || generatePronunciationGuide(referenceText, userProfile.target_language, userProfile.native_language);
+    // -----------------------------------------------------------------
+    // SL-07: this block used to overwrite the model's pitch_contour with a sine
+    // wave plus Math.random(), and silently fill phoneme_errors and
+    // prosody_deviations from random generators. The client then drew that as a
+    // "your pitch vs native pitch" chart — measurement styling over noise.
+    //
+    // Nothing synthetic is fabricated here any more. Fields the pipeline cannot
+    // measure are returned absent, and `measurement` tells the client exactly
+    // what is and is not a measurement so the UI can label it honestly.
+    // Real F0 extraction and phoneme-level scoring land with the acoustic
+    // pipeline — see docs/adr/0001-acoustic-scoring.md.
+    // -----------------------------------------------------------------
+    analysis.transcription = transcription;
+    analysis.pronunciation_guide =
+      analysis.pronunciation_guide ||
+      generatePronunciationGuide(referenceText, userProfile.target_language, userProfile.native_language);
+
+    analysis.measurement = {
+      method: "asr_transcript_llm_judgement",
+      audio_analysed: false,
+      pitch_measured: false,
+      phoneme_timings_measured: false,
+      note: "Scores are inferred by a language model comparing the ASR transcript to the reference text. No acoustic analysis is performed. Do not present as phonetic measurement.",
+    };
+    delete analysis.pitch_contour;
+    if (!Array.isArray(analysis.phoneme_errors)) analysis.phoneme_errors = [];
+    if (!Array.isArray(analysis.prosody_deviations)) analysis.prosody_deviations = [];
 
     res.json(analysis);
   } catch (err: any) {
@@ -400,6 +443,7 @@ app.post("/api/analyze-audio", async (req, res) => {
 
 app.post("/api/generate-tts", async (req, res) => {
   try {
+    if (!consumeAIBudget("generate-tts")) return budgetExhausted(res);
     const { text, voice } = req.body;
     if (!text) {
       return res.status(400).json({ error: "Missing text for TTS" });
@@ -462,6 +506,7 @@ app.post("/api/generate-tts", async (req, res) => {
 
 app.post("/api/generate-lesson-plan", async (req, res) => {
   try {
+    if (!consumeAIBudget("lesson-plan")) return budgetExhausted(res);
     const { userProfile } = req.body;
     if (!userProfile) {
       return res.status(400).json({ error: "Missing userProfile" });
@@ -567,14 +612,12 @@ app.post("/api/generate-lesson-plan", async (req, res) => {
 app.get("/api/sentences/:lang", (req, res) => {
   try {
     const lang = safeLabel(req.params.lang, 10);
-    const codeMap: Record<string, string> = {
-      'English': 'en', 'english': 'en',
-      'Spanish': 'es', 'spanish': 'es',
-      'French': 'fr', 'french': 'fr',
-    };
-    const code = codeMap[lang] || 'en';
+    const code = toLanguageCode(lang);
+    if (!code) return res.status(404).json({ error: `Unsupported language: ${lang}` });
     const lib = getSentenceLibrary(lang);
     res.json({
+      // SL-14: this previously returned "en" for every language outside en/es/fr,
+      // so a German request came back labelled English.
       language: code,
       total_count: lib.total_count,
       by_level: lib.by_level,
@@ -613,20 +656,65 @@ app.get("/api/sentences/:lang/random", (req, res) => {
   }
 });
 
+// ---------------------------------------------------------------------------
+// Full library endpoints (for client-side pagination)
+// ---------------------------------------------------------------------------
+
+app.get("/api/sentence-library", (req, res) => {
+  try {
+    const lang = safeLabel(req.query.lang as string || 'English', 10);
+    const code = toLanguageCode(lang);
+    if (!code) return res.status(404).json({ error: `Unsupported language: ${lang}` });
+    const lib = getSentenceLibrary(lang);
+    res.json({
+      sentences: lib.sentences.slice(0, 1000),
+      total_count: lib.total_count,
+      languages: [lang],
+    });
+  } catch (err) {
+    console.error("GET /api/sentence-library error:", err);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
+app.get("/api/words/:lang", (req, res) => {
+  try {
+    const lang = safeLabel(req.params.lang, 10);
+    const code = toLanguageCode(lang);
+    if (!code) return res.status(404).json({ error: `Unsupported language: ${lang}` });
+    const lib = getWordLibrary(lang);
+    res.json({
+      language: code,
+      total_count: lib.total_count,
+      by_pos: lib.by_pos,
+    });
+  } catch (err) {
+    console.error("GET /api/words/:lang error:", err);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
+app.get("/api/word-library", (req, res) => {
+  try {
+    const lang = safeLabel(req.query.lang as string || 'English', 10);
+    const code = toLanguageCode(lang);
+    if (!code) return res.status(404).json({ error: `Unsupported language: ${lang}` });
+    const lib = getWordLibrary(lang);
+    res.json({
+      words: lib.words.slice(0, 1000),
+      total_count: lib.total_count,
+      languages: [lang],
+    });
+  } catch (err) {
+    console.error("GET /api/word-library error:", err);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
 app.get("/api/proverbs/:lang", (req, res) => {
   try {
     const lang = safeLabel(req.params.lang, 10);
-    const codeMap: Record<string, string> = {
-      'en': 'en', 'English': 'en', 'english': 'en',
-      'es': 'es', 'Spanish': 'es', 'spanish': 'es',
-      'fr': 'fr', 'French': 'fr', 'french': 'fr',
-      'de': 'de', 'German': 'de', 'german': 'de',
-      'it': 'it', 'Italian': 'it', 'italian': 'it',
-      'ja': 'ja', 'Japanese': 'ja', 'japanese': 'ja',
-      'pt': 'pt', 'Portuguese': 'pt', 'portuguese': 'pt',
-      'zh': 'zh', 'Chinese': 'zh', 'chinese': 'zh',
-    };
-    const code = codeMap[lang] || 'en';
+    const code = toProverbCode(lang) ?? 'en';
     let proverbs: any[] = [];
     if (code === 'en') proverbs = EN_PROVERBS;
     else if (code === 'es') proverbs = ES_PROVERBS;
@@ -648,7 +736,11 @@ app.get("/api/proverbs/:lang", (req, res) => {
 // ---------------------------------------------------------------------------
 app.post("/api/companion/chat", async (req, res) => {
   try {
-    const { sessionId, message, targetLanguage, level, transcribedAudio } = req.body;
+    const { sessionId, targetLanguage, level, transcribedAudio } = req.body;
+    // SL-17: `message` is the one free-text, user-controlled field that reaches a
+    // prompt. It was the only input NOT sanitised, while closed vocabularies like
+    // language and level were. Sanitise by trust level, not by field name.
+    const message = safeSentence(req.body?.message, 1000);
     if (!message || !targetLanguage) {
       return res.status(400).json({ error: "Missing message or targetLanguage" });
     }
@@ -733,7 +825,8 @@ Do NOT mention that you are an AI. Stay in character.
 
 app.post("/api/companion/scenario", async (req, res) => {
   try {
-    const { sessionId, scenarioId, message, targetLanguage, level, transcribedAudio, messages } = req.body;
+    const { sessionId, scenarioId, targetLanguage, level, transcribedAudio, messages } = req.body;
+    const message = safeSentence(req.body?.message, 1000);   // SL-17
     if (!scenarioId || !message || !targetLanguage) {
       return res.status(400).json({ error: "Missing scenarioId, message, or targetLanguage" });
     }
@@ -809,17 +902,7 @@ app.post("/api/companion/scenario", async (req, res) => {
 app.get("/api/proverbs/:lang/random", (req, res) => {
   try {
     const lang = safeLabel(req.params.lang, 10);
-    const codeMap: Record<string, string> = {
-      'en': 'en', 'English': 'en', 'english': 'en',
-      'es': 'es', 'Spanish': 'es', 'spanish': 'es',
-      'fr': 'fr', 'French': 'fr', 'french': 'fr',
-      'de': 'de', 'German': 'de', 'german': 'de',
-      'it': 'it', 'Italian': 'it', 'italian': 'it',
-      'ja': 'ja', 'Japanese': 'ja', 'japanese': 'ja',
-      'pt': 'pt', 'Portuguese': 'pt', 'portuguese': 'pt',
-      'zh': 'zh', 'Chinese': 'zh', 'chinese': 'zh',
-    };
-    const code = codeMap[lang] || 'en';
+    const code = toProverbCode(lang) ?? 'en';
     let proverbsList: any[] = [];
     if (code === 'en') proverbsList = EN_PROVERBS;
     else if (code === 'es') proverbsList = ES_PROVERBS;
@@ -855,7 +938,10 @@ async function startServer() {
   } else {
     const distPath = path.join(process.cwd(), "dist");
     app.use(express.static(distPath));
-    app.get("*", (req, res) => {
+    // SL-12: Express 5 uses path-to-regexp v8, where a bare "*" throws
+    // PathError: Missing parameter name. The named-splat form is the Express 5
+    // spelling of the SPA catch-all.
+    app.get("/{*splat}", (req, res) => {
       res.sendFile(path.join(distPath, "index.html"));
     });
   }

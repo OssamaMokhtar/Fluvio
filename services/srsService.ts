@@ -18,8 +18,15 @@ export interface SRSRecord {
 }
 
 const STORAGE_KEY = 'slang_srs_state';
-const NOW = Date.now();
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
+
+/**
+ * SL-18: this was `const NOW = Date.now()` at module scope, captured once at
+ * import and used as the default "now" for every due-date check. In a long
+ * single-page session — or a warm serverless container — nothing newly due ever
+ * became due. Each call now reads the clock.
+ */
+const now = () => Date.now();
 
 const DEFAULT_EASE = 2.5;
 const MIN_EASE = 1.3;
@@ -62,8 +69,8 @@ export function getSRSRecord(state: Map<string, SRSRecord>, sentenceId: string):
 /**
  * Check if a sentence is due for review (now >= nextReview).
  */
-export function isDue(record: SRSRecord, now = NOW): boolean {
-  return now >= record.nextReview;
+export function isDue(record: SRSRecord, at: number = now()): boolean {
+  return at >= record.nextReview;
 }
 
 /**
@@ -72,11 +79,11 @@ export function isDue(record: SRSRecord, now = NOW): boolean {
 export function getDueSentences(
   state: Map<string, SRSRecord>,
   library: { sentences: Sentence[] },
-  now = NOW,
+  at: number = now(),
 ): Sentence[] {
   const dueIds = new Set<string>();
   for (const record of state.values()) {
-    if (isDue(record, now)) dueIds.add(record.sentenceId);
+    if (isDue(record, at)) dueIds.add(record.sentenceId);
   }
   return library.sentences.filter(s => dueIds.has(s.id)).slice(0, 20);
 }
@@ -137,7 +144,7 @@ export function recordReview(
     repetitions = quality >= 3 ? 1 : 0;
   }
 
-  const nextReview = NOW + nextInterval * MS_PER_DAY;
+  const nextReview = now() + nextInterval * MS_PER_DAY;
 
   const record: SRSRecord = {
     sentenceId: sentence.id,
@@ -145,7 +152,7 @@ export function recordReview(
     interval: nextInterval,
     easeFactor: nextEase,
     repetitions,
-    lastReviewed: NOW,
+    lastReviewed: now(),
     lastScore: score,
   };
 
@@ -170,10 +177,10 @@ function scoreToQuality(score: number): number {
 /**
  * Get the count of sentences due for review (for badge display).
  */
-export function getDueCount(state: Map<string, SRSRecord>, now = NOW): number {
+export function getDueCount(state: Map<string, SRSRecord>, at: number = now()): number {
   let count = 0;
   for (const record of state.values()) {
-    if (isDue(record, now)) count++;
+    if (isDue(record, at)) count++;
   }
   return count;
 }
