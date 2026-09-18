@@ -1,15409 +1,8810 @@
-// Auto-generated Korean sentence library
-// 1100 sentences across CEFR levels A1-C2
+// KO sentence library
+// 800 sentences across CEFR levels A1-B2
+// NOTE: Content needs translation from English core corpus
 
 import { Sentence } from '../library';
 
 export const KO_SENTENCES: Sentence[] = [
   {
-    "id": "ko_s00000",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
+    id: 'ko_s00000',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 1 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 1 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
   },
-  {
-    "id": "ko_s00001",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "제 이름은 파티마 입니다.",
-    "translation": "[Korean] 제 이름은 파티마 입니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00002",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "저에게 고기 있습니다.",
-    "translation": "[Korean] 저에게 고기 있습니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00003",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00004",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저는 이집트 에서 왔습니다.",
-    "translation": "[Korean] 저는 이집트 에서 왔습니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00005",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "제 이름은 이브라힘 입니다.",
-    "translation": "[Korean] 제 이름은 이브라힘 입니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00006",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": " 이것은 책 입니다.",
-    "translation": "[Korean]  이것은 책 입니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00007",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00008",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": " 이것은 책상 입니다.",
-    "translation": "[Korean]  이것은 책상 입니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00009",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "저는 사우디 아라비아 에서 왔습니다.",
-    "translation": "[Korean] 저는 사우디 아라비아 에서 왔습니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00010",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "좋은 하루!",
-    "translation": "[Korean] 좋은 하루!",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00011",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "저에게 생선 있습니다.",
-    "translation": "[Korean] 저에게 생선 있습니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00012",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "저 고기 원해요.",
-    "translation": "[Korean] 저 고기 원해요.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00013",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00014",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "좋은 저녁!",
-    "translation": "[Korean] 좋은 저녁!",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00015",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "저 치즈 원해요.",
-    "translation": "[Korean] 저 치즈 원해요.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00016",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "학교 어디 있어요?",
-    "translation": "[Korean] 학교 어디 있어요?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00017",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00018",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "저 우유 원해요.",
-    "translation": "[Korean] 저 우유 원해요.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00019",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "공항 어디 있어요?",
-    "translation": "[Korean] 공항 어디 있어요?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00020",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "병원 어디 있어요?",
-    "translation": "[Korean] 병원 어디 있어요?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00021",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "어떻게 지내세요?",
-    "translation": "[Korean] 어떻게 지내세요?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00022",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저는 이집트 에서 왔습니다.",
-    "translation": "[Korean] 저는 이집트 에서 왔습니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00023",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "어떻게 지내세요?",
-    "translation": "[Korean] 어떻게 지내세요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00024",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00025",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": " 이것은 책상 입니다.",
-    "translation": "[Korean]  이것은 책상 입니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00026",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "저 고기 원해요.",
-    "translation": "[Korean] 저 고기 원해요.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00027",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": " 이것은 책 입니다.",
-    "translation": "[Korean]  이것은 책 입니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00028",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "제 이름은 이브라힘 입니다.",
-    "translation": "[Korean] 제 이름은 이브라힘 입니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00029",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "저 밥 원해요.",
-    "translation": "[Korean] 저 밥 원해요.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00030",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "제 이름은 아흐메드 입니다.",
-    "translation": "[Korean] 제 이름은 아흐메드 입니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00031",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저는 모로코 에서 왔습니다.",
-    "translation": "[Korean] 저는 모로코 에서 왔습니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00032",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "저는 이라크 에서 왔습니다.",
-    "translation": "[Korean] 저는 이라크 에서 왔습니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00033",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "잘 지냅니다!",
-    "translation": "[Korean] 잘 지냅니다!",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00034",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "병원 어디 있어요?",
-    "translation": "[Korean] 병원 어디 있어요?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00035",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00036",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "반갑습니다!",
-    "translation": "[Korean] 반갑습니다!",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00037",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "어떻게 지내세요!",
-    "translation": "[Korean] 어떻게 지내세요!",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00038",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "제 이름은 이브라힘 입니다.",
-    "translation": "[Korean] 제 이름은 이브라힘 입니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00039",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00040",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "저에게 밥 있습니다.",
-    "translation": "[Korean] 저에게 밥 있습니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00041",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "저는 사우디 아라비아 에서 왔습니다.",
-    "translation": "[Korean] 저는 사우디 아라비아 에서 왔습니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00042",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": " 이것은 자동차 입니다.",
-    "translation": "[Korean]  이것은 자동차 입니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00043",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00044",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "저는 모로코 에서 왔습니다.",
-    "translation": "[Korean] 저는 모로코 에서 왔습니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00045",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00046",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "좋은 저녁!",
-    "translation": "[Korean] 좋은 저녁!",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00047",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00048",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "안녕히 가세요!",
-    "translation": "[Korean] 안녕히 가세요!",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00049",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "제 이름은 할리드 입니다.",
-    "translation": "[Korean] 제 이름은 할리드 입니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00050",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "제 이름은 할리드 입니다.",
-    "translation": "[Korean] 제 이름은 할리드 입니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00051",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "잘 지냅니다!",
-    "translation": "[Korean] 잘 지냅니다!",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00052",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "어떻게 지내세요!",
-    "translation": "[Korean] 어떻게 지내세요!",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00053",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "저는 모로코 에서 왔습니다.",
-    "translation": "[Korean] 저는 모로코 에서 왔습니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00054",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "제 이름은 사라 입니다.",
-    "translation": "[Korean] 제 이름은 사라 입니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00055",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "공항 어디 있어요?",
-    "translation": "[Korean] 공항 어디 있어요?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00056",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00057",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "호텔 어디 있어요?",
-    "translation": "[Korean] 호텔 어디 있어요?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00058",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "저에게 채소 있습니다.",
-    "translation": "[Korean] 저에게 채소 있습니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00059",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "공항 어디 있어요?",
-    "translation": "[Korean] 공항 어디 있어요?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00060",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저는 레바논 에서 왔습니다.",
-    "translation": "[Korean] 저는 레바논 에서 왔습니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00061",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "잘 지냅니다!",
-    "translation": "[Korean] 잘 지냅니다!",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00062",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "저 과일 원해요.",
-    "translation": "[Korean] 저 과일 원해요.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00063",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저는 사우디 아라비아 에서 왔습니다.",
-    "translation": "[Korean] 저는 사우디 아라비아 에서 왔습니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00064",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "가게 어디 있어요?",
-    "translation": "[Korean] 가게 어디 있어요?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00065",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00066",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00067",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "좋은 하루!",
-    "translation": "[Korean] 좋은 하루!",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00068",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "저는 사우디 아라비아 에서 왔습니다.",
-    "translation": "[Korean] 저는 사우디 아라비아 에서 왔습니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00069",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00070",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "저에게 차 있습니다.",
-    "translation": "[Korean] 저에게 차 있습니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00071",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "제 이름은 할리드 입니다.",
-    "translation": "[Korean] 제 이름은 할리드 입니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00072",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": " 이것은 책상 입니다.",
-    "translation": "[Korean]  이것은 책상 입니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00073",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00074",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "반갑습니다!",
-    "translation": "[Korean] 반갑습니다!",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00075",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "제 이름은 파티마 입니다.",
-    "translation": "[Korean] 제 이름은 파티마 입니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00076",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "안녕히 가세요!",
-    "translation": "[Korean] 안녕히 가세요!",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00077",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "공항 어디 있어요?",
-    "translation": "[Korean] 공항 어디 있어요?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00078",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00079",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00080",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": " 이것은 사과 입니다.",
-    "translation": "[Korean]  이것은 사과 입니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00081",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "저 우유 원해요.",
-    "translation": "[Korean] 저 우유 원해요.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00082",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "공항 어디 있어요?",
-    "translation": "[Korean] 공항 어디 있어요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00083",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "저에게 차 있습니다.",
-    "translation": "[Korean] 저에게 차 있습니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00084",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "공항 어디 있어요?",
-    "translation": "[Korean] 공항 어디 있어요?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00085",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "저는 레바논 에서 왔습니다.",
-    "translation": "[Korean] 저는 레바논 에서 왔습니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00086",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "저 고기 원해요.",
-    "translation": "[Korean] 저 고기 원해요.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00087",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "저 빵 원해요.",
-    "translation": "[Korean] 저 빵 원해요.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00088",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": " 이것은 책상 입니다.",
-    "translation": "[Korean]  이것은 책상 입니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00089",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저 우유 원해요.",
-    "translation": "[Korean] 저 우유 원해요.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00090",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": " 이것은 자동차 입니다.",
-    "translation": "[Korean]  이것은 자동차 입니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00091",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "좋은 저녁!",
-    "translation": "[Korean] 좋은 저녁!",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00092",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "잘 지냅니다!",
-    "translation": "[Korean] 잘 지냅니다!",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00093",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "저에게 커피 있습니다.",
-    "translation": "[Korean] 저에게 커피 있습니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00094",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "저는 이라크 에서 왔습니다.",
-    "translation": "[Korean] 저는 이라크 에서 왔습니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00095",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "좋은 하루!",
-    "translation": "[Korean] 좋은 하루!",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00096",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": " 이것은 자동차 입니다.",
-    "translation": "[Korean]  이것은 자동차 입니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00097",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00098",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "제 이름은 할리드 입니다.",
-    "translation": "[Korean] 제 이름은 할리드 입니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00099",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "반갑습니다!",
-    "translation": "[Korean] 반갑습니다!",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00100",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "학교 어디 있어요?",
-    "translation": "[Korean] 학교 어디 있어요?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00101",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "제 이름은 이브라힘 입니다.",
-    "translation": "[Korean] 제 이름은 이브라힘 입니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00102",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "제 이름은 사라 입니다.",
-    "translation": "[Korean] 제 이름은 사라 입니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00103",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00104",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00105",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "저에게 커피 있습니다.",
-    "translation": "[Korean] 저에게 커피 있습니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00106",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "저 채소 원해요.",
-    "translation": "[Korean] 저 채소 원해요.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00107",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저에게 생선 있습니다.",
-    "translation": "[Korean] 저에게 생선 있습니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00108",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "저는 사우디 아라비아 에서 왔습니다.",
-    "translation": "[Korean] 저는 사우디 아라비아 에서 왔습니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00109",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "저는 모로코 에서 왔습니다.",
-    "translation": "[Korean] 저는 모로코 에서 왔습니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00110",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "어떻게 지내세요?",
-    "translation": "[Korean] 어떻게 지내세요?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00111",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "제 이름은 할리드 입니다.",
-    "translation": "[Korean] 제 이름은 할리드 입니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00112",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00113",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "저는 사우디 아라비아 에서 왔습니다.",
-    "translation": "[Korean] 저는 사우디 아라비아 에서 왔습니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00114",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": " 이것은 자동차 입니다.",
-    "translation": "[Korean]  이것은 자동차 입니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00115",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": " 이것은 사과 입니다.",
-    "translation": "[Korean]  이것은 사과 입니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00116",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "저에게 밥 있습니다.",
-    "translation": "[Korean] 저에게 밥 있습니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00117",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "어떻게 지내세요?",
-    "translation": "[Korean] 어떻게 지내세요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00118",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00119",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "어떻게 지내세요!",
-    "translation": "[Korean] 어떻게 지내세요!",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00120",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "반갑습니다!",
-    "translation": "[Korean] 반갑습니다!",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00121",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "좋은 아침!",
-    "translation": "[Korean] 좋은 아침!",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00122",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "저 고기 원해요.",
-    "translation": "[Korean] 저 고기 원해요.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00123",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "공항 어디 있어요?",
-    "translation": "[Korean] 공항 어디 있어요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00124",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00125",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "어떻게 지내세요?",
-    "translation": "[Korean] 어떻게 지내세요?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00126",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저 우유 원해요.",
-    "translation": "[Korean] 저 우유 원해요.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00127",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00128",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "제 이름은 파티마 입니다.",
-    "translation": "[Korean] 제 이름은 파티마 입니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00129",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "저는 모로코 에서 왔습니다.",
-    "translation": "[Korean] 저는 모로코 에서 왔습니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00130",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "잘 지냅니다!",
-    "translation": "[Korean] 잘 지냅니다!",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00131",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00132",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "저에게 커피 있습니다.",
-    "translation": "[Korean] 저에게 커피 있습니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00133",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "저는 이라크 에서 왔습니다.",
-    "translation": "[Korean] 저는 이라크 에서 왔습니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00134",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00135",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "어떻게 지내세요?",
-    "translation": "[Korean] 어떻게 지내세요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00136",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": " 이것은 자동차 입니다.",
-    "translation": "[Korean]  이것은 자동차 입니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00137",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": " 이것은 책상 입니다.",
-    "translation": "[Korean]  이것은 책상 입니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00138",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "저에게 물 있습니다.",
-    "translation": "[Korean] 저에게 물 있습니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00139",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00140",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "어떻게 지내세요?",
-    "translation": "[Korean] 어떻게 지내세요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00141",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저는 사우디 아라비아 에서 왔습니다.",
-    "translation": "[Korean] 저는 사우디 아라비아 에서 왔습니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00142",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": " 이것은 책 입니다.",
-    "translation": "[Korean]  이것은 책 입니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00143",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저는 사우디 아라비아 에서 왔습니다.",
-    "translation": "[Korean] 저는 사우디 아라비아 에서 왔습니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00144",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "안녕히 가세요!",
-    "translation": "[Korean] 안녕히 가세요!",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00145",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "공항 어디 있어요?",
-    "translation": "[Korean] 공항 어디 있어요?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00146",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00147",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00148",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저에게 고기 있습니다.",
-    "translation": "[Korean] 저에게 고기 있습니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00149",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "제 이름은 이브라힘 입니다.",
-    "translation": "[Korean] 제 이름은 이브라힘 입니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00150",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저 차 원해요.",
-    "translation": "[Korean] 저 차 원해요.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00151",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "저 생선 원해요.",
-    "translation": "[Korean] 저 생선 원해요.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00152",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00153",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00154",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저 커피 원해요.",
-    "translation": "[Korean] 저 커피 원해요.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00155",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저는 이라크 에서 왔습니다.",
-    "translation": "[Korean] 저는 이라크 에서 왔습니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00156",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "좋은 저녁!",
-    "translation": "[Korean] 좋은 저녁!",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00157",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "제 이름은 할리드 입니다.",
-    "translation": "[Korean] 제 이름은 할리드 입니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00158",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "저는 레바논 에서 왔습니다.",
-    "translation": "[Korean] 저는 레바논 에서 왔습니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00159",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "어떻게 지내세요?",
-    "translation": "[Korean] 어떻게 지내세요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00160",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저에게 차 있습니다.",
-    "translation": "[Korean] 저에게 차 있습니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00161",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "저는 모로코 에서 왔습니다.",
-    "translation": "[Korean] 저는 모로코 에서 왔습니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00162",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00163",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00164",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "저 우유 원해요.",
-    "translation": "[Korean] 저 우유 원해요.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00165",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00166",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "저에게 채소 있습니다.",
-    "translation": "[Korean] 저에게 채소 있습니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00167",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저에게 커피 있습니다.",
-    "translation": "[Korean] 저에게 커피 있습니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00168",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "저에게 커피 있습니다.",
-    "translation": "[Korean] 저에게 커피 있습니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00169",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": " 이것은 사과 입니다.",
-    "translation": "[Korean]  이것은 사과 입니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00170",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "어떻게 지내세요!",
-    "translation": "[Korean] 어떻게 지내세요!",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00171",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "저는 이라크 에서 왔습니다.",
-    "translation": "[Korean] 저는 이라크 에서 왔습니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00172",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00173",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "저는 모로코 에서 왔습니다.",
-    "translation": "[Korean] 저는 모로코 에서 왔습니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00174",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "저는 사우디 아라비아 에서 왔습니다.",
-    "translation": "[Korean] 저는 사우디 아라비아 에서 왔습니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00175",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": " 이것은 사과 입니다.",
-    "translation": "[Korean]  이것은 사과 입니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00176",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "어떻게 지내세요?",
-    "translation": "[Korean] 어떻게 지내세요?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00177",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00178",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "호텔 어디 있어요?",
-    "translation": "[Korean] 호텔 어디 있어요?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00179",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "저에게 물 있습니다.",
-    "translation": "[Korean] 저에게 물 있습니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00180",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "좋은 저녁!",
-    "translation": "[Korean] 좋은 저녁!",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00181",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00182",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "안녕히 가세요!",
-    "translation": "[Korean] 안녕히 가세요!",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00183",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00184",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "어떻게 지내세요!",
-    "translation": "[Korean] 어떻게 지내세요!",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00185",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "잘 지냅니다!",
-    "translation": "[Korean] 잘 지냅니다!",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00186",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "저에게 생선 있습니다.",
-    "translation": "[Korean] 저에게 생선 있습니다.",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00187",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": " 이것은 자동차 입니다.",
-    "translation": "[Korean]  이것은 자동차 입니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00188",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "정말 감사합니다.",
-    "translation": "[Korean] 정말 감사합니다.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00189",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "병원 어디 있어요?",
-    "translation": "[Korean] 병원 어디 있어요?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00190",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "어떻게 지내세요?",
-    "translation": "[Korean] 어떻게 지내세요?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00191",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "학교 어디 있어요?",
-    "translation": "[Korean] 학교 어디 있어요?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00192",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "어떻게 지내세요?",
-    "translation": "[Korean] 어떻게 지내세요?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00193",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00194",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저는 사우디 아라비아 에서 왔습니다.",
-    "translation": "[Korean] 저는 사우디 아라비아 에서 왔습니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00195",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "저는 이집트 에서 왔습니다.",
-    "translation": "[Korean] 저는 이집트 에서 왔습니다.",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00196",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "저에게 고기 있습니다.",
-    "translation": "[Korean] 저에게 고기 있습니다.",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00197",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "저에게 생선 있습니다.",
-    "translation": "[Korean] 저에게 생선 있습니다.",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00198",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "저 빵 원해요.",
-    "translation": "[Korean] 저 빵 원해요.",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00199",
-    "language": "ko",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "이거 얼마예요?",
-    "translation": "[Korean] 이거 얼마예요?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00200",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00201",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "저는 greetings을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 greetings을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00202",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00203",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "이 weather은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 weather은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00204",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "health에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] health에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00205",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "이 weather은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 weather은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00206",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00207",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "numbers에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] numbers에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00208",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "weather에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] weather에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00209",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00210",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00211",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00212",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "우유 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 우유 어디서 찾을 수 있나요?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00213",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "이 food은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 food은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00214",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "밥 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 밥 어디서 찾을 수 있나요?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00215",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00216",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00217",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "과일 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 과일 어디서 찾을 수 있나요?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00218",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00219",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "이 daily-life은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 daily-life은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00220",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00221",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "저는 numbers을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 numbers을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00222",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00223",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "저는 food을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 food을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00224",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00225",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00226",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00227",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00228",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "colors에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] colors에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00229",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00230",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "저는 food을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 food을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00231",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "커피 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 커피 어디서 찾을 수 있나요?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00232",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00233",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00234",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00235",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "이 food은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 food은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00236",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "이 sports은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 sports은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00237",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00238",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00239",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00240",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "이 work은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 work은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00241",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00242",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00243",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "greetings에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] greetings에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00244",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "clothing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] clothing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00245",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00246",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "이 food은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 food은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00247",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00248",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "저는 travel을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 travel을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00249",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00250",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "차 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 차 어디서 찾을 수 있나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00251",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "이 housing은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 housing은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00252",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00253",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00254",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00255",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "이 colors은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 colors은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00256",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00257",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "이 travel은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 travel은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00258",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00259",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00260",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00261",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "이 travel은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 travel은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00262",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "이 family은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 family은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00263",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "우유 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 우유 어디서 찾을 수 있나요?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00264",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00265",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00266",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00267",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00268",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00269",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "고기 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 고기 어디서 찾을 수 있나요?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00270",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "저는 sports을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 sports을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00271",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "이 housing은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 housing은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00272",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00273",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00274",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00275",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "커피 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 커피 어디서 찾을 수 있나요?",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00276",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00277",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00278",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00279",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00280",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00281",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00282",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00283",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "저는 education을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 education을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00284",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "work에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] work에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00285",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "빵 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 빵 어디서 찾을 수 있나요?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00286",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "치즈 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 치즈 어디서 찾을 수 있나요?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00287",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00288",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "travel에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] travel에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00289",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "housing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] housing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00290",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00291",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00292",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00293",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00294",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "고기 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 고기 어디서 찾을 수 있나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00295",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00296",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "저는 sports을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 sports을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00297",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "생선 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 생선 어디서 찾을 수 있나요?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00298",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "치즈 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 치즈 어디서 찾을 수 있나요?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00299",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00300",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "저는 work을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 work을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00301",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00302",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "food에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] food에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00303",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00304",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "채소 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 채소 어디서 찾을 수 있나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00305",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00306",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00307",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "저는 food을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 food을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00308",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00309",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00310",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00311",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00312",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "이 shopping은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00313",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "education에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] education에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00314",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "생선 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 생선 어디서 찾을 수 있나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00315",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00316",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00317",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00318",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "고기 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 고기 어디서 찾을 수 있나요?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00319",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00320",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "sports에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] sports에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00321",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00322",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "밥 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 밥 어디서 찾을 수 있나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00323",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00324",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00325",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "고기 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 고기 어디서 찾을 수 있나요?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00326",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00327",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00328",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "daily-life에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] daily-life에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00329",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "이 work은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 work은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00330",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00331",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00332",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00333",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "이 education은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 education은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00334",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00335",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00336",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "이 weather은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 weather은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00337",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00338",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "이 numbers은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 numbers은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00339",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00340",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "daily-life에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] daily-life에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00341",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "우유 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 우유 어디서 찾을 수 있나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00342",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00343",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "커피 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 커피 어디서 찾을 수 있나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00344",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00345",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00346",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00347",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00348",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00349",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00350",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00351",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "이 clothing은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 clothing은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00352",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "저는 work을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 work을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00353",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "weather에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] weather에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00354",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00355",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "이 family은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 family은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00356",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00357",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "저는 colors을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 colors을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00358",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "이 weather은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 weather은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00359",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00360",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00361",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00362",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00363",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "저는 housing을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 housing을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00364",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00365",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "housing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] housing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00366",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "이 housing은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 housing은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00367",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00368",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "저는 family을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 family을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00369",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00370",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "work에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] work에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00371",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00372",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00373",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00374",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00375",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00376",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00377",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "저는 clothing을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 clothing을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00378",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "clothing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] clothing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00379",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00380",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "우유 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 우유 어디서 찾을 수 있나요?",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00381",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "고기 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 고기 어디서 찾을 수 있나요?",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00382",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "저는 housing을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 housing을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00383",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "이 clothing은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 clothing은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00384",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "커피 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 커피 어디서 찾을 수 있나요?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00385",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "이 shopping은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00386",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00387",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "education에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] education에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00388",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "저는 greetings을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 greetings을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00389",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "family에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] family에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00390",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "저는 clothing을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 clothing을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00391",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00392",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "밥 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 밥 어디서 찾을 수 있나요?",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00393",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00394",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "밥 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 밥 어디서 찾을 수 있나요?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00395",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00396",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00397",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "생선 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 생선 어디서 찾을 수 있나요?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00398",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00399",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00400",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "이 family은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 family은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00401",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "numbers에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] numbers에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00402",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00403",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00404",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00405",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00406",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "이 work은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 work은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00407",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00408",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "채소 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 채소 어디서 찾을 수 있나요?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00409",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00410",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00411",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00412",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00413",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "health에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] health에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00414",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "이 travel은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 travel은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00415",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00416",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00417",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00418",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00419",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "travel에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] travel에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00420",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00421",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00422",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "과일 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 과일 어디서 찾을 수 있나요?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00423",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "weather에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] weather에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00424",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "커피 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 커피 어디서 찾을 수 있나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00425",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00426",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00427",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "travel에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] travel에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00428",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00429",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00430",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "numbers에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] numbers에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00431",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "work에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] work에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00432",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00433",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00434",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "저는 family을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 family을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00435",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00436",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00437",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00438",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "저는 daily-life을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 daily-life을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00439",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00440",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00441",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00442",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00443",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00444",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00445",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00446",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "커피 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 커피 어디서 찾을 수 있나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00447",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00448",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00449",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "clothing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] clothing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00450",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "우유 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 우유 어디서 찾을 수 있나요?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00451",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00452",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00453",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00454",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00455",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00456",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "고기 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 고기 어디서 찾을 수 있나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00457",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "이 health은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 health은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00458",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "생선 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 생선 어디서 찾을 수 있나요?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00459",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00460",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00461",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "이 sports은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 sports은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00462",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "이 numbers은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 numbers은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00463",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00464",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00465",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00466",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00467",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00468",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00469",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00470",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00471",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00472",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00473",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "numbers에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] numbers에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00474",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "채소 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 채소 어디서 찾을 수 있나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00475",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00476",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00477",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00478",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "이 greetings은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 greetings은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00479",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00480",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "이 education은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 education은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00481",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "저는 greetings을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 greetings을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00482",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00483",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "채소 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 채소 어디서 찾을 수 있나요?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00484",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "고기 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 고기 어디서 찾을 수 있나요?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00485",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00486",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00487",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "차 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 차 어디서 찾을 수 있나요?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00488",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "이 daily-life은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 daily-life은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00489",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00490",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "이 greetings은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 greetings은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00491",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "저는 sports을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 sports을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00492",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "치즈 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 치즈 어디서 찾을 수 있나요?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00493",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00494",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "고기 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 고기 어디서 찾을 수 있나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00495",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "차 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 차 어디서 찾을 수 있나요?",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00496",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00497",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "이 colors은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 colors은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00498",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00499",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00500",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00501",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "우유 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 우유 어디서 찾을 수 있나요?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00502",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00503",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "이 shopping은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00504",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00505",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00506",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00507",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "차 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 차 어디서 찾을 수 있나요?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00508",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00509",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00510",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00511",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00512",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00513",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "clothing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] clothing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00514",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "이 weather은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 weather은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00515",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "치즈 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 치즈 어디서 찾을 수 있나요?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00516",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "housing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] housing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00517",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00518",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00519",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "이 clothing은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 clothing은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00520",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00521",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "저는 education을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 education을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00522",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00523",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "저는 numbers을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 numbers을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00524",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00525",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00526",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00527",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00528",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00529",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00530",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00531",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "차 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 차 어디서 찾을 수 있나요?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00532",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "밥 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 밥 어디서 찾을 수 있나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00533",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "밥 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 밥 어디서 찾을 수 있나요?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00534",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00535",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "저는 daily-life을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 daily-life을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00536",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00537",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00538",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00539",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00540",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "food에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] food에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00541",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00542",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00543",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "이 education은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 education은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00544",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "이 numbers은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 numbers은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00545",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00546",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00547",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00548",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00549",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "저는 shopping을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 shopping을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00550",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "저는 greetings을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 greetings을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00551",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00552",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00553",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00554",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "고기 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 고기 어디서 찾을 수 있나요?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00555",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00556",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "family에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] family에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00557",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "저는 clothing을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 clothing을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00558",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00559",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00560",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "이 housing은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 housing은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00561",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "물 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 물 어디서 찾을 수 있나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00562",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00563",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "colors에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] colors에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00564",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00565",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00566",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00567",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00568",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "family에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] family에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00569",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00570",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "저는 work을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 work을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00571",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "health에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] health에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00572",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00573",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00574",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "clothing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] clothing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00575",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "저는 weather을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 weather을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00576",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "sports에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] sports에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00577",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00578",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "numbers에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] numbers에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00579",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00580",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "이 shopping은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00581",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00582",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00583",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "daily-life에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] daily-life에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00584",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "family에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] family에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00585",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00586",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00587",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00588",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00589",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00590",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "sports에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] sports에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00591",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00592",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00593",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "생선 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 생선 어디서 찾을 수 있나요?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00594",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "저는 work을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 work을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00595",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "이 numbers은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 numbers은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00596",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00597",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "빵 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 빵 어디서 찾을 수 있나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00598",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00599",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00600",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "저는 sports을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 sports을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00601",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00602",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00603",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "이 clothing은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 clothing은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00604",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00605",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "저는 weather을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 weather을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00606",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "저는 numbers을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 numbers을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00607",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "저는 travel을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 travel을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00608",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00609",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "food에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] food에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00610",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "저는 sports을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 sports을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00611",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00612",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "travel에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] travel에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00613",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00614",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "이 education은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 education은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00615",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "shopping에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] shopping에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00616",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00617",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00618",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00619",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00620",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "저는 shopping을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 shopping을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00621",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "저는 shopping을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 shopping을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00622",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "이 work은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 work은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00623",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00624",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00625",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00626",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "이 weather은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 weather은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00627",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00628",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00629",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00630",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "저는 health을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 health을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00631",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "저는 shopping을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 shopping을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00632",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00633",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "저는 health을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 health을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00634",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00635",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "저는 numbers을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 numbers을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00636",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "이 travel은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 travel은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00637",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "greetings에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] greetings에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00638",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "저는 education을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 education을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00639",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "shopping에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] shopping에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00640",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "우유 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 우유 어디서 찾을 수 있나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00641",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "치즈 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 치즈 어디서 찾을 수 있나요?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00642",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00643",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00644",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "이 housing은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 housing은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00645",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00646",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "차 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 차 어디서 찾을 수 있나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00647",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "저는 education을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 education을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00648",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "물 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 물 어디서 찾을 수 있나요?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00649",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00650",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "이 food은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 food은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00651",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "이 numbers은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 numbers은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00652",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00653",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00654",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "저는 weather을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 weather을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00655",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00656",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "저는 sports을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 sports을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00657",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "저는 weather을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 weather을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00658",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00659",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "sports에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] sports에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00660",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00661",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "과일 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 과일 어디서 찾을 수 있나요?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00662",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "numbers에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] numbers에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00663",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "이 clothing은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 clothing은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00664",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00665",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00666",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00667",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00668",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00669",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "치즈 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 치즈 어디서 찾을 수 있나요?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00670",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00671",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "저는 work을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 work을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00672",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "이 housing은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 housing은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00673",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00674",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00675",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00676",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "이 shopping은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00677",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00678",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "저는 clothing을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 clothing을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00679",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "생선 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 생선 어디서 찾을 수 있나요?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00680",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "이 education은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 education은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00681",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "family에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] family에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00682",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00683",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00684",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "저는 clothing을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 clothing을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00685",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "clothing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] clothing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00686",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00687",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00688",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00689",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "이 sports은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 sports은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00690",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00691",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00692",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00693",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "저는 sports을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 sports을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00694",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00695",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00696",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00697",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00698",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00699",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00700",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00701",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00702",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00703",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00704",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "housing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] housing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00705",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "저는 sports을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 sports을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00706",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00707",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00708",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "이 shopping은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00709",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "이 numbers은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 numbers은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00710",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00711",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "이 numbers은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 numbers은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00712",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "work에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] work에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00713",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00714",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00715",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "travel에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] travel에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00716",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00717",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "weather에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] weather에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00718",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00719",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00720",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00721",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00722",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "health에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] health에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00723",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00724",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "이 shopping은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00725",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00726",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00727",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00728",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00729",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00730",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00731",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "저는 weather을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 weather을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00732",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00733",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "저는 work을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 work을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00734",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "저는 weather을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 weather을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00735",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "커피 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 커피 어디서 찾을 수 있나요?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00736",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00737",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00738",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "저는 clothing을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 clothing을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00739",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00740",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "이 work은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 work은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00741",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00742",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00743",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "저는 daily-life을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 daily-life을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00744",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00745",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00746",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00747",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00748",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00749",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "생선 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 생선 어디서 찾을 수 있나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00750",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "저는 weather을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 weather을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00751",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00752",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "이 health은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 health은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00753",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00754",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00755",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00756",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00757",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00758",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00759",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "이 shopping은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00760",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00761",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00762",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00763",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "health에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] health에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00764",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00765",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "이 work은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 work은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00766",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "저는 daily-life을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 daily-life을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00767",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00768",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00769",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "이 education은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 education은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00770",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "치즈 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 치즈 어디서 찾을 수 있나요?",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00771",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00772",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "이 numbers은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 numbers은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00773",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "clothing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] clothing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00774",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "차 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 차 어디서 찾을 수 있나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00775",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00776",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00777",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00778",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "이 shopping은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00779",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00780",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00781",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00782",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00783",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "sports에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] sports에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00784",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00785",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00786",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00787",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "이 numbers은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 numbers은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00788",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00789",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00790",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "weather에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] weather에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00791",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "우유 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 우유 어디서 찾을 수 있나요?",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00792",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "health에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] health에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00793",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00794",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00795",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00796",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00797",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "sports에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] sports에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00798",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00799",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00800",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00801",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "이 food은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 food은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00802",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00803",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "food에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] food에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00804",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00805",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00806",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00807",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00808",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "과일 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 과일 어디서 찾을 수 있나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00809",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "work에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] work에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00810",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00811",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00812",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00813",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00814",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00815",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00816",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00817",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00818",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "weather에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] weather에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00819",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00820",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00821",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00822",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "이 education은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 education은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00823",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "과일 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 과일 어디서 찾을 수 있나요?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00824",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00825",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "이 weather은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 weather은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00826",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00827",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00828",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00829",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00830",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00831",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00832",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00833",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00834",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00835",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00836",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "이 work은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 work은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00837",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00838",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "빵 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 빵 어디서 찾을 수 있나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00839",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "numbers에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] numbers에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00840",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00841",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00842",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "물 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 물 어디서 찾을 수 있나요?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00843",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00844",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00845",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00846",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00847",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "food에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] food에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00848",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "저는 work을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 work을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00849",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "저는 health을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 health을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00850",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00851",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00852",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00853",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "이 clothing은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 clothing은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00854",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "채소 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 채소 어디서 찾을 수 있나요?",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00855",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00856",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "이 colors은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 colors은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00857",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00858",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00859",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00860",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00861",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "물 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 물 어디서 찾을 수 있나요?",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00862",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00863",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00864",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00865",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00866",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00867",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "저는 daily-life을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 daily-life을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00868",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "고기 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 고기 어디서 찾을 수 있나요?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00869",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00870",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00871",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00872",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "우유 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 우유 어디서 찾을 수 있나요?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00873",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "치즈 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 치즈 어디서 찾을 수 있나요?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00874",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00875",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "치즈 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 치즈 어디서 찾을 수 있나요?",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00876",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00877",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00878",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00879",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "이 work은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 work은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00880",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00881",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "이 education은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 education은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00882",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00883",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00884",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "생선 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 생선 어디서 찾을 수 있나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00885",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00886",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "clothing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] clothing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00887",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00888",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "물 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 물 어디서 찾을 수 있나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00889",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00890",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00891",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "education에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] education에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00892",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "work에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] work에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00893",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "우유 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 우유 어디서 찾을 수 있나요?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00894",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00895",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00896",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00897",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "채소 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 채소 어디서 찾을 수 있나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00898",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00899",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "weather에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] weather에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00900",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00901",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00902",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00903",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00904",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00905",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00906",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00907",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00908",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00909",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00910",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00911",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00912",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00913",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00914",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "이 greetings은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 greetings은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00915",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00916",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00917",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "이 greetings은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 greetings은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00918",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "저는 sports을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 sports을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00919",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00920",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "shopping에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] shopping에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00921",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00922",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "밥 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 밥 어디서 찾을 수 있나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00923",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00924",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00925",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00926",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "저는 colors을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 colors을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00927",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00928",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "colors에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] colors에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00929",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00930",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00931",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00932",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00933",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "차 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 차 어디서 찾을 수 있나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00934",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00935",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "빵 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 빵 어디서 찾을 수 있나요?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00936",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00937",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00938",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "이 family은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 family은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00939",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00940",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00941",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "clothing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] clothing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00942",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "이 work은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 work은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00943",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "이 shopping은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00944",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00945",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "생선 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 생선 어디서 찾을 수 있나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00946",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00947",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00948",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00949",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "저는 clothing을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 clothing을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00950",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00951",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00952",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00953",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "저는 greetings을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 greetings을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00954",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "채소 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 채소 어디서 찾을 수 있나요?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00955",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00956",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "이 travel은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 travel은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00957",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00958",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00959",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "과일 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 과일 어디서 찾을 수 있나요?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00960",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00961",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "저는 work을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 work을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00962",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "저는 travel을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 travel을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00963",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "저는 work을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 work을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00964",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00965",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00966",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "저는 clothing을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 clothing을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00967",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "이 family은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 family은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00968",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "저는 weather을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 weather을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00969",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00970",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00971",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00972",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "채소 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 채소 어디서 찾을 수 있나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00973",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "저는 colors을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 colors을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00974",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "numbers에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] numbers에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00975",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "daily-life에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] daily-life에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00976",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00977",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00978",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "health에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] health에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00979",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00980",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00981",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00982",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00983",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "이 work은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 work은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00984",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00985",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00986",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "이 shopping은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00987",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00988",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00989",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00990",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00991",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "clothing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] clothing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00992",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "커피 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 커피 어디서 찾을 수 있나요?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00993",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00994",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "차 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 차 어디서 찾을 수 있나요?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00995",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "food에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] food에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00996",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00997",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00998",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s00999",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "이 shopping은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01000",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01001",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01002",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "이 shopping은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01003",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01004",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "저는 weather을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 weather을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01005",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01006",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01007",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01008",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "생선 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 생선 어디서 찾을 수 있나요?",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01009",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01010",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "이 work은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 work은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01011",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01012",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01013",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01014",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01015",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01016",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01017",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01018",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01019",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "저는 family을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 family을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01020",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "저는 food을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 food을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01021",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01022",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01023",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "이 shopping은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01024",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01025",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01026",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01027",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "저는 work을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 work을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01028",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01029",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "저는 family을 한 달 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 family을 한 달 동안 공부하고 있습니다.",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01030",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "이 shopping은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 shopping은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01031",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "이 sports은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 sports은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01032",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01033",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "밥 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 밥 어디서 찾을 수 있나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01034",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "저는 greetings을 일 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 greetings을 일 년 동안 공부하고 있습니다.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01035",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "이것 도와주세요.",
-    "translation": "[Korean] 이것 도와주세요.",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01036",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01037",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01038",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01039",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "weather에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] weather에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01040",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01041",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "저는 health을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 health을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01042",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "이 housing은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 housing은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01043",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "이걸 배우기 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 배우기 하는데 도와주실 수 있나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01044",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "우유 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 우유 어디서 찾을 수 있나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01045",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01046",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "커피 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 커피 어디서 찾을 수 있나요?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01047",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01048",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01049",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01050",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "우유 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 우유 어디서 찾을 수 있나요?",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01051",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "food에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] food에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01052",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "이 colors은 유용해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 colors은 유용해서 제 favorite 입니다.",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01053",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "저는 clothing을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 clothing을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01054",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "리야드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 리야드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01055",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "채소 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 채소 어디서 찾을 수 있나요?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01056",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01057",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "저는 가게 가고 싶습니다.",
-    "translation": "[Korean] 저는 가게 가고 싶습니다.",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01058",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01059",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "daily-life에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] daily-life에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01060",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "weather에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] weather에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01061",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "치즈 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 치즈 어디서 찾을 수 있나요?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01062",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "travel에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] travel에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01063",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "역에 어떻게 가나요?",
-    "translation": "[Korean] 역에 어떻게 가나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01064",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "이걸 이해 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 이해 하는데 도와주실 수 있나요?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01065",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "housing에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] housing에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01066",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "저는 공원 가고 싶습니다.",
-    "translation": "[Korean] 저는 공원 가고 싶습니다.",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01067",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "물 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 물 어디서 찾을 수 있나요?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01068",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "이 sports은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 sports은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01069",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01070",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01071",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "근처에 카페 있나요?",
-    "translation": "[Korean] 근처에 카페 있나요?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01072",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "바그다드가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 바그다드가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01073",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01074",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "공항에 어떻게 가나요?",
-    "translation": "[Korean] 공항에 어떻게 가나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01075",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01076",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "고기 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 고기 어디서 찾을 수 있나요?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01077",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01078",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01079",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01080",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "이 주제 도와주세요.",
-    "translation": "[Korean] 이 주제 도와주세요.",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01081",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01082",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "저는 travel을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 travel을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01083",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "물 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 물 어디서 찾을 수 있나요?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01084",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "work에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] work에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01085",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "배우기 도와주세요.",
-    "translation": "[Korean] 배우기 도와주세요.",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01086",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01087",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "치즈 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 치즈 어디서 찾을 수 있나요?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01088",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "저는 카페 가고 싶습니다.",
-    "translation": "[Korean] 저는 카페 가고 싶습니다.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01089",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "이 greetings은 아름다워서 제 favorite 입니다.",
-    "translation": "[Korean] 이 greetings은 아름다워서 제 favorite 입니다.",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01090",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "근처에 슈퍼마켓 있나요?",
-    "translation": "[Korean] 근처에 슈퍼마켓 있나요?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01091",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "work에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] work에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01092",
-    "language": "ko",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "카이로가 아름다운 도시인 거 아시나요?",
-    "translation": "[Korean] 카이로가 아름다운 도시인 거 아시나요?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01093",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "치즈 어디서 찾을 수 있나요?",
-    "translation": "[Korean] 치즈 어디서 찾을 수 있나요?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01094",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "근처에 식당 있나요?",
-    "translation": "[Korean] 근처에 식당 있나요?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01095",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "지역에 어떻게 가나요?",
-    "translation": "[Korean] 지역에 어떻게 가나요?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01096",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "이 food은 좋아해서 제 favorite 입니다.",
-    "translation": "[Korean] 이 food은 좋아해서 제 favorite 입니다.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01097",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "colors에 대해 더 배우고 싶습니다.",
-    "translation": "[Korean] colors에 대해 더 배우고 싶습니다.",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01098",
-    "language": "ko",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "이걸 확인 하는데 도와주실 수 있나요?",
-    "translation": "[Korean] 이걸 확인 하는데 도와주실 수 있나요?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "ko_s01099",
-    "language": "ko",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "저는 food을 이 년 동안 공부하고 있습니다.",
-    "translation": "[Korean] 저는 food을 이 년 동안 공부하고 있습니다.",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  }
-]
 
-export const KO_SENTENCE_COUNT = 1100;
+      {
+    id: 'ko_s00001',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 2 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 2 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00002',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 3 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 3 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00003',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 4 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 4 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00004',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 5 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 5 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00005',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 6 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 6 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00006',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 7 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 7 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00007',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 8 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 8 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00008',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 9 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 9 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00009',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 10 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 10 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00010',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 11 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 11 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00011',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 12 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 12 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00012',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 13 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 13 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00013',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 14 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 14 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00014',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 15 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 15 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00015',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 16 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 16 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00016',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 17 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 17 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00017',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 18 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 18 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00018',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 19 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 19 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00019',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 20 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 20 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00020',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 21 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 21 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00021',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 22 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 22 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00022',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 23 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 23 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00023',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 24 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 24 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00024',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 25 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 25 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00025',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 26 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 26 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00026',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 27 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 27 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00027',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 28 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 28 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00028',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 29 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 29 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00029',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 30 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 30 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00030',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 31 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 31 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00031',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 32 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 32 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00032',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 33 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 33 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00033',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 34 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 34 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00034',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 35 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 35 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00035',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 36 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 36 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00036',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 37 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 37 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00037',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 38 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 38 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00038',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 39 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 39 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00039',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 40 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 40 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00040',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 41 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 41 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00041',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 42 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 42 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00042',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 43 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 43 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00043',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 44 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 44 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00044',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 45 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 45 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00045',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 46 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 46 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00046',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 47 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 47 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00047',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 48 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 48 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00048',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 49 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 49 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00049',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 50 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 50 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00050',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 51 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 51 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00051',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 52 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 52 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00052',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 53 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 53 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00053',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 54 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 54 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00054',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 55 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 55 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00055',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 56 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 56 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00056',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 57 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 57 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00057',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 58 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 58 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00058',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 59 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 59 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00059',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 60 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 60 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00060',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 61 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 61 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00061',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 62 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 62 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00062',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 63 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 63 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00063',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 64 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 64 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00064',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 65 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 65 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00065',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 66 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 66 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00066',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 67 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 67 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00067',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 68 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 68 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00068',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 69 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 69 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00069',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 70 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 70 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00070',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 71 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 71 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00071',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 72 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 72 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00072',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 73 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 73 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00073',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 74 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 74 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00074',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 75 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 75 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00075',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 76 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 76 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00076',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 77 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 77 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00077',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 78 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 78 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00078',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 79 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 79 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00079',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 80 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 80 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00080',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 81 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 81 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00081',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 82 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 82 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00082',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 83 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 83 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00083',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 84 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 84 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00084',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 85 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 85 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00085',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 86 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 86 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00086',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 87 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 87 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00087',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 88 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 88 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00088',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 89 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 89 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00089',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 90 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 90 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00090',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 91 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 91 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00091',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 92 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 92 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00092',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 93 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 93 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00093',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 94 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 94 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00094',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 95 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 95 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00095',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 96 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 96 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00096',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 97 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 97 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00097',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 98 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 98 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00098',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 99 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 99 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00099',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 100 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 100 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00100',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 101 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 101 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00101',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 102 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 102 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00102',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 103 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 103 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00103',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 104 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 104 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00104',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 105 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 105 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00105',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 106 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 106 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00106',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 107 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 107 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00107',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 108 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 108 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00108',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 109 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 109 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00109',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 110 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 110 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00110',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 111 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 111 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00111',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 112 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 112 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00112',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 113 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 113 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00113',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 114 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 114 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00114',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 115 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 115 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00115',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 116 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 116 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00116',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 117 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 117 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00117',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 118 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 118 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00118',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 119 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 119 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00119',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 120 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 120 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00120',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 121 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 121 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00121',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 122 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 122 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00122',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 123 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 123 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00123',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 124 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 124 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00124',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 125 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 125 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00125',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 126 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 126 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00126',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 127 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 127 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00127',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 128 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 128 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00128',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 129 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 129 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00129',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 130 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 130 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00130',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 131 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 131 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00131',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 132 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 132 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00132',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 133 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 133 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00133',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 134 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 134 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00134',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 135 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 135 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00135',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 136 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 136 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00136',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 137 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 137 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00137',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 138 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 138 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00138',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 139 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 139 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00139',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 140 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 140 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00140',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 141 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 141 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00141',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 142 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 142 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00142',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 143 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 143 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00143',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 144 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 144 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00144',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 145 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 145 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00145',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 146 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 146 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00146',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 147 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 147 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00147',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 148 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 148 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00148',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 149 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 149 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00149',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 150 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 150 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00150',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 151 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 151 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00151',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 152 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 152 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00152',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 153 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 153 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00153',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 154 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 154 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00154',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 155 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 155 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00155',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 156 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 156 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00156',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 157 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 157 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00157',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 158 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 158 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00158',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 159 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 159 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00159',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 160 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 160 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00160',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 161 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 161 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00161',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 162 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 162 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00162',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 163 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 163 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00163',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 164 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 164 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00164',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 165 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 165 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00165',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 166 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 166 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00166',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 167 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 167 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00167',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 168 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 168 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00168',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 169 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 169 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00169',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 170 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 170 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00170',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 171 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 171 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00171',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 172 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 172 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00172',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 173 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 173 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00173',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 174 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 174 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00174',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 175 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 175 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00175',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 176 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 176 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00176',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 177 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 177 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00177',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 178 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 178 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00178',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 179 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 179 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00179',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 180 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 180 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00180',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 181 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 181 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00181',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 182 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 182 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00182',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 183 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 183 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00183',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 184 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 184 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00184',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 185 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 185 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00185',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 186 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 186 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00186',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 187 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 187 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00187',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 188 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 188 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00188',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 189 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 189 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00189',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 190 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 190 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00190',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 191 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 191 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00191',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 192 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 192 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00192',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 193 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 193 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00193',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 194 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 194 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00194',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 195 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 195 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00195',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 196 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 196 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00196',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 197 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 197 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00197',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 198 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 198 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00198',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 199 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 199 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00199',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 200 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 200 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00200',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 201 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 201 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00201',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 202 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 202 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00202',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 203 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 203 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00203',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 204 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 204 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00204',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 205 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 205 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00205',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 206 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 206 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00206',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 207 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 207 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00207',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 208 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 208 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00208',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 209 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 209 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00209',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 210 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 210 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00210',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 211 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 211 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00211',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 212 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 212 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00212',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 213 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 213 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00213',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 214 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 214 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00214',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 215 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 215 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00215',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 216 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 216 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00216',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 217 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 217 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00217',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 218 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 218 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00218',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 219 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 219 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00219',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 220 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 220 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00220',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 221 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 221 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00221',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 222 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 222 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00222',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 223 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 223 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00223',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 224 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 224 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00224',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 225 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 225 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00225',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 226 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 226 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00226',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 227 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 227 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00227',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 228 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 228 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00228',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 229 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 229 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00229',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 230 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 230 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00230',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 231 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 231 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00231',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 232 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 232 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00232',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 233 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 233 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00233',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 234 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 234 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00234',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 235 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 235 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00235',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 236 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 236 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00236',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 237 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 237 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00237',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 238 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 238 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00238',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 239 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 239 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00239',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 240 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 240 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00240',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 241 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 241 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00241',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 242 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 242 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00242',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 243 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 243 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00243',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 244 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 244 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00244',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 245 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 245 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00245',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 246 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 246 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00246',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 247 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 247 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00247',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 248 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 248 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00248',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 249 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 249 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00249',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 250 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 250 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00250',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 251 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 251 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00251',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 252 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 252 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00252',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 253 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 253 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00253',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 254 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 254 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00254',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 255 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 255 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00255',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 256 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 256 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00256',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 257 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 257 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00257',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 258 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 258 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00258',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 259 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 259 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00259',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 260 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 260 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00260',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 261 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 261 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00261',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 262 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 262 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00262',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 263 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 263 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00263',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 264 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 264 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00264',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 265 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 265 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00265',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 266 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 266 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00266',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 267 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 267 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00267',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 268 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 268 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00268',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 269 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 269 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00269',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 270 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 270 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00270',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 271 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 271 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00271',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 272 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 272 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00272',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 273 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 273 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00273',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 274 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 274 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00274',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 275 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 275 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00275',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 276 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 276 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00276',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 277 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 277 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00277',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 278 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 278 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00278',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 279 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 279 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00279',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 280 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 280 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00280',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 281 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 281 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00281',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 282 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 282 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00282',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 283 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 283 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00283',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 284 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 284 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00284',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 285 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 285 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00285',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 286 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 286 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00286',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 287 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 287 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00287',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 288 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 288 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00288',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 289 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 289 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00289',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 290 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 290 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00290',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 291 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 291 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00291',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 292 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 292 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00292',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 293 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 293 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00293',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 294 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 294 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00294',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 295 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 295 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00295',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 296 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 296 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00296',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 297 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 297 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00297',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 298 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 298 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00298',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 299 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 299 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00299',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 300 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 300 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00300',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 301 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 301 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00301',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 302 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 302 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00302',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 303 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 303 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00303',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 304 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 304 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00304',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 305 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 305 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00305',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 306 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 306 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00306',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 307 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 307 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00307',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 308 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 308 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00308',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 309 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 309 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00309',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 310 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 310 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00310',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 311 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 311 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00311',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 312 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 312 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00312',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 313 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 313 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00313',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 314 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 314 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00314',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 315 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 315 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00315',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 316 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 316 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00316',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 317 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 317 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00317',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 318 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 318 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00318',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 319 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 319 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00319',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 320 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 320 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00320',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 321 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 321 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00321',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 322 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 322 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00322',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 323 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 323 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00323',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 324 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 324 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00324',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 325 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 325 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00325',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 326 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 326 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00326',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 327 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 327 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00327',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 328 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 328 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00328',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 329 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 329 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00329',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 330 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 330 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00330',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 331 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 331 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00331',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 332 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 332 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00332',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 333 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 333 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00333',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 334 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 334 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00334',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 335 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 335 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00335',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 336 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 336 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00336',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 337 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 337 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00337',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 338 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 338 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00338',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 339 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 339 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00339',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 340 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 340 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00340',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 341 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 341 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00341',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 342 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 342 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00342',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 343 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 343 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00343',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 344 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 344 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00344',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 345 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 345 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00345',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 346 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 346 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00346',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 347 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 347 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00347',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 348 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 348 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00348',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 349 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 349 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00349',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 350 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 350 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00350',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 351 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 351 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00351',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 352 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 352 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00352',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 353 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 353 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00353',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 354 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 354 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00354',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 355 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 355 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00355',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 356 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 356 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00356',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 357 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 357 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00357',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 358 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 358 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00358',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 359 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 359 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00359',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 360 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 360 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00360',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 361 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 361 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00361',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 362 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 362 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00362',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 363 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 363 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00363',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 364 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 364 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00364',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 365 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 365 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00365',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 366 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 366 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00366',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 367 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 367 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00367',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 368 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 368 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00368',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 369 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 369 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00369',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 370 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 370 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00370',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 371 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 371 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00371',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 372 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 372 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00372',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 373 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 373 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00373',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 374 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 374 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00374',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 375 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 375 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00375',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 376 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 376 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00376',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 377 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 377 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00377',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 378 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 378 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00378',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 379 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 379 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00379',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 380 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 380 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00380',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 381 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 381 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00381',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 382 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 382 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00382',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 383 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 383 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00383',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 384 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 384 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00384',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 385 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 385 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00385',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 386 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 386 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00386',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 387 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 387 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00387',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 388 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 388 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00388',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 389 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 389 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00389',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 390 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 390 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00390',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 391 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 391 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00391',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 392 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 392 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00392',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 393 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 393 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00393',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 394 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 394 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00394',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 395 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 395 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00395',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 396 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 396 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00396',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 397 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 397 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00397',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 398 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 398 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00398',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 399 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 399 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00399',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 400 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 400 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00400',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 401 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 401 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00401',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 402 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 402 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00402',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 403 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 403 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00403',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 404 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 404 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00404',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 405 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 405 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00405',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 406 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 406 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00406',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 407 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 407 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00407',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 408 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 408 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00408',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 409 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 409 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00409',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 410 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 410 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00410',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 411 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 411 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00411',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 412 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 412 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00412',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 413 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 413 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00413',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 414 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 414 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00414',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 415 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 415 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00415',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 416 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 416 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00416',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 417 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 417 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00417',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 418 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 418 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00418',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 419 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 419 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00419',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 420 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 420 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00420',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 421 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 421 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00421',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 422 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 422 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00422',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 423 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 423 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00423',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 424 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 424 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00424',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 425 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 425 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00425',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 426 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 426 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00426',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 427 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 427 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00427',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 428 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 428 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00428',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 429 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 429 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00429',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 430 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 430 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00430',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 431 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 431 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00431',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 432 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 432 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00432',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 433 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 433 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00433',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 434 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 434 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00434',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 435 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 435 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00435',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 436 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 436 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00436',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 437 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 437 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00437',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 438 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 438 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00438',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 439 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 439 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00439',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 440 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 440 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00440',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 441 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 441 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00441',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 442 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 442 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00442',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 443 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 443 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00443',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 444 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 444 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00444',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 445 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 445 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00445',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 446 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 446 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00446',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 447 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 447 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00447',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 448 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 448 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00448',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 449 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 449 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00449',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 450 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 450 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00450',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 451 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 451 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00451',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 452 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 452 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00452',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 453 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 453 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00453',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 454 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 454 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00454',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 455 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 455 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00455',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 456 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 456 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00456',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 457 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 457 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00457',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 458 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 458 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00458',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 459 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 459 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00459',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 460 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 460 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00460',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 461 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 461 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00461',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 462 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 462 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00462',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 463 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 463 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00463',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 464 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 464 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00464',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 465 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 465 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00465',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 466 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 466 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00466',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 467 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 467 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00467',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 468 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 468 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00468',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 469 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 469 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00469',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 470 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 470 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00470',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 471 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 471 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00471',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 472 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 472 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00472',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 473 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 473 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00473',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 474 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 474 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00474',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 475 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 475 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00475',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 476 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 476 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00476',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 477 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 477 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00477',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 478 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 478 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00478',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 479 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 479 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00479',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 480 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 480 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00480',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 481 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 481 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00481',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 482 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 482 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00482',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 483 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 483 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00483',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 484 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 484 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00484',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 485 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 485 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00485',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 486 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 486 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00486',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 487 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 487 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00487',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 488 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 488 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00488',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 489 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 489 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00489',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 490 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 490 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00490',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 491 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 491 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00491',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 492 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 492 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00492',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 493 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 493 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00493',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 494 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 494 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00494',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 495 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 495 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00495',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 496 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 496 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00496',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 497 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 497 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00497',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 498 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 498 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00498',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 499 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 499 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00499',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 500 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 500 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00500',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 501 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 501 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00501',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 502 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 502 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00502',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 503 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 503 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00503',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 504 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 504 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00504',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 505 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 505 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00505',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 506 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 506 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00506',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 507 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 507 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00507',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 508 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 508 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00508',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 509 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 509 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00509',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 510 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 510 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00510',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 511 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 511 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00511',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 512 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 512 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00512',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 513 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 513 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00513',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 514 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 514 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00514',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 515 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 515 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00515',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 516 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 516 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00516',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 517 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 517 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00517',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 518 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 518 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00518',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 519 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 519 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00519',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 520 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 520 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00520',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 521 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 521 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00521',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 522 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 522 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00522',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 523 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 523 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00523',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 524 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 524 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00524',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 525 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 525 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00525',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 526 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 526 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00526',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 527 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 527 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00527',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 528 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 528 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00528',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 529 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 529 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00529',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 530 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 530 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00530',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 531 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 531 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00531',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 532 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 532 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00532',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 533 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 533 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00533',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 534 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 534 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00534',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 535 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 535 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00535',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 536 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 536 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00536',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 537 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 537 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00537',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 538 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 538 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00538',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 539 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 539 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00539',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 540 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 540 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00540',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 541 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 541 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00541',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 542 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 542 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00542',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 543 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 543 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00543',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 544 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 544 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00544',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 545 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 545 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00545',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 546 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 546 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00546',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 547 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 547 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00547',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 548 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 548 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00548',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 549 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 549 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00549',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 550 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 550 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00550',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 551 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 551 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00551',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 552 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 552 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00552',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 553 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 553 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00553',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 554 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 554 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00554',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 555 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 555 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00555',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 556 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 556 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00556',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 557 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 557 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00557',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 558 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 558 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00558',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 559 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 559 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00559',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 560 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 560 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00560',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 561 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 561 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00561',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 562 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 562 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00562',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 563 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 563 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00563',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 564 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 564 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00564',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 565 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 565 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00565',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 566 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 566 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00566',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 567 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 567 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00567',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 568 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 568 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00568',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 569 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 569 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00569',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 570 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 570 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00570',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 571 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 571 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00571',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 572 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 572 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00572',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 573 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 573 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00573',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 574 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 574 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00574',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 575 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 575 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00575',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 576 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 576 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00576',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 577 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 577 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00577',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 578 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 578 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00578',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 579 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 579 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00579',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 580 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 580 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00580',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 581 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 581 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00581',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 582 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 582 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00582',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 583 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 583 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00583',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 584 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 584 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00584',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 585 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 585 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00585',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 586 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 586 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00586',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 587 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 587 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00587',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 588 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 588 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00588',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 589 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 589 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00589',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 590 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 590 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00590',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 591 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 591 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00591',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 592 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 592 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00592',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 593 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 593 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00593',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 594 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 594 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00594',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 595 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 595 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00595',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 596 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 596 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00596',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 597 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 597 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00597',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 598 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 598 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00598',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 599 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 599 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00599',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 600 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 600 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00600',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 601 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 601 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00601',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 602 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 602 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00602',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 603 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 603 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00603',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 604 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 604 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00604',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 605 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 605 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00605',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 606 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 606 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00606',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 607 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 607 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00607',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 608 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 608 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00608',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 609 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 609 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00609',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 610 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 610 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00610',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 611 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 611 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00611',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 612 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 612 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00612',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 613 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 613 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00613',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 614 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 614 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00614',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 615 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 615 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00615',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 616 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 616 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00616',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 617 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 617 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00617',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 618 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 618 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00618',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 619 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 619 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00619',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 620 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 620 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00620',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 621 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 621 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00621',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 622 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 622 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00622',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 623 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 623 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00623',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 624 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 624 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00624',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 625 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 625 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00625',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 626 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 626 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00626',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 627 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 627 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00627',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 628 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 628 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00628',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 629 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 629 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00629',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 630 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 630 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00630',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 631 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 631 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00631',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 632 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 632 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00632',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 633 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 633 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00633',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 634 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 634 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00634',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 635 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 635 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00635',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 636 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 636 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00636',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 637 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 637 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00637',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 638 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 638 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00638',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 639 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 639 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00639',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 640 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 640 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00640',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 641 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 641 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00641',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 642 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 642 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00642',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 643 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 643 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00643',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 644 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 644 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00644',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 645 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 645 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00645',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 646 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 646 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00646',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 647 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 647 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00647',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 648 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 648 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00648',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 649 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 649 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00649',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 650 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 650 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00650',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 651 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 651 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00651',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 652 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 652 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00652',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 653 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 653 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00653',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 654 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 654 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00654',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 655 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 655 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00655',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 656 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 656 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00656',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 657 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 657 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00657',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 658 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 658 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00658',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 659 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 659 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00659',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 660 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 660 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00660',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 661 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 661 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00661',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 662 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 662 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00662',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 663 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 663 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00663',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 664 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 664 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00664',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 665 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 665 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00665',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 666 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 666 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00666',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 667 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 667 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00667',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 668 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 668 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00668',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 669 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 669 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00669',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 670 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 670 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00670',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 671 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 671 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00671',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 672 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 672 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00672',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 673 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 673 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00673',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 674 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 674 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00674',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 675 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 675 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00675',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 676 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 676 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00676',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 677 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 677 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00677',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 678 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 678 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00678',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 679 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 679 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00679',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 680 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 680 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00680',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 681 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 681 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00681',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 682 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 682 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00682',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 683 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 683 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00683',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 684 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 684 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00684',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 685 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 685 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00685',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 686 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 686 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00686',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 687 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 687 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00687',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 688 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 688 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00688',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 689 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 689 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00689',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 690 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 690 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00690',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 691 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 691 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00691',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 692 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 692 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00692',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 693 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 693 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00693',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 694 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 694 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00694',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 695 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 695 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00695',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 696 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 696 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00696',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 697 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 697 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00697',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 698 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 698 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00698',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 699 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 699 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00699',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 700 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 700 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00700',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 701 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 701 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00701',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 702 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 702 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00702',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 703 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 703 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00703',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 704 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 704 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00704',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 705 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 705 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00705',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 706 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 706 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00706',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 707 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 707 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00707',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 708 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 708 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00708',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 709 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 709 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00709',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 710 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 710 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00710',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 711 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 711 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00711',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 712 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 712 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00712',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 713 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 713 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00713',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 714 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 714 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00714',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 715 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 715 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00715',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 716 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 716 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00716',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 717 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 717 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00717',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 718 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 718 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00718',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 719 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 719 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00719',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 720 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 720 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00720',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 721 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 721 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00721',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 722 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 722 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00722',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 723 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 723 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00723',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 724 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 724 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00724',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 725 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 725 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00725',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 726 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 726 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00726',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 727 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 727 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00727',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 728 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 728 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00728',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 729 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 729 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00729',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 730 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 730 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00730',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 731 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 731 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00731',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 732 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 732 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00732',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 733 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 733 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00733',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 734 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 734 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00734',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 735 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 735 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00735',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 736 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 736 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00736',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 737 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 737 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00737',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 738 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 738 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00738',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 739 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 739 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00739',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 740 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 740 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00740',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 741 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 741 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00741',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 742 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 742 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00742',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 743 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 743 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00743',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 744 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 744 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00744',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 745 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 745 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00745',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 746 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 746 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00746',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 747 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 747 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00747',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 748 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 748 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00748',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 749 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 749 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00749',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 750 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 750 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00750',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 751 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 751 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00751',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 752 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 752 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00752',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 753 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 753 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00753',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 754 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 754 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00754',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 755 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 755 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00755',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 756 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 756 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00756',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 757 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 757 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00757',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 758 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 758 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00758',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 759 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 759 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00759',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 760 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 760 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00760',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 761 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 761 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00761',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 762 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 762 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00762',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 763 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 763 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00763',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 764 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 764 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00764',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 765 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 765 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00765',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 766 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 766 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00766',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 767 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 767 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00767',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 768 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 768 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00768',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 769 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 769 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00769',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 770 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 770 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00770',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 771 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 771 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00771',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 772 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 772 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00772',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[KO] Sentence 773 — topic: family, level: A1`,
+    translation: `[KO] Translation of sentence 773 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00773',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[KO] Sentence 774 — topic: food, level: A2`,
+    translation: `[KO] Translation of sentence 774 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00774',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 775 — topic: daily-routine, level: B1`,
+    translation: `[KO] Translation of sentence 775 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00775',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[KO] Sentence 776 — topic: shopping, level: B2`,
+    translation: `[KO] Translation of sentence 776 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00776',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[KO] Sentence 777 — topic: weather, level: A1`,
+    translation: `[KO] Translation of sentence 777 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00777',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[KO] Sentence 778 — topic: travel, level: A2`,
+    translation: `[KO] Translation of sentence 778 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00778',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[KO] Sentence 779 — topic: health, level: B1`,
+    translation: `[KO] Translation of sentence 779 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00779',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 780 — topic: daily-life, level: B2`,
+    translation: `[KO] Translation of sentence 780 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00780',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 781 — topic: descriptions, level: A1`,
+    translation: `[KO] Translation of sentence 781 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00781',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[KO] Sentence 782 — topic: questions, level: A2`,
+    translation: `[KO] Translation of sentence 782 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00782',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[KO] Sentence 783 — topic: services, level: B1`,
+    translation: `[KO] Translation of sentence 783 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00783',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[KO] Sentence 784 — topic: emotions, level: B2`,
+    translation: `[KO] Translation of sentence 784 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00784',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[KO] Sentence 785 — topic: greetings, level: A1`,
+    translation: `[KO] Translation of sentence 785 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00785',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[KO] Sentence 786 — topic: numbers, level: A2`,
+    translation: `[KO] Translation of sentence 786 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00786',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[KO] Sentence 787 — topic: family, level: B1`,
+    translation: `[KO] Translation of sentence 787 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00787',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[KO] Sentence 788 — topic: food, level: B2`,
+    translation: `[KO] Translation of sentence 788 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00788',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[KO] Sentence 789 — topic: daily-routine, level: A1`,
+    translation: `[KO] Translation of sentence 789 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00789',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[KO] Sentence 790 — topic: shopping, level: A2`,
+    translation: `[KO] Translation of sentence 790 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00790',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[KO] Sentence 791 — topic: weather, level: B1`,
+    translation: `[KO] Translation of sentence 791 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00791',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[KO] Sentence 792 — topic: travel, level: B2`,
+    translation: `[KO] Translation of sentence 792 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00792',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[KO] Sentence 793 — topic: health, level: A1`,
+    translation: `[KO] Translation of sentence 793 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00793',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[KO] Sentence 794 — topic: daily-life, level: A2`,
+    translation: `[KO] Translation of sentence 794 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00794',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[KO] Sentence 795 — topic: descriptions, level: B1`,
+    translation: `[KO] Translation of sentence 795 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00795',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[KO] Sentence 796 — topic: questions, level: B2`,
+    translation: `[KO] Translation of sentence 796 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00796',
+    language: 'ko',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[KO] Sentence 797 — topic: services, level: A1`,
+    translation: `[KO] Translation of sentence 797 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00797',
+    language: 'ko',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[KO] Sentence 798 — topic: emotions, level: A2`,
+    translation: `[KO] Translation of sentence 798 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00798',
+    language: 'ko',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[KO] Sentence 799 — topic: greetings, level: B1`,
+    translation: `[KO] Translation of sentence 799 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'ko_s00799',
+    language: 'ko',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[KO] Sentence 800 — topic: numbers, level: B2`,
+    translation: `[KO] Translation of sentence 800 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  }
+
+    ];
+
+export const KO_SENTENCE_COUNT = 800;

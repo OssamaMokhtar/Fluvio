@@ -1,15409 +1,8810 @@
-// Auto-generated Hindi sentence library
-// 1100 sentences across CEFR levels A1-C2
+// HI sentence library
+// 800 sentences across CEFR levels A1-B2
+// NOTE: Content needs translation from English core corpus
 
 import { Sentence } from '../library';
 
 export const HI_SENTENCES: Sentence[] = [
   {
-    "id": "hi_s00000",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
+    id: 'hi_s00000',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 1 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 1 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
   },
-  {
-    "id": "hi_s00001",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00002",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00003",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मैं सऊदी अरब से来た।",
-    "translation": "[Hindi] मैं सऊदी अरब से来た।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00004",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मेरा नाम सारा है।",
-    "translation": "[Hindi] मेरा नाम सारा है।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00005",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00006",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मुझे मांस चाहिए।",
-    "translation": "[Hindi] मुझे मांस चाहिए।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00007",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "होटल कहाँ है?",
-    "translation": "[Hindi] होटल कहाँ है?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00008",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00009",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "यह घर है।",
-    "translation": "[Hindi] यह घर है।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00010",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मेरे पास चाय है।",
-    "translation": "[Hindi] मेरे पास चाय है।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00011",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00012",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00013",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "शुभ प्रभात!",
-    "translation": "[Hindi] शुभ प्रभात!",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00014",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "आप कैसे हैं!",
-    "translation": "[Hindi] आप कैसे हैं!",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00015",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मेरे पास रोटी है।",
-    "translation": "[Hindi] मेरे पास रोटी है।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00016",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "यह घर है।",
-    "translation": "[Hindi] यह घर है।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00017",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "शुभ प्रभात!",
-    "translation": "[Hindi] शुभ प्रभात!",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00018",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "मैं सऊदी अरब से来た।",
-    "translation": "[Hindi] मैं सऊदी अरब से来た।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00019",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00020",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00021",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "मैं इराक से来た।",
-    "translation": "[Hindi] मैं इराक से来た।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00022",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00023",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह सेब है।",
-    "translation": "[Hindi] यह सेब है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00024",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मैं मोरक्को से来た।",
-    "translation": "[Hindi] मैं मोरक्को से来た।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00025",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "यह कार है।",
-    "translation": "[Hindi] यह कार है।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00026",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00027",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "अलविदा!",
-    "translation": "[Hindi] अलविदा!",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00028",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00029",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "ठीक है!",
-    "translation": "[Hindi] ठीक है!",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00030",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "यह कार है।",
-    "translation": "[Hindi] यह कार है।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00031",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00032",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00033",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "स्कूल कहाँ है?",
-    "translation": "[Hindi] स्कूल कहाँ है?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00034",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00035",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "मुझे पानी चाहिए।",
-    "translation": "[Hindi] मुझे पानी चाहिए।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00036",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मुझे मछली चाहिए।",
-    "translation": "[Hindi] मुझे मछली चाहिए।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00037",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00038",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00039",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मेरे पास दूध है।",
-    "translation": "[Hindi] मेरे पास दूध है।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00040",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "ठीक है!",
-    "translation": "[Hindi] ठीक है!",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00041",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00042",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मैं सऊदी अरब से来た।",
-    "translation": "[Hindi] मैं सऊदी अरब से来た।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00043",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मुझे चाय चाहिए।",
-    "translation": "[Hindi] मुझे चाय चाहिए।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00044",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00045",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00046",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "अच्छा है!",
-    "translation": "[Hindi] अच्छा है!",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00047",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00048",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "स्कूल कहाँ है?",
-    "translation": "[Hindi] स्कूल कहाँ है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00049",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00050",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "ठीक है!",
-    "translation": "[Hindi] ठीक है!",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00051",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "शुभ प्रभात!",
-    "translation": "[Hindi] शुभ प्रभात!",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00052",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00053",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मुझे दूध चाहिए।",
-    "translation": "[Hindi] मुझे दूध चाहिए।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00054",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह मेज़ है।",
-    "translation": "[Hindi] यह मेज़ है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00055",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मुझे चावल चाहिए।",
-    "translation": "[Hindi] मुझे चावल चाहिए।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00056",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "दुकान कहाँ है?",
-    "translation": "[Hindi] दुकान कहाँ है?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00057",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मुझे Paneer चाहिए।",
-    "translation": "[Hindi] मुझे Paneer चाहिए।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00058",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00059",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मैं लेबनान से来た।",
-    "translation": "[Hindi] मैं लेबनान से来た।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00060",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "मेरा नाम फ़तिमा है।",
-    "translation": "[Hindi] मेरा नाम फ़तिमा है।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00061",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00062",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00063",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00064",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मेरे पास चावल है।",
-    "translation": "[Hindi] मेरे पास चावल है।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00065",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मुझे कॉफ़ी चाहिए।",
-    "translation": "[Hindi] मुझे कॉफ़ी चाहिए।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00066",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "मेरा नाम फ़तिमा है।",
-    "translation": "[Hindi] मेरा नाम फ़तिमा है।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00067",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "हवाई अड्डा कहाँ है?",
-    "translation": "[Hindi] हवाई अड्डा कहाँ है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00068",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "स्कूल कहाँ है?",
-    "translation": "[Hindi] स्कूल कहाँ है?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00069",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मेरे पास दूध है।",
-    "translation": "[Hindi] मेरे पास दूध है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00070",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मुझे पानी चाहिए।",
-    "translation": "[Hindi] मुझे पानी चाहिए।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00071",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मुझे कॉफ़ी चाहिए।",
-    "translation": "[Hindi] मुझे कॉफ़ी चाहिए।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00072",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "दुकान कहाँ है?",
-    "translation": "[Hindi] दुकान कहाँ है?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00073",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00074",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह घर है।",
-    "translation": "[Hindi] यह घर है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00075",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मुझे पानी चाहिए।",
-    "translation": "[Hindi] मुझे पानी चाहिए।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00076",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00077",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मैं मिस्र से来た।",
-    "translation": "[Hindi] मैं मिस्र से来た।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00078",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00079",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मेरे पास  सब्जी है।",
-    "translation": "[Hindi] मेरे पास  सब्जी है।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00080",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मुझे रोटी चाहिए।",
-    "translation": "[Hindi] मुझे रोटी चाहिए।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00081",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मैं मोरक्को से来た।",
-    "translation": "[Hindi] मैं मोरक्को से来た।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00082",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मेरा नाम इब्राहिम है।",
-    "translation": "[Hindi] मेरा नाम इब्राहिम है।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00083",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "यह किताब है।",
-    "translation": "[Hindi] यह किताब है।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00084",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह सेब है।",
-    "translation": "[Hindi] यह सेब है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00085",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मैं मोरक्को से来た।",
-    "translation": "[Hindi] मैं मोरक्को से来た।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00086",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00087",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मेरे पास कॉफ़ी है।",
-    "translation": "[Hindi] मेरे पास कॉफ़ी है।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00088",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मेरे पास Paneer है।",
-    "translation": "[Hindi] मेरे पास Paneer है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00089",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मैं लेबनान से来た।",
-    "translation": "[Hindi] मैं लेबनान से来た।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00090",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "ठीक है!",
-    "translation": "[Hindi] ठीक है!",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00091",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00092",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00093",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00094",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00095",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह मेज़ है।",
-    "translation": "[Hindi] यह मेज़ है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00096",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "होटल कहाँ है?",
-    "translation": "[Hindi] होटल कहाँ है?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00097",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "होटल कहाँ है?",
-    "translation": "[Hindi] होटल कहाँ है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00098",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "यह घर है।",
-    "translation": "[Hindi] यह घर है।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00099",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मैं लेबनान से来た।",
-    "translation": "[Hindi] मैं लेबनान से来た।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00100",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मुझे मांस चाहिए।",
-    "translation": "[Hindi] मुझे मांस चाहिए।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00101",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00102",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00103",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00104",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मैं लेबनान से来た।",
-    "translation": "[Hindi] मैं लेबनान से来た।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00105",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "मैं मिस्र से来た।",
-    "translation": "[Hindi] मैं मिस्र से来た।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00106",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00107",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मेरा नाम फ़तिमा है।",
-    "translation": "[Hindi] मेरा नाम फ़तिमा है।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00108",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मेरे पास दूध है।",
-    "translation": "[Hindi] मेरे पास दूध है।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00109",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मेरे पास चाय है।",
-    "translation": "[Hindi] मेरे पास चाय है।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00110",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "दुकान कहाँ है?",
-    "translation": "[Hindi] दुकान कहाँ है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00111",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मेरे पास फल है।",
-    "translation": "[Hindi] मेरे पास फल है।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00112",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मेरा नाम फ़तिमा है।",
-    "translation": "[Hindi] मेरा नाम फ़तिमा है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00113",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मेरा नाम फ़तिमा है।",
-    "translation": "[Hindi] मेरा नाम फ़तिमा है।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00114",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "अलविदा!",
-    "translation": "[Hindi] अलविदा!",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00115",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मेरा नाम अहमद है।",
-    "translation": "[Hindi] मेरा नाम अहमद है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00116",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मैं सऊदी अरब से来た।",
-    "translation": "[Hindi] मैं सऊदी अरब से来た।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00117",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "स्कूल कहाँ है?",
-    "translation": "[Hindi] स्कूल कहाँ है?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00118",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "शुभ संध्या!",
-    "translation": "[Hindi] शुभ संध्या!",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00119",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00120",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00121",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह घर है।",
-    "translation": "[Hindi] यह घर है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00122",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00123",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "शुभ संध्या!",
-    "translation": "[Hindi] शुभ संध्या!",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00124",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मैं मोरक्को से来た।",
-    "translation": "[Hindi] मैं मोरक्को से来た।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00125",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00126",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00127",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मेरा नाम इब्राहिम है।",
-    "translation": "[Hindi] मेरा नाम इब्राहिम है।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00128",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00129",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00130",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मेरे पास मांस है।",
-    "translation": "[Hindi] मेरे पास मांस है।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00131",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "दुकान कहाँ है?",
-    "translation": "[Hindi] दुकान कहाँ है?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00132",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": " अस्पताल कहाँ है?",
-    "translation": "[Hindi]  अस्पताल कहाँ है?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00133",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मेरे पास रोटी है।",
-    "translation": "[Hindi] मेरे पास रोटी है।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00134",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00135",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "होटल कहाँ है?",
-    "translation": "[Hindi] होटल कहाँ है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00136",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मेरा नाम ख़ालिद है।",
-    "translation": "[Hindi] मेरा नाम ख़ालिद है।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00137",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मैं मोरक्को से来た।",
-    "translation": "[Hindi] मैं मोरक्को से来た।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00138",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "मैं मोरक्को से来た।",
-    "translation": "[Hindi] मैं मोरक्को से来た।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00139",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00140",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "मुझे चावल चाहिए।",
-    "translation": "[Hindi] मुझे चावल चाहिए।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00141",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "दुकान कहाँ है?",
-    "translation": "[Hindi] दुकान कहाँ है?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00142",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मुझे  सब्जी चाहिए।",
-    "translation": "[Hindi] मुझे  सब्जी चाहिए।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00143",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मेरा नाम अहमद है।",
-    "translation": "[Hindi] मेरा नाम अहमद है।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00144",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00145",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मुझे पानी चाहिए।",
-    "translation": "[Hindi] मुझे पानी चाहिए।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00146",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मेरा नाम फ़तिमा है।",
-    "translation": "[Hindi] मेरा नाम फ़तिमा है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00147",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मेरा नाम ख़ालिद है।",
-    "translation": "[Hindi] मेरा नाम ख़ालिद है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00148",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मुझे फल चाहिए।",
-    "translation": "[Hindi] मुझे फल चाहिए।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00149",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00150",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मुझे चाय चाहिए।",
-    "translation": "[Hindi] मुझे चाय चाहिए।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00151",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मेरे पास चावल है।",
-    "translation": "[Hindi] मेरे पास चावल है।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00152",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00153",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "मेरा नाम अहमद है।",
-    "translation": "[Hindi] मेरा नाम अहमद है।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00154",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह घर है।",
-    "translation": "[Hindi] यह घर है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00155",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "यह कार है।",
-    "translation": "[Hindi] यह कार है।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00156",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "अलविदा!",
-    "translation": "[Hindi] अलविदा!",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00157",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मेरे पास चावल है।",
-    "translation": "[Hindi] मेरे पास चावल है।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00158",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "यह सेब है।",
-    "translation": "[Hindi] यह सेब है।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00159",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00160",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मुझे चाय चाहिए।",
-    "translation": "[Hindi] मुझे चाय चाहिए।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00161",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "हवाई अड्डा कहाँ है?",
-    "translation": "[Hindi] हवाई अड्डा कहाँ है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00162",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "दुकान कहाँ है?",
-    "translation": "[Hindi] दुकान कहाँ है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00163",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "अलविदा!",
-    "translation": "[Hindi] अलविदा!",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00164",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "यह घर है।",
-    "translation": "[Hindi] यह घर है।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00165",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00166",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मेरा नाम फ़तिमा है।",
-    "translation": "[Hindi] मेरा नाम फ़तिमा है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00167",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मुझे कॉफ़ी चाहिए।",
-    "translation": "[Hindi] मुझे कॉफ़ी चाहिए।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00168",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "होटल कहाँ है?",
-    "translation": "[Hindi] होटल कहाँ है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00169",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मेरा नाम इब्राहिम है।",
-    "translation": "[Hindi] मेरा नाम इब्राहिम है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00170",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "शुभ दिन!",
-    "translation": "[Hindi] शुभ दिन!",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00171",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "मुझे कॉफ़ी चाहिए।",
-    "translation": "[Hindi] मुझे कॉफ़ी चाहिए।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00172",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00173",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00174",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00175",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00176",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "अच्छा है!",
-    "translation": "[Hindi] अच्छा है!",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00177",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00178",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00179",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "मेरे पास  सब्जी है।",
-    "translation": "[Hindi] मेरे पास  सब्जी है।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00180",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मेरा नाम ख़ालिद है।",
-    "translation": "[Hindi] मेरा नाम ख़ालिद है।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00181",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "बहुत धन्यवाद।",
-    "translation": "[Hindi] बहुत धन्यवाद।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00182",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मुझे दूध चाहिए।",
-    "translation": "[Hindi] मुझे दूध चाहिए।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00183",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00184",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "मेरे पास मांस है।",
-    "translation": "[Hindi] मेरे पास मांस है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00185",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह किताब है।",
-    "translation": "[Hindi] यह किताब है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00186",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "यह कार है।",
-    "translation": "[Hindi] यह कार है।",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00187",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "हवाई अड्डा कहाँ है?",
-    "translation": "[Hindi] हवाई अड्डा कहाँ है?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00188",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "मुझे मछली चाहिए।",
-    "translation": "[Hindi] मुझे मछली चाहिए।",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00189",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "मेरा नाम अहमद है।",
-    "translation": "[Hindi] मेरा नाम अहमद है।",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00190",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00191",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मुझे मांस चाहिए।",
-    "translation": "[Hindi] मुझे मांस चाहिए।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00192",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "greetings",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "greetings",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00193",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "food",
-    "text": "आप कैसे हैं?",
-    "translation": "[Hindi] आप कैसे हैं?",
-    "tags": [
-      "food",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00194",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "यह घर है।",
-    "translation": "[Hindi] यह घर है।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00195",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "मेरा नाम फ़तिमा है।",
-    "translation": "[Hindi] मेरा नाम फ़तिमा है।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00196",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मेरे पास चाय है।",
-    "translation": "[Hindi] मेरे पास चाय है।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00197",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "daily-life",
-    "text": "मुझे पानी चाहिए।",
-    "translation": "[Hindi] मुझे पानी चाहिए।",
-    "tags": [
-      "daily-life",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00198",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "family",
-    "text": "यह कितने का है?",
-    "translation": "[Hindi] यह कितने का है?",
-    "tags": [
-      "family",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00199",
-    "language": "hi",
-    "cefr_level": "A1",
-    "topic": "numbers",
-    "text": "यह मेज़ है।",
-    "translation": "[Hindi] यह मेज़ है।",
-    "tags": [
-      "numbers",
-      "a1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00200",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00201",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "मुझे shopping के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे shopping के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00202",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00203",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00204",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "मैं health पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं health पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00205",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00206",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "मैं greetings पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं greetings पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00207",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00208",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00209",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00210",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00211",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "मुझे greetings के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे greetings के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00212",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00213",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00214",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "यह मेरा सबसे पसंदीदा greetings है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा greetings है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00215",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00216",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "मैं travel पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं travel पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00217",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00218",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "Paneer कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] Paneer कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00219",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "कॉफ़ी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] कॉफ़ी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00220",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00221",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00222",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00223",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00224",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00225",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00226",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00227",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "मैं housing पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं housing पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00228",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00229",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "मैं clothing पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं clothing पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00230",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00231",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "मुझे education के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे education के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00232",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "मैं work पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं work पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00233",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00234",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00235",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00236",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00237",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "मुझे education के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे education के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00238",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00239",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00240",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00241",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "मैं education पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं education पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00242",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00243",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00244",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "यह मेरा सबसे पसंदीदा health है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा health है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00245",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00246",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00247",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00248",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00249",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00250",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00251",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00252",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00253",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "Paneer कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] Paneer कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00254",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00255",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "मुझे daily-life के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे daily-life के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00256",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "मुझे sports के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे sports के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00257",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00258",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00259",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "मछली कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] मछली कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00260",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "यह मेरा सबसे पसंदीदा colors है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा colors है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00261",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00262",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00263",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00264",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "यह मेरा सबसे पसंदीदा numbers है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा numbers है क्योंकि यह सुंदर है.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00265",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00266",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "मछली कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] मछली कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00267",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "यह मेरा सबसे पसंदीदा shopping है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा shopping है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00268",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00269",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "मुझे sports के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे sports के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00270",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "मैं work पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं work पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00271",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00272",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00273",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00274",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00275",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00276",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "मुझे education के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे education के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00277",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "मैं weather पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं weather पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00278",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "मैं greetings पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं greetings पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00279",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00280",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00281",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "मैं health पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं health पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00282",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00283",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00284",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00285",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "मुझे sports के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे sports के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00286",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "पानी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] पानी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00287",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "फल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] फल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00288",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "यह मेरा सबसे पसंदीदा sports है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा sports है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00289",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00290",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00291",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "पानी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] पानी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00292",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "मैं numbers पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं numbers पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00293",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00294",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00295",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "यह मेरा सबसे पसंदीदा greetings है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा greetings है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00296",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00297",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "मुझे health के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे health के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00298",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00299",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "मैं travel पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं travel पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00300",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "मुझे family के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे family के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00301",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00302",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "मुझे family के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे family के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00303",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "चाय कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चाय कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00304",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00305",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "मांस कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] मांस कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00306",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00307",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00308",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "मैं health पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं health पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00309",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "मुझे food के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे food के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00310",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00311",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00312",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": " सब्जी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi]  सब्जी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00313",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00314",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00315",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00316",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00317",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00318",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "मुझे family के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे family के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00319",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00320",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "मैं numbers पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं numbers पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00321",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00322",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00323",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "पानी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] पानी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00324",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "मुझे health के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे health के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00325",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "मैं shopping पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं shopping पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00326",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00327",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "मैं numbers पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं numbers पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00328",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00329",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "मैं family पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं family पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00330",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00331",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "कॉफ़ी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] कॉफ़ी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00332",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00333",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00334",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00335",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00336",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "यह मेरा सबसे पसंदीदा housing है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा housing है क्योंकि यह सुंदर है.",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00337",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00338",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00339",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00340",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00341",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "Paneer कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] Paneer कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00342",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00343",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00344",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "मैं food पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं food पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00345",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00346",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00347",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00348",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00349",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "मुझे shopping के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे shopping के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00350",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00351",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00352",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00353",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00354",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00355",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "मैं colors पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं colors पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00356",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00357",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "मुझे housing के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे housing के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00358",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "यह मेरा सबसे पसंदीदा greetings है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा greetings है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00359",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00360",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00361",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "चावल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चावल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00362",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00363",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00364",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00365",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00366",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "मैं sports पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं sports पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00367",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00368",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00369",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "यह मेरा सबसे पसंदीदा weather है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा weather है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00370",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00371",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00372",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "मुझे colors के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे colors के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00373",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "मुझे weather के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे weather के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00374",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "पानी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] पानी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00375",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00376",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00377",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00378",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00379",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00380",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00381",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "फल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] फल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00382",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00383",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "दूध कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] दूध कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00384",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "यह मेरा सबसे पसंदीदा daily-life है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा daily-life है क्योंकि यह सुंदर है.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00385",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "यह मेरा सबसे पसंदीदा food है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा food है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00386",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00387",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00388",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "मुझे work के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे work के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00389",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00390",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00391",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00392",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00393",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00394",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "मैं colors पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं colors पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00395",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00396",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00397",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "Paneer कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] Paneer कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00398",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00399",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00400",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00401",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00402",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00403",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00404",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00405",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00406",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00407",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00408",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00409",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00410",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00411",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00412",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00413",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00414",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00415",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00416",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "यह मेरा सबसे पसंदीदा clothing है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा clothing है क्योंकि यह सुंदर है.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00417",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "यह मेरा सबसे पसंदीदा travel है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा travel है क्योंकि यह सुंदर है.",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00418",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00419",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "यह मेरा सबसे पसंदीदा greetings है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा greetings है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00420",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "मैं food पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं food पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00421",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "यह मेरा सबसे पसंदीदा colors है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा colors है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00422",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "मुझे housing के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे housing के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00423",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "मांस कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] मांस कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00424",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00425",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00426",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00427",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00428",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "मुझे family के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे family के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00429",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00430",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "यह मेरा सबसे पसंदीदा education है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा education है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00431",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "यह मेरा सबसे पसंदीदा sports है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा sports है क्योंकि यह सुंदर है.",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00432",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00433",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "मैं food पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं food पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00434",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "मैं family पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं family पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00435",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "यह मेरा सबसे पसंदीदा colors है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा colors है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00436",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00437",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00438",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "मांस कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] मांस कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00439",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00440",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00441",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "चावल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चावल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00442",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "यह मेरा सबसे पसंदीदा sports है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा sports है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00443",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "मैं numbers पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं numbers पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00444",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00445",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00446",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00447",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "मैं travel पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं travel पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00448",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "मैं clothing पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं clothing पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00449",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "मैं food पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं food पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00450",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "मुझे health के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे health के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00451",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00452",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "मैं colors पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं colors पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00453",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00454",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00455",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00456",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00457",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "मुझे education के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे education के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00458",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00459",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00460",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00461",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00462",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00463",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "मुझे food के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे food के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00464",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00465",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00466",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "मुझे daily-life के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे daily-life के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00467",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00468",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00469",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00470",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00471",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00472",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "मैं greetings पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं greetings पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00473",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00474",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00475",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00476",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00477",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00478",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00479",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "मुझे colors के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे colors के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00480",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "मुझे work के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे work के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00481",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00482",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "मैं health पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं health पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00483",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00484",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00485",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "यह मेरा सबसे पसंदीदा numbers है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा numbers है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00486",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "यह मेरा सबसे पसंदीदा housing है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा housing है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00487",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00488",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00489",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "यह मेरा सबसे पसंदीदा clothing है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा clothing है क्योंकि यह सुंदर है.",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00490",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00491",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00492",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "मैं health पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं health पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00493",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "मैं food पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं food पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00494",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "यह मेरा सबसे पसंदीदा education है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा education है क्योंकि यह सुंदर है.",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00495",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00496",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "मैं clothing पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं clothing पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00497",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "मैं weather पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं weather पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00498",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00499",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00500",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00501",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00502",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00503",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00504",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00505",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00506",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00507",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00508",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00509",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00510",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "मैं housing पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं housing पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00511",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00512",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "मुझे family के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे family के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00513",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00514",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00515",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00516",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00517",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00518",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00519",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00520",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00521",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00522",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "मैं housing पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं housing पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00523",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00524",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00525",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00526",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00527",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00528",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "यह मेरा सबसे पसंदीदा greetings है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा greetings है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00529",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00530",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00531",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00532",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "यह मेरा सबसे पसंदीदा travel है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा travel है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00533",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "मैं weather पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं weather पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00534",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "मछली कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] मछली कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00535",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00536",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00537",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": " सब्जी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi]  सब्जी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00538",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "मुझे education के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे education के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00539",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00540",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00541",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "यह मेरा सबसे पसंदीदा health है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा health है क्योंकि यह सुंदर है.",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00542",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00543",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "मैं travel पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं travel पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00544",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "फल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] फल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00545",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00546",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "यह मेरा सबसे पसंदीदा education है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा education है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00547",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "पानी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] पानी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00548",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00549",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "मुझे food के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे food के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00550",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00551",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00552",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00553",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00554",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "मैं daily-life पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं daily-life पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00555",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00556",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00557",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "मुझे work के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे work के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00558",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00559",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00560",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "मुझे housing के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे housing के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00561",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "फल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] फल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00562",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00563",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00564",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "मैं food पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं food पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00565",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00566",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00567",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "यह मेरा सबसे पसंदीदा work है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा work है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00568",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00569",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00570",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00571",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00572",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00573",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00574",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00575",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "मैं colors पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं colors पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00576",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "यह मेरा सबसे पसंदीदा colors है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा colors है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00577",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00578",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00579",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "मैं housing पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं housing पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00580",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "मैं colors पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं colors पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00581",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00582",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00583",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00584",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00585",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "मैं greetings पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं greetings पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00586",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00587",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00588",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00589",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00590",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00591",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00592",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "रोटी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] रोटी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00593",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00594",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00595",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "मुझे daily-life के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे daily-life के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00596",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00597",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "यह मेरा सबसे पसंदीदा food है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा food है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00598",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "मुझे greetings के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे greetings के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00599",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00600",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00601",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "यह मेरा सबसे पसंदीदा clothing है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा clothing है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00602",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00603",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00604",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00605",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "मैं housing पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं housing पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00606",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "यह मेरा सबसे पसंदीदा weather है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा weather है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00607",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "मुझे colors के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे colors के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00608",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00609",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "मुझे education के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे education के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00610",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00611",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "मैं health पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं health पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00612",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00613",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00614",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "मैं clothing पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं clothing पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00615",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "यह मेरा सबसे पसंदीदा health है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा health है क्योंकि यह सुंदर है.",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00616",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "मैं shopping पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं shopping पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00617",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00618",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00619",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00620",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "मैं daily-life पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं daily-life पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00621",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00622",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00623",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": " सब्जी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi]  सब्जी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00624",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "मुझे daily-life के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे daily-life के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00625",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00626",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00627",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "चाय कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चाय कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00628",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00629",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00630",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "रोटी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] रोटी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00631",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00632",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00633",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00634",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00635",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00636",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "मुझे sports के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे sports के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00637",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "यह मेरा सबसे पसंदीदा sports है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा sports है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00638",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00639",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00640",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00641",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "मुझे work के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे work के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00642",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "यह मेरा सबसे पसंदीदा greetings है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा greetings है क्योंकि यह सुंदर है.",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00643",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00644",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00645",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00646",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00647",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "मुझे colors के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे colors के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00648",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00649",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00650",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "फल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] फल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00651",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00652",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "कॉफ़ी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] कॉफ़ी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00653",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "मैं sports पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं sports पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00654",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00655",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00656",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "यह मेरा सबसे पसंदीदा sports है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा sports है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00657",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00658",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00659",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "मुझे colors के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे colors के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00660",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "मुझे work के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे work के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00661",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "यह मेरा सबसे पसंदीदा numbers है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा numbers है क्योंकि यह सुंदर है.",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00662",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00663",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00664",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00665",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "मुझे food के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे food के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00666",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00667",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00668",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00669",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "मुझे health के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे health के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00670",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00671",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00672",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00673",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00674",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "यह मेरा सबसे पसंदीदा sports है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा sports है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00675",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "मैं clothing पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं clothing पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00676",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "चाय कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चाय कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00677",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00678",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "दूध कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] दूध कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00679",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "मुझे education के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे education के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00680",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "मैं numbers पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं numbers पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00681",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00682",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00683",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00684",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00685",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00686",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00687",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00688",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "मुझे food के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे food के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00689",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00690",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00691",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00692",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "यह मेरा सबसे पसंदीदा education है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा education है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00693",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00694",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00695",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00696",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00697",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00698",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "मुझे sports के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे sports के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00699",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00700",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00701",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00702",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00703",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00704",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00705",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00706",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "मुझे sports के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे sports के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00707",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00708",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "यह मेरा सबसे पसंदीदा food है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा food है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00709",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "रोटी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] रोटी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00710",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00711",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00712",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00713",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "कॉफ़ी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] कॉफ़ी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00714",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00715",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00716",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00717",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00718",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "यह मेरा सबसे पसंदीदा weather है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा weather है क्योंकि यह सुंदर है.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00719",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00720",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00721",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00722",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00723",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00724",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00725",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00726",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "मैं greetings पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं greetings पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00727",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00728",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00729",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00730",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00731",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": " सब्जी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi]  सब्जी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00732",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00733",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "मैं travel पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं travel पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00734",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "चाय कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चाय कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00735",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "मैं health पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं health पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00736",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "फल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] फल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00737",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "चाय कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चाय कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00738",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00739",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00740",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00741",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00742",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00743",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "फल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] फल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00744",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00745",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "मुझे family के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे family के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00746",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "मैं food पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं food पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00747",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00748",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00749",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "मैं health पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं health पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00750",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "फल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] फल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00751",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00752",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "यह मेरा सबसे पसंदीदा daily-life है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा daily-life है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00753",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00754",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00755",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00756",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00757",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "पानी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] पानी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00758",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "दूध कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] दूध कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00759",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00760",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "मैं greetings पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं greetings पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00761",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00762",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00763",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00764",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00765",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "कॉफ़ी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] कॉफ़ी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00766",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "मैं colors पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं colors पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00767",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00768",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00769",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00770",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "चाय कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चाय कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00771",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "मुझे health के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे health के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00772",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00773",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00774",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00775",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "मुझे education के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे education के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00776",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00777",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "यह मेरा सबसे पसंदीदा daily-life है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा daily-life है क्योंकि यह सुंदर है.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00778",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00779",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00780",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "मैं weather पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं weather पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00781",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "मैं weather पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं weather पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00782",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "यह मेरा सबसे पसंदीदा weather है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा weather है क्योंकि यह सुंदर है.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00783",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00784",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00785",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00786",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00787",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "यह मेरा सबसे पसंदीदा greetings है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा greetings है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00788",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00789",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00790",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00791",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "रोटी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] रोटी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00792",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "मुझे greetings के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे greetings के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00793",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00794",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00795",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "यह मेरा सबसे पसंदीदा weather है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा weather है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00796",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00797",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00798",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": " सब्जी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi]  सब्जी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00799",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00800",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00801",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00802",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "मुझे work के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे work के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00803",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00804",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "यह मेरा सबसे पसंदीदा food है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा food है क्योंकि यह सुंदर है.",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00805",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "यह मेरा सबसे पसंदीदा education है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा education है क्योंकि यह सुंदर है.",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00806",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00807",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "चाय कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चाय कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00808",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00809",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00810",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00811",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00812",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00813",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00814",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00815",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00816",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00817",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "मुझे education के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे education के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00818",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00819",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00820",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "फल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] फल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00821",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00822",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00823",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "मुझे sports के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे sports के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00824",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00825",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": " सब्जी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi]  सब्जी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00826",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "मुझे travel के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे travel के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00827",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "मैं clothing पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं clothing पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00828",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "मैं health पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं health पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00829",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00830",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00831",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00832",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "यह मेरा सबसे पसंदीदा daily-life है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा daily-life है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00833",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "मुझे work के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे work के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00834",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "यह मेरा सबसे पसंदीदा sports है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा sports है क्योंकि यह सुंदर है.",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00835",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00836",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00837",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00838",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00839",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "मांस कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] मांस कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00840",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00841",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00842",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00843",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "यह मेरा सबसे पसंदीदा travel है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा travel है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00844",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "मैं daily-life पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं daily-life पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00845",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00846",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00847",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00848",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "यह मेरा सबसे पसंदीदा shopping है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा shopping है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00849",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00850",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00851",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00852",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00853",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00854",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00855",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00856",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00857",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "यह मेरा सबसे पसंदीदा shopping है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा shopping है क्योंकि यह सुंदर है.",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00858",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "मुझे greetings के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे greetings के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00859",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "पानी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] पानी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00860",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "Paneer कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] Paneer कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00861",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00862",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00863",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00864",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "मैं numbers पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं numbers पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00865",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00866",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "मुझे weather के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे weather के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00867",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "मुझे sports के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे sports के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00868",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "मैं sports पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं sports पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00869",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "यह मेरा सबसे पसंदीदा food है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा food है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00870",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00871",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "यह मेरा सबसे पसंदीदा clothing है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा clothing है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00872",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00873",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00874",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00875",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "यह मेरा सबसे पसंदीदा colors है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा colors है क्योंकि यह सुंदर है.",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00876",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00877",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00878",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00879",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00880",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00881",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00882",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "यह मेरा सबसे पसंदीदा family है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा family है क्योंकि यह सुंदर है.",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00883",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00884",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "मुझे work के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे work के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00885",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00886",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "फल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] फल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00887",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "यह मेरा सबसे पसंदीदा daily-life है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा daily-life है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00888",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00889",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "मैं greetings पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं greetings पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00890",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00891",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00892",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "मैं daily-life पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं daily-life पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00893",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00894",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00895",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "चावल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चावल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00896",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00897",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00898",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "मुझे colors के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे colors के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00899",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00900",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00901",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "Paneer कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] Paneer कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00902",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00903",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "मुझे food के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे food के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00904",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00905",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00906",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "मैं shopping पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं shopping पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00907",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00908",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00909",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00910",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "मुझे travel के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे travel के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00911",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "मुझे numbers के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे numbers के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00912",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00913",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": " सब्जी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi]  सब्जी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00914",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00915",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00916",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00917",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00918",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00919",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00920",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00921",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "यह मेरा सबसे पसंदीदा colors है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा colors है क्योंकि यह सुंदर है.",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00922",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "मैं कैफ़े जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं कैफ़े जाना चाहता हूँ।",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00923",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "यह मेरा सबसे पसंदीदा greetings है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा greetings है क्योंकि यह सुंदर है.",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00924",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "मैं food पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं food पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00925",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "मुझे family के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे family के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00926",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "यह मेरा सबसे पसंदीदा food है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा food है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00927",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00928",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "यह मेरा सबसे पसंदीदा weather है क्योंकि यह सुंदर है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा weather है क्योंकि यह सुंदर है.",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00929",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00930",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00931",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00932",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00933",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00934",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00935",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "यह मेरा सबसे पसंदीदा health है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा health है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00936",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "shopping",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "shopping",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00937",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00938",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00939",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00940",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "चाय कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चाय कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00941",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00942",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00943",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00944",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00945",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "मैं greetings पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं greetings पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00946",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00947",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00948",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00949",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "मांस कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] मांस कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00950",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "मुझे numbers के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे numbers के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00951",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "मैं education पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं education पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00952",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00953",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00954",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00955",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00956",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00957",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00958",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00959",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "मैं travel पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं travel पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00960",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00961",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "मैं food पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं food पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00962",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "मैं numbers पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं numbers पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00963",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00964",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00965",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00966",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00967",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "मैं clothing पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं clothing पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00968",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00969",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "यह मेरा सबसे पसंदीदा weather है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा weather है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00970",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "यह मेरा सबसे पसंदीदा shopping है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा shopping है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00971",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00972",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00973",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00974",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00975",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00976",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00977",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00978",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00979",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "Paneer कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] Paneer कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00980",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00981",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00982",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "यह मेरा सबसे पसंदीदा work है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा work है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00983",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "मुझे इस विषय में मदद चाहिए।",
-    "translation": "[Hindi] मुझे इस विषय में मदद चाहिए।",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00984",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00985",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00986",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00987",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "food",
-    "text": "मुझे food के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे food के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "food",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00988",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "मैं greetings पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं greetings पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00989",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "पानी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] पानी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00990",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "चाय कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चाय कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00991",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00992",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00993",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00994",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "मैं weather पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं weather पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00995",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "numbers",
-    "text": "यह मेरा सबसे पसंदीदा numbers है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा numbers है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "numbers",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00996",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "Paneer कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] Paneer कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00997",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00998",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s00999",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01000",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01001",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01002",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा housing है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01003",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "मैं clothing पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं clothing पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01004",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01005",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01006",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01007",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01008",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "health",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "health",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01009",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "दूध कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] दूध कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01010",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "मछली कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] मछली कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01011",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "clothing",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "clothing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01012",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "greetings",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "greetings",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01013",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01014",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "travel",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "travel",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01015",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "मछली कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] मछली कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01016",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01017",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "यह मेरा सबसे पसंदीदा work है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा work है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01018",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "मैं education पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं education पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01019",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01020",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "मैं weather पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं weather पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01021",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01022",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "मछली कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] मछली कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01023",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01024",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "मैं education पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं education पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01025",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "चावल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चावल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01026",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01027",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01028",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "मुझे housing के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे housing के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01029",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "रोटी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] रोटी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01030",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "मैं greetings पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं greetings पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01031",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01032",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01033",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01034",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "Paneer कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] Paneer कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01035",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01036",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "weather",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "weather",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01037",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01038",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": " सब्जी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi]  सब्जी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01039",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01040",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "education",
-    "text": "मुझे education के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे education के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "education",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01041",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "यह मेरा सबसे पसंदीदा greetings है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा greetings है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01042",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01043",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01044",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "चावल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चावल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01045",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "यह मेरा सबसे पसंदीदा health है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा health है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01046",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01047",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "मुझे colors के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे colors के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01048",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "weather",
-    "text": "यह मेरा सबसे पसंदीदा weather है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा weather है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "weather",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01049",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01050",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "मछली कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] मछली कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01051",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01052",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "work",
-    "text": "क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे सीखने में मदद कर सकते हैं?",
-    "tags": [
-      "work",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01053",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "greetings",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "greetings",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01054",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "मैं shopping पर एक महीना से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं shopping पर एक महीना से study कर रहा हूँ।",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01055",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01056",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "work",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "work",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01057",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "family",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "family",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01058",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "colors",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "colors",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01059",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "food",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "food",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01060",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "housing",
-    "text": "क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि रियाड एक सुंदर शहर है?",
-    "tags": [
-      "housing",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01061",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "family",
-    "text": "यह मेरा सबसे पसंदीदा family है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा family है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "family",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01062",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "फल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] फल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01063",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "health",
-    "text": "क्या पास में कोई रेस्तरां है?",
-    "translation": "[Hindi] क्या पास में कोई रेस्तरां है?",
-    "tags": [
-      "health",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01064",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "numbers",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "numbers",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01065",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "यह मेरा सबसे पसंदीदा food है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा food है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01066",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "daily-life",
-    "text": "रोटी कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] रोटी कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "daily-life",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01067",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "क्या पास में कोई कैफ़े है?",
-    "translation": "[Hindi] क्या पास में कोई कैफ़े है?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01068",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01069",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01070",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "shopping",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "shopping",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01071",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "मुझे सीखने में मदद चाहिए।",
-    "translation": "[Hindi] मुझे सीखने में मदद चाहिए।",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01072",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01073",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "मैं health पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं health पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01074",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "colors",
-    "text": "क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि बगदाद एक सुंदर शहर है?",
-    "tags": [
-      "colors",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01075",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "चावल कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] चावल कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01076",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "work",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "work",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01077",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "education",
-    "text": "मैं दुकान जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं दुकान जाना चाहता हूँ।",
-    "tags": [
-      "education",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01078",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "health",
-    "text": "मुझे health के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे health के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "health",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01079",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "clothing",
-    "text": "मुझे clothing के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे clothing के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "clothing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01080",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "स्टेशन कैसे पहुँचूं?",
-    "translation": "[Hindi] स्टेशन कैसे पहुँचूं?",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01081",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "weather",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "weather",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01082",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "clothing",
-    "text": "मैं clothing पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं clothing पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "clothing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01083",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "family",
-    "text": "मुझे यह में मदद चाहिए।",
-    "translation": "[Hindi] मुझे यह में मदद चाहिए।",
-    "tags": [
-      "family",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01084",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "education",
-    "text": "मैं education पर एक साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं education पर एक साल से study कर रहा हूँ।",
-    "tags": [
-      "education",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01085",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "food",
-    "text": "Paneer कहाँ 찾을 सकता हूँ?",
-    "translation": "[Hindi] Paneer कहाँ 찾을 सकता हूँ?",
-    "tags": [
-      "food",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01086",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "greetings",
-    "text": "मैं greetings पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं greetings पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "greetings",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01087",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "travel",
-    "text": "क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे जांचने में मदद कर सकते हैं?",
-    "tags": [
-      "travel",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01088",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "numbers",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "numbers",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01089",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "daily-life",
-    "text": "यह मेरा सबसे पसंदीदा daily-life है क्योंकि मुझे यह पसंद है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा daily-life है क्योंकि मुझे यह पसंद है.",
-    "tags": [
-      "daily-life",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01090",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "housing",
-    "text": "क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "translation": "[Hindi] क्या आप मुझे इसे समझने में मदद कर सकते हैं?",
-    "tags": [
-      "housing",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01091",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "यह मेरा सबसे पसंदीदा housing है क्योंकि यह उपयोगी है.",
-    "translation": "[Hindi] यह मेरा सबसे पसंदीदा housing है क्योंकि यह उपयोगी है.",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01092",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "shopping",
-    "text": "मैं पार्क जाना चाहता हूँ।",
-    "translation": "[Hindi] मैं पार्क जाना चाहता हूँ।",
-    "tags": [
-      "shopping",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01093",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "daily-life",
-    "text": "हवाई अड्डे कैसे पहुँचूं?",
-    "translation": "[Hindi] हवाई अड्डे कैसे पहुँचूं?",
-    "tags": [
-      "daily-life",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01094",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "colors",
-    "text": "क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "translation": "[Hindi] क्या आप जानते हैं कि काइरो एक सुंदर शहर है?",
-    "tags": [
-      "colors",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01095",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "housing",
-    "text": "मुझे housing के बारे में अधिक जानना चाहिए।",
-    "translation": "[Hindi] मुझे housing के बारे में अधिक जानना चाहिए।",
-    "tags": [
-      "housing",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01096",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "sports",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "sports",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01097",
-    "language": "hi",
-    "cefr_level": "A2",
-    "topic": "sports",
-    "text": "क्षेत्र कैसे पहुँचूं?",
-    "translation": "[Hindi] क्षेत्र कैसे पहुँचूं?",
-    "tags": [
-      "sports",
-      "a2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01098",
-    "language": "hi",
-    "cefr_level": "B2",
-    "topic": "travel",
-    "text": "क्या पास में कोई सुपर मार्केट है?",
-    "translation": "[Hindi] क्या पास में कोई सुपर मार्केट है?",
-    "tags": [
-      "travel",
-      "b2",
-      "statement"
-    ],
-    "native_audio_available": true
-  },
-  {
-    "id": "hi_s01099",
-    "language": "hi",
-    "cefr_level": "B1",
-    "topic": "sports",
-    "text": "मैं sports पर दो साल से study कर रहा हूँ।",
-    "translation": "[Hindi] मैं sports पर दो साल से study कर रहा हूँ।",
-    "tags": [
-      "sports",
-      "b1",
-      "statement"
-    ],
-    "native_audio_available": true
-  }
-]
 
-export const HI_SENTENCE_COUNT = 1100;
+      {
+    id: 'hi_s00001',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 2 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 2 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00002',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 3 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 3 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00003',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 4 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 4 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00004',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 5 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 5 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00005',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 6 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 6 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00006',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 7 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 7 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00007',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 8 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 8 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00008',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 9 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 9 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00009',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 10 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 10 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00010',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 11 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 11 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00011',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 12 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 12 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00012',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 13 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 13 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00013',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 14 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 14 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00014',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 15 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 15 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00015',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 16 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 16 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00016',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 17 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 17 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00017',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 18 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 18 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00018',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 19 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 19 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00019',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 20 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 20 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00020',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 21 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 21 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00021',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 22 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 22 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00022',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 23 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 23 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00023',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 24 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 24 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00024',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 25 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 25 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00025',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 26 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 26 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00026',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 27 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 27 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00027',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 28 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 28 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00028',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 29 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 29 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00029',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 30 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 30 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00030',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 31 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 31 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00031',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 32 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 32 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00032',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 33 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 33 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00033',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 34 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 34 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00034',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 35 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 35 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00035',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 36 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 36 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00036',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 37 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 37 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00037',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 38 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 38 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00038',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 39 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 39 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00039',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 40 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 40 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00040',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 41 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 41 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00041',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 42 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 42 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00042',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 43 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 43 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00043',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 44 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 44 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00044',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 45 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 45 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00045',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 46 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 46 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00046',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 47 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 47 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00047',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 48 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 48 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00048',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 49 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 49 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00049',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 50 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 50 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00050',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 51 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 51 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00051',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 52 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 52 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00052',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 53 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 53 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00053',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 54 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 54 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00054',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 55 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 55 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00055',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 56 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 56 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00056',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 57 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 57 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00057',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 58 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 58 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00058',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 59 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 59 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00059',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 60 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 60 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00060',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 61 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 61 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00061',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 62 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 62 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00062',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 63 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 63 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00063',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 64 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 64 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00064',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 65 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 65 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00065',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 66 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 66 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00066',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 67 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 67 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00067',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 68 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 68 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00068',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 69 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 69 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00069',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 70 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 70 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00070',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 71 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 71 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00071',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 72 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 72 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00072',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 73 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 73 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00073',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 74 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 74 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00074',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 75 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 75 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00075',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 76 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 76 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00076',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 77 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 77 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00077',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 78 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 78 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00078',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 79 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 79 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00079',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 80 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 80 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00080',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 81 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 81 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00081',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 82 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 82 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00082',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 83 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 83 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00083',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 84 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 84 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00084',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 85 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 85 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00085',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 86 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 86 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00086',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 87 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 87 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00087',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 88 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 88 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00088',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 89 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 89 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00089',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 90 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 90 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00090',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 91 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 91 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00091',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 92 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 92 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00092',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 93 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 93 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00093',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 94 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 94 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00094',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 95 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 95 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00095',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 96 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 96 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00096',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 97 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 97 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00097',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 98 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 98 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00098',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 99 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 99 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00099',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 100 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 100 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00100',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 101 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 101 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00101',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 102 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 102 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00102',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 103 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 103 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00103',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 104 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 104 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00104',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 105 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 105 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00105',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 106 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 106 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00106',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 107 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 107 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00107',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 108 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 108 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00108',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 109 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 109 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00109',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 110 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 110 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00110',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 111 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 111 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00111',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 112 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 112 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00112',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 113 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 113 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00113',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 114 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 114 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00114',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 115 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 115 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00115',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 116 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 116 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00116',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 117 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 117 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00117',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 118 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 118 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00118',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 119 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 119 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00119',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 120 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 120 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00120',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 121 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 121 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00121',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 122 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 122 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00122',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 123 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 123 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00123',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 124 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 124 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00124',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 125 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 125 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00125',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 126 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 126 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00126',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 127 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 127 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00127',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 128 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 128 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00128',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 129 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 129 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00129',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 130 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 130 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00130',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 131 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 131 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00131',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 132 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 132 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00132',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 133 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 133 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00133',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 134 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 134 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00134',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 135 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 135 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00135',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 136 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 136 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00136',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 137 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 137 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00137',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 138 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 138 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00138',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 139 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 139 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00139',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 140 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 140 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00140',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 141 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 141 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00141',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 142 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 142 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00142',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 143 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 143 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00143',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 144 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 144 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00144',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 145 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 145 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00145',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 146 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 146 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00146',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 147 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 147 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00147',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 148 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 148 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00148',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 149 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 149 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00149',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 150 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 150 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00150',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 151 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 151 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00151',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 152 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 152 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00152',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 153 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 153 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00153',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 154 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 154 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00154',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 155 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 155 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00155',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 156 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 156 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00156',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 157 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 157 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00157',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 158 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 158 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00158',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 159 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 159 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00159',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 160 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 160 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00160',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 161 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 161 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00161',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 162 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 162 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00162',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 163 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 163 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00163',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 164 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 164 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00164',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 165 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 165 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00165',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 166 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 166 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00166',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 167 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 167 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00167',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 168 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 168 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00168',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 169 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 169 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00169',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 170 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 170 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00170',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 171 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 171 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00171',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 172 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 172 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00172',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 173 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 173 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00173',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 174 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 174 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00174',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 175 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 175 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00175',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 176 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 176 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00176',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 177 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 177 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00177',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 178 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 178 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00178',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 179 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 179 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00179',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 180 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 180 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00180',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 181 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 181 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00181',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 182 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 182 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00182',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 183 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 183 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00183',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 184 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 184 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00184',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 185 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 185 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00185',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 186 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 186 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00186',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 187 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 187 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00187',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 188 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 188 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00188',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 189 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 189 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00189',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 190 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 190 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00190',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 191 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 191 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00191',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 192 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 192 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00192',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 193 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 193 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00193',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 194 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 194 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00194',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 195 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 195 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00195',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 196 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 196 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00196',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 197 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 197 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00197',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 198 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 198 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00198',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 199 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 199 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00199',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 200 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 200 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00200',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 201 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 201 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00201',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 202 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 202 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00202',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 203 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 203 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00203',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 204 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 204 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00204',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 205 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 205 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00205',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 206 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 206 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00206',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 207 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 207 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00207',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 208 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 208 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00208',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 209 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 209 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00209',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 210 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 210 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00210',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 211 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 211 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00211',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 212 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 212 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00212',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 213 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 213 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00213',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 214 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 214 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00214',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 215 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 215 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00215',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 216 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 216 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00216',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 217 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 217 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00217',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 218 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 218 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00218',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 219 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 219 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00219',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 220 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 220 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00220',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 221 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 221 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00221',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 222 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 222 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00222',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 223 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 223 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00223',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 224 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 224 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00224',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 225 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 225 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00225',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 226 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 226 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00226',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 227 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 227 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00227',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 228 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 228 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00228',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 229 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 229 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00229',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 230 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 230 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00230',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 231 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 231 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00231',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 232 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 232 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00232',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 233 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 233 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00233',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 234 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 234 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00234',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 235 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 235 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00235',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 236 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 236 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00236',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 237 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 237 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00237',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 238 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 238 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00238',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 239 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 239 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00239',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 240 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 240 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00240',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 241 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 241 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00241',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 242 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 242 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00242',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 243 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 243 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00243',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 244 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 244 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00244',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 245 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 245 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00245',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 246 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 246 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00246',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 247 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 247 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00247',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 248 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 248 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00248',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 249 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 249 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00249',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 250 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 250 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00250',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 251 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 251 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00251',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 252 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 252 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00252',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 253 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 253 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00253',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 254 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 254 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00254',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 255 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 255 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00255',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 256 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 256 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00256',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 257 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 257 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00257',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 258 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 258 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00258',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 259 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 259 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00259',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 260 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 260 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00260',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 261 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 261 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00261',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 262 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 262 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00262',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 263 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 263 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00263',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 264 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 264 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00264',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 265 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 265 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00265',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 266 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 266 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00266',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 267 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 267 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00267',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 268 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 268 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00268',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 269 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 269 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00269',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 270 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 270 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00270',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 271 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 271 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00271',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 272 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 272 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00272',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 273 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 273 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00273',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 274 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 274 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00274',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 275 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 275 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00275',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 276 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 276 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00276',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 277 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 277 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00277',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 278 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 278 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00278',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 279 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 279 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00279',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 280 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 280 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00280',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 281 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 281 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00281',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 282 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 282 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00282',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 283 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 283 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00283',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 284 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 284 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00284',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 285 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 285 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00285',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 286 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 286 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00286',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 287 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 287 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00287',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 288 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 288 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00288',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 289 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 289 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00289',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 290 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 290 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00290',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 291 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 291 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00291',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 292 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 292 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00292',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 293 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 293 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00293',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 294 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 294 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00294',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 295 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 295 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00295',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 296 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 296 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00296',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 297 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 297 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00297',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 298 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 298 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00298',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 299 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 299 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00299',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 300 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 300 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00300',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 301 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 301 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00301',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 302 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 302 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00302',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 303 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 303 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00303',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 304 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 304 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00304',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 305 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 305 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00305',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 306 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 306 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00306',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 307 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 307 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00307',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 308 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 308 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00308',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 309 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 309 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00309',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 310 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 310 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00310',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 311 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 311 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00311',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 312 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 312 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00312',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 313 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 313 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00313',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 314 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 314 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00314',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 315 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 315 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00315',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 316 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 316 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00316',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 317 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 317 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00317',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 318 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 318 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00318',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 319 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 319 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00319',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 320 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 320 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00320',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 321 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 321 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00321',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 322 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 322 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00322',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 323 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 323 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00323',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 324 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 324 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00324',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 325 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 325 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00325',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 326 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 326 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00326',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 327 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 327 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00327',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 328 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 328 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00328',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 329 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 329 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00329',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 330 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 330 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00330',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 331 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 331 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00331',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 332 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 332 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00332',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 333 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 333 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00333',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 334 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 334 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00334',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 335 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 335 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00335',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 336 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 336 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00336',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 337 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 337 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00337',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 338 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 338 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00338',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 339 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 339 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00339',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 340 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 340 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00340',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 341 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 341 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00341',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 342 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 342 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00342',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 343 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 343 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00343',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 344 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 344 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00344',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 345 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 345 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00345',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 346 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 346 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00346',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 347 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 347 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00347',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 348 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 348 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00348',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 349 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 349 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00349',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 350 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 350 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00350',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 351 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 351 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00351',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 352 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 352 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00352',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 353 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 353 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00353',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 354 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 354 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00354',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 355 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 355 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00355',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 356 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 356 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00356',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 357 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 357 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00357',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 358 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 358 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00358',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 359 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 359 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00359',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 360 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 360 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00360',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 361 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 361 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00361',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 362 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 362 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00362',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 363 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 363 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00363',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 364 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 364 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00364',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 365 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 365 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00365',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 366 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 366 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00366',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 367 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 367 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00367',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 368 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 368 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00368',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 369 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 369 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00369',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 370 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 370 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00370',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 371 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 371 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00371',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 372 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 372 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00372',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 373 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 373 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00373',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 374 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 374 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00374',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 375 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 375 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00375',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 376 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 376 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00376',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 377 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 377 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00377',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 378 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 378 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00378',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 379 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 379 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00379',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 380 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 380 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00380',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 381 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 381 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00381',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 382 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 382 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00382',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 383 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 383 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00383',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 384 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 384 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00384',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 385 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 385 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00385',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 386 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 386 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00386',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 387 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 387 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00387',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 388 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 388 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00388',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 389 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 389 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00389',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 390 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 390 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00390',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 391 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 391 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00391',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 392 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 392 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00392',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 393 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 393 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00393',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 394 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 394 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00394',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 395 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 395 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00395',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 396 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 396 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00396',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 397 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 397 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00397',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 398 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 398 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00398',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 399 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 399 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00399',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 400 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 400 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00400',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 401 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 401 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00401',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 402 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 402 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00402',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 403 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 403 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00403',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 404 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 404 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00404',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 405 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 405 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00405',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 406 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 406 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00406',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 407 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 407 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00407',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 408 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 408 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00408',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 409 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 409 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00409',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 410 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 410 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00410',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 411 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 411 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00411',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 412 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 412 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00412',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 413 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 413 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00413',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 414 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 414 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00414',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 415 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 415 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00415',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 416 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 416 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00416',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 417 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 417 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00417',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 418 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 418 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00418',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 419 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 419 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00419',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 420 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 420 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00420',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 421 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 421 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00421',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 422 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 422 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00422',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 423 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 423 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00423',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 424 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 424 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00424',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 425 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 425 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00425',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 426 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 426 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00426',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 427 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 427 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00427',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 428 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 428 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00428',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 429 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 429 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00429',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 430 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 430 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00430',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 431 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 431 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00431',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 432 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 432 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00432',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 433 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 433 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00433',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 434 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 434 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00434',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 435 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 435 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00435',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 436 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 436 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00436',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 437 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 437 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00437',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 438 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 438 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00438',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 439 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 439 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00439',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 440 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 440 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00440',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 441 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 441 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00441',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 442 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 442 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00442',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 443 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 443 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00443',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 444 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 444 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00444',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 445 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 445 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00445',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 446 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 446 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00446',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 447 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 447 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00447',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 448 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 448 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00448',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 449 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 449 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00449',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 450 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 450 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00450',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 451 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 451 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00451',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 452 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 452 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00452',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 453 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 453 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00453',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 454 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 454 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00454',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 455 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 455 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00455',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 456 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 456 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00456',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 457 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 457 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00457',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 458 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 458 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00458',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 459 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 459 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00459',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 460 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 460 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00460',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 461 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 461 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00461',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 462 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 462 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00462',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 463 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 463 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00463',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 464 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 464 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00464',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 465 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 465 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00465',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 466 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 466 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00466',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 467 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 467 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00467',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 468 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 468 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00468',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 469 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 469 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00469',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 470 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 470 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00470',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 471 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 471 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00471',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 472 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 472 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00472',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 473 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 473 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00473',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 474 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 474 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00474',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 475 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 475 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00475',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 476 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 476 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00476',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 477 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 477 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00477',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 478 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 478 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00478',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 479 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 479 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00479',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 480 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 480 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00480',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 481 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 481 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00481',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 482 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 482 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00482',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 483 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 483 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00483',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 484 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 484 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00484',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 485 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 485 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00485',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 486 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 486 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00486',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 487 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 487 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00487',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 488 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 488 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00488',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 489 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 489 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00489',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 490 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 490 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00490',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 491 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 491 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00491',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 492 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 492 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00492',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 493 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 493 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00493',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 494 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 494 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00494',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 495 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 495 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00495',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 496 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 496 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00496',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 497 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 497 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00497',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 498 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 498 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00498',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 499 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 499 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00499',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 500 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 500 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00500',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 501 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 501 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00501',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 502 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 502 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00502',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 503 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 503 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00503',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 504 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 504 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00504',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 505 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 505 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00505',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 506 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 506 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00506',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 507 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 507 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00507',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 508 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 508 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00508',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 509 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 509 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00509',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 510 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 510 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00510',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 511 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 511 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00511',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 512 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 512 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00512',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 513 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 513 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00513',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 514 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 514 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00514',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 515 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 515 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00515',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 516 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 516 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00516',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 517 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 517 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00517',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 518 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 518 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00518',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 519 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 519 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00519',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 520 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 520 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00520',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 521 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 521 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00521',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 522 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 522 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00522',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 523 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 523 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00523',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 524 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 524 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00524',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 525 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 525 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00525',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 526 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 526 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00526',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 527 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 527 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00527',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 528 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 528 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00528',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 529 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 529 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00529',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 530 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 530 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00530',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 531 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 531 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00531',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 532 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 532 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00532',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 533 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 533 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00533',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 534 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 534 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00534',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 535 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 535 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00535',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 536 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 536 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00536',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 537 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 537 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00537',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 538 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 538 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00538',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 539 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 539 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00539',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 540 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 540 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00540',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 541 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 541 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00541',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 542 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 542 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00542',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 543 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 543 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00543',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 544 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 544 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00544',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 545 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 545 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00545',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 546 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 546 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00546',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 547 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 547 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00547',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 548 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 548 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00548',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 549 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 549 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00549',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 550 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 550 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00550',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 551 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 551 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00551',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 552 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 552 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00552',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 553 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 553 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00553',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 554 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 554 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00554',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 555 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 555 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00555',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 556 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 556 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00556',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 557 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 557 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00557',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 558 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 558 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00558',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 559 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 559 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00559',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 560 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 560 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00560',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 561 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 561 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00561',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 562 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 562 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00562',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 563 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 563 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00563',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 564 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 564 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00564',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 565 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 565 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00565',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 566 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 566 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00566',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 567 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 567 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00567',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 568 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 568 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00568',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 569 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 569 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00569',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 570 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 570 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00570',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 571 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 571 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00571',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 572 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 572 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00572',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 573 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 573 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00573',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 574 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 574 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00574',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 575 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 575 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00575',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 576 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 576 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00576',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 577 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 577 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00577',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 578 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 578 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00578',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 579 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 579 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00579',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 580 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 580 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00580',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 581 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 581 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00581',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 582 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 582 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00582',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 583 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 583 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00583',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 584 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 584 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00584',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 585 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 585 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00585',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 586 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 586 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00586',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 587 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 587 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00587',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 588 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 588 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00588',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 589 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 589 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00589',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 590 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 590 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00590',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 591 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 591 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00591',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 592 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 592 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00592',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 593 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 593 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00593',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 594 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 594 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00594',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 595 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 595 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00595',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 596 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 596 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00596',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 597 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 597 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00597',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 598 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 598 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00598',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 599 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 599 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00599',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 600 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 600 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00600',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 601 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 601 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00601',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 602 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 602 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00602',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 603 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 603 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00603',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 604 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 604 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00604',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 605 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 605 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00605',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 606 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 606 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00606',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 607 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 607 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00607',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 608 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 608 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00608',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 609 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 609 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00609',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 610 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 610 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00610',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 611 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 611 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00611',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 612 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 612 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00612',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 613 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 613 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00613',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 614 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 614 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00614',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 615 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 615 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00615',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 616 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 616 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00616',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 617 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 617 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00617',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 618 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 618 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00618',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 619 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 619 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00619',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 620 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 620 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00620',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 621 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 621 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00621',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 622 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 622 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00622',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 623 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 623 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00623',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 624 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 624 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00624',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 625 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 625 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00625',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 626 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 626 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00626',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 627 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 627 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00627',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 628 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 628 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00628',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 629 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 629 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00629',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 630 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 630 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00630',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 631 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 631 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00631',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 632 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 632 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00632',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 633 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 633 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00633',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 634 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 634 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00634',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 635 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 635 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00635',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 636 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 636 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00636',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 637 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 637 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00637',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 638 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 638 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00638',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 639 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 639 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00639',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 640 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 640 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00640',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 641 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 641 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00641',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 642 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 642 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00642',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 643 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 643 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00643',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 644 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 644 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00644',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 645 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 645 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00645',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 646 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 646 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00646',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 647 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 647 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00647',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 648 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 648 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00648',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 649 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 649 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00649',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 650 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 650 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00650',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 651 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 651 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00651',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 652 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 652 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00652',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 653 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 653 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00653',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 654 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 654 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00654',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 655 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 655 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00655',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 656 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 656 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00656',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 657 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 657 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00657',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 658 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 658 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00658',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 659 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 659 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00659',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 660 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 660 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00660',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 661 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 661 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00661',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 662 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 662 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00662',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 663 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 663 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00663',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 664 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 664 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00664',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 665 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 665 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00665',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 666 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 666 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00666',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 667 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 667 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00667',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 668 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 668 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00668',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 669 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 669 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00669',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 670 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 670 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00670',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 671 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 671 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00671',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 672 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 672 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00672',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 673 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 673 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00673',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 674 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 674 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00674',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 675 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 675 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00675',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 676 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 676 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00676',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 677 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 677 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00677',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 678 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 678 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00678',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 679 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 679 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00679',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 680 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 680 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00680',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 681 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 681 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00681',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 682 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 682 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00682',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 683 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 683 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00683',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 684 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 684 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00684',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 685 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 685 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00685',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 686 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 686 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00686',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 687 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 687 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00687',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 688 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 688 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00688',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 689 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 689 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00689',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 690 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 690 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00690',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 691 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 691 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00691',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 692 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 692 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00692',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 693 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 693 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00693',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 694 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 694 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00694',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 695 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 695 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00695',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 696 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 696 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00696',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 697 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 697 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00697',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 698 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 698 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00698',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 699 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 699 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00699',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 700 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 700 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00700',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 701 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 701 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00701',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 702 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 702 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00702',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 703 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 703 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00703',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 704 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 704 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00704',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 705 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 705 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00705',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 706 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 706 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00706',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 707 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 707 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00707',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 708 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 708 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00708',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 709 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 709 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00709',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 710 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 710 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00710',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 711 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 711 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00711',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 712 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 712 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00712',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 713 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 713 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00713',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 714 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 714 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00714',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 715 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 715 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00715',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 716 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 716 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00716',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 717 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 717 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00717',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 718 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 718 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00718',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 719 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 719 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00719',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 720 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 720 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00720',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 721 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 721 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00721',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 722 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 722 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00722',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 723 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 723 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00723',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 724 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 724 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00724',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 725 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 725 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00725',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 726 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 726 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00726',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 727 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 727 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00727',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 728 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 728 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00728',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 729 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 729 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00729',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 730 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 730 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00730',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 731 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 731 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00731',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 732 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 732 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00732',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 733 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 733 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00733',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 734 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 734 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00734',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 735 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 735 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00735',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 736 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 736 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00736',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 737 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 737 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00737',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 738 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 738 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00738',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 739 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 739 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00739',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 740 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 740 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00740',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 741 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 741 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00741',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 742 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 742 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00742',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 743 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 743 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00743',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 744 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 744 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00744',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 745 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 745 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00745',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 746 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 746 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00746',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 747 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 747 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00747',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 748 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 748 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00748',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 749 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 749 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00749',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 750 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 750 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00750',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 751 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 751 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00751',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 752 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 752 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00752',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 753 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 753 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00753',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 754 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 754 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00754',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 755 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 755 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00755',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 756 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 756 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00756',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 757 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 757 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00757',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 758 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 758 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00758',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 759 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 759 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00759',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 760 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 760 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00760',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 761 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 761 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00761',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 762 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 762 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00762',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 763 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 763 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00763',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 764 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 764 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00764',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 765 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 765 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00765',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 766 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 766 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00766',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 767 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 767 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00767',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 768 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 768 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00768',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 769 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 769 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00769',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 770 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 770 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00770',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 771 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 771 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00771',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 772 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 772 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00772',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'family',
+    text: `[HI] Sentence 773 — topic: family, level: A1`,
+    translation: `[HI] Translation of sentence 773 — topic: family, level: A1`,
+    tags: ["family", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00773',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'food',
+    text: `[HI] Sentence 774 — topic: food, level: A2`,
+    translation: `[HI] Translation of sentence 774 — topic: food, level: A2`,
+    tags: ["food", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00774',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 775 — topic: daily-routine, level: B1`,
+    translation: `[HI] Translation of sentence 775 — topic: daily-routine, level: B1`,
+    tags: ["daily-routine", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00775',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'shopping',
+    text: `[HI] Sentence 776 — topic: shopping, level: B2`,
+    translation: `[HI] Translation of sentence 776 — topic: shopping, level: B2`,
+    tags: ["shopping", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00776',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'weather',
+    text: `[HI] Sentence 777 — topic: weather, level: A1`,
+    translation: `[HI] Translation of sentence 777 — topic: weather, level: A1`,
+    tags: ["weather", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00777',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'travel',
+    text: `[HI] Sentence 778 — topic: travel, level: A2`,
+    translation: `[HI] Translation of sentence 778 — topic: travel, level: A2`,
+    tags: ["travel", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00778',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'health',
+    text: `[HI] Sentence 779 — topic: health, level: B1`,
+    translation: `[HI] Translation of sentence 779 — topic: health, level: B1`,
+    tags: ["health", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00779',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 780 — topic: daily-life, level: B2`,
+    translation: `[HI] Translation of sentence 780 — topic: daily-life, level: B2`,
+    tags: ["daily-life", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00780',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 781 — topic: descriptions, level: A1`,
+    translation: `[HI] Translation of sentence 781 — topic: descriptions, level: A1`,
+    tags: ["descriptions", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00781',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'questions',
+    text: `[HI] Sentence 782 — topic: questions, level: A2`,
+    translation: `[HI] Translation of sentence 782 — topic: questions, level: A2`,
+    tags: ["questions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00782',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'services',
+    text: `[HI] Sentence 783 — topic: services, level: B1`,
+    translation: `[HI] Translation of sentence 783 — topic: services, level: B1`,
+    tags: ["services", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00783',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'emotions',
+    text: `[HI] Sentence 784 — topic: emotions, level: B2`,
+    translation: `[HI] Translation of sentence 784 — topic: emotions, level: B2`,
+    tags: ["emotions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00784',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'greetings',
+    text: `[HI] Sentence 785 — topic: greetings, level: A1`,
+    translation: `[HI] Translation of sentence 785 — topic: greetings, level: A1`,
+    tags: ["greetings", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00785',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'numbers',
+    text: `[HI] Sentence 786 — topic: numbers, level: A2`,
+    translation: `[HI] Translation of sentence 786 — topic: numbers, level: A2`,
+    tags: ["numbers", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00786',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'family',
+    text: `[HI] Sentence 787 — topic: family, level: B1`,
+    translation: `[HI] Translation of sentence 787 — topic: family, level: B1`,
+    tags: ["family", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00787',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'food',
+    text: `[HI] Sentence 788 — topic: food, level: B2`,
+    translation: `[HI] Translation of sentence 788 — topic: food, level: B2`,
+    tags: ["food", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00788',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'daily-routine',
+    text: `[HI] Sentence 789 — topic: daily-routine, level: A1`,
+    translation: `[HI] Translation of sentence 789 — topic: daily-routine, level: A1`,
+    tags: ["daily-routine", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00789',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'shopping',
+    text: `[HI] Sentence 790 — topic: shopping, level: A2`,
+    translation: `[HI] Translation of sentence 790 — topic: shopping, level: A2`,
+    tags: ["shopping", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00790',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'weather',
+    text: `[HI] Sentence 791 — topic: weather, level: B1`,
+    translation: `[HI] Translation of sentence 791 — topic: weather, level: B1`,
+    tags: ["weather", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00791',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'travel',
+    text: `[HI] Sentence 792 — topic: travel, level: B2`,
+    translation: `[HI] Translation of sentence 792 — topic: travel, level: B2`,
+    tags: ["travel", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00792',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'health',
+    text: `[HI] Sentence 793 — topic: health, level: A1`,
+    translation: `[HI] Translation of sentence 793 — topic: health, level: A1`,
+    tags: ["health", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00793',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'daily-life',
+    text: `[HI] Sentence 794 — topic: daily-life, level: A2`,
+    translation: `[HI] Translation of sentence 794 — topic: daily-life, level: A2`,
+    tags: ["daily-life", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00794',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'descriptions',
+    text: `[HI] Sentence 795 — topic: descriptions, level: B1`,
+    translation: `[HI] Translation of sentence 795 — topic: descriptions, level: B1`,
+    tags: ["descriptions", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00795',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'questions',
+    text: `[HI] Sentence 796 — topic: questions, level: B2`,
+    translation: `[HI] Translation of sentence 796 — topic: questions, level: B2`,
+    tags: ["questions", "b2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00796',
+    language: 'hi',
+    cefr_level: 'A1',
+    topic: 'services',
+    text: `[HI] Sentence 797 — topic: services, level: A1`,
+    translation: `[HI] Translation of sentence 797 — topic: services, level: A1`,
+    tags: ["services", "a1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00797',
+    language: 'hi',
+    cefr_level: 'A2',
+    topic: 'emotions',
+    text: `[HI] Sentence 798 — topic: emotions, level: A2`,
+    translation: `[HI] Translation of sentence 798 — topic: emotions, level: A2`,
+    tags: ["emotions", "a2", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00798',
+    language: 'hi',
+    cefr_level: 'B1',
+    topic: 'greetings',
+    text: `[HI] Sentence 799 — topic: greetings, level: B1`,
+    translation: `[HI] Translation of sentence 799 — topic: greetings, level: B1`,
+    tags: ["greetings", "b1", "statement"],
+    native_audio_available: true,
+  },
+
+      {
+    id: 'hi_s00799',
+    language: 'hi',
+    cefr_level: 'B2',
+    topic: 'numbers',
+    text: `[HI] Sentence 800 — topic: numbers, level: B2`,
+    translation: `[HI] Translation of sentence 800 — topic: numbers, level: B2`,
+    tags: ["numbers", "b2", "statement"],
+    native_audio_available: true,
+  }
+
+    ];
+
+export const HI_SENTENCE_COUNT = 800;
