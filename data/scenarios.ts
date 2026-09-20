@@ -12,7 +12,7 @@ export interface Scenario {
   title: string;
   context: string;              // Brief description of the situation
   role_play_instructions: string; // Instructions for the AI on how to play its role
-  target_language: 'English' | 'Spanish' | 'French';
+  target_language: 'English' | 'Spanish' | 'French' | 'Italian' | 'German' | 'Japanese' | 'Portuguese' | 'Chinese' | 'Arabic' | 'Russian' | 'Turkish' | 'Korean' | 'Hindi';
   level: 'beginner' | 'intermediate' | 'advanced';
   expected_vocabulary: string[];  // Words/phrases the scenario tests
   evaluation_rubric: {
@@ -308,7 +308,1118 @@ export const SCENARIOS: Scenario[] = [
       appropriateness: 'Ton persuasif mais amical, approprié pour un échange de service.',
     },
   },
+  // ==================================================
+  // ITALIAN — BEGINNER
+  // ==================================================
+  {
+    id: 'it-intro',
+    title: 'Introducing Yourself in Italian',
+    context: 'You just arrived in Rome and meet a local for the first time. Keep it simple and friendly.',
+    role_play_instructions: 'You are a friendly local. The learner introduces themselves. Respond naturally, ask 1-2 follow-up questions.',
+    target_language: 'Italian',
+    level: 'beginner',
+    expected_vocabulary: ["name", "from", "live", "work", "hello", "nice to meet you"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of basic greetings and self-introduction.',
+      grammar: 'Simple present tense, basic personal information questions.',
+      vocabulary: 'Basic personal vocabulary (name, city, job, hobby).',
+      fluency: 'Can the learner speak without long pauses?',
+      appropriateness: 'Polite greeting appropriate for meeting someone new.',
+    },
+  },
+
+  {
+    id: 'it-ordering',
+    title: 'Ordering at a Restaurant',
+    context: 'You walk into a local restaurant and order a meal. Keep it simple and friendly.',
+    role_play_instructions: 'You are a waiter. Greet the customer, take their order, ask if they want anything else.',
+    target_language: 'Italian',
+    level: 'beginner',
+    expected_vocabulary: ["please", "thank you", "menu", "water", "coffee", "bill"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of food/drink names and polite phrases.',
+      grammar: 'Basic request forms ("I would like...", "Can I have...").',
+      vocabulary: 'Food/drink vocabulary, polite request words.',
+      fluency: 'Can the learner order in one turn without long hesitation?',
+      appropriateness: 'Polite tone appropriate for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'it-directions',
+    title: 'Asking for Directions',
+    context: 'You are lost in Rome and need to find a famous landmark. Keep it simple and friendly.',
+    role_play_instructions: 'You are a local. Give clear, simple directions using basic prepositions.',
+    target_language: 'Italian',
+    level: 'beginner',
+    expected_vocabulary: ["left", "right", "straight", "stop", "street", "corner"],
+    evaluation_rubric: {
+      pronunciation: 'Clear directional words and numbers.',
+      grammar: 'Imperative directions, question forms ("Where is...?").',
+      vocabulary: 'Directional vocabulary and spatial prepositions.',
+      fluency: 'Can the learner ask and repeat back directions?',
+      appropriateness: 'Polite question form, clear acknowledgment.',
+    },
+  },
+
+  // ==================================================
+  // ITALIAN — INTERMEDIATE
+  // ==================================================
+  {
+    id: 'it-restaurant',
+    title: 'Dining at a Restaurant',
+    context: 'You are at a sit-down restaurant. Order a meal, ask about ingredients, and handle the check.',
+    role_play_instructions: 'You are a server. Welcome the table, take the order, answer questions about the menu, and bring the check.',
+    target_language: 'Italian',
+    level: 'intermediate',
+    expected_vocabulary: ["appetizer", "main course", "dessert", "allergy", "recommend", "check", "tip"],
+    evaluation_rubric: {
+      pronunciation: 'Connected speech, clear intonation in questions.',
+      grammar: 'Modal verbs ("could I have...", "would you recommend..."), indirect questions.',
+      vocabulary: 'Restaurant-specific vocabulary, ability to ask about ingredients.',
+      fluency: 'Can the learner handle a multi-turn exchange smoothly?',
+      appropriateness: 'Polite register for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'it-travel',
+    title: 'Planning a Trip',
+    context: 'You are at a travel agency planning a vacation. Discuss destinations, budget, and preferences.',
+    role_play_instructions: 'You are a travel agent. Ask about preferences, suggest 2-3 options, and help narrow down.',
+    target_language: 'Italian',
+    level: 'intermediate',
+    expected_vocabulary: ["destination", "budget", "flight", "hotel", "activity", "sightseeing", "relax"],
+    evaluation_rubric: {
+      pronunciation: 'Intonation in questions and suggestions, clear numbers.',
+      grammar: 'Conditional ("if you like..."), comparatives ("this is cheaper than..."), future plans.',
+      vocabulary: 'Travel planning vocabulary, ability to express preferences.',
+      fluency: 'Can the learner discuss preferences at length?',
+      appropriateness: 'Polite persuasive tone, appropriate for service interaction.',
+    },
+  },
+
+  // ==================================================
+  // ITALIAN — ADVANCED
+  // ==================================================
+  {
+    id: 'it-debate',
+    title: 'Debate: Modern Life',
+    context: 'You are in a discussion about a topic relevant to modern life and society.',
+    role_play_instructions: 'You take the opposite position. Present 2-3 arguments, respond to the learner\'s points, and challenge them respectfully.',
+    target_language: 'Italian',
+    level: 'advanced',
+    expected_vocabulary: ["productivity", "community", "tradition", "modern", "balance", "perspective"],
+    evaluation_rubric: {
+      pronunciation: 'Nuanced intonation for emphasis, stress on key words.',
+      grammar: 'Complex sentence structures, hedging ("it could be argued that..."), conditionals.',
+      vocabulary: 'Abstract vocabulary, ability to express nuanced positions.',
+      fluency: 'Can the learner sustain a complex argument across multiple turns?',
+      appropriateness: 'Debate etiquette — respectful disagreement, acknowledging counterpoints.',
+    },
+  },
+
+  // ==================================================
+  // GERMAN — BEGINNER
+  // ==================================================
+  {
+    id: 'de-intro',
+    title: 'Introducing Yourself in German',
+    context: 'You just arrived in Berlin and meet a local for the first time. Keep it simple and friendly.',
+    role_play_instructions: 'You are a friendly local. The learner introduces themselves. Respond naturally, ask 1-2 follow-up questions.',
+    target_language: 'German',
+    level: 'beginner',
+    expected_vocabulary: ["name", "from", "live", "work", "hello", "nice to meet you"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of basic greetings and self-introduction.',
+      grammar: 'Simple present tense, basic personal information questions.',
+      vocabulary: 'Basic personal vocabulary (name, city, job, hobby).',
+      fluency: 'Can the learner speak without long pauses?',
+      appropriateness: 'Polite greeting appropriate for meeting someone new.',
+    },
+  },
+
+  {
+    id: 'de-ordering',
+    title: 'Ordering at a Restaurant',
+    context: 'You walk into a local restaurant and order a meal. Keep it simple and friendly.',
+    role_play_instructions: 'You are a waiter. Greet the customer, take their order, ask if they want anything else.',
+    target_language: 'German',
+    level: 'beginner',
+    expected_vocabulary: ["please", "thank you", "menu", "water", "coffee", "bill"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of food/drink names and polite phrases.',
+      grammar: 'Basic request forms ("I would like...", "Can I have...").',
+      vocabulary: 'Food/drink vocabulary, polite request words.',
+      fluency: 'Can the learner order in one turn without long hesitation?',
+      appropriateness: 'Polite tone appropriate for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'de-directions',
+    title: 'Asking for Directions',
+    context: 'You are lost in Berlin and need to find a famous landmark. Keep it simple and friendly.',
+    role_play_instructions: 'You are a local. Give clear, simple directions using basic prepositions.',
+    target_language: 'German',
+    level: 'beginner',
+    expected_vocabulary: ["left", "right", "straight", "stop", "street", "corner"],
+    evaluation_rubric: {
+      pronunciation: 'Clear directional words and numbers.',
+      grammar: 'Imperative directions, question forms ("Where is...?").',
+      vocabulary: 'Directional vocabulary and spatial prepositions.',
+      fluency: 'Can the learner ask and repeat back directions?',
+      appropriateness: 'Polite question form, clear acknowledgment.',
+    },
+  },
+
+  // ==================================================
+  // GERMAN — INTERMEDIATE
+  // ==================================================
+  {
+    id: 'de-restaurant',
+    title: 'Dining at a Restaurant',
+    context: 'You are at a sit-down restaurant. Order a meal, ask about ingredients, and handle the check.',
+    role_play_instructions: 'You are a server. Welcome the table, take the order, answer questions about the menu, and bring the check.',
+    target_language: 'German',
+    level: 'intermediate',
+    expected_vocabulary: ["appetizer", "main course", "dessert", "allergy", "recommend", "check", "tip"],
+    evaluation_rubric: {
+      pronunciation: 'Connected speech, clear intonation in questions.',
+      grammar: 'Modal verbs ("could I have...", "would you recommend..."), indirect questions.',
+      vocabulary: 'Restaurant-specific vocabulary, ability to ask about ingredients.',
+      fluency: 'Can the learner handle a multi-turn exchange smoothly?',
+      appropriateness: 'Polite register for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'de-travel',
+    title: 'Planning a Trip',
+    context: 'You are at a travel agency planning a vacation. Discuss destinations, budget, and preferences.',
+    role_play_instructions: 'You are a travel agent. Ask about preferences, suggest 2-3 options, and help narrow down.',
+    target_language: 'German',
+    level: 'intermediate',
+    expected_vocabulary: ["destination", "budget", "flight", "hotel", "activity", "sightseeing", "relax"],
+    evaluation_rubric: {
+      pronunciation: 'Intonation in questions and suggestions, clear numbers.',
+      grammar: 'Conditional ("if you like..."), comparatives ("this is cheaper than..."), future plans.',
+      vocabulary: 'Travel planning vocabulary, ability to express preferences.',
+      fluency: 'Can the learner discuss preferences at length?',
+      appropriateness: 'Polite persuasive tone, appropriate for service interaction.',
+    },
+  },
+
+  // ==================================================
+  // GERMAN — ADVANCED
+  // ==================================================
+  {
+    id: 'de-debate',
+    title: 'Debate: Modern Life',
+    context: 'You are in a discussion about a topic relevant to modern life and society.',
+    role_play_instructions: 'You take the opposite position. Present 2-3 arguments, respond to the learner\'s points, and challenge them respectfully.',
+    target_language: 'German',
+    level: 'advanced',
+    expected_vocabulary: ["productivity", "community", "tradition", "modern", "balance", "perspective"],
+    evaluation_rubric: {
+      pronunciation: 'Nuanced intonation for emphasis, stress on key words.',
+      grammar: 'Complex sentence structures, hedging ("it could be argued that..."), conditionals.',
+      vocabulary: 'Abstract vocabulary, ability to express nuanced positions.',
+      fluency: 'Can the learner sustain a complex argument across multiple turns?',
+      appropriateness: 'Debate etiquette — respectful disagreement, acknowledging counterpoints.',
+    },
+  },
+
+  // ==================================================
+  // JAPANESE — BEGINNER
+  // ==================================================
+  {
+    id: 'ja-intro',
+    title: 'Introducing Yourself in Japanese',
+    context: 'You just arrived in Tokyo and meet a local for the first time. Keep it simple and friendly.',
+    role_play_instructions: 'You are a friendly local. The learner introduces themselves. Respond naturally, ask 1-2 follow-up questions.',
+    target_language: 'Japanese',
+    level: 'beginner',
+    expected_vocabulary: ["name", "from", "live", "work", "hello", "nice to meet you"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of basic greetings and self-introduction.',
+      grammar: 'Simple present tense, basic personal information questions.',
+      vocabulary: 'Basic personal vocabulary (name, city, job, hobby).',
+      fluency: 'Can the learner speak without long pauses?',
+      appropriateness: 'Polite greeting appropriate for meeting someone new.',
+    },
+  },
+
+  {
+    id: 'ja-ordering',
+    title: 'Ordering at a Restaurant',
+    context: 'You walk into a local restaurant and order a meal. Keep it simple and friendly.',
+    role_play_instructions: 'You are a waiter. Greet the customer, take their order, ask if they want anything else.',
+    target_language: 'Japanese',
+    level: 'beginner',
+    expected_vocabulary: ["please", "thank you", "menu", "water", "coffee", "bill"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of food/drink names and polite phrases.',
+      grammar: 'Basic request forms ("I would like...", "Can I have...").',
+      vocabulary: 'Food/drink vocabulary, polite request words.',
+      fluency: 'Can the learner order in one turn without long hesitation?',
+      appropriateness: 'Polite tone appropriate for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'ja-directions',
+    title: 'Asking for Directions',
+    context: 'You are lost in Tokyo and need to find a famous landmark. Keep it simple and friendly.',
+    role_play_instructions: 'You are a local. Give clear, simple directions using basic prepositions.',
+    target_language: 'Japanese',
+    level: 'beginner',
+    expected_vocabulary: ["left", "right", "straight", "stop", "street", "corner"],
+    evaluation_rubric: {
+      pronunciation: 'Clear directional words and numbers.',
+      grammar: 'Imperative directions, question forms ("Where is...?").',
+      vocabulary: 'Directional vocabulary and spatial prepositions.',
+      fluency: 'Can the learner ask and repeat back directions?',
+      appropriateness: 'Polite question form, clear acknowledgment.',
+    },
+  },
+
+  // ==================================================
+  // JAPANESE — INTERMEDIATE
+  // ==================================================
+  {
+    id: 'ja-restaurant',
+    title: 'Dining at a Restaurant',
+    context: 'You are at a sit-down restaurant. Order a meal, ask about ingredients, and handle the check.',
+    role_play_instructions: 'You are a server. Welcome the table, take the order, answer questions about the menu, and bring the check.',
+    target_language: 'Japanese',
+    level: 'intermediate',
+    expected_vocabulary: ["appetizer", "main course", "dessert", "allergy", "recommend", "check", "tip"],
+    evaluation_rubric: {
+      pronunciation: 'Connected speech, clear intonation in questions.',
+      grammar: 'Modal verbs ("could I have...", "would you recommend..."), indirect questions.',
+      vocabulary: 'Restaurant-specific vocabulary, ability to ask about ingredients.',
+      fluency: 'Can the learner handle a multi-turn exchange smoothly?',
+      appropriateness: 'Polite register for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'ja-travel',
+    title: 'Planning a Trip',
+    context: 'You are at a travel agency planning a vacation. Discuss destinations, budget, and preferences.',
+    role_play_instructions: 'You are a travel agent. Ask about preferences, suggest 2-3 options, and help narrow down.',
+    target_language: 'Japanese',
+    level: 'intermediate',
+    expected_vocabulary: ["destination", "budget", "flight", "hotel", "activity", "sightseeing", "relax"],
+    evaluation_rubric: {
+      pronunciation: 'Intonation in questions and suggestions, clear numbers.',
+      grammar: 'Conditional ("if you like..."), comparatives ("this is cheaper than..."), future plans.',
+      vocabulary: 'Travel planning vocabulary, ability to express preferences.',
+      fluency: 'Can the learner discuss preferences at length?',
+      appropriateness: 'Polite persuasive tone, appropriate for service interaction.',
+    },
+  },
+
+  // ==================================================
+  // JAPANESE — ADVANCED
+  // ==================================================
+  {
+    id: 'ja-debate',
+    title: 'Debate: Modern Life',
+    context: 'You are in a discussion about a topic relevant to modern life and society.',
+    role_play_instructions: 'You take the opposite position. Present 2-3 arguments, respond to the learner\'s points, and challenge them respectfully.',
+    target_language: 'Japanese',
+    level: 'advanced',
+    expected_vocabulary: ["productivity", "community", "tradition", "modern", "balance", "perspective"],
+    evaluation_rubric: {
+      pronunciation: 'Nuanced intonation for emphasis, stress on key words.',
+      grammar: 'Complex sentence structures, hedging ("it could be argued that..."), conditionals.',
+      vocabulary: 'Abstract vocabulary, ability to express nuanced positions.',
+      fluency: 'Can the learner sustain a complex argument across multiple turns?',
+      appropriateness: 'Debate etiquette — respectful disagreement, acknowledging counterpoints.',
+    },
+  },
+
+  // ==================================================
+  // PORTUGUESE — BEGINNER
+  // ==================================================
+  {
+    id: 'pt-intro',
+    title: 'Introducing Yourself in Portuguese',
+    context: 'You just arrived in Lisbon and meet a local for the first time. Keep it simple and friendly.',
+    role_play_instructions: 'You are a friendly local. The learner introduces themselves. Respond naturally, ask 1-2 follow-up questions.',
+    target_language: 'Portuguese',
+    level: 'beginner',
+    expected_vocabulary: ["name", "from", "live", "work", "hello", "nice to meet you"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of basic greetings and self-introduction.',
+      grammar: 'Simple present tense, basic personal information questions.',
+      vocabulary: 'Basic personal vocabulary (name, city, job, hobby).',
+      fluency: 'Can the learner speak without long pauses?',
+      appropriateness: 'Polite greeting appropriate for meeting someone new.',
+    },
+  },
+
+  {
+    id: 'pt-ordering',
+    title: 'Ordering at a Restaurant',
+    context: 'You walk into a local restaurant and order a meal. Keep it simple and friendly.',
+    role_play_instructions: 'You are a waiter. Greet the customer, take their order, ask if they want anything else.',
+    target_language: 'Portuguese',
+    level: 'beginner',
+    expected_vocabulary: ["please", "thank you", "menu", "water", "coffee", "bill"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of food/drink names and polite phrases.',
+      grammar: 'Basic request forms ("I would like...", "Can I have...").',
+      vocabulary: 'Food/drink vocabulary, polite request words.',
+      fluency: 'Can the learner order in one turn without long hesitation?',
+      appropriateness: 'Polite tone appropriate for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'pt-directions',
+    title: 'Asking for Directions',
+    context: 'You are lost in Lisbon and need to find a famous landmark. Keep it simple and friendly.',
+    role_play_instructions: 'You are a local. Give clear, simple directions using basic prepositions.',
+    target_language: 'Portuguese',
+    level: 'beginner',
+    expected_vocabulary: ["left", "right", "straight", "stop", "street", "corner"],
+    evaluation_rubric: {
+      pronunciation: 'Clear directional words and numbers.',
+      grammar: 'Imperative directions, question forms ("Where is...?").',
+      vocabulary: 'Directional vocabulary and spatial prepositions.',
+      fluency: 'Can the learner ask and repeat back directions?',
+      appropriateness: 'Polite question form, clear acknowledgment.',
+    },
+  },
+
+  // ==================================================
+  // PORTUGUESE — INTERMEDIATE
+  // ==================================================
+  {
+    id: 'pt-restaurant',
+    title: 'Dining at a Restaurant',
+    context: 'You are at a sit-down restaurant. Order a meal, ask about ingredients, and handle the check.',
+    role_play_instructions: 'You are a server. Welcome the table, take the order, answer questions about the menu, and bring the check.',
+    target_language: 'Portuguese',
+    level: 'intermediate',
+    expected_vocabulary: ["appetizer", "main course", "dessert", "allergy", "recommend", "check", "tip"],
+    evaluation_rubric: {
+      pronunciation: 'Connected speech, clear intonation in questions.',
+      grammar: 'Modal verbs ("could I have...", "would you recommend..."), indirect questions.',
+      vocabulary: 'Restaurant-specific vocabulary, ability to ask about ingredients.',
+      fluency: 'Can the learner handle a multi-turn exchange smoothly?',
+      appropriateness: 'Polite register for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'pt-travel',
+    title: 'Planning a Trip',
+    context: 'You are at a travel agency planning a vacation. Discuss destinations, budget, and preferences.',
+    role_play_instructions: 'You are a travel agent. Ask about preferences, suggest 2-3 options, and help narrow down.',
+    target_language: 'Portuguese',
+    level: 'intermediate',
+    expected_vocabulary: ["destination", "budget", "flight", "hotel", "activity", "sightseeing", "relax"],
+    evaluation_rubric: {
+      pronunciation: 'Intonation in questions and suggestions, clear numbers.',
+      grammar: 'Conditional ("if you like..."), comparatives ("this is cheaper than..."), future plans.',
+      vocabulary: 'Travel planning vocabulary, ability to express preferences.',
+      fluency: 'Can the learner discuss preferences at length?',
+      appropriateness: 'Polite persuasive tone, appropriate for service interaction.',
+    },
+  },
+
+  // ==================================================
+  // PORTUGUESE — ADVANCED
+  // ==================================================
+  {
+    id: 'pt-debate',
+    title: 'Debate: Modern Life',
+    context: 'You are in a discussion about a topic relevant to modern life and society.',
+    role_play_instructions: 'You take the opposite position. Present 2-3 arguments, respond to the learner\'s points, and challenge them respectfully.',
+    target_language: 'Portuguese',
+    level: 'advanced',
+    expected_vocabulary: ["productivity", "community", "tradition", "modern", "balance", "perspective"],
+    evaluation_rubric: {
+      pronunciation: 'Nuanced intonation for emphasis, stress on key words.',
+      grammar: 'Complex sentence structures, hedging ("it could be argued that..."), conditionals.',
+      vocabulary: 'Abstract vocabulary, ability to express nuanced positions.',
+      fluency: 'Can the learner sustain a complex argument across multiple turns?',
+      appropriateness: 'Debate etiquette — respectful disagreement, acknowledging counterpoints.',
+    },
+  },
+
+  // ==================================================
+  // CHINESE — BEGINNER
+  // ==================================================
+  {
+    id: 'zh-intro',
+    title: 'Introducing Yourself in Chinese',
+    context: 'You just arrived in Shanghai and meet a local for the first time. Keep it simple and friendly.',
+    role_play_instructions: 'You are a friendly local. The learner introduces themselves. Respond naturally, ask 1-2 follow-up questions.',
+    target_language: 'Chinese',
+    level: 'beginner',
+    expected_vocabulary: ["name", "from", "live", "work", "hello", "nice to meet you"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of basic greetings and self-introduction.',
+      grammar: 'Simple present tense, basic personal information questions.',
+      vocabulary: 'Basic personal vocabulary (name, city, job, hobby).',
+      fluency: 'Can the learner speak without long pauses?',
+      appropriateness: 'Polite greeting appropriate for meeting someone new.',
+    },
+  },
+
+  {
+    id: 'zh-ordering',
+    title: 'Ordering at a Restaurant',
+    context: 'You walk into a local restaurant and order a meal. Keep it simple and friendly.',
+    role_play_instructions: 'You are a waiter. Greet the customer, take their order, ask if they want anything else.',
+    target_language: 'Chinese',
+    level: 'beginner',
+    expected_vocabulary: ["please", "thank you", "menu", "water", "coffee", "bill"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of food/drink names and polite phrases.',
+      grammar: 'Basic request forms ("I would like...", "Can I have...").',
+      vocabulary: 'Food/drink vocabulary, polite request words.',
+      fluency: 'Can the learner order in one turn without long hesitation?',
+      appropriateness: 'Polite tone appropriate for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'zh-directions',
+    title: 'Asking for Directions',
+    context: 'You are lost in Shanghai and need to find a famous landmark. Keep it simple and friendly.',
+    role_play_instructions: 'You are a local. Give clear, simple directions using basic prepositions.',
+    target_language: 'Chinese',
+    level: 'beginner',
+    expected_vocabulary: ["left", "right", "straight", "stop", "street", "corner"],
+    evaluation_rubric: {
+      pronunciation: 'Clear directional words and numbers.',
+      grammar: 'Imperative directions, question forms ("Where is...?").',
+      vocabulary: 'Directional vocabulary and spatial prepositions.',
+      fluency: 'Can the learner ask and repeat back directions?',
+      appropriateness: 'Polite question form, clear acknowledgment.',
+    },
+  },
+
+  // ==================================================
+  // CHINESE — INTERMEDIATE
+  // ==================================================
+  {
+    id: 'zh-restaurant',
+    title: 'Dining at a Restaurant',
+    context: 'You are at a sit-down restaurant. Order a meal, ask about ingredients, and handle the check.',
+    role_play_instructions: 'You are a server. Welcome the table, take the order, answer questions about the menu, and bring the check.',
+    target_language: 'Chinese',
+    level: 'intermediate',
+    expected_vocabulary: ["appetizer", "main course", "dessert", "allergy", "recommend", "check", "tip"],
+    evaluation_rubric: {
+      pronunciation: 'Connected speech, clear intonation in questions.',
+      grammar: 'Modal verbs ("could I have...", "would you recommend..."), indirect questions.',
+      vocabulary: 'Restaurant-specific vocabulary, ability to ask about ingredients.',
+      fluency: 'Can the learner handle a multi-turn exchange smoothly?',
+      appropriateness: 'Polite register for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'zh-travel',
+    title: 'Planning a Trip',
+    context: 'You are at a travel agency planning a vacation. Discuss destinations, budget, and preferences.',
+    role_play_instructions: 'You are a travel agent. Ask about preferences, suggest 2-3 options, and help narrow down.',
+    target_language: 'Chinese',
+    level: 'intermediate',
+    expected_vocabulary: ["destination", "budget", "flight", "hotel", "activity", "sightseeing", "relax"],
+    evaluation_rubric: {
+      pronunciation: 'Intonation in questions and suggestions, clear numbers.',
+      grammar: 'Conditional ("if you like..."), comparatives ("this is cheaper than..."), future plans.',
+      vocabulary: 'Travel planning vocabulary, ability to express preferences.',
+      fluency: 'Can the learner discuss preferences at length?',
+      appropriateness: 'Polite persuasive tone, appropriate for service interaction.',
+    },
+  },
+
+  // ==================================================
+  // CHINESE — ADVANCED
+  // ==================================================
+  {
+    id: 'zh-debate',
+    title: 'Debate: Modern Life',
+    context: 'You are in a discussion about a topic relevant to modern life and society.',
+    role_play_instructions: 'You take the opposite position. Present 2-3 arguments, respond to the learner\'s points, and challenge them respectfully.',
+    target_language: 'Chinese',
+    level: 'advanced',
+    expected_vocabulary: ["productivity", "community", "tradition", "modern", "balance", "perspective"],
+    evaluation_rubric: {
+      pronunciation: 'Nuanced intonation for emphasis, stress on key words.',
+      grammar: 'Complex sentence structures, hedging ("it could be argued that..."), conditionals.',
+      vocabulary: 'Abstract vocabulary, ability to express nuanced positions.',
+      fluency: 'Can the learner sustain a complex argument across multiple turns?',
+      appropriateness: 'Debate etiquette — respectful disagreement, acknowledging counterpoints.',
+    },
+  },
+
+  // ==================================================
+  // ARABIC — BEGINNER
+  // ==================================================
+  {
+    id: 'ar-intro',
+    title: 'Introducing Yourself in Arabic',
+    context: 'You just arrived in Cairo and meet a local for the first time. Keep it simple and friendly.',
+    role_play_instructions: 'You are a friendly local. The learner introduces themselves. Respond naturally, ask 1-2 follow-up questions.',
+    target_language: 'Arabic',
+    level: 'beginner',
+    expected_vocabulary: ["name", "from", "live", "work", "hello", "nice to meet you"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of basic greetings and self-introduction.',
+      grammar: 'Simple present tense, basic personal information questions.',
+      vocabulary: 'Basic personal vocabulary (name, city, job, hobby).',
+      fluency: 'Can the learner speak without long pauses?',
+      appropriateness: 'Polite greeting appropriate for meeting someone new.',
+    },
+  },
+
+  {
+    id: 'ar-ordering',
+    title: 'Ordering at a Restaurant',
+    context: 'You walk into a local restaurant and order a meal. Keep it simple and friendly.',
+    role_play_instructions: 'You are a waiter. Greet the customer, take their order, ask if they want anything else.',
+    target_language: 'Arabic',
+    level: 'beginner',
+    expected_vocabulary: ["please", "thank you", "menu", "water", "coffee", "bill"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of food/drink names and polite phrases.',
+      grammar: 'Basic request forms ("I would like...", "Can I have...").',
+      vocabulary: 'Food/drink vocabulary, polite request words.',
+      fluency: 'Can the learner order in one turn without long hesitation?',
+      appropriateness: 'Polite tone appropriate for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'ar-directions',
+    title: 'Asking for Directions',
+    context: 'You are lost in Cairo and need to find a famous landmark. Keep it simple and friendly.',
+    role_play_instructions: 'You are a local. Give clear, simple directions using basic prepositions.',
+    target_language: 'Arabic',
+    level: 'beginner',
+    expected_vocabulary: ["left", "right", "straight", "stop", "street", "corner"],
+    evaluation_rubric: {
+      pronunciation: 'Clear directional words and numbers.',
+      grammar: 'Imperative directions, question forms ("Where is...?").',
+      vocabulary: 'Directional vocabulary and spatial prepositions.',
+      fluency: 'Can the learner ask and repeat back directions?',
+      appropriateness: 'Polite question form, clear acknowledgment.',
+    },
+  },
+
+  // ==================================================
+  // ARABIC — INTERMEDIATE
+  // ==================================================
+  {
+    id: 'ar-restaurant',
+    title: 'Dining at a Restaurant',
+    context: 'You are at a sit-down restaurant. Order a meal, ask about ingredients, and handle the check.',
+    role_play_instructions: 'You are a server. Welcome the table, take the order, answer questions about the menu, and bring the check.',
+    target_language: 'Arabic',
+    level: 'intermediate',
+    expected_vocabulary: ["appetizer", "main course", "dessert", "allergy", "recommend", "check", "tip"],
+    evaluation_rubric: {
+      pronunciation: 'Connected speech, clear intonation in questions.',
+      grammar: 'Modal verbs ("could I have...", "would you recommend..."), indirect questions.',
+      vocabulary: 'Restaurant-specific vocabulary, ability to ask about ingredients.',
+      fluency: 'Can the learner handle a multi-turn exchange smoothly?',
+      appropriateness: 'Polite register for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'ar-travel',
+    title: 'Planning a Trip',
+    context: 'You are at a travel agency planning a vacation. Discuss destinations, budget, and preferences.',
+    role_play_instructions: 'You are a travel agent. Ask about preferences, suggest 2-3 options, and help narrow down.',
+    target_language: 'Arabic',
+    level: 'intermediate',
+    expected_vocabulary: ["destination", "budget", "flight", "hotel", "activity", "sightseeing", "relax"],
+    evaluation_rubric: {
+      pronunciation: 'Intonation in questions and suggestions, clear numbers.',
+      grammar: 'Conditional ("if you like..."), comparatives ("this is cheaper than..."), future plans.',
+      vocabulary: 'Travel planning vocabulary, ability to express preferences.',
+      fluency: 'Can the learner discuss preferences at length?',
+      appropriateness: 'Polite persuasive tone, appropriate for service interaction.',
+    },
+  },
+
+  // ==================================================
+  // ARABIC — ADVANCED
+  // ==================================================
+  {
+    id: 'ar-debate',
+    title: 'Debate: Modern Life',
+    context: 'You are in a discussion about a topic relevant to modern life and society.',
+    role_play_instructions: 'You take the opposite position. Present 2-3 arguments, respond to the learner\'s points, and challenge them respectfully.',
+    target_language: 'Arabic',
+    level: 'advanced',
+    expected_vocabulary: ["productivity", "community", "tradition", "modern", "balance", "perspective"],
+    evaluation_rubric: {
+      pronunciation: 'Nuanced intonation for emphasis, stress on key words.',
+      grammar: 'Complex sentence structures, hedging ("it could be argued that..."), conditionals.',
+      vocabulary: 'Abstract vocabulary, ability to express nuanced positions.',
+      fluency: 'Can the learner sustain a complex argument across multiple turns?',
+      appropriateness: 'Debate etiquette — respectful disagreement, acknowledging counterpoints.',
+    },
+  },
+
+  // ==================================================
+  // RUSSIAN — BEGINNER
+  // ==================================================
+  {
+    id: 'ru-intro',
+    title: 'Introducing Yourself in Russian',
+    context: 'You just arrived in Moscow and meet a local for the first time. Keep it simple and friendly.',
+    role_play_instructions: 'You are a friendly local. The learner introduces themselves. Respond naturally, ask 1-2 follow-up questions.',
+    target_language: 'Russian',
+    level: 'beginner',
+    expected_vocabulary: ["name", "from", "live", "work", "hello", "nice to meet you"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of basic greetings and self-introduction.',
+      grammar: 'Simple present tense, basic personal information questions.',
+      vocabulary: 'Basic personal vocabulary (name, city, job, hobby).',
+      fluency: 'Can the learner speak without long pauses?',
+      appropriateness: 'Polite greeting appropriate for meeting someone new.',
+    },
+  },
+
+  {
+    id: 'ru-ordering',
+    title: 'Ordering at a Restaurant',
+    context: 'You walk into a local restaurant and order a meal. Keep it simple and friendly.',
+    role_play_instructions: 'You are a waiter. Greet the customer, take their order, ask if they want anything else.',
+    target_language: 'Russian',
+    level: 'beginner',
+    expected_vocabulary: ["please", "thank you", "menu", "water", "coffee", "bill"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of food/drink names and polite phrases.',
+      grammar: 'Basic request forms ("I would like...", "Can I have...").',
+      vocabulary: 'Food/drink vocabulary, polite request words.',
+      fluency: 'Can the learner order in one turn without long hesitation?',
+      appropriateness: 'Polite tone appropriate for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'ru-directions',
+    title: 'Asking for Directions',
+    context: 'You are lost in Moscow and need to find a famous landmark. Keep it simple and friendly.',
+    role_play_instructions: 'You are a local. Give clear, simple directions using basic prepositions.',
+    target_language: 'Russian',
+    level: 'beginner',
+    expected_vocabulary: ["left", "right", "straight", "stop", "street", "corner"],
+    evaluation_rubric: {
+      pronunciation: 'Clear directional words and numbers.',
+      grammar: 'Imperative directions, question forms ("Where is...?").',
+      vocabulary: 'Directional vocabulary and spatial prepositions.',
+      fluency: 'Can the learner ask and repeat back directions?',
+      appropriateness: 'Polite question form, clear acknowledgment.',
+    },
+  },
+
+  // ==================================================
+  // RUSSIAN — INTERMEDIATE
+  // ==================================================
+  {
+    id: 'ru-restaurant',
+    title: 'Dining at a Restaurant',
+    context: 'You are at a sit-down restaurant. Order a meal, ask about ingredients, and handle the check.',
+    role_play_instructions: 'You are a server. Welcome the table, take the order, answer questions about the menu, and bring the check.',
+    target_language: 'Russian',
+    level: 'intermediate',
+    expected_vocabulary: ["appetizer", "main course", "dessert", "allergy", "recommend", "check", "tip"],
+    evaluation_rubric: {
+      pronunciation: 'Connected speech, clear intonation in questions.',
+      grammar: 'Modal verbs ("could I have...", "would you recommend..."), indirect questions.',
+      vocabulary: 'Restaurant-specific vocabulary, ability to ask about ingredients.',
+      fluency: 'Can the learner handle a multi-turn exchange smoothly?',
+      appropriateness: 'Polite register for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'ru-travel',
+    title: 'Planning a Trip',
+    context: 'You are at a travel agency planning a vacation. Discuss destinations, budget, and preferences.',
+    role_play_instructions: 'You are a travel agent. Ask about preferences, suggest 2-3 options, and help narrow down.',
+    target_language: 'Russian',
+    level: 'intermediate',
+    expected_vocabulary: ["destination", "budget", "flight", "hotel", "activity", "sightseeing", "relax"],
+    evaluation_rubric: {
+      pronunciation: 'Intonation in questions and suggestions, clear numbers.',
+      grammar: 'Conditional ("if you like..."), comparatives ("this is cheaper than..."), future plans.',
+      vocabulary: 'Travel planning vocabulary, ability to express preferences.',
+      fluency: 'Can the learner discuss preferences at length?',
+      appropriateness: 'Polite persuasive tone, appropriate for service interaction.',
+    },
+  },
+
+  // ==================================================
+  // RUSSIAN — ADVANCED
+  // ==================================================
+  {
+    id: 'ru-debate',
+    title: 'Debate: Modern Life',
+    context: 'You are in a discussion about a topic relevant to modern life and society.',
+    role_play_instructions: 'You take the opposite position. Present 2-3 arguments, respond to the learner\'s points, and challenge them respectfully.',
+    target_language: 'Russian',
+    level: 'advanced',
+    expected_vocabulary: ["productivity", "community", "tradition", "modern", "balance", "perspective"],
+    evaluation_rubric: {
+      pronunciation: 'Nuanced intonation for emphasis, stress on key words.',
+      grammar: 'Complex sentence structures, hedging ("it could be argued that..."), conditionals.',
+      vocabulary: 'Abstract vocabulary, ability to express nuanced positions.',
+      fluency: 'Can the learner sustain a complex argument across multiple turns?',
+      appropriateness: 'Debate etiquette — respectful disagreement, acknowledging counterpoints.',
+    },
+  },
+
+  // ==================================================
+  // TURKISH — BEGINNER
+  // ==================================================
+  {
+    id: 'tr-intro',
+    title: 'Introducing Yourself in Turkish',
+    context: 'You just arrived in Istanbul and meet a local for the first time. Keep it simple and friendly.',
+    role_play_instructions: 'You are a friendly local. The learner introduces themselves. Respond naturally, ask 1-2 follow-up questions.',
+    target_language: 'Turkish',
+    level: 'beginner',
+    expected_vocabulary: ["name", "from", "live", "work", "hello", "nice to meet you"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of basic greetings and self-introduction.',
+      grammar: 'Simple present tense, basic personal information questions.',
+      vocabulary: 'Basic personal vocabulary (name, city, job, hobby).',
+      fluency: 'Can the learner speak without long pauses?',
+      appropriateness: 'Polite greeting appropriate for meeting someone new.',
+    },
+  },
+
+  {
+    id: 'tr-ordering',
+    title: 'Ordering at a Restaurant',
+    context: 'You walk into a local restaurant and order a meal. Keep it simple and friendly.',
+    role_play_instructions: 'You are a waiter. Greet the customer, take their order, ask if they want anything else.',
+    target_language: 'Turkish',
+    level: 'beginner',
+    expected_vocabulary: ["please", "thank you", "menu", "water", "coffee", "bill"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of food/drink names and polite phrases.',
+      grammar: 'Basic request forms ("I would like...", "Can I have...").',
+      vocabulary: 'Food/drink vocabulary, polite request words.',
+      fluency: 'Can the learner order in one turn without long hesitation?',
+      appropriateness: 'Polite tone appropriate for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'tr-directions',
+    title: 'Asking for Directions',
+    context: 'You are lost in Istanbul and need to find a famous landmark. Keep it simple and friendly.',
+    role_play_instructions: 'You are a local. Give clear, simple directions using basic prepositions.',
+    target_language: 'Turkish',
+    level: 'beginner',
+    expected_vocabulary: ["left", "right", "straight", "stop", "street", "corner"],
+    evaluation_rubric: {
+      pronunciation: 'Clear directional words and numbers.',
+      grammar: 'Imperative directions, question forms ("Where is...?").',
+      vocabulary: 'Directional vocabulary and spatial prepositions.',
+      fluency: 'Can the learner ask and repeat back directions?',
+      appropriateness: 'Polite question form, clear acknowledgment.',
+    },
+  },
+
+  // ==================================================
+  // TURKISH — INTERMEDIATE
+  // ==================================================
+  {
+    id: 'tr-restaurant',
+    title: 'Dining at a Restaurant',
+    context: 'You are at a sit-down restaurant. Order a meal, ask about ingredients, and handle the check.',
+    role_play_instructions: 'You are a server. Welcome the table, take the order, answer questions about the menu, and bring the check.',
+    target_language: 'Turkish',
+    level: 'intermediate',
+    expected_vocabulary: ["appetizer", "main course", "dessert", "allergy", "recommend", "check", "tip"],
+    evaluation_rubric: {
+      pronunciation: 'Connected speech, clear intonation in questions.',
+      grammar: 'Modal verbs ("could I have...", "would you recommend..."), indirect questions.',
+      vocabulary: 'Restaurant-specific vocabulary, ability to ask about ingredients.',
+      fluency: 'Can the learner handle a multi-turn exchange smoothly?',
+      appropriateness: 'Polite register for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'tr-travel',
+    title: 'Planning a Trip',
+    context: 'You are at a travel agency planning a vacation. Discuss destinations, budget, and preferences.',
+    role_play_instructions: 'You are a travel agent. Ask about preferences, suggest 2-3 options, and help narrow down.',
+    target_language: 'Turkish',
+    level: 'intermediate',
+    expected_vocabulary: ["destination", "budget", "flight", "hotel", "activity", "sightseeing", "relax"],
+    evaluation_rubric: {
+      pronunciation: 'Intonation in questions and suggestions, clear numbers.',
+      grammar: 'Conditional ("if you like..."), comparatives ("this is cheaper than..."), future plans.',
+      vocabulary: 'Travel planning vocabulary, ability to express preferences.',
+      fluency: 'Can the learner discuss preferences at length?',
+      appropriateness: 'Polite persuasive tone, appropriate for service interaction.',
+    },
+  },
+
+  // ==================================================
+  // TURKISH — ADVANCED
+  // ==================================================
+  {
+    id: 'tr-debate',
+    title: 'Debate: Modern Life',
+    context: 'You are in a discussion about a topic relevant to modern life and society.',
+    role_play_instructions: 'You take the opposite position. Present 2-3 arguments, respond to the learner\'s points, and challenge them respectfully.',
+    target_language: 'Turkish',
+    level: 'advanced',
+    expected_vocabulary: ["productivity", "community", "tradition", "modern", "balance", "perspective"],
+    evaluation_rubric: {
+      pronunciation: 'Nuanced intonation for emphasis, stress on key words.',
+      grammar: 'Complex sentence structures, hedging ("it could be argued that..."), conditionals.',
+      vocabulary: 'Abstract vocabulary, ability to express nuanced positions.',
+      fluency: 'Can the learner sustain a complex argument across multiple turns?',
+      appropriateness: 'Debate etiquette — respectful disagreement, acknowledging counterpoints.',
+    },
+  },
+
+  // ==================================================
+  // KOREAN — BEGINNER
+  // ==================================================
+  {
+    id: 'ko-intro',
+    title: 'Introducing Yourself in Korean',
+    context: 'You just arrived in Seoul and meet a local for the first time. Keep it simple and friendly.',
+    role_play_instructions: 'You are a friendly local. The learner introduces themselves. Respond naturally, ask 1-2 follow-up questions.',
+    target_language: 'Korean',
+    level: 'beginner',
+    expected_vocabulary: ["name", "from", "live", "work", "hello", "nice to meet you"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of basic greetings and self-introduction.',
+      grammar: 'Simple present tense, basic personal information questions.',
+      vocabulary: 'Basic personal vocabulary (name, city, job, hobby).',
+      fluency: 'Can the learner speak without long pauses?',
+      appropriateness: 'Polite greeting appropriate for meeting someone new.',
+    },
+  },
+
+  {
+    id: 'ko-ordering',
+    title: 'Ordering at a Restaurant',
+    context: 'You walk into a local restaurant and order a meal. Keep it simple and friendly.',
+    role_play_instructions: 'You are a waiter. Greet the customer, take their order, ask if they want anything else.',
+    target_language: 'Korean',
+    level: 'beginner',
+    expected_vocabulary: ["please", "thank you", "menu", "water", "coffee", "bill"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of food/drink names and polite phrases.',
+      grammar: 'Basic request forms ("I would like...", "Can I have...").',
+      vocabulary: 'Food/drink vocabulary, polite request words.',
+      fluency: 'Can the learner order in one turn without long hesitation?',
+      appropriateness: 'Polite tone appropriate for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'ko-directions',
+    title: 'Asking for Directions',
+    context: 'You are lost in Seoul and need to find a famous landmark. Keep it simple and friendly.',
+    role_play_instructions: 'You are a local. Give clear, simple directions using basic prepositions.',
+    target_language: 'Korean',
+    level: 'beginner',
+    expected_vocabulary: ["left", "right", "straight", "stop", "street", "corner"],
+    evaluation_rubric: {
+      pronunciation: 'Clear directional words and numbers.',
+      grammar: 'Imperative directions, question forms ("Where is...?").',
+      vocabulary: 'Directional vocabulary and spatial prepositions.',
+      fluency: 'Can the learner ask and repeat back directions?',
+      appropriateness: 'Polite question form, clear acknowledgment.',
+    },
+  },
+
+  // ==================================================
+  // KOREAN — INTERMEDIATE
+  // ==================================================
+  {
+    id: 'ko-restaurant',
+    title: 'Dining at a Restaurant',
+    context: 'You are at a sit-down restaurant. Order a meal, ask about ingredients, and handle the check.',
+    role_play_instructions: 'You are a server. Welcome the table, take the order, answer questions about the menu, and bring the check.',
+    target_language: 'Korean',
+    level: 'intermediate',
+    expected_vocabulary: ["appetizer", "main course", "dessert", "allergy", "recommend", "check", "tip"],
+    evaluation_rubric: {
+      pronunciation: 'Connected speech, clear intonation in questions.',
+      grammar: 'Modal verbs ("could I have...", "would you recommend..."), indirect questions.',
+      vocabulary: 'Restaurant-specific vocabulary, ability to ask about ingredients.',
+      fluency: 'Can the learner handle a multi-turn exchange smoothly?',
+      appropriateness: 'Polite register for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'ko-travel',
+    title: 'Planning a Trip',
+    context: 'You are at a travel agency planning a vacation. Discuss destinations, budget, and preferences.',
+    role_play_instructions: 'You are a travel agent. Ask about preferences, suggest 2-3 options, and help narrow down.',
+    target_language: 'Korean',
+    level: 'intermediate',
+    expected_vocabulary: ["destination", "budget", "flight", "hotel", "activity", "sightseeing", "relax"],
+    evaluation_rubric: {
+      pronunciation: 'Intonation in questions and suggestions, clear numbers.',
+      grammar: 'Conditional ("if you like..."), comparatives ("this is cheaper than..."), future plans.',
+      vocabulary: 'Travel planning vocabulary, ability to express preferences.',
+      fluency: 'Can the learner discuss preferences at length?',
+      appropriateness: 'Polite persuasive tone, appropriate for service interaction.',
+    },
+  },
+
+  // ==================================================
+  // KOREAN — ADVANCED
+  // ==================================================
+  {
+    id: 'ko-debate',
+    title: 'Debate: Modern Life',
+    context: 'You are in a discussion about a topic relevant to modern life and society.',
+    role_play_instructions: 'You take the opposite position. Present 2-3 arguments, respond to the learner\'s points, and challenge them respectfully.',
+    target_language: 'Korean',
+    level: 'advanced',
+    expected_vocabulary: ["productivity", "community", "tradition", "modern", "balance", "perspective"],
+    evaluation_rubric: {
+      pronunciation: 'Nuanced intonation for emphasis, stress on key words.',
+      grammar: 'Complex sentence structures, hedging ("it could be argued that..."), conditionals.',
+      vocabulary: 'Abstract vocabulary, ability to express nuanced positions.',
+      fluency: 'Can the learner sustain a complex argument across multiple turns?',
+      appropriateness: 'Debate etiquette — respectful disagreement, acknowledging counterpoints.',
+    },
+  },
+
+  // ==================================================
+  // HINDI — BEGINNER
+  // ==================================================
+  {
+    id: 'hi-intro',
+    title: 'Introducing Yourself in Hindi',
+    context: 'You just arrived in Mumbai and meet a local for the first time. Keep it simple and friendly.',
+    role_play_instructions: 'You are a friendly local. The learner introduces themselves. Respond naturally, ask 1-2 follow-up questions.',
+    target_language: 'Hindi',
+    level: 'beginner',
+    expected_vocabulary: ["name", "from", "live", "work", "hello", "nice to meet you"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of basic greetings and self-introduction.',
+      grammar: 'Simple present tense, basic personal information questions.',
+      vocabulary: 'Basic personal vocabulary (name, city, job, hobby).',
+      fluency: 'Can the learner speak without long pauses?',
+      appropriateness: 'Polite greeting appropriate for meeting someone new.',
+    },
+  },
+
+  {
+    id: 'hi-ordering',
+    title: 'Ordering at a Restaurant',
+    context: 'You walk into a local restaurant and order a meal. Keep it simple and friendly.',
+    role_play_instructions: 'You are a waiter. Greet the customer, take their order, ask if they want anything else.',
+    target_language: 'Hindi',
+    level: 'beginner',
+    expected_vocabulary: ["please", "thank you", "menu", "water", "coffee", "bill"],
+    evaluation_rubric: {
+      pronunciation: 'Clear pronunciation of food/drink names and polite phrases.',
+      grammar: 'Basic request forms ("I would like...", "Can I have...").',
+      vocabulary: 'Food/drink vocabulary, polite request words.',
+      fluency: 'Can the learner order in one turn without long hesitation?',
+      appropriateness: 'Polite tone appropriate for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'hi-directions',
+    title: 'Asking for Directions',
+    context: 'You are lost in Mumbai and need to find a famous landmark. Keep it simple and friendly.',
+    role_play_instructions: 'You are a local. Give clear, simple directions using basic prepositions.',
+    target_language: 'Hindi',
+    level: 'beginner',
+    expected_vocabulary: ["left", "right", "straight", "stop", "street", "corner"],
+    evaluation_rubric: {
+      pronunciation: 'Clear directional words and numbers.',
+      grammar: 'Imperative directions, question forms ("Where is...?").',
+      vocabulary: 'Directional vocabulary and spatial prepositions.',
+      fluency: 'Can the learner ask and repeat back directions?',
+      appropriateness: 'Polite question form, clear acknowledgment.',
+    },
+  },
+
+  // ==================================================
+  // HINDI — INTERMEDIATE
+  // ==================================================
+  {
+    id: 'hi-restaurant',
+    title: 'Dining at a Restaurant',
+    context: 'You are at a sit-down restaurant. Order a meal, ask about ingredients, and handle the check.',
+    role_play_instructions: 'You are a server. Welcome the table, take the order, answer questions about the menu, and bring the check.',
+    target_language: 'Hindi',
+    level: 'intermediate',
+    expected_vocabulary: ["appetizer", "main course", "dessert", "allergy", "recommend", "check", "tip"],
+    evaluation_rubric: {
+      pronunciation: 'Connected speech, clear intonation in questions.',
+      grammar: 'Modal verbs ("could I have...", "would you recommend..."), indirect questions.',
+      vocabulary: 'Restaurant-specific vocabulary, ability to ask about ingredients.',
+      fluency: 'Can the learner handle a multi-turn exchange smoothly?',
+      appropriateness: 'Polite register for restaurant setting.',
+    },
+  },
+
+  {
+    id: 'hi-travel',
+    title: 'Planning a Trip',
+    context: 'You are at a travel agency planning a vacation. Discuss destinations, budget, and preferences.',
+    role_play_instructions: 'You are a travel agent. Ask about preferences, suggest 2-3 options, and help narrow down.',
+    target_language: 'Hindi',
+    level: 'intermediate',
+    expected_vocabulary: ["destination", "budget", "flight", "hotel", "activity", "sightseeing", "relax"],
+    evaluation_rubric: {
+      pronunciation: 'Intonation in questions and suggestions, clear numbers.',
+      grammar: 'Conditional ("if you like..."), comparatives ("this is cheaper than..."), future plans.',
+      vocabulary: 'Travel planning vocabulary, ability to express preferences.',
+      fluency: 'Can the learner discuss preferences at length?',
+      appropriateness: 'Polite persuasive tone, appropriate for service interaction.',
+    },
+  },
+
+  // ==================================================
+  // HINDI — ADVANCED
+  // ==================================================
+  {
+    id: 'hi-debate',
+    title: 'Debate: Modern Life',
+    context: 'You are in a discussion about a topic relevant to modern life and society.',
+    role_play_instructions: 'You take the opposite position. Present 2-3 arguments, respond to the learner\'s points, and challenge them respectfully.',
+    target_language: 'Hindi',
+    level: 'advanced',
+    expected_vocabulary: ["productivity", "community", "tradition", "modern", "balance", "perspective"],
+    evaluation_rubric: {
+      pronunciation: 'Nuanced intonation for emphasis, stress on key words.',
+      grammar: 'Complex sentence structures, hedging ("it could be argued that..."), conditionals.',
+      vocabulary: 'Abstract vocabulary, ability to express nuanced positions.',
+      fluency: 'Can the learner sustain a complex argument across multiple turns?',
+      appropriateness: 'Debate etiquette — respectful disagreement, acknowledging counterpoints.',
+    },
+  },
+
 ];
+
 
 /**
  * Filter scenarios by language and level.

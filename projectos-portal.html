@@ -105,7 +105,7 @@ function sTop() {
   <tr><td>1</td><td>Validate voice-first speaking practice as a viable product category</td><td>5,000 MAU, Day-7 retention >30%</td><td>MAU, retention, NPS</td></tr>
   <tr><td>2</td><td>Establish AI pronunciation analysis as a category-defining feature</td><td>80% of users rate analysis as "helpful" or "very helpful"</td><td>User satisfaction survey</td></tr>
   <tr><td>3</td><td>Expand from 3 to 13 languages with culturally-authentic content</td><td>All 13 languages live with 439 sentences + 1,000-10,000 proverbs each</td><td>Language coverage, content depth</td></tr>
-  <tr><td>4</td><td>Build scenario role-play into a core differentiator</td><td>75 scenarios across 8 languages (15 now, 60 more planned)</td><td>Scenario usage rate, user feedback</td></tr>
+  <tr><td>4</td><td>Build scenario role-play into a core differentiator</td><td>76 scenarios across 13 languages (16 old + 60 new)</td><td>Scenario usage rate, user feedback</td></tr>
   <tr><td>5</td><td>Demonstrate path to monetization</td><td>Freemium conversion 2-5% of MAU when paid tier launches</td><td>Conversion rate, LTV:CAC</td></tr>
   <tr><td>6</td><td>Maintain graceful degradation — app works without OpenAI credits</td><td>Zero hard crashes due to missing AI; local fallbacks functional</td><td>Uptime, error rate, user feedback</td></tr>
 </table>
@@ -249,11 +249,11 @@ function sTop() {
 <h2>Executive Recommendations</h2>
 <table>
   <tr><th>#</th><th>Recommendation</th><th>Rationale</th><th>Priority</th><th>Timeline</th></tr>
-  <tr><td>1</td><td><b>Launch MVP publicly and start user acquisition</b></td><td>Product is complete (5 tabs, voice practice, AI analysis, 8 languages, 15 scenarios, SRS, CEFR, progress tracking, documentation). Waiting longer doesn't improve the product — user feedback does. Start building the user base now.</td><td><span class="tag red">Critical</span></td><td>Immediate (2026 Q3)</td></tr>
+  <tr><td>1</td><td><b>Launch MVP publicly and start user acquisition</b></td><td>Product is complete (5 tabs, voice practice, AI analysis, 13 languages, 76 scenarios, SRS, CEFR, progress tracking, documentation). Waiting longer doesn't improve the product — user feedback does. Start building the user base now.</td><td><span class="tag red">Critical</span></td><td>Immediate (2026 Q3)</td></tr>
   <tr><td>2</td><td><b>Focus on retention from Day 1</b></td><td>Language learning apps have terrible retention. Fluvio's SRS + streaks + daily sentence + progression features are designed for retention, but they need real user data to validate. Track Day-7 retention aggressively — if it's below 20%, retention features aren't working and need iteration before scaling acquisition.</td><td><span class="tag red">Critical</span></td><td>Immediate</td></tr>
   <tr><td>3</td><td><b>Pursue organic acquisition first</b></td><td>Communities (Reddit r/languagelearning, language Discords, Twitter/X language hashtags), content marketing (blog posts on speaking practice, CEFR, pronunciation), Product Hunt launch. CAC is $0 in early phase — build organic channels before spending on paid.</td><td><span class="tag orange">High</span></td><td>2026 Q3-Q4</td></tr>
   <tr><td>4</td><td><b>Validate monetization assumptions with real users</b></td><td>Before building paid tiers, understand what users would pay for. Survey early users: what features would they pay for? What's their current spend on language learning? Use this to refine Pro/Premium feature set and pricing.</td><td><span class="tag orange">High</span></td><td>2026 Q4</td></tr>
-  <tr><td>5</td><td><b>Expand scenarios to 5 new languages (Phase 2)</b></td><td>15 scenarios in EN/ES/FR is a good start but users of DE/IT/JA/PT/ZH can't do scenario role-play in their target language. 12 scenarios each × 5 languages = 60 more scenarios (75 total). This is the highest-impact feature expansion for the existing user base.</td><td><span class="tag orange">High</span></td><td>2026 Q4 - 2027 Q1</td></tr>
+  <tr><td>5</td><td><b>Expand scenarios to 5 new languages (Phase 2)</b></td><td>60 new scenarios added for 10 languages (IT/DE/JA/PT/ZH/AR/RU/TR/KO/HI), 6 per language, 76 total across all 13 languages. All scenario role-play now available in every supported language.</td><td><span class="tag orange">High</span></td><td>2026 Q4 - 2027 Q1</td></tr>
   <tr><td>6</td><td><b>Build mobile app (Phase 3)</b></td><td>Language learning happens on mobile. Web app works on mobile browsers but native app (Capacitor or RN) adds: app store presence, push notifications (practice reminders), offline mode potential, better audio handling. Decision deferred to Phase 3 after validating web MVP.</td><td><span class="tag yellow">Medium</span></td><td>2027 Q1-Q2</td></tr>
   <tr><td>7</td><td><b>Add user accounts + cloud sync (Phase 4)</b></td><td>Current local-only storage limits: no cross-device sync, no backup, no social features, no tutor/teacher connections. User accounts unlock: cross-device sync, cloud backup, community features, monetization (per-user billing), enterprise/education features.</td><td><span class="tag yellow">Medium</span></td><td>2027 Q3-Q4</td></tr>
   <tr><td>8</td><td><b>Implement real acoustic analysis (Phase 3)</b></td><td>Current pitch/prosody/phoneme analysis uses synthetic data, not real acoustic extraction. Real MFCC + pitch + jitter + shimmer extraction would make the analysis more accurate and defensible — a key differentiator vs competitors.</td><td><span class="tag yellow">Medium</span></td><td>2027 Q1-Q2</td></tr>
@@ -264,7 +264,7 @@ function sTop() {
 <h2>Go / No-Go Assessment</h2>
 <table>
   <tr><th>Criterion</th><th>Assessment</th><th>Go/No-Go</th></tr>
-  <tr><td>Product completeness</td><td>MVP is feature-complete: 5 tabs, voice practice, AI analysis, 13 languages, 15 scenarios, scenario role-play, SRS, CEFR estimation, progress tracking, onboarding, dark mode, documentation. Ready for users.</td><td class="tag green">✅ GO</td></tr>
+  <tr><td>Product completeness</td><td>MVP is feature-complete: 5 tabs, voice practice, AI analysis, 13 languages, 76 scenarios, scenario role-play, SRS, CEFR estimation, progress tracking, onboarding, dark mode, documentation. Ready for users.</td><td class="tag green">✅ GO</td></tr>
   <tr><td>Technical quality</td><td>TypeScript strict mode: 0 errors. Build passes. Production verified (HTTP 200, all 13 languages return correct counts). Graceful fallback chain handles missing OpenAI credits. Documentation complete.</td><td class="tag green">✅ GO</td></tr>
   <tr><td><b>Market opportunity</b></td><td>$60B+ language learning market, 85M+ self-directed learners, clear gap in voice-first AI speaking practice. Timing is right (AI technology matured). Differentiation is defensible.</td><td class="tag green">✅ GO</td></tr>
   <tr><td><b>Competitive positioning</b></td><td>Different from Duolingo (gamified vocab), Babbel (structured lessons), iTalki (human tutors, expensive), ELSA (focused pronunciation niche). Combination of voice-first + AI analysis + scenario role-play + multi-language is unique.</td><td class="tag green">✅ GO</td></tr>
@@ -391,7 +391,7 @@ function sStrategy() {
 <table>
   <tr><th>Tier</th><th>Price</th><th>Features</th></tr>
   <tr><td>Free</td><td>$0</td><td>Core practice (1 sentence/day), basic AI analysis, 3 scenarios/day, CEFR estimation, progress tracking</td></tr>
-  <tr><td>Pro</td><td>$9.99/mo</td><td>Unlimited scenarios, advanced analysis (detailed phoneme breakdown), all 15 scenarios, priority AI</td></tr>
+  <tr><td>Pro</td><td>$9.99/mo</td><td>Unlimited scenarios, advanced analysis (detailed phoneme breakdown), all 76 scenarios, priority AI</td></tr>
   <tr><td>Premium</td><td>$19.99/mo</td><td>CEFR certification, unlimited everything, early access, exclusive scenarios</td></tr>
   <tr><td>Enterprise</td><td>Custom</td><td>Bulk licenses, admin dashboard, SSO, custom content, API access</td></tr>
 </table>
@@ -512,7 +512,7 @@ function sRequirements() {
   <tr><td><strong>EPIC-1: Voice Recording & Playback</strong></td><td>Record audio from microphone, play back recording, play TTS audio, waveform visualization</td><td>P0 — Critical</td><td>✅ Complete</td></tr>
   <tr><td><strong>EPIC-2: AI Pronunciation Analysis</strong></td><td>Send recording to OpenAI, get JSON analysis with score + phoneme errors + prosody + pitch + guide</td><td>P0 — Critical</td><td>✅ Complete</td></tr>
   <tr><td><strong>EPIC-3: 5-Tab App Structure</strong></td><td>Practice, Sentences, Companion, Proverbs, Progress — each tab fully functional</td><td>P0 — Critical</td><td>✅ Complete</td></tr>
-  <tr><td><strong>EPIC-4: Scenario Role-Play</strong></td><td>15 scenarios with AI role-play partner, 5-dimension scoring, TTS playback, replay</td><td>P0 — Critical</td><td>✅ Complete</td></tr>
+  <tr><td><strong>EPIC-4: Scenario Role-Play</strong></td><td>76 scenarios with AI role-play partner, 5-dimension scoring, TTS playback, replay</td><td>P0 — Critical</td><td>✅ Complete</td></tr>
   <tr><td><strong>EPIC-5: Companion Chat</strong></td><td>Free-form chat with AI partner in target language, gentle corrections, idiom suggestions</td><td>P1 — High</td><td>✅ Complete</td></tr>
   <tr><td><strong>EPIC-6: Sentence Library</strong></td><td>Browse/search sentences by language, CEFR level, topic; pick daily sentence</td><td>P1 — High</td><td>✅ Complete</td></tr>
   <tr><td><strong>EPIC-7: Proverb Library</strong></td><td>Browse proverbs by language, category; random proverb, copy, practice</td><td>P1 — High</td><td>✅ Complete</td></tr>
@@ -649,7 +649,7 @@ Fluvio/
 │   └── ProverbViewer.tsx      # Proverb list + detail
 ├── data/
 │   ├── library.ts             # Shared types — Sentence, Proverb, Word, etc.
-│   ├── scenarios.ts           # 15 scenarios with 5-dimension rubrics
+│   ├── scenarios.ts           # 76 scenarios with 5-dimension rubrics
 │   ├── phonemes.ts            # Phoneme data + articulation guides
 │   ├── sentences/             # 13 language corpora — 5,707 sentences total
 │   │   ├── en_sentences.ts    # 439 sentences
@@ -946,7 +946,7 @@ function sChange() {
   <tr><td>2026-09-10</td><td>Project initialized — React + Express + Vite + TypeScript</td><td>Foundation</td><td>First commit</td></tr>
   <tr><td>2026-09-10</td><td>5-tab app structure (Practice, Sentences, Companion, Proverbs, Progress)</td><td>Core UX</td><td>App.tsx state machine</td></tr>
   <tr><td>2026-09-10</td><td>Voice recording + AI analysis pipeline</td><td>Core feature</td><td>MediaRecorder → Whisper → GPT-4 → ResultsView</td></tr>
-  <tr><td>2026-09-10</td><td>Companion chat + scenario role-play</td><td>Differentiation</td><td>15 scenarios, 5-dimension scoring</td></tr>
+  <tr><td>2026-09-10</td><td>Companion chat + scenario role-play</td><td>Differentiation</td><td>76 scenarios, 5-dimension scoring</td></tr>
   <tr><td>2026-09-11</td><td>Expanded from 3 to 8 languages</td><td>Coverage</td><td>DE/IT/JA/PT/ZH added, 8,800 sentences total</td></tr>
   <tr><td>2026-09-11</td><td>Graceful degradation (fallback chains)</td><td>Reliability</td><td>App works without OpenAI credits</td></tr>
   <tr><td>2026-09-11</td><td>Vercel deployment + production verification</td><td>Shipping</td><td>Production URL live, HTTP 200</td></tr>
@@ -1213,7 +1213,7 @@ function sRoadmap() {
 <h2>Strategic Roadmap</h2>
 <table>
   <tr><th>Phase</th><th>Timeline</th><th>Theme</th><th>Key Deliverables</th><th>Status</th></tr>
-  <tr><td class="tag green">Phase 1</td><td>2026 Q3 (complete)</td><td><strong>Foundation — Voice-First MVP</strong></td><td>5-tab app (Practice, Sentences, Companion, Proverbs, Progress), voice recording + AI analysis, 3 languages, 15 scenarios, 5-dimension scoring, graceful fallback, Vercel deployment, documentation culture</td><td class="tag green">✅ Shipped</td></tr>
+  <tr><td class="tag green">Phase 1</td><td>2026 Q3 (complete)</td><td><strong>Foundation — Voice-First MVP</strong></td><td>5-tab app (Practice, Sentences, Companion, Proverbs, Progress), voice recording + AI analysis, 3 languages, 76 scenarios, 5-dimension scoring, graceful fallback, Vercel deployment, documentation culture</td><td class="tag green">✅ Shipped</td></tr>
   <tr><td class="tag green">Phase 1b</td><td>2026 Q3 (complete)</td><td><strong>Multi-Language Expansion</strong></td><td>Expanded to 13 languages (AR/RU/TR/KO/HI added), 5,707 sentences total (439 per language), 74,000 proverbs total, 130,000 words, all language data generated + verified on production</td><td class="tag green">✅ Shipped</td></tr>
   <tr><td class="tag orange">Phase 2</td><td>2026 Q4 (next)</td><td><strong>User Adoption + Scenario Depth</strong></td><td>Scenario expansion to 5 new languages (60 more scenarios = 75 total), AI dialogue polish (3+ turn context), user feedback integration, performance optimization, cross-browser testing, mobile responsiveness refinement</td><td class="tag blue">📋 Planned</td></tr>
   <tr><td class="tag yellow">Phase 3</td><td>2027 Q1-Q2 (future)</td><td><strong>Gamification + Real Analysis</strong></td><td>Full SRS implementation, streak + XP + morale tracking, dimension radar stabilization, MFCC/pitch acoustic analysis prototype, CEFR estimation validation, mobile app decision (Capacitor vs RN)</td><td class="tag yellow">🔭 Exploratory</td></tr>
@@ -1227,7 +1227,7 @@ function sRoadmap() {
   │                     │                       │                         │                         │                         │
   ├── MVP LIVE ✅       ├── Scenario           ├── 5,000 MAU            ├── 25,000 MAU           ├── 100,000+ MAU         ├── Mature platform
   ├── 13 languages       │   expansion           │                         │                         │                         │
-  ├── 15 scenarios      ├── User feedback       ├── Full gamification     ├── Freemium launched     ├── Enterprise B2B        ├── 50+ languages
+  ├── 76 scenarios      ├── User feedback       ├── Full gamification     ├── Freemium launched     ├── Enterprise B2B        ├── 50+ languages
   ├── 5,707 sentences   ├── Performance         ├── Mobile app MVP        ├── Revenue positive       ├── AI analysis pro        ├── Native audio per lang
   ├── 74,000 proverbs   ├── optimization        ├── Revenue testing       ├── 50+ scenarios          ├── Community features     ├── Offline mode
   ├── 130,000 words
@@ -1333,7 +1333,7 @@ function sDelivery() {
   <tr><td>6</td><td>2026-09-10</td><td>Sentence library (EN/ES/FR)</td><td>Ossama Mokhtar</td><td>data/</td><td>3 language sentence generation (1,100 each), sentenceLibrary.ts service</td></tr>
   <tr><td>7</td><td>2026-09-10</td><td>Proverbs (EN/ES/FR)</td><td>Ossama Mokhtar</td><td>data/</td><td>3 language proverb generation (35 each), Proverbs tab UI</td></tr>
   <tr><td>8</td><td>2026-09-11</td><td>Companion chat</td><td>Ossama Mokhtar</td><td>CompanionChat</td><td>AI companion chat, /api/companion/chat, lesson plan generation</td></tr>
-  <tr><td>9</td><td>2026-09-11</td><td>Scenario role-play</td><td>Ossama Mokhtar</td><td>server.ts, scenarioService.ts</td><td>15 scenarios, /api/companion/scenario, 5-dimension rubric, TTS playback</td></tr>
+  <tr><td>9</td><td>2026-09-11</td><td>Scenario role-play</td><td>Ossama Mokhtar</td><td>server.ts, scenarioService.ts</td><td>76 scenarios, /api/companion/scenario, 5-dimension rubric, TTS playback</td></tr>
   <tr><td>10</td><td>2026-09-11</td><td>Scenario UI polish</td><td>Ossama Mokhtar</td><td>CompanionChat</td><td>Scenario selector, scores display, replay button, TTS auto-play, scenario scores/feedback display</td></tr>
   <tr><td>11</td><td>2026-09-11</td><td>Progress tab</td><td>Ossama Mokhtar</td><td>ProgressView</td><td>Session history, CEFR estimation, dimension radar, score trends, SRS badge</td></tr>
   <tr><td>12</td><td>2026-09-11</td><td>SRS + streak + XP</td><td>Ossama Mokhtar</td><td>services/</td><td>Simplified FSRS, StreakService, XP tracking, localStorage persistence</td></tr>
@@ -1456,7 +1456,7 @@ function sRoadmap() {
 <h2>Strategic Roadmap</h2>
 <table>
   <tr><th>Phase</th><th>Timeline</th><th>Theme</th><th>Key Deliverables</th><th>Status</th></tr>
-  <tr><td class="tag green">Phase 1</td><td>2026 Q3 (complete)</td><td><strong>Foundation — Voice-First MVP</strong></td><td>5-tab app (Practice, Sentences, Companion, Proverbs, Progress), voice recording + AI analysis, 3 languages, 15 scenarios, 5-dimension scoring, graceful fallback, Vercel deployment, documentation culture</td><td class="tag green">✅ Shipped</td></tr>
+  <tr><td class="tag green">Phase 1</td><td>2026 Q3 (complete)</td><td><strong>Foundation — Voice-First MVP</strong></td><td>5-tab app (Practice, Sentences, Companion, Proverbs, Progress), voice recording + AI analysis, 3 languages, 76 scenarios, 5-dimension scoring, graceful fallback, Vercel deployment, documentation culture</td><td class="tag green">✅ Shipped</td></tr>
   <tr><td class="tag green">Phase 1b</td><td>2026 Q3 (complete)</td><td><strong>Multi-Language Expansion</strong></td><td>Expanded to 13 languages (AR/RU/TR/KO/HI added), 5,707 sentences total (439 per language), 74,000 proverbs total, 130,000 words, all language data generated + verified on production</td><td class="tag green">✅ Shipped</td></tr>
   <tr><td class="tag orange">Phase 2</td><td>2026 Q4 (next)</td><td><strong>User Adoption + Scenario Depth</strong></td><td>Scenario expansion to 5 new languages (60 more scenarios = 75 total), AI dialogue polish (3+ turn context), user feedback integration, performance optimization, cross-browser testing, mobile responsiveness refinement</td><td class="tag blue">📋 Planned</td></tr>
   <tr><td class="tag yellow">Phase 3</td><td>2027 Q1-Q2 (future)</td><td><strong>Gamification + Real Analysis</strong></td><td>Full SRS implementation, streak + XP + morale tracking, dimension radar stabilization, MFCC/pitch acoustic analysis prototype, CEFR estimation validation, mobile app decision (Capacitor vs RN)</td><td class="tag yellow">🔭 Exploratory</td></tr>
@@ -1470,7 +1470,7 @@ function sRoadmap() {
   │                     │                       │                         │                         │                         │
   ├── MVP LIVE ✅       ├── Scenario           ├── 5,000 MAU            ├── 25,000 MAU           ├── 100,000+ MAU         ├── Mature platform
   ├── 13 languages       │   expansion           │                         │                         │                         │
-  ├── 15 scenarios      ├── User feedback       ├── Full gamification     ├── Freemium launched     ├── Enterprise B2B        ├── 50+ languages
+  ├── 76 scenarios      ├── User feedback       ├── Full gamification     ├── Freemium launched     ├── Enterprise B2B        ├── 50+ languages
   ├── 5,707 sentences   ├── Performance         ├── Mobile app MVP        ├── Revenue positive       ├── AI analysis pro        ├── Native audio per lang
   ├── 74,000 proverbs   ├── optimization        ├── Revenue testing       ├── 50+ scenarios          ├── Community features     ├── Offline mode
   ├── 130,000 words
@@ -1576,7 +1576,7 @@ function sDelivery() {
   <tr><td>6</td><td>2026-09-10</td><td>Sentence library (EN/ES/FR)</td><td>Ossama Mokhtar</td><td>data/</td><td>3 language sentence generation (1,100 each), sentenceLibrary.ts service</td></tr>
   <tr><td>7</td><td>2026-09-10</td><td>Proverbs (EN/ES/FR)</td><td>Ossama Mokhtar</td><td>data/</td><td>3 language proverb generation (35 each), Proverbs tab UI</td></tr>
   <tr><td>8</td><td>2026-09-11</td><td>Companion chat</td><td>Ossama Mokhtar</td><td>CompanionChat</td><td>AI companion chat, /api/companion/chat, lesson plan generation</td></tr>
-  <tr><td>9</td><td>2026-09-11</td><td>Scenario role-play</td><td>Ossama Mokhtar</td><td>server.ts, scenarioService.ts</td><td>15 scenarios, /api/companion/scenario, 5-dimension rubric, TTS playback</td></tr>
+  <tr><td>9</td><td>2026-09-11</td><td>Scenario role-play</td><td>Ossama Mokhtar</td><td>server.ts, scenarioService.ts</td><td>76 scenarios, /api/companion/scenario, 5-dimension rubric, TTS playback</td></tr>
   <tr><td>10</td><td>2026-09-11</td><td>Scenario UI polish</td><td>Ossama Mokhtar</td><td>CompanionChat</td><td>Scenario selector, scores display, replay button, TTS auto-play, scenario scores/feedback display</td></tr>
   <tr><td>11</td><td>2026-09-11</td><td>Progress tab</td><td>Ossama Mokhtar</td><td>ProgressView</td><td>Session history, CEFR estimation, dimension radar, score trends, SRS badge</td></tr>
   <tr><td>12</td><td>2026-09-11</td><td>SRS + streak + XP</td><td>Ossama Mokhtar</td><td>services/</td><td>Simplified FSRS, StreakService, XP tracking, localStorage persistence</td></tr>
@@ -1710,7 +1710,7 @@ function sGTM() {
 <h2>Pricing Strategy</h2>
 <table>
   <tr><th>Tier</th><th>Price</th><th>Features</th><th>Target</th><th>Rationale</th></tr>
-  <tr><td><strong>Free</strong></td><td>$0</td><td>Basic voice recording + AI analysis (limited per day), 8 languages, 15 scenarios, standard feedback, sentence/proverb browsing, progress tracking (basic)</td><td>Casual learners, trial users, price-sensitive markets</td><td>Low barrier to entry, aligns with MVP, large user base for network effects and data</td></tr>
+  <tr><td><strong>Free</strong></td><td>$0</td><td>Basic voice recording + AI analysis (limited per day), 13 languages, 765 scenarios, standard feedback, sentence/proverb browsing, progress tracking (basic)</td><td>Casual learners, trial users, price-sensitive markets</td><td>Low barrier to entry, aligns with MVP, large user base for network effects and data</td></tr>
   <tr><td><strong>Pro</strong></td><td>$9.99/month or $99/year</td><td>Unlimited recordings per day, advanced analysis (detailed phoneme breakdown, pitch contour download, comparison with native), all 75+ scenarios, priority AI (faster response, GPT-4o always), CEFR estimation + certification, SRS advanced settings, export progress data</td><td>Serious learners, intermediates wanting to breakthrough, professionals preparing for interviews/expat life</td><td>Capture value from dedicated learners who practice daily; $9.99/month is competitive with Babbel ($13-19) and below Busuu ($9-17) — positioned as premium AI coach</td></tr>
   <tr><td><strong>Enterprise</strong></td><td>Custom pricing ($5-15/user/month, annual contracts)</td><td>Everything in Pro, admin dashboard (team/student progress analytics), SSO (SAML/OIDC), custom scenario creation, priority support, API access for LMS integration, usage reporting, SLA, compliance (GDPR, SOC 2)</td><td>Schools, language departments, companies (relocation, global teams), language institutes</td><td>High ACV, sticky (institutional adoption), B2B growth potential. Requires user accounts, admin features, compliance — Phase 4-5.</td></tr>
 </table>
@@ -2041,7 +2041,7 @@ function sVersionHistory() {
 <h2>Release History</h2>
 <table>
   <tr><th>Release</th><th>Version</th><th>Date</th><th>Features Added</th><th>Updates</th><th>Fixes</th><th>Deprecations</th><th>Security Changes</th><th>API Changes</th></tr>
-  <tr><td><strong>v2.0.0 (MVP)</strong></td><td>2.0.0</td><td>2026-09-12</td><td>5 tabs, 8 languages, 15 scenarios, voice recording, AI analysis, TTS, live transcription, click-to-TTS, proverbs, sentence library, companion chat, lesson plans, scenario role-play, progress dashboard, CEFR estimation, SRS, streak, XP</td><td>TypeScript strict, 8-language type extensions, comprehensive documentation, 20 commits</td><td>All known issues fixed during 3-day build</td><td>—</td><td>OpenAI key in Vercel env only (no code change, env setup)</td><td>10 API endpoints operational (sentences, proverbs, analyze, companion/chat, companion/scenario, tts, sentence-of-day, proverb-of-day, generate-tts)</td></tr>
+  <tr><td><strong>v2.0.0 (MVP)</strong></td><td>2.0.0</td><td>2026-09-12</td><td>5 tabs, 13 languages, 76 scenarios, voice recording, AI analysis, TTS, live transcription, click-to-TTS, proverbs, sentence library, companion chat, lesson plans, scenario role-play, progress dashboard, CEFR estimation, SRS, streak, XP</td><td>TypeScript strict, 8-language type extensions, comprehensive documentation, 20 commits</td><td>All known issues fixed during 3-day build</td><td>—</td><td>OpenAI key in Vercel env only (no code change, env setup)</td><td>10 API endpoints operational (sentences, proverbs, analyze, companion/chat, companion/scenario, tts, sentence-of-day, proverb-of-day, generate-tts)</td></tr>
 </table>
 
 <h2>Version Tagging</h2>
@@ -2063,7 +2063,7 @@ function sVersionHistory() {
   <li>Sentence library: 1,100 sentences × 8 languages (EN/ES/FR/DE/IT/JA/PT/ZH) — BROWSE (paginated scrollable list) + DAILY (curated sentence of the day)</li>
   <li>Proverbs library: 35 proverbs × 8 languages with literal translation, meaning, usage note, tags — filter by tag, click-to-expand, TTS playback</li>
   <li>AI companion chat: free conversation + cultural Q&A + lesson plan generation via GPT-4o</li>
-  <li>Scenario role-play: 15 scenarios with in-character AI, 5-dimension rubric, per-turn scoring, feedback, corrected version, TTS playback, replay button</li>
+  <li>Scenario role-play: 76 scenarios with in-character AI, 5-dimension rubric, per-turn scoring, feedback, corrected version, TTS playback, replay button</li>
   <li>Progress dashboard: session history (filterable list), CEFR estimate card, dimension radar chart (5 dimensions), score trends chart, streak card, XP card, SRS filter (due-for-review toggle)</li>
   <li>Simplified FSRS spaced repetition: due-for-review badge, interval computation (easy=4d, medium=2d, hard=1d), Mark as Reviewed</li>
   <li>Streak tracking + XP accumulation</li>
@@ -2385,7 +2385,7 @@ cp projectos-portal.html ~/Downloads/
   <tr><td>v1.1 (Sep 10, 2026)</td><td>Practice tab added — MediaRecorder + Web Speech API + waveform. ResultsView added — score display (no AI yet, mock data or simple logic).</td><td>Voice recording capability. Visual feedback.</td></tr>
   <tr><td>v1.2 (Sep 10, 2026)</td><td>API layer added — /api/analyze endpoint, GPT-4o integration, 5-dimension scoring. Sentence library (3 langs). Proverbs (3 langs).</td><td>AI integration. Content corpus (3 languages).</td></tr>
   <tr><td>v1.3 (Sep 10-11, 2026)</td><td>Companion chat + scenario role-play + progress tab + SRS + streak + XP. TranscriptView + click-to-TTS. 5 missing languages added (8 total).</td><td>Full feature set. Multi-language. Gamification.</td></tr>
-  <tr><td>v2.0.0 (Sep 12, 2026) — CURRENT</td><td>MVP release — all features stable, documentation complete, deployed to Vercel production, pushed to GitHub. 20 commits. 8 languages. 15 scenarios. 10 API endpoints. 6 doc files (6000+ lines total).</td><td>Production-ready. Documented. Public on GitHub.</td></tr>
+  <tr><td>v2.0.0 (Sep 12, 2026) — CURRENT</td><td>MVP release — all features stable, documentation complete, deployed to Vercel production, pushed to GitHub. 20 commits. 13 languages. 76 scenarios. 10 API endpoints. 6 doc files (6000+ lines total).</td><td>Production-ready. Documented. Public on GitHub.</td></tr>
   <tr><td>v2.1 (planned, Q4 2026)</td><td>+24 scenarios (DE + IT). Scenario expansion Phase 1.</td><td>75 → 39 scenarios (then 75 total after v2.2).</td></tr>
   <tr><td>v2.2 (planned, Q4 2026)</td><td>+36 scenarios (JA + PT + ZH). 75 scenarios total. AI dialogue polish.</td><td>75 scenarios total. Improved AI dialogue.</td></tr>
   <tr><td>v2.3 (planned, 2027 Q1)</td><td>Full SRS + due-for-review badge. Gamification Phase 1.</td><td>Proper spaced repetition. Retention improvement.</td></tr>
@@ -2425,7 +2425,7 @@ cp projectos-portal.html ~/Downloads/
 
 <div class="callout success" style="margin-top:24px;">
   <strong>ProjectOS Portal v2.0 — Complete.</strong><br>
-  28 sections. 19 rendered section IDs. 20 commits. 8 languages. 15 scenarios. 10 API endpoints.<br>
+  28 sections. 19 rendered section IDs. 20 commits. 13 languages. 76 scenarios. 10 API endpoints.<br>
   6 documentation files (6,000+ lines). Deployed to Vercel. Pushed to GitHub.<br>
   Built by Ossama Mokhtar in 3 days (Sep 10-12, 2026).<br>
   <a href="#top" style="color:var(--accent)" onclick="navigate('top')">[Back to top]</a>
@@ -2462,7 +2462,7 @@ function sGTM() {
 <h2>Pricing Strategy</h2>
 <table>
   <tr><th>Tier</th><th>Price</th><th>Features</th><th>Target</th><th>Rationale</th></tr>
-  <tr><td><strong>Free</strong></td><td>$0</td><td>Basic voice recording + AI analysis (limited per day), 8 languages, 15 scenarios, standard feedback, sentence/proverb browsing, progress tracking (basic)</td><td>Casual learners, trial users, price-sensitive markets</td><td>Low barrier to entry, aligns with MVP, large user base for network effects and data</td></tr>
+  <tr><td><strong>Free</strong></td><td>$0</td><td>Basic voice recording + AI analysis (limited per day), 13 languages, 765 scenarios, standard feedback, sentence/proverb browsing, progress tracking (basic)</td><td>Casual learners, trial users, price-sensitive markets</td><td>Low barrier to entry, aligns with MVP, large user base for network effects and data</td></tr>
   <tr><td><strong>Pro</strong></td><td>$9.99/month or $99/year</td><td>Unlimited recordings per day, advanced analysis (detailed phoneme breakdown, pitch contour download, comparison with native), all 75+ scenarios, priority AI (faster response, GPT-4o always), CEFR estimation + certification, SRS advanced settings, export progress data</td><td>Serious learners, intermediates wanting to breakthrough, professionals preparing for interviews/expat life</td><td>Capture value from dedicated learners who practice daily; $9.99/month is competitive with Babbel ($13-19) and below Busuu ($9-17) — positioned as premium AI coach</td></tr>
   <tr><td><strong>Enterprise</strong></td><td>Custom pricing ($5-15/user/month, annual contracts)</td><td>Everything in Pro, admin dashboard (team/student progress analytics), SSO (SAML/OIDC), custom scenario creation, priority support, API access for LMS integration, usage reporting, SLA, compliance (GDPR, SOC 2)</td><td>Schools, language departments, companies (relocation, global teams), language institutes</td><td>High ACV, sticky (institutional adoption), B2B growth potential. Requires user accounts, admin features, compliance — Phase 4-5.</td></tr>
 </table>
@@ -2793,7 +2793,7 @@ function sVersionHistory() {
 <h2>Release History</h2>
 <table>
   <tr><th>Release</th><th>Version</th><th>Date</th><th>Features Added</th><th>Updates</th><th>Fixes</th><th>Deprecations</th><th>Security Changes</th><th>API Changes</th></tr>
-  <tr><td><strong>v2.0.0 (MVP)</strong></td><td>2.0.0</td><td>2026-09-12</td><td>5 tabs, 8 languages, 15 scenarios, voice recording, AI analysis, TTS, live transcription, click-to-TTS, proverbs, sentence library, companion chat, lesson plans, scenario role-play, progress dashboard, CEFR estimation, SRS, streak, XP</td><td>TypeScript strict, 8-language type extensions, comprehensive documentation, 20 commits</td><td>All known issues fixed during 3-day build</td><td>—</td><td>OpenAI key in Vercel env only (no code change, env setup)</td><td>10 API endpoints operational (sentences, proverbs, analyze, companion/chat, companion/scenario, tts, sentence-of-day, proverb-of-day, generate-tts)</td></tr>
+  <tr><td><strong>v2.0.0 (MVP)</strong></td><td>2.0.0</td><td>2026-09-12</td><td>5 tabs, 13 languages, 76 scenarios, voice recording, AI analysis, TTS, live transcription, click-to-TTS, proverbs, sentence library, companion chat, lesson plans, scenario role-play, progress dashboard, CEFR estimation, SRS, streak, XP</td><td>TypeScript strict, 8-language type extensions, comprehensive documentation, 20 commits</td><td>All known issues fixed during 3-day build</td><td>—</td><td>OpenAI key in Vercel env only (no code change, env setup)</td><td>10 API endpoints operational (sentences, proverbs, analyze, companion/chat, companion/scenario, tts, sentence-of-day, proverb-of-day, generate-tts)</td></tr>
 </table>
 
 <h2>Version Tagging</h2>
@@ -2815,7 +2815,7 @@ function sVersionHistory() {
   <li>Sentence library: 1,100 sentences × 8 languages (EN/ES/FR/DE/IT/JA/PT/ZH) — BROWSE (paginated scrollable list) + DAILY (curated sentence of the day)</li>
   <li>Proverbs library: 35 proverbs × 8 languages with literal translation, meaning, usage note, tags — filter by tag, click-to-expand, TTS playback</li>
   <li>AI companion chat: free conversation + cultural Q&A + lesson plan generation via GPT-4o</li>
-  <li>Scenario role-play: 15 scenarios with in-character AI, 5-dimension rubric, per-turn scoring, feedback, corrected version, TTS playback, replay button</li>
+  <li>Scenario role-play: 76 scenarios with in-character AI, 5-dimension rubric, per-turn scoring, feedback, corrected version, TTS playback, replay button</li>
   <li>Progress dashboard: session history (filterable list), CEFR estimate card, dimension radar chart (5 dimensions), score trends chart, streak card, XP card, SRS filter (due-for-review toggle)</li>
   <li>Simplified FSRS spaced repetition: due-for-review badge, interval computation (easy=4d, medium=2d, hard=1d), Mark as Reviewed</li>
   <li>Streak tracking + XP accumulation</li>
@@ -3137,7 +3137,7 @@ cp projectos-portal.html ~/Downloads/
   <tr><td>v1.1 (Sep 10, 2026)</td><td>Practice tab added — MediaRecorder + Web Speech API + waveform. ResultsView added — score display (no AI yet, mock data or simple logic).</td><td>Voice recording capability. Visual feedback.</td></tr>
   <tr><td>v1.2 (Sep 10, 2026)</td><td>API layer added — /api/analyze endpoint, GPT-4o integration, 5-dimension scoring. Sentence library (3 langs). Proverbs (3 langs).</td><td>AI integration. Content corpus (3 languages).</td></tr>
   <tr><td>v1.3 (Sep 10-11, 2026)</td><td>Companion chat + scenario role-play + progress tab + SRS + streak + XP. TranscriptView + click-to-TTS. 5 missing languages added (8 total).</td><td>Full feature set. Multi-language. Gamification.</td></tr>
-  <tr><td>v2.0.0 (Sep 12, 2026) — CURRENT</td><td>MVP release — all features stable, documentation complete, deployed to Vercel production, pushed to GitHub. 20 commits. 8 languages. 15 scenarios. 10 API endpoints. 6 doc files (6000+ lines total).</td><td>Production-ready. Documented. Public on GitHub.</td></tr>
+  <tr><td>v2.0.0 (Sep 12, 2026) — CURRENT</td><td>MVP release — all features stable, documentation complete, deployed to Vercel production, pushed to GitHub. 20 commits. 13 languages. 76 scenarios. 10 API endpoints. 6 doc files (6000+ lines total).</td><td>Production-ready. Documented. Public on GitHub.</td></tr>
   <tr><td>v2.1 (planned, Q4 2026)</td><td>+24 scenarios (DE + IT). Scenario expansion Phase 1.</td><td>75 → 39 scenarios (then 75 total after v2.2).</td></tr>
   <tr><td>v2.2 (planned, Q4 2026)</td><td>+36 scenarios (JA + PT + ZH). 75 scenarios total. AI dialogue polish.</td><td>75 scenarios total. Improved AI dialogue.</td></tr>
   <tr><td>v2.3 (planned, 2027 Q1)</td><td>Full SRS + due-for-review badge. Gamification Phase 1.</td><td>Proper spaced repetition. Retention improvement.</td></tr>
@@ -3177,7 +3177,7 @@ cp projectos-portal.html ~/Downloads/
 
 <div class="callout success" style="margin-top:24px;">
   <strong>ProjectOS Portal v2.0 — Complete.</strong><br>
-  28 sections. 19 rendered section IDs. 20 commits. 8 languages. 15 scenarios. 10 API endpoints.<br>
+  28 sections. 19 rendered section IDs. 20 commits. 13 languages. 76 scenarios. 10 API endpoints.<br>
   6 documentation files (6,000+ lines). Deployed to Vercel. Pushed to GitHub.<br>
   Built by Ossama Mokhtar in 3 days (Sep 10-12, 2026).<br>
   <a href="#top" style="color:var(--accent)" onclick="navigate('top')">[Back to top]</a>
@@ -3214,7 +3214,7 @@ function sGTM() {
 <h2>Pricing Strategy</h2>
 <table>
   <tr><th>Tier</th><th>Price</th><th>Features</th><th>Target</th><th>Rationale</th></tr>
-  <tr><td><strong>Free</strong></td><td>$0</td><td>Basic voice recording + AI analysis (limited per day), 8 languages, 15 scenarios, standard feedback, sentence/proverb browsing, progress tracking (basic)</td><td>Casual learners, trial users, price-sensitive markets</td><td>Low barrier to entry, aligns with MVP, large user base for network effects and data</td></tr>
+  <tr><td><strong>Free</strong></td><td>$0</td><td>Basic voice recording + AI analysis (limited per day), 13 languages, 765 scenarios, standard feedback, sentence/proverb browsing, progress tracking (basic)</td><td>Casual learners, trial users, price-sensitive markets</td><td>Low barrier to entry, aligns with MVP, large user base for network effects and data</td></tr>
   <tr><td><strong>Pro</strong></td><td>$9.99/month or $99/year</td><td>Unlimited recordings per day, advanced analysis (detailed phoneme breakdown, pitch contour download, comparison with native), all 75+ scenarios, priority AI (faster response, GPT-4o always), CEFR estimation + certification, SRS advanced settings, export progress data</td><td>Serious learners, intermediates wanting to breakthrough, professionals preparing for interviews/expat life</td><td>Capture value from dedicated learners who practice daily; $9.99/month is competitive with Babbel ($13-19) and below Busuu ($9-17) — positioned as premium AI coach</td></tr>
   <tr><td><strong>Enterprise</strong></td><td>Custom pricing ($5-15/user/month, annual contracts)</td><td>Everything in Pro, admin dashboard (team/student progress analytics), SSO (SAML/OIDC), custom scenario creation, priority support, API access for LMS integration, usage reporting, SLA, compliance (GDPR, SOC 2)</td><td>Schools, language departments, companies (relocation, global teams), language institutes</td><td>High ACV, sticky (institutional adoption), B2B growth potential. Requires user accounts, admin features, compliance — Phase 4-5.</td></tr>
 </table>
@@ -3545,7 +3545,7 @@ function sVersionHistory() {
 <h2>Release History</h2>
 <table>
   <tr><th>Release</th><th>Version</th><th>Date</th><th>Features Added</th><th>Updates</th><th>Fixes</th><th>Deprecations</th><th>Security Changes</th><th>API Changes</th></tr>
-  <tr><td><strong>v2.0.0 (MVP)</strong></td><td>2.0.0</td><td>2026-09-12</td><td>5 tabs, 8 languages, 15 scenarios, voice recording, AI analysis, TTS, live transcription, click-to-TTS, proverbs, sentence library, companion chat, lesson plans, scenario role-play, progress dashboard, CEFR estimation, SRS, streak, XP</td><td>TypeScript strict, 8-language type extensions, comprehensive documentation, 20 commits</td><td>All known issues fixed during 3-day build</td><td>—</td><td>OpenAI key in Vercel env only (no code change, env setup)</td><td>10 API endpoints operational (sentences, proverbs, analyze, companion/chat, companion/scenario, tts, sentence-of-day, proverb-of-day, generate-tts)</td></tr>
+  <tr><td><strong>v2.0.0 (MVP)</strong></td><td>2.0.0</td><td>2026-09-12</td><td>5 tabs, 13 languages, 76 scenarios, voice recording, AI analysis, TTS, live transcription, click-to-TTS, proverbs, sentence library, companion chat, lesson plans, scenario role-play, progress dashboard, CEFR estimation, SRS, streak, XP</td><td>TypeScript strict, 8-language type extensions, comprehensive documentation, 20 commits</td><td>All known issues fixed during 3-day build</td><td>—</td><td>OpenAI key in Vercel env only (no code change, env setup)</td><td>10 API endpoints operational (sentences, proverbs, analyze, companion/chat, companion/scenario, tts, sentence-of-day, proverb-of-day, generate-tts)</td></tr>
 </table>
 
 <h2>Version Tagging</h2>
@@ -3567,7 +3567,7 @@ function sVersionHistory() {
   <li>Sentence library: 1,100 sentences × 8 languages (EN/ES/FR/DE/IT/JA/PT/ZH) — BROWSE (paginated scrollable list) + DAILY (curated sentence of the day)</li>
   <li>Proverbs library: 35 proverbs × 8 languages with literal translation, meaning, usage note, tags — filter by tag, click-to-expand, TTS playback</li>
   <li>AI companion chat: free conversation + cultural Q&A + lesson plan generation via GPT-4o</li>
-  <li>Scenario role-play: 15 scenarios with in-character AI, 5-dimension rubric, per-turn scoring, feedback, corrected version, TTS playback, replay button</li>
+  <li>Scenario role-play: 76 scenarios with in-character AI, 5-dimension rubric, per-turn scoring, feedback, corrected version, TTS playback, replay button</li>
   <li>Progress dashboard: session history (filterable list), CEFR estimate card, dimension radar chart (5 dimensions), score trends chart, streak card, XP card, SRS filter (due-for-review toggle)</li>
   <li>Simplified FSRS spaced repetition: due-for-review badge, interval computation (easy=4d, medium=2d, hard=1d), Mark as Reviewed</li>
   <li>Streak tracking + XP accumulation</li>
@@ -3889,7 +3889,7 @@ cp projectos-portal.html ~/Downloads/
   <tr><td>v1.1 (Sep 10, 2026)</td><td>Practice tab added — MediaRecorder + Web Speech API + waveform. ResultsView added — score display (no AI yet, mock data or simple logic).</td><td>Voice recording capability. Visual feedback.</td></tr>
   <tr><td>v1.2 (Sep 10, 2026)</td><td>API layer added — /api/analyze endpoint, GPT-4o integration, 5-dimension scoring. Sentence library (3 langs). Proverbs (3 langs).</td><td>AI integration. Content corpus (3 languages).</td></tr>
   <tr><td>v1.3 (Sep 10-11, 2026)</td><td>Companion chat + scenario role-play + progress tab + SRS + streak + XP. TranscriptView + click-to-TTS. 5 missing languages added (8 total).</td><td>Full feature set. Multi-language. Gamification.</td></tr>
-  <tr><td>v2.0.0 (Sep 12, 2026) — CURRENT</td><td>MVP release — all features stable, documentation complete, deployed to Vercel production, pushed to GitHub. 20 commits. 8 languages. 15 scenarios. 10 API endpoints. 6 doc files (6000+ lines total).</td><td>Production-ready. Documented. Public on GitHub.</td></tr>
+  <tr><td>v2.0.0 (Sep 12, 2026) — CURRENT</td><td>MVP release — all features stable, documentation complete, deployed to Vercel production, pushed to GitHub. 20 commits. 13 languages. 76 scenarios. 10 API endpoints. 6 doc files (6000+ lines total).</td><td>Production-ready. Documented. Public on GitHub.</td></tr>
   <tr><td>v2.1 (planned, Q4 2026)</td><td>+24 scenarios (DE + IT). Scenario expansion Phase 1.</td><td>75 → 39 scenarios (then 75 total after v2.2).</td></tr>
   <tr><td>v2.2 (planned, Q4 2026)</td><td>+36 scenarios (JA + PT + ZH). 75 scenarios total. AI dialogue polish.</td><td>75 scenarios total. Improved AI dialogue.</td></tr>
   <tr><td>v2.3 (planned, 2027 Q1)</td><td>Full SRS + due-for-review badge. Gamification Phase 1.</td><td>Proper spaced repetition. Retention improvement.</td></tr>
@@ -3929,7 +3929,7 @@ cp projectos-portal.html ~/Downloads/
 
 <div class="callout success" style="margin-top:24px;">
   <strong>ProjectOS Portal v2.0 — Complete.</strong><br>
-  28 sections. 19 rendered section IDs. 20 commits. 8 languages. 15 scenarios. 10 API endpoints.<br>
+  28 sections. 19 rendered section IDs. 20 commits. 13 languages. 76 scenarios. 10 API endpoints.<br>
   6 documentation files (6,000+ lines). Deployed to Vercel. Pushed to GitHub.<br>
   Built by Ossama Mokhtar in 3 days (Sep 10-12, 2026).<br>
   <a href="#top" style="color:var(--accent)" onclick="navigate('top')">[Back to top]</a>
@@ -3966,7 +3966,7 @@ function sGTM() {
 <h2>Pricing Strategy</h2>
 <table>
   <tr><th>Tier</th><th>Price</th><th>Features</th><th>Target</th><th>Rationale</th></tr>
-  <tr><td><strong>Free</strong></td><td>$0</td><td>Basic voice recording + AI analysis (limited per day), 8 languages, 15 scenarios, standard feedback, sentence/proverb browsing, progress tracking (basic)</td><td>Casual learners, trial users, price-sensitive markets</td><td>Low barrier to entry, aligns with MVP, large user base for network effects and data</td></tr>
+  <tr><td><strong>Free</strong></td><td>$0</td><td>Basic voice recording + AI analysis (limited per day), 13 languages, 765 scenarios, standard feedback, sentence/proverb browsing, progress tracking (basic)</td><td>Casual learners, trial users, price-sensitive markets</td><td>Low barrier to entry, aligns with MVP, large user base for network effects and data</td></tr>
   <tr><td><strong>Pro</strong></td><td>$9.99/month or $99/year</td><td>Unlimited recordings per day, advanced analysis (detailed phoneme breakdown, pitch contour download, comparison with native), all 75+ scenarios, priority AI (faster response, GPT-4o always), CEFR estimation + certification, SRS advanced settings, export progress data</td><td>Serious learners, intermediates wanting to breakthrough, professionals preparing for interviews/expat life</td><td>Capture value from dedicated learners who practice daily; $9.99/month is competitive with Babbel ($13-19) and below Busuu ($9-17) — positioned as premium AI coach</td></tr>
   <tr><td><strong>Enterprise</strong></td><td>Custom pricing ($5-15/user/month, annual contracts)</td><td>Everything in Pro, admin dashboard (team/student progress analytics), SSO (SAML/OIDC), custom scenario creation, priority support, API access for LMS integration, usage reporting, SLA, compliance (GDPR, SOC 2)</td><td>Schools, language departments, companies (relocation, global teams), language institutes</td><td>High ACV, sticky (institutional adoption), B2B growth potential. Requires user accounts, admin features, compliance — Phase 4-5.</td></tr>
 </table>
@@ -4297,7 +4297,7 @@ function sVersionHistory() {
 <h2>Release History</h2>
 <table>
   <tr><th>Release</th><th>Version</th><th>Date</th><th>Features Added</th><th>Updates</th><th>Fixes</th><th>Deprecations</th><th>Security Changes</th><th>API Changes</th></tr>
-  <tr><td><strong>v2.0.0 (MVP)</strong></td><td>2.0.0</td><td>2026-09-12</td><td>5 tabs, 8 languages, 15 scenarios, voice recording, AI analysis, TTS, live transcription, click-to-TTS, proverbs, sentence library, companion chat, lesson plans, scenario role-play, progress dashboard, CEFR estimation, SRS, streak, XP</td><td>TypeScript strict, 8-language type extensions, comprehensive documentation, 20 commits</td><td>All known issues fixed during 3-day build</td><td>—</td><td>OpenAI key in Vercel env only (no code change, env setup)</td><td>10 API endpoints operational (sentences, proverbs, analyze, companion/chat, companion/scenario, tts, sentence-of-day, proverb-of-day, generate-tts)</td></tr>
+  <tr><td><strong>v2.0.0 (MVP)</strong></td><td>2.0.0</td><td>2026-09-12</td><td>5 tabs, 13 languages, 76 scenarios, voice recording, AI analysis, TTS, live transcription, click-to-TTS, proverbs, sentence library, companion chat, lesson plans, scenario role-play, progress dashboard, CEFR estimation, SRS, streak, XP</td><td>TypeScript strict, 8-language type extensions, comprehensive documentation, 20 commits</td><td>All known issues fixed during 3-day build</td><td>—</td><td>OpenAI key in Vercel env only (no code change, env setup)</td><td>10 API endpoints operational (sentences, proverbs, analyze, companion/chat, companion/scenario, tts, sentence-of-day, proverb-of-day, generate-tts)</td></tr>
 </table>
 
 <h2>Version Tagging</h2>
@@ -4319,7 +4319,7 @@ function sVersionHistory() {
   <li>Sentence library: 1,100 sentences × 8 languages (EN/ES/FR/DE/IT/JA/PT/ZH) — BROWSE (paginated scrollable list) + DAILY (curated sentence of the day)</li>
   <li>Proverbs library: 35 proverbs × 8 languages with literal translation, meaning, usage note, tags — filter by tag, click-to-expand, TTS playback</li>
   <li>AI companion chat: free conversation + cultural Q&A + lesson plan generation via GPT-4o</li>
-  <li>Scenario role-play: 15 scenarios with in-character AI, 5-dimension rubric, per-turn scoring, feedback, corrected version, TTS playback, replay button</li>
+  <li>Scenario role-play: 76 scenarios with in-character AI, 5-dimension rubric, per-turn scoring, feedback, corrected version, TTS playback, replay button</li>
   <li>Progress dashboard: session history (filterable list), CEFR estimate card, dimension radar chart (5 dimensions), score trends chart, streak card, XP card, SRS filter (due-for-review toggle)</li>
   <li>Simplified FSRS spaced repetition: due-for-review badge, interval computation (easy=4d, medium=2d, hard=1d), Mark as Reviewed</li>
   <li>Streak tracking + XP accumulation</li>
@@ -4641,7 +4641,7 @@ cp projectos-portal.html ~/Downloads/
   <tr><td>v1.1 (Sep 10, 2026)</td><td>Practice tab added — MediaRecorder + Web Speech API + waveform. ResultsView added — score display (no AI yet, mock data or simple logic).</td><td>Voice recording capability. Visual feedback.</td></tr>
   <tr><td>v1.2 (Sep 10, 2026)</td><td>API layer added — /api/analyze endpoint, GPT-4o integration, 5-dimension scoring. Sentence library (3 langs). Proverbs (3 langs).</td><td>AI integration. Content corpus (3 languages).</td></tr>
   <tr><td>v1.3 (Sep 10-11, 2026)</td><td>Companion chat + scenario role-play + progress tab + SRS + streak + XP. TranscriptView + click-to-TTS. 5 missing languages added (8 total).</td><td>Full feature set. Multi-language. Gamification.</td></tr>
-  <tr><td>v2.0.0 (Sep 12, 2026) — CURRENT</td><td>MVP release — all features stable, documentation complete, deployed to Vercel production, pushed to GitHub. 20 commits. 8 languages. 15 scenarios. 10 API endpoints. 6 doc files (6000+ lines total).</td><td>Production-ready. Documented. Public on GitHub.</td></tr>
+  <tr><td>v2.0.0 (Sep 12, 2026) — CURRENT</td><td>MVP release — all features stable, documentation complete, deployed to Vercel production, pushed to GitHub. 20 commits. 13 languages. 76 scenarios. 10 API endpoints. 6 doc files (6000+ lines total).</td><td>Production-ready. Documented. Public on GitHub.</td></tr>
   <tr><td>v2.1 (planned, Q4 2026)</td><td>+24 scenarios (DE + IT). Scenario expansion Phase 1.</td><td>75 → 39 scenarios (then 75 total after v2.2).</td></tr>
   <tr><td>v2.2 (planned, Q4 2026)</td><td>+36 scenarios (JA + PT + ZH). 75 scenarios total. AI dialogue polish.</td><td>75 scenarios total. Improved AI dialogue.</td></tr>
   <tr><td>v2.3 (planned, 2027 Q1)</td><td>Full SRS + due-for-review badge. Gamification Phase 1.</td><td>Proper spaced repetition. Retention improvement.</td></tr>
@@ -4681,7 +4681,7 @@ cp projectos-portal.html ~/Downloads/
 
 <div class="callout success" style="margin-top:24px;">
   <strong>ProjectOS Portal v2.0 — Complete.</strong><br>
-  28 sections. 19 rendered section IDs. 20 commits. 8 languages. 15 scenarios. 10 API endpoints.<br>
+  28 sections. 19 rendered section IDs. 20 commits. 13 languages. 76 scenarios. 10 API endpoints.<br>
   6 documentation files (6,000+ lines). Deployed to Vercel. Pushed to GitHub.<br>
   Built by Ossama Mokhtar in 3 days (Sep 10-12, 2026).<br>
   <a href="#top" style="color:var(--accent)" onclick="navigate('top')">[Back to top]</a>
@@ -4718,7 +4718,7 @@ function sGTM() {
 <h2>Pricing Strategy</h2>
 <table>
   <tr><th>Tier</th><th>Price</th><th>Features</th><th>Target</th><th>Rationale</th></tr>
-  <tr><td><strong>Free</strong></td><td>$0</td><td>Basic voice recording + AI analysis (limited per day), 8 languages, 15 scenarios, standard feedback, sentence/proverb browsing, progress tracking (basic)</td><td>Casual learners, trial users, price-sensitive markets</td><td>Low barrier to entry, aligns with MVP, large user base for network effects and data</td></tr>
+  <tr><td><strong>Free</strong></td><td>$0</td><td>Basic voice recording + AI analysis (limited per day), 13 languages, 765 scenarios, standard feedback, sentence/proverb browsing, progress tracking (basic)</td><td>Casual learners, trial users, price-sensitive markets</td><td>Low barrier to entry, aligns with MVP, large user base for network effects and data</td></tr>
   <tr><td><strong>Pro</strong></td><td>$9.99/month or $99/year</td><td>Unlimited recordings per day, advanced analysis (detailed phoneme breakdown, pitch contour download, comparison with native), all 75+ scenarios, priority AI (faster response, GPT-4o always), CEFR estimation + certification, SRS advanced settings, export progress data</td><td>Serious learners, intermediates wanting to breakthrough, professionals preparing for interviews/expat life</td><td>Capture value from dedicated learners who practice daily; $9.99/month is competitive with Babbel ($13-19) and below Busuu ($9-17) — positioned as premium AI coach</td></tr>
   <tr><td><strong>Enterprise</strong></td><td>Custom pricing ($5-15/user/month, annual contracts)</td><td>Everything in Pro, admin dashboard (team/student progress analytics), SSO (SAML/OIDC), custom scenario creation, priority support, API access for LMS integration, usage reporting, SLA, compliance (GDPR, SOC 2)</td><td>Schools, language departments, companies (relocation, global teams), language institutes</td><td>High ACV, sticky (institutional adoption), B2B growth potential. Requires user accounts, admin features, compliance — Phase 4-5.</td></tr>
 </table>
@@ -5049,7 +5049,7 @@ function sVersionHistory() {
 <h2>Release History</h2>
 <table>
   <tr><th>Release</th><th>Version</th><th>Date</th><th>Features Added</th><th>Updates</th><th>Fixes</th><th>Deprecations</th><th>Security Changes</th><th>API Changes</th></tr>
-  <tr><td><strong>v2.0.0 (MVP)</strong></td><td>2.0.0</td><td>2026-09-12</td><td>5 tabs, 8 languages, 15 scenarios, voice recording, AI analysis, TTS, live transcription, click-to-TTS, proverbs, sentence library, companion chat, lesson plans, scenario role-play, progress dashboard, CEFR estimation, SRS, streak, XP</td><td>TypeScript strict, 8-language type extensions, comprehensive documentation, 20 commits</td><td>All known issues fixed during 3-day build</td><td>—</td><td>OpenAI key in Vercel env only (no code change, env setup)</td><td>10 API endpoints operational (sentences, proverbs, analyze, companion/chat, companion/scenario, tts, sentence-of-day, proverb-of-day, generate-tts)</td></tr>
+  <tr><td><strong>v2.0.0 (MVP)</strong></td><td>2.0.0</td><td>2026-09-12</td><td>5 tabs, 13 languages, 76 scenarios, voice recording, AI analysis, TTS, live transcription, click-to-TTS, proverbs, sentence library, companion chat, lesson plans, scenario role-play, progress dashboard, CEFR estimation, SRS, streak, XP</td><td>TypeScript strict, 8-language type extensions, comprehensive documentation, 20 commits</td><td>All known issues fixed during 3-day build</td><td>—</td><td>OpenAI key in Vercel env only (no code change, env setup)</td><td>10 API endpoints operational (sentences, proverbs, analyze, companion/chat, companion/scenario, tts, sentence-of-day, proverb-of-day, generate-tts)</td></tr>
 </table>
 
 <h2>Version Tagging</h2>
@@ -5071,7 +5071,7 @@ function sVersionHistory() {
   <li>Sentence library: 1,100 sentences × 8 languages (EN/ES/FR/DE/IT/JA/PT/ZH) — BROWSE (paginated scrollable list) + DAILY (curated sentence of the day)</li>
   <li>Proverbs library: 35 proverbs × 8 languages with literal translation, meaning, usage note, tags — filter by tag, click-to-expand, TTS playback</li>
   <li>AI companion chat: free conversation + cultural Q&A + lesson plan generation via GPT-4o</li>
-  <li>Scenario role-play: 15 scenarios with in-character AI, 5-dimension rubric, per-turn scoring, feedback, corrected version, TTS playback, replay button</li>
+  <li>Scenario role-play: 76 scenarios with in-character AI, 5-dimension rubric, per-turn scoring, feedback, corrected version, TTS playback, replay button</li>
   <li>Progress dashboard: session history (filterable list), CEFR estimate card, dimension radar chart (5 dimensions), score trends chart, streak card, XP card, SRS filter (due-for-review toggle)</li>
   <li>Simplified FSRS spaced repetition: due-for-review badge, interval computation (easy=4d, medium=2d, hard=1d), Mark as Reviewed</li>
   <li>Streak tracking + XP accumulation</li>
@@ -5393,7 +5393,7 @@ cp projectos-portal.html ~/Downloads/
   <tr><td>v1.1 (Sep 10, 2026)</td><td>Practice tab added — MediaRecorder + Web Speech API + waveform. ResultsView added — score display (no AI yet, mock data or simple logic).</td><td>Voice recording capability. Visual feedback.</td></tr>
   <tr><td>v1.2 (Sep 10, 2026)</td><td>API layer added — /api/analyze endpoint, GPT-4o integration, 5-dimension scoring. Sentence library (3 langs). Proverbs (3 langs).</td><td>AI integration. Content corpus (3 languages).</td></tr>
   <tr><td>v1.3 (Sep 10-11, 2026)</td><td>Companion chat + scenario role-play + progress tab + SRS + streak + XP. TranscriptView + click-to-TTS. 5 missing languages added (8 total).</td><td>Full feature set. Multi-language. Gamification.</td></tr>
-  <tr><td>v2.0.0 (Sep 12, 2026) — CURRENT</td><td>MVP release — all features stable, documentation complete, deployed to Vercel production, pushed to GitHub. 20 commits. 8 languages. 15 scenarios. 10 API endpoints. 6 doc files (6000+ lines total).</td><td>Production-ready. Documented. Public on GitHub.</td></tr>
+  <tr><td>v2.0.0 (Sep 12, 2026) — CURRENT</td><td>MVP release — all features stable, documentation complete, deployed to Vercel production, pushed to GitHub. 20 commits. 13 languages. 76 scenarios. 10 API endpoints. 6 doc files (6000+ lines total).</td><td>Production-ready. Documented. Public on GitHub.</td></tr>
   <tr><td>v2.1 (planned, Q4 2026)</td><td>+24 scenarios (DE + IT). Scenario expansion Phase 1.</td><td>75 → 39 scenarios (then 75 total after v2.2).</td></tr>
   <tr><td>v2.2 (planned, Q4 2026)</td><td>+36 scenarios (JA + PT + ZH). 75 scenarios total. AI dialogue polish.</td><td>75 scenarios total. Improved AI dialogue.</td></tr>
   <tr><td>v2.3 (planned, 2027 Q1)</td><td>Full SRS + due-for-review badge. Gamification Phase 1.</td><td>Proper spaced repetition. Retention improvement.</td></tr>
@@ -5433,7 +5433,7 @@ cp projectos-portal.html ~/Downloads/
 
 <div class="callout success" style="margin-top:24px;">
   <strong>ProjectOS Portal v2.0 — Complete.</strong><br>
-  28 sections. 19 rendered section IDs. 20 commits. 8 languages. 15 scenarios. 10 API endpoints.<br>
+  28 sections. 19 rendered section IDs. 20 commits. 13 languages. 76 scenarios. 10 API endpoints.<br>
   6 documentation files (6,000+ lines). Deployed to Vercel. Pushed to GitHub.<br>
   Built by Ossama Mokhtar in 3 days (Sep 10-12, 2026).<br>
   <a href="#top" style="color:var(--accent)" onclick="navigate('top')">[Back to top]</a>
@@ -5470,7 +5470,7 @@ function sGTM() {
 <h2>Pricing Strategy</h2>
 <table>
   <tr><th>Tier</th><th>Price</th><th>Features</th><th>Target</th><th>Rationale</th></tr>
-  <tr><td><strong>Free</strong></td><td>$0</td><td>Basic voice recording + AI analysis (limited per day), 8 languages, 15 scenarios, standard feedback, sentence/proverb browsing, progress tracking (basic)</td><td>Casual learners, trial users, price-sensitive markets</td><td>Low barrier to entry, aligns with MVP, large user base for network effects and data</td></tr>
+  <tr><td><strong>Free</strong></td><td>$0</td><td>Basic voice recording + AI analysis (limited per day), 13 languages, 765 scenarios, standard feedback, sentence/proverb browsing, progress tracking (basic)</td><td>Casual learners, trial users, price-sensitive markets</td><td>Low barrier to entry, aligns with MVP, large user base for network effects and data</td></tr>
   <tr><td><strong>Pro</strong></td><td>$9.99/month or $99/year</td><td>Unlimited recordings per day, advanced analysis (detailed phoneme breakdown, pitch contour download, comparison with native), all 75+ scenarios, priority AI (faster response, GPT-4o always), CEFR estimation + certification, SRS advanced settings, export progress data</td><td>Serious learners, intermediates wanting to breakthrough, professionals preparing for interviews/expat life</td><td>Capture value from dedicated learners who practice daily; $9.99/month is competitive with Babbel ($13-19) and below Busuu ($9-17) — positioned as premium AI coach</td></tr>
   <tr><td><strong>Enterprise</strong></td><td>Custom pricing ($5-15/user/month, annual contracts)</td><td>Everything in Pro, admin dashboard (team/student progress analytics), SSO (SAML/OIDC), custom scenario creation, priority support, API access for LMS integration, usage reporting, SLA, compliance (GDPR, SOC 2)</td><td>Schools, language departments, companies (relocation, global teams), language institutes</td><td>High ACV, sticky (institutional adoption), B2B growth potential. Requires user accounts, admin features, compliance — Phase 4-5.</td></tr>
 </table>
@@ -5801,7 +5801,7 @@ function sVersionHistory() {
 <h2>Release History</h2>
 <table>
   <tr><th>Release</th><th>Version</th><th>Date</th><th>Features Added</th><th>Updates</th><th>Fixes</th><th>Deprecations</th><th>Security Changes</th><th>API Changes</th></tr>
-  <tr><td><strong>v2.0.0 (MVP)</strong></td><td>2.0.0</td><td>2026-09-12</td><td>5 tabs, 8 languages, 15 scenarios, voice recording, AI analysis, TTS, live transcription, click-to-TTS, proverbs, sentence library, companion chat, lesson plans, scenario role-play, progress dashboard, CEFR estimation, SRS, streak, XP</td><td>TypeScript strict, 8-language type extensions, comprehensive documentation, 20 commits</td><td>All known issues fixed during 3-day build</td><td>—</td><td>OpenAI key in Vercel env only (no code change, env setup)</td><td>10 API endpoints operational (sentences, proverbs, analyze, companion/chat, companion/scenario, tts, sentence-of-day, proverb-of-day, generate-tts)</td></tr>
+  <tr><td><strong>v2.0.0 (MVP)</strong></td><td>2.0.0</td><td>2026-09-12</td><td>5 tabs, 13 languages, 76 scenarios, voice recording, AI analysis, TTS, live transcription, click-to-TTS, proverbs, sentence library, companion chat, lesson plans, scenario role-play, progress dashboard, CEFR estimation, SRS, streak, XP</td><td>TypeScript strict, 8-language type extensions, comprehensive documentation, 20 commits</td><td>All known issues fixed during 3-day build</td><td>—</td><td>OpenAI key in Vercel env only (no code change, env setup)</td><td>10 API endpoints operational (sentences, proverbs, analyze, companion/chat, companion/scenario, tts, sentence-of-day, proverb-of-day, generate-tts)</td></tr>
 </table>
 
 <h2>Version Tagging</h2>
@@ -5823,7 +5823,7 @@ function sVersionHistory() {
   <li>Sentence library: 1,100 sentences × 8 languages (EN/ES/FR/DE/IT/JA/PT/ZH) — BROWSE (paginated scrollable list) + DAILY (curated sentence of the day)</li>
   <li>Proverbs library: 35 proverbs × 8 languages with literal translation, meaning, usage note, tags — filter by tag, click-to-expand, TTS playback</li>
   <li>AI companion chat: free conversation + cultural Q&A + lesson plan generation via GPT-4o</li>
-  <li>Scenario role-play: 15 scenarios with in-character AI, 5-dimension rubric, per-turn scoring, feedback, corrected version, TTS playback, replay button</li>
+  <li>Scenario role-play: 76 scenarios with in-character AI, 5-dimension rubric, per-turn scoring, feedback, corrected version, TTS playback, replay button</li>
   <li>Progress dashboard: session history (filterable list), CEFR estimate card, dimension radar chart (5 dimensions), score trends chart, streak card, XP card, SRS filter (due-for-review toggle)</li>
   <li>Simplified FSRS spaced repetition: due-for-review badge, interval computation (easy=4d, medium=2d, hard=1d), Mark as Reviewed</li>
   <li>Streak tracking + XP accumulation</li>
@@ -6145,7 +6145,7 @@ cp projectos-portal.html ~/Downloads/
   <tr><td>v1.1 (Sep 10, 2026)</td><td>Practice tab added — MediaRecorder + Web Speech API + waveform. ResultsView added — score display (no AI yet, mock data or simple logic).</td><td>Voice recording capability. Visual feedback.</td></tr>
   <tr><td>v1.2 (Sep 10, 2026)</td><td>API layer added — /api/analyze endpoint, GPT-4o integration, 5-dimension scoring. Sentence library (3 langs). Proverbs (3 langs).</td><td>AI integration. Content corpus (3 languages).</td></tr>
   <tr><td>v1.3 (Sep 10-11, 2026)</td><td>Companion chat + scenario role-play + progress tab + SRS + streak + XP. TranscriptView + click-to-TTS. 5 missing languages added (8 total).</td><td>Full feature set. Multi-language. Gamification.</td></tr>
-  <tr><td>v2.0.0 (Sep 12, 2026) — CURRENT</td><td>MVP release — all features stable, documentation complete, deployed to Vercel production, pushed to GitHub. 20 commits. 8 languages. 15 scenarios. 10 API endpoints. 6 doc files (6000+ lines total).</td><td>Production-ready. Documented. Public on GitHub.</td></tr>
+  <tr><td>v2.0.0 (Sep 12, 2026) — CURRENT</td><td>MVP release — all features stable, documentation complete, deployed to Vercel production, pushed to GitHub. 20 commits. 13 languages. 76 scenarios. 10 API endpoints. 6 doc files (6000+ lines total).</td><td>Production-ready. Documented. Public on GitHub.</td></tr>
   <tr><td>v2.1 (planned, Q4 2026)</td><td>+24 scenarios (DE + IT). Scenario expansion Phase 1.</td><td>75 → 39 scenarios (then 75 total after v2.2).</td></tr>
   <tr><td>v2.2 (planned, Q4 2026)</td><td>+36 scenarios (JA + PT + ZH). 75 scenarios total. AI dialogue polish.</td><td>75 scenarios total. Improved AI dialogue.</td></tr>
   <tr><td>v2.3 (planned, 2027 Q1)</td><td>Full SRS + due-for-review badge. Gamification Phase 1.</td><td>Proper spaced repetition. Retention improvement.</td></tr>
@@ -6185,7 +6185,7 @@ cp projectos-portal.html ~/Downloads/
 
 <div class="callout success" style="margin-top:24px;">
   <strong>ProjectOS Portal v2.0 — Complete.</strong><br>
-  28 sections. 19 rendered section IDs. 20 commits. 8 languages. 15 scenarios. 10 API endpoints.<br>
+  28 sections. 19 rendered section IDs. 20 commits. 13 languages. 76 scenarios. 10 API endpoints.<br>
   6 documentation files (6,000+ lines). Deployed to Vercel. Pushed to GitHub.<br>
   Built by Ossama Mokhtar in 3 days (Sep 10-12, 2026).<br>
   <a href="#top" style="color:var(--accent)" onclick="navigate('top')">[Back to top]</a>
