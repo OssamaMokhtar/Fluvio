@@ -1,10 +1,10 @@
-# MENA Positioning — Slang
+# MENA Positioning — Fluvio
 
 **Status:** Positioning document — for strategy and messaging.
 
 ## The Niche
 
-Slang's defensible niche is **MENA**: Arabic pronunciation for English learners in the Gulf, or English pronunciation for Arabic speakers.
+Fluvio's defensible niche is **MENA**: Arabic pronunciation for English learners in the Gulf, or English pronunciation for Arabic speakers.
 
 This is not a generic AI pronunciation coach competing with ELSA Speak. This is a bilingual, culturally-aware pronunciation tool built for the MENA market.
 
@@ -26,7 +26,7 @@ This is not a generic AI pronunciation coach competing with ELSA Speak. This is 
 
 ## Competitive Positioning
 
-| Dimension | Slang (MENA-focused) | ELSA Speak | Generic Apps |
+| Dimension | Fluvio (MENA-focused) | ELSA Speak | Generic Apps |
 |-----------|----------------------|------------|--------------|
 | Market | MENA (Arabic ↔ English) | Global, English-centric | Global, varies |
 | Language support | Bilingual AR/EN from the start | English-first, Arabic as add-on | English-first |
@@ -54,4 +54,4 @@ This is not a generic AI pronunciation coach competing with ELSA Speak. This is 
 
 ## Relationship to Improvement Plan
 
-This positioning is Phase 2 of the Slang improvement plan. See [[07-Improvement-Plan-Slang]].
+This positioning is Phase 2 of the Fluvio improvement plan. See [[07-Improvement-Plan-Fluvio]].

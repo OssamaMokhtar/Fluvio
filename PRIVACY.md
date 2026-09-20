@@ -37,7 +37,7 @@
 
 A voice recording is personal data under GDPR Article 4 **whether or not it is
 persisted**. Transmitting an EU learner's audio and IP address to OpenAI makes
-Slang a **controller** and OpenAI a **processor**. That is true now, not "if
+Fluvio a **controller** and OpenAI a **processor**. That is true now, not "if
 accounts are added later."
 
 What this requires, and where we stand:
@@ -56,7 +56,7 @@ What this requires, and where we stand:
 sensitivity of biometric-adjacent data warrants the higher standard even though
 we do not use voice for identification.
 
-**COPPA / age:** Slang is not designed for under-13s, and a language-learning app
+**COPPA / age:** Fluvio is not designed for under-13s, and a language-learning app
 will attract minors regardless. Age gating is required before any consumer
 launch. ⬜ To do.
 

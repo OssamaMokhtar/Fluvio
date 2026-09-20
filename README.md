@@ -8,7 +8,7 @@ AI-powered language learning app — speak into your microphone, get instant pro
 
 ## Project Overview
 
-Slang Language is a full-stack web application that helps learners improve pronunciation and fluency in 8 languages through AI-powered speech analysis, conversational practice, and spaced repetition.
+**Fluvio** is a full-stack web application that helps learners improve pronunciation and fluency in 13 languages through AI-powered speech analysis, conversational practice, and spaced repetition.
 
 **What it does:**
 

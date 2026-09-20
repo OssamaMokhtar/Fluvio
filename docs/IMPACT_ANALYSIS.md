@@ -1,4 +1,4 @@
-# Impact Analysis: Slang Language App
+# Impact Analysis: Fluvio Language App
 
 **Date:** September 12, 2026  
 **Branch:** main  
@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-Two major features were added to the Slang language learning application:
+Two major features were added to the Fluvio language learning application:
 
 - **Change A:** Scenario role-play + TTS playback — an AI conversation partner that role-plays scenarios (barista, travel agent, etc.) with 5-dimension scoring and voice playback
 - **Change B:** 5 new language expansion — German (DE), Italian (IT), Japanese (JA), Portuguese (PT), Chinese (ZH) — adding 1,100 sentences and ~35 proverbs per language

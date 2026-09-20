@@ -1,9 +1,9 @@
-# Slang — Product Requirements Document
+# Fluvio — Product Requirements Document
 
 **Status:** Living document · Draft  
 **Last updated:** 2026-09-12  
 **Owner:** Product  
-**Project:** /Users/ossamamokhtar/Slang  
+**Project:** /Users/ossamamokhtar/Fluvio  
 **Production URL:** https://slang-e6mm37v73-ossamamokhtars-projects.vercel.app  
 **Tech stack:** TypeScript + Vite + Express (serverless on Vercel) + OpenAI (gpt-4o / gpt-4o-mini) + Web Audio API + esbuild
 
@@ -85,7 +85,7 @@ Learners who have passed the beginner plateau end up stuck in a "I understand mo
 
 ## 3. Core Value Proposition
 
-> **Slang gives intermediate language learners a private, structured gym to speak, get AI-powered dimensional feedback, and track CEFR-anchored progress — across 8 languages, 1100 sentences each, and real-world role-play scenarios.**
+> **Fluvio gives intermediate language learners a private, structured gym to speak, get AI-powered dimensional feedback, and track CEFR-anchored progress — across 8 languages, 1100 sentences each, and real-world role-play scenarios.**
 
 Three pillars:
 

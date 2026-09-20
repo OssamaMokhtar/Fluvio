@@ -1,4 +1,4 @@
-# Slang Language — Architecture & Product Roadmap
+# Fluvio Language — Architecture & Product Roadmap
 
 **Live URL:** https://slang-d36venps9-ossamamokhtars-projects.vercel.app  
 **Last updated:** 2026-09-11

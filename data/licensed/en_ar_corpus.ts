@@ -1,5 +1,5 @@
 /**
- * Slang — English practice corpus for Arabic-L1 learners.
+ * Fluvio — English practice corpus for Arabic-L1 learners.
  *
  * SL-04 / SL-05: this replaces the auto-generated corpora. Those shipped 8,800
  * rows that resolved to 3,493 unique IDs, with every `translation` field set to

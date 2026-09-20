@@ -99,7 +99,7 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                 <Globe className="w-10 h-10" />
               </div>
               <h1 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">
-                Welcome to Slang
+                Welcome to Fluvio
               </h1>
               <p className="text-lg text-slate-600 dark:text-slate-300 mb-8 max-w-sm leading-relaxed">
                 Your personal AI coach for mastering pronunciation and fluency in just minutes a day.

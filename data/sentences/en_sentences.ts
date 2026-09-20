@@ -1,6 +1,6 @@
 // High-quality English sentence library
 // 439 natural, practical sentences across CEFR levels A1-C2
-// Generated for Slang Language learning app
+// Generated for Fluvio language learning app
 
 import { Sentence } from '../library';
 

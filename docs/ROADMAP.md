@@ -1,4 +1,4 @@
-# Slang Language — Roadmap
+# Fluvio Language — Roadmap
 
 > React 19 · Vite · Express · TypeScript · Tailwind · Vercel  
 > 8 target languages · 5000+ sentences · 280 proverbs · AI pronunciation analysis · SRS review
@@ -212,7 +212,7 @@
 
 ## Conventions
 
-- **All work happens in `/Users/ossamamokhtar/Slang`** (the repo root).
+- **All work happens in `/Users/ossamamokhtar/Fluvio`** (the repo root).
 - **Deployment:** `vercel.json` + `src/api/index.ts` → Vercel serverless. Local dev: `npm run dev` (tsx) or `npm run build:node` + `npm start` (esbuild → Node).
 - **State:** localStorage keys: `slang_profile`, `slang_onboarded`, `slang_theme`, `slang_srs_state`, `user_streak`, `companion_{lang}`, `linguaflow_*` (legacy migration).
 - **API keys:** OpenAI API key is required for `analyze-audio`, `generate-tts`, and `companion/chat` (stored server-side in the Express app env). Without it, scenarios fall back to local heuristics and TTS fails gracefully.

@@ -23,7 +23,7 @@
 |---|---|---|---|
 | No secret inlined into the client bundle | ✅ | `C-10` | `vite.config.ts` previously used `define` to inline `GEMINI_API_KEY` into client code as `process.env.API_KEY`. Nothing leaked in practice — no such key was set after the OpenAI migration — but the mechanism was armed. The `define` block is gone and C-10 fails the build if it returns. |
 | Rate limiting keys on the caller, not the proxy | ✅ | `C-07` | `app.set('trust proxy', 1)`. Express 5 defaults to `false`, so `req.ip` used to resolve to the platform proxy and every caller shared one bucket. |
-| Per-device rate-limit identity | ✅ | `C-07` | Prefers an `X-Slang-Device` token over IP. Carrier-grade NAT is the norm across GCC mobile networks, so IP is a poor identity there. |
+| Per-device rate-limit identity | ✅ | `C-07` | Prefers an `X-Fluvio-Device` token over IP. Carrier-grade NAT is the norm across GCC mobile networks, so IP is a poor identity there. |
 | Hard daily ceiling on billable AI calls | ✅ | `C-08` | `AI_CALL_BUDGET_PER_DAY` (default 2000). Fails **closed** with `429 AI_BUDGET_EXHAUSTED`. All three billable routes are gated. |
 | Free-text input sanitised before prompts | ✅ | `C-09` | `safeSentence` is applied to the companion and scenario `message` fields — the only genuinely adversarial inputs. Previously every closed-vocabulary field was sanitised and this one was not. |
 | Single sanitiser definition | ✅ | `C-09` | `services/sanitization.ts`. A byte-identical duplicate in `server.ts` was deleted. |

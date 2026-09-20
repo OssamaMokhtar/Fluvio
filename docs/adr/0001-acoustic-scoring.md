@@ -8,7 +8,7 @@
 
 ## Context
 
-Slang sells pronunciation assessment. The shipped pipeline could not perform it.
+Fluvio sells pronunciation assessment. The shipped pipeline could not perform it.
 
 ```
 microphone ──► Whisper ──► transcript ──► GPT-4o ──► "pronunciation_score"

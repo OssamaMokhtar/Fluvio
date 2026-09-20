@@ -1,5 +1,5 @@
 {
-  "name": "Slang",
+  "name": "Fluvio",
   "description": "Pronunciation coaching for Arabic speakers learning English — acoustic scoring, L1-aware feedback, and scenario practice.",
   "requestFramePermissions": ["microphone"],
   "aiProvider": "openai",

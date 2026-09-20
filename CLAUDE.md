@@ -1,4 +1,4 @@
-# CLAUDE.md — Slang Language Developer Handbook
+# CLAUDE.md — Fluvio Developer Handbook
 
 > For AI coding agents and human contributors: how the codebase is organized, where things live, what conventions to follow, and what tends to break.
 
@@ -6,7 +6,7 @@
 
 ## Architecture Overview
 
-Slang Language is a **React + Express** app in a single repo. The frontend and backend are served from the same process in development (Vite middleware + Express), and split for production (Vite builds static assets; Express serves them or is deployed as a Vercel serverless function).
+Fluvio is a **React + Express** app in a single repo. The frontend and backend are served from the same process in development (Vite middleware + Express), and split for production (Vite builds static assets; Express serves them or is deployed as a Vercel serverless function).
 
 ```
 Browser

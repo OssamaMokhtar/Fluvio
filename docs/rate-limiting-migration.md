@@ -1,4 +1,4 @@
-# Rate Limiting Migration — Slang
+# Rate Limiting Migration — Fluvio
 
 **Status:** Migration guide — in-memory rate limiting to shared store.
 
@@ -78,4 +78,4 @@ Update SECURITY.md to reflect the new rate limiting implementation.
 
 ## Relationship to Improvement Plan
 
-This migration is Phase 2 of the Slang improvement plan. See [[07-Improvement-Plan-Slang]].
+This migration is Phase 2 of the Fluvio improvement plan. See [[07-Improvement-Plan-Fluvio]].

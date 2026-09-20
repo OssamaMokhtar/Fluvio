@@ -1,4 +1,4 @@
-// Type definitions for Slang Language app
+// Type definitions for Fluvio app
 // Re-exports core data types from the library module
 
 import { Sentence, Proverb, CompanionMessage, CompanionSession } from './data/library';
