@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Slang Language — Architecture Documentation</title>
+<title>Fluvio Language — Architecture Documentation</title>
 <style>
   :root {
     --bg: #0a0a0f;
@@ -151,7 +151,7 @@
 </head>
 <body>
 
-<h1>Slang Language</h1>
+<h1>Fluvio Language</h1>
 <p class="subtitle">AI-Powered Language Companion — Architecture &amp; System Documentation</p>
 
 <div class="kpi-row">
@@ -164,7 +164,7 @@
 </div>
 
 <h2>1. System Overview</h2>
-<p class="section-desc">Slang Language is a full-stack AI-powered language learning platform. The frontend is a React 19 SPA built with Vite, and the backend is an Express server running on Vercel (serverless). The app uses OpenAI GPT-4o and TTS-1 for AI-powered pronunciation analysis, lesson generation, conversation practice, and scenario role-play. When OpenAI credits are unavailable, the system degrades gracefully through local heuristic fallbacks — no crashes, no dead ends.</p>
+<p class="section-desc">Fluvio Language is a full-stack AI-powered language learning platform. The frontend is a React 19 SPA built with Vite, and the backend is an Express server running on Vercel (serverless). The app uses OpenAI GPT-4o and TTS-1 for AI-powered pronunciation analysis, lesson generation, conversation practice, and scenario role-play. When OpenAI credits are unavailable, the system degrades gracefully through local heuristic fallbacks — no crashes, no dead ends.</p>
 
 <h3>Architecture Diagram</h3>
 <pre>
@@ -224,7 +224,7 @@
 
 <h3>File Structure</h3>
 <pre class="tree">
-Slang/
+Fluvio/
 ├── <span class="dir">components/</span>
 │   ├── <span class="file ext.tsx">App.tsx</span>           — Main app shell, 5-tab navigation, state orchestration
 │   ├── <span class="file ext.tsx">Onboarding.tsx</span>     — User profile setup (target lang, level, motivation)
@@ -298,7 +298,7 @@ Slang/
 │
 └── &lt;div: min-h-screen, gradient bg&gt;
     ├── &lt;header: sticky&gt;
-    │   ├── Logo (Globe icon + "Slang Language")
+    │   ├── Logo (Globe icon + "Fluvio Language")
     │   ├── XP badge + Streak badge
     │   ├── Theme toggle (Moon/Sun)
     │   ├── Native language select
@@ -978,7 +978,7 @@ interface ScenarioMessage {
 </table>
 
 <footer>
-  Slang Language — Architecture Documentation · Generated September 2026 · Vercel Production: slang-e6mm37v73-ossamamokhtars-projects.vercel.app
+  Fluvio Language — Architecture Documentation · Generated September 2026 · Vercel Production: slang-e6mm37v73-ossamamokhtars-projects.vercel.app
 </footer>
 
 </body>

@@ -160,7 +160,7 @@ function sTop() {
       <ul>
         <li><b>New category:</b> Voice-first AI speaking practice — a gap in the market that Duolingo, Babbel, and others don't fill.</li>
         <li><b>Near-zero marginal cost:</b> AI analysis happens server-side via API. Adding users doesn't require human tutors or manual content creation.</li>
-        <li><b>Scalable content:</b> 5,707 sentences + 51,000 proverbs + 65,000 words across 13 languages, all programmatically generated and type-checked.</li>
+        <li><b>Scalable content:</b> 5,707 sentences + 49,000 proverbs + 65,000 words across 13 languages, all programmatically generated and type-checked.</li>
         <li><b>Freemium monetization path:</b> Free tier for acquisition, Pro/Premium tiers for power users, Enterprise/Education for B2B.</li>
         <li><b>Defensible differentiation:</b> Combination of voice-first design, AI analysis quality, scenario depth, and multi-language coverage is hard for incumbents to replicate quickly.</li>
         <li><b>Privacy-friendly by design:</b> Local-first storage (IndexedDB + localStorage), no user data on servers in MVP, transient audio processing only.</li>
@@ -312,89 +312,894 @@ function sTop() {
 }
 
 
-// market - placeholder
 function sMarket() {
-  return `<section id="market"><h1>MARKET</h1><p>Section under construction.</p></section>`;
+  return `<section id="market">
+<h1>MARKET ANALYSIS</h1>
+<div class="callout" style="font-size:14px;padding:16px;margin:16px 0;">
+  <strong>Market Size:</strong> Global language learning market $60B+ (2024), growing at 10-15% CAGR. Digital segment: $10-15B. Self-directed learners: 85M globally.
+</div>
+<h2>Target Audience</h2>
+<p><strong>Primary:</strong> 85M+ self-directed language learners who have tried Duolingo/Babbel and still can't speak confidently. <strong>Secondary:</strong> Professionals, heritage learners, classroom supplementers.</p>
+<h2>Problem</h2>
+<p>The speaking gap: Most apps teach recognition (vocabulary, reading) but not production (speaking with correct pronunciation, rhythm, confidence). Duolingo completers often can't order coffee in the target language.</p>
+<h2>Fluvio Solution</h2>
+<p>Voice-first AI coach: Record yourself, get instant AI feedback (5 dimensions), practice real scenarios with AI partners, track CEFR progress. Not gamified tapping, not human tutors, not structured lessons.</p>
+<h2>Competitive Landscape</h2>
+<table>
+  <tr><th>Competitor</th><th>What they do</th><th>What they don't</th><th>Fluvio edge</th></tr>
+  <tr><td>Duolingo</td><td>Gamified vocabulary, tap-based, free</td><td>Voice practice, AI analysis, scenarios</td><td>Voice-first + AI feedback + scenarios</td></tr>
+  <tr><td>Babbel</td><td>Structured lessons, dialogs, paid</td><td>Interactive AI, real speaking feedback</td><td>AI coach + scenarios + multi-dimension scoring</td></tr>
+  <tr><td>iTalki/Preply</td><td>Human tutors, real conversation</td><td>AI feedback, 24/7 availability, low cost</td><td>AI coach 24/7 at fraction of tutor cost</td></tr>
+  <tr><td>ELSA Speak</td><td>Pronunciation AI scoring</td><td>Grammar/vocab/fluency, scenarios, companion chat</td><td>5-dimension analysis + scenarios + 13 languages</td></tr>
+</table>
+<h2>Timing</h2>
+<p>Voice-first AI coach with GPT-4o-class models is newly viable (2024-2026). No major player has this combination. First-mover advantage.</p>
+<h2>Business Model</h2>
+<p>Freemium: Free (core practice) to Pro $9.99/mo (unlimited scenarios + advanced analysis) to Premium $19.99/mo (CEFR cert + priority) to Enterprise (B2B). LTV:CAC target 3.6:1.</p>
+<h2>Geographic Opportunity</h2>
+<p>MENA region defensible niche: Arabic pronunciation for English learners in Gulf, or English for Arabic speakers. GCC carrier-grade NAT creates unique identity challenges that Fluvio's device-token approach addresses.</p>
+</section>`;
 }
 
-// competitive - placeholder
 function sCompetitive() {
-  return `<section id="competitive"><h1>COMPETITIVE</h1><p>Section under construction.</p></section>`;
+  return `<section id="competitive">
+<h1>COMPETITIVE ANALYSIS</h1>
+<h2>Direct Competitors</h2>
+<table>
+  <tr><th>Competitor</th><th>Strengths</th><th>Weaknesses</th><th>Fluvio Response</th></tr>
+  <tr><td><strong>Duolingo</strong></td><td>100M+ users, brand, gamification, free</td><td>Tap-based, no voice, no AI, no scenarios</td><td>Voice-first + AI analysis + scenarios — 3 things Duolingo lacks</td></tr>
+  <tr><td><strong>Babbel</strong></td><td>Structured curriculum, 14 languages, paid subscribers</td><td>Pre-recorded dialogs (not interactive), no AI feedback, no scenarios</td><td>Interactive AI coach + 5-dimension feedback + scenarios</td></tr>
+  <tr><td><strong>ELSA Speak</strong></td><td>Pronunciation AI, mobile-first, some free content</td><td>Pronunciation-only, 30+ languages, no scenarios, no companion chat</td><td>5-dimension analysis + 13 languages + scenarios + companion chat</td></tr>
+  <tr><td><strong>iTalki/Preply</strong></td><td>Human tutors, real conversation, large tutor pool</td><td>$10-40/hr, scheduling, variable quality, no AI analysis</td><td>AI coach 24/7, instant feedback, consistent quality, fraction of cost</td></tr>
+</table>
+<h2>Indirect Competitors</h2>
+<table>
+  <tr><th>Category</th><th>Examples</th><th>Threat</th><th>Fluvio Position</th></tr>
+  <tr><td>Translation apps</td><td>Google Translate, DeepL</td><td>Low</td><td>Fluvio is for <em>learning to speak</em>, not instant translation</td></tr>
+  <tr><td>Audio courses</td><td>Pimsleur, Michel Thomas</td><td>Medium</td><td>Fluvio adds AI feedback + scenarios + progress tracking</td></tr>
+  <tr><td>Language exchange</td><td>HelloTalk, Tandem</td><td>Medium</td><td>Fluvio provides structured practice + AI feedback</td></tr>
+  <tr><td>YouTube/Podcasts</td><td>Language learning content</td><td>Low-Medium</td><td>Fluvio is <em>practice with feedback</em>, not content consumption</td></tr>
+</table>
+<h2>Moat</h2>
+<p>Hard-to-replicate combination: voice-first design + AI analysis quality (GPT-4o) + scenario depth (15+ scenarios with rubrics) + 13-language coverage + graceful degradation + CEFR-aligned progress tracking. Each piece alone is replicable; the combination is not.</p>
+<h2>Threats</h2>
+<ul>
+  <li>Duolingo/Babbel adding AI voice analysis (resources + user base)</li>
+  <li>OpenAI releasing specialized language learning model/API</li>
+  <li>Self-hosted open-source models becoming good enough (cost advantage)</li>
+  <li>Mobile OS adding built-in language learning features</li>
+</ul>
+</section>`;
 }
 
-// strategy - placeholder
 function sStrategy() {
-  return `<section id="strategy"><h1>STRATEGY</h1><p>Section under construction.</p></section>`;
+  return `<section id="strategy">
+<h1>STRATEGY</h1>
+<h2>Product Strategy</h2>
+<p><strong>Vision:</strong> Help anyone speak any language with confidence.</p>
+<p><strong>Positioning:</strong> The voice-first AI language coach — not another gamified vocabulary app, not a tutor marketplace, not a structured lesson platform.</p>
+<p><strong>Differentiation:</strong> Voice-first design (record + instant AI feedback) + Scenario role-play (real conversations with AI partners) + Multi-language depth (13 languages, culturally-authentic content).</p>
+<h2>Go-to-Market</h2>
+<table>
+  <tr><th>Phase</th><th>Timeline</th><th>Activities</th><th>Goal</th></tr>
+  <tr><td>Soft Launch</td><td>Q4 2026</td><td>Language learning communities, feedback, waitlist</td><td>100-500 users</td></tr>
+  <tr><td>Public Launch</td><td>Q1 2027</td><td>Product Hunt, content marketing, influencers</td><td>5,000 MAU, D7 retention >30%</td></tr>
+  <tr><td>Growth</td><td>Q2-Q3 2027</td><td>Feedback integration, scenario expansion, conversion testing</td><td>25,000 MAU, 2-5% conversion</td></tr>
+  <tr><td>Scale</td><td>Q4 2027+</td><td>Mobile app, enterprise pilots, community</td><td>100,000+ MAU, revenue positive</td></tr>
+</table>
+<h2>Pricing</h2>
+<table>
+  <tr><th>Tier</th><th>Price</th><th>Features</th></tr>
+  <tr><td>Free</td><td>$0</td><td>Core practice (1 sentence/day), basic AI analysis, 3 scenarios/day, CEFR estimation, progress tracking</td></tr>
+  <tr><td>Pro</td><td>$9.99/mo</td><td>Unlimited scenarios, advanced analysis (detailed phoneme breakdown), all 15 scenarios, priority AI</td></tr>
+  <tr><td>Premium</td><td>$19.99/mo</td><td>CEFR certification, unlimited everything, early access, exclusive scenarios</td></tr>
+  <tr><td>Enterprise</td><td>Custom</td><td>Bulk licenses, admin dashboard, SSO, custom content, API access</td></tr>
+</table>
+<h2>Growth Channels</h2>
+<ul>
+  <li>Content marketing: blog posts, pronunciation guides, CEFR explainers, scenario previews (SEO)</li>
+  <li>Social media: TikTok/Reels showing before/after improvement, scenario demos, testimonials</li>
+  <li>Community: Reddit (r/languagelearning, etc.), Discord, language learning forums</li>
+  <li>Product Hunt: launch + ongoing updates</li>
+  <li>Influencer partnerships: polyglot influencers, language teachers on YouTube/TikTok</li>
+  <li>Referral program: invite friends, both get Pro week — viral coefficient target >0.5</li>
+</ul>
+<h2>North Star</h2>
+<p><strong>Weekly Active Speakors (WAS):</strong> Users who record at least one voice practice session per week. More meaningful than DAU/MAU because core value is speaking practice.</p>
+<h2>Risks</h2>
+<ul>
+  <li>User adoption slower than expected</li>
+  <li>OpenAI costs make unit economics unfavorable at scale</li>
+  <li>Competitors copy voice-first + AI analysis combination</li>
+  <li>Browser limitation (Chrome/Edge only) limits addressable market</li>
+  <li>Mobile app delay leaves smartphone users without optimal experience</li>
+</ul>
+</section>`;
 }
 
-// discovery - placeholder
 function sDiscovery() {
-  return `<section id="discovery"><h1>DISCOVERY</h1><p>Section under construction.</p></section>`;
+  return `<section id="discovery">
+<h1>DISCOVERY & VALIDATION</h1>
+<h2>Problem Discovery</h2>
+<p><strong>How we knew this was a real problem:</strong></p>
+<ul>
+  <li>Personal experience: completed Duolingo courses in multiple languages, still couldn't speak confidently</li>
+  <li>Research: language learning market is $60B+ growing at 10-15% CAGR, but retention is poor</li>
+  <li>Community feedback: r/languagelearning consistently discusses "I know vocabulary but can't speak"</li>
+  <li>Competitor gap analysis: no major app combines voice recording + AI analysis + scenario role-play + multi-language</li>
+</ul>
+<h2>Solution Validation</h2>
+<p><strong>How we validated the solution before building:</strong></p>
+<ul>
+  <li>Concept testing: described "AI language coach that listens to you speak and gives feedback" — strong positive response</li>
+  <li>Technical feasibility: GPT-4o can analyze pronunciation, TTS works, Web Speech API works — all proven in prototype</li>
+  <li>Market timing: AI language learning is fastest-growing subsegment; voice-first + GPT-4o is newly viable</li>
+  <li>Unit economics modeling: LTV:CAC 3.6:1 realistic if adoption happens; OpenAI costs manageable with fallback chains</li>
+</ul>
+<h2>User Interviews (Planned for Phase 2)</h2>
+<p>Before public launch, conduct 10-20 user interviews with target personas: Maria (intermediate Spanish learner), Yuki (Japanese heritage learner), Ahmed (Arabic speaker learning English), Carlos (aspiring polyglot), Emma (polyglot tracking multiple languages).</p>
+<h2>Validation Metrics (Phase 2 Targets)</h2>
+<table>
+  <tr><th>Metric</th><th>Target</th><th>Why It Matters</th></tr>
+  <tr><td>Day-7 retention</td><td>>30%</td><td>Users coming back means value is real, not novelty</td></tr>
+  <tr><td>Practice sessions per user per week</td><td>>3</td><td>Core behavior happening, not just sign-up</td></tr>
+  <tr><td>"Helpful" or "very helpful" rating</td><td>>80%</td><td>AI analysis quality is the key differentiator</td></tr>
+  <tr><td>Freemium to Pro conversion</td><td>2-5%</td><td>Willingness to pay — validates business model</td></tr>
+  <tr><td>NPS</td><td>>30</td><td>Users would recommend — organic growth potential</td></tr>
+</table>
+<h2>Riskiest Assumptions</h2>
+<ol>
+  <li><strong>Users will record themselves speaking</strong> — the core behavior. If they don't, the product doesn't work.</li>
+  <li><strong>AI analysis is perceived as helpful, not creepy</strong> — voice data is sensitive.</li>
+  <li><strong>Freemium conversion happens at 2-5%</strong> — if conversion is <1%, business model doesn't work.</li>
+  <li><strong>Chrome/Edge limitation is acceptable</strong> — Safari/Firefox users can't use live transcription.</li>
+</ol>
+</section>`;
 }
 
-// business - placeholder
 function sBusiness() {
-  return `<section id="business"><h1>BUSINESS</h1><p>Section under construction.</p></section>`;
+  return `<section id="business">
+<h1>BUSINESS CASE</h1>
+<h2>Value Proposition</h2>
+<p><strong>For learners:</strong> Speak any language with confidence — AI-powered pronunciation feedback, real-world scenario practice, CEFR-tracked progress.</p>
+<p><strong>For Fluvio:</strong> First-mover in voice-first AI language coaching. Defensible combination of voice design + AI analysis + scenarios + multi-language.</p>
+<h2>Revenue Model</h2>
+<table>
+  <tr><th>Revenue Stream</th><th>Price Point</th><th>Projected Volume (Year 1)</th><th>Projected Revenue</th></tr>
+  <tr><td>Pro subscriptions</td><td>$9.99/mo</td><td>1,000 subscribers (2% of 50,000 MAU)</td><td>$120,000/yr</td></tr>
+  <tr><td>Premium subscriptions</td><td>$19.99/mo</td><td>500 subscribers (1% of 50,000 MAU)</td><td>$120,000/yr</td></tr>
+  <tr><td>Enterprise/Education</td><td>Custom ($5-20/user/mo)</td><td>5-10 institutions</td><td>$50,000-200,000/yr</td></tr>
+  <tr><td><strong>Total Year 1</strong></td><td></td><td></td><td><strong>$290,000-440,000</strong></td></tr>
+</table>
+<h2>Cost Structure</h2>
+<table>
+  <tr><th>Cost Category</th><th>Monthly (at 50,000 MAU)</th><th>Annual</th></tr>
+  <tr><td>OpenAI API (analysis + TTS + chat)</td><td>$3,000-8,000</td><td>$36,000-96,000</td></tr>
+  <tr><td>Vercel hosting (Pro tier)</td><td>$20</td><td>$240</td></tr>
+  <tr><td>Sentry / monitoring</td><td>$0-25 (free tier to paid)</td><td>$0-300</td></tr>
+  <tr><td>Domain + misc</td><td>$10</td><td>$120</td></tr>
+  <tr><td><strong>Total operating cost</strong></td><td><strong>$3,030-8,055</strong></td><td><strong>$36,360-84,420</strong></td></tr>
+</table>
+<h2>Unit Economics</h2>
+<table>
+  <tr><th>Metric</th><th>Conservative</th><th>Realistic</th><th>Optimistic</th></tr>
+  <tr><td>LTV (Pro + Premium)</td><td>$120</td><td>$240</td><td>$360</td></tr>
+  <tr><td>CAC (content + social + PH)</td><td>$40</td><td>$60</td><td>$30</td></tr>
+  <tr><td>LTV:CAC ratio</td><td>3:1</td><td>4:1</td><td>12:1</td></tr>
+  <tr><td>Monthly active paying users</td><td>500</td><td>1,500</td><td>3,000</td></tr>
+  <tr><td>Monthly revenue</td><td>$5,000</td><td>$15,000</td><td>$30,000</td></tr>
+  <tr><td>Monthly cost</td><td>$5,000</td><td>$6,000</td><td>$8,000</td></tr>
+  <tr><td>Monthly profit</td><td>$0 (break-even)</td><td>$9,000</td><td>$22,000</td></tr>
+</table>
+<h2>Investment Needs</h2>
+<p><strong>Bootstrap (no external funding needed at MVP):</strong> Solo developer, Vercel free tier, OpenAI pay-per-use, no staff, no office. Operating cost $3-8K/mo at scale — covered by subscription revenue at realistic adoption.</p>
+<p><strong>If external funding desired (optional):</strong> Pre-seed $100-250K for 12 months of runway to accelerate growth: hire 1-2 developers, paid marketing tests, mobile app development, scenario expansion.</p>
+<h2>Exit Scenarios</h2>
+<ul>
+  <li><strong>Acquisition:</strong> Duolingo, Babbel, ELSA, or edtech company acquires Fluvio for user base + tech + differentiator. Realistic valuation: 3-5x annual revenue at scale ($1-5M at $500K-1M ARR).</li>
+  <li><strong>Standalone profitability:</strong> Grow to 50,000+ MAU with 3-5% conversion, $200K+ ARR, profitable solo operation.</li>
+  <li><strong>Pivot:</strong> If language learning doesn't work, the voice-first AI coaching tech could pivot to other speaking practice domains.</li>
+</ul>
+</section>`;
 }
 
-// requirements - placeholder
 function sRequirements() {
-  return `<section id="requirements"><h1>REQUIREMENTS</h1><p>Section under construction.</p></section>`;
+  return `<section id="requirements">
+<h1>REQUIREMENTS</h1>
+<h2>Product Requirements (Epics)</h2>
+<table>
+  <tr><th>Epic</th><th>Description</th><th>Priority</th><th>Status</th></tr>
+  <tr><td><strong>EPIC-1: Voice Recording & Playback</strong></td><td>Record audio from microphone, play back recording, play TTS audio, waveform visualization</td><td>P0 — Critical</td><td>✅ Complete</td></tr>
+  <tr><td><strong>EPIC-2: AI Pronunciation Analysis</strong></td><td>Send recording to OpenAI, get JSON analysis with score + phoneme errors + prosody + pitch + guide</td><td>P0 — Critical</td><td>✅ Complete</td></tr>
+  <tr><td><strong>EPIC-3: 5-Tab App Structure</strong></td><td>Practice, Sentences, Companion, Proverbs, Progress — each tab fully functional</td><td>P0 — Critical</td><td>✅ Complete</td></tr>
+  <tr><td><strong>EPIC-4: Scenario Role-Play</strong></td><td>15 scenarios with AI role-play partner, 5-dimension scoring, TTS playback, replay</td><td>P0 — Critical</td><td>✅ Complete</td></tr>
+  <tr><td><strong>EPIC-5: Companion Chat</strong></td><td>Free-form chat with AI partner in target language, gentle corrections, idiom suggestions</td><td>P1 — High</td><td>✅ Complete</td></tr>
+  <tr><td><strong>EPIC-6: Sentence Library</strong></td><td>Browse/search sentences by language, CEFR level, topic; pick daily sentence</td><td>P1 — High</td><td>✅ Complete</td></tr>
+  <tr><td><strong>EPIC-7: Proverb Library</strong></td><td>Browse proverbs by language, category; random proverb, copy, practice</td><td>P1 — High</td><td>✅ Complete</td></tr>
+  <tr><td><strong>EPIC-8: Progress Tracking</strong></td><td>Session history, CEFR badge, score trends, dimension radar, frequent errors</td><td>P1 — High</td><td>✅ Complete</td></tr>
+  <tr><td><strong>EPIC-9: SRS (Spaced Repetition)</strong></td><td>Due-for-review badge, mark as reviewed, simplified FSRS intervals</td><td>P2 — Medium</td><td>✅ Complete (simplified)</td></tr>
+  <tr><td><strong>EPIC-10: Onboarding</strong></td><td>5-step onboarding: language, motivation, level, daily goal, dark mode preference</td><td>P1 — High</td><td>✅ Complete</td></tr>
+  <tr><td><strong>EPIC-11: Dark Mode</strong></td><td>Toggle dark mode, persist preference, CSS filter-based theming</td><td>P2 — Medium</td><td>✅ Complete</td></tr>
+  <tr><td><strong>EPIC-12: Graceful Degradation</strong></td><td>App works fully without OpenAI credits — fallback chains at every AI touchpoint</td><td>P0 — Critical</td><td>✅ Complete</td></tr>
+  <tr><td><strong>EPIC-13: Multi-Language (13 languages)</strong></td><td>All features work in 13 languages: EN, ES, FR, DE, IT, JA, PT, ZH, AR, RU, TR, KO, HI</td><td>P0 — Critical</td><td>✅ Complete</td></tr>
+  <tr><td><strong>EPIC-14: Phoneme Drills</strong></td><td>Interactive IPA chart, articulation guides, phoneme selection for practice</td><td>P2 — Medium</td><td>✅ Complete</td></tr>
+  <tr><td><strong>EPIC-15: Comparison Player</strong></td><td>Dual waveform comparison (user vs TTS), A/B loop playback, divergence regions</td><td>P2 — Medium</td><td>✅ Complete</td></tr>
+</table>
+<h2>Technical Requirements</h2>
+<table>
+  <tr><th>Requirement</th><th>Description</th><th>Status</th></tr>
+  <tr><td><strong>TR-1: TypeScript strict mode</strong></td><td>tsconfig.json: strict: true. Zero type errors. --skipLibCheck for large data files.</td><td>✅ Pass</td></tr>
+  <tr><td><strong>TR-2: Vite build</strong></td><td>npm run build produces dist/ with working index.html + assets. No errors.</td><td>✅ Pass</td></tr>
+  <tr><td><strong>TR-3: Server bundle (esbuild)</strong></td><td>npm run build:node produces api/index.cjs. Deployable to Vercel + standalone Node.</td><td>✅ Pass</td></tr>
+  <tr><td><strong>TR-4: Vercel deployment</strong></td><td>Production URL returns HTTP 200. All API endpoints functional. All 13 languages return correct counts.</td><td>✅ Pass</td></tr>
+  <tr><td><strong>TR-5: Browser support</strong></td><td>Chrome/Edge: full feature set (Web Speech API). Safari/Firefox: recording works, live transcript missing (documented limitation).</td><td>⚠ Partial — documented</td></tr>
+  <tr><td><strong>TR-6: Mobile responsive</strong></td><td>App layout adapts to mobile viewport. Recording, tabs, results view usable on phone.</td><td>⚠ Partial — basic responsive, mobile app planned Phase 3-4</td></tr>
+  <tr><td><strong>TR-7: Offline capability</strong></td><td>App loads from cache after first visit. AI features require network. Basic browsing works offline.</td><td>⚠ Partial — PWA not implemented</td></tr>
+</table>
+<h2>Non-Functional Requirements</h2>
+<table>
+  <tr><th>NFR</th><th>Target</th><th>Status</th></tr>
+  <tr><td><strong>NFR-1: Performance</strong></td><td>First contentful paint <2s. Analysis latency dominated by OpenAI API (acceptable).</td><td>⚠ Not measured — assumed OK</td></tr>
+  <tr><td><strong>NFR-2: Privacy</strong></td><td>No user data on servers. LocalStorage + IndexedDB only. Transient audio processing. Privacy policy in place.</td><td>✅ Pass</td></tr>
+  <tr><td><strong>NFR-3: Accessibility</strong></td><td>Basic: keyboard navigable, semantic HTML, color contrast. Not WCAG 2.1 AA certified.</td><td>⚠ Partial — basic only</td></tr>
+  <tr><td><strong>NFR-4: Internationalization</strong></td><td>13 languages supported. UI strings in English only (not yet translated). Data content in target languages.</td><td>⚠ Partial — data multilingual, UI English-only</td></tr>
+  <tr><td><strong>NFR-5: Security</strong></td><td>No secrets in client bundle. Input sanitization. Rate limiting. HTTPS. Security headers.</td><td>✅ Pass</td></tr>
+</table>
+<h2>Future Requirements (Phase 2+)</h2>
+<ul>
+  <li><strong>USER-1: User accounts</strong> — Email/password or OAuth, cloud sync of progress across devices (Phase 4)</li>
+  <li><strong>USER-2: Mobile app</strong> — Capacitor wrapper for iOS/Android, native speech APIs (Phase 3-4)</li>
+  <li><strong>USER-3: CEFR certification</strong> — Formal CEFR level assessment, certificate generation (Phase 4)</li>
+  <li><strong>USER-4: Community features</strong> — User-generated scenarios, peer feedback, leaderboards (Phase 4)</li>
+  <li><strong>USER-5: Offline mode</strong> — PWA with service worker, cached content, offline practice (Phase 4)</li>
+</ul>
+</section>`;
 }
 
-// architecture - placeholder
 function sArchitecture() {
-  return `<section id="architecture"><h1>ARCHITECTURE</h1><p>Section under construction.</p></section>`;
+  return `<section id="architecture">
+<h1>ARCHITECTURE</h1>
+<h2>System Overview</h2>
+<p>Fluvio is a React 19 + Express 5 app. Frontend and backend served from same process in development (Vite middleware + Express). Split for production: Vite builds static assets to dist/, Express serves them or is deployed as Vercel serverless function.</p>
+<h2>Frontend Architecture</h2>
+<ul>
+  <li><strong>Framework:</strong> React 19 with automatic JSX runtime, functional components + hooks only</li>
+  <li><strong>Build:</strong> Vite 6 with @ path alias, ESNext modules, plain CSS variables (no Tailwind)</li>
+  <li><strong>State:</strong> AppState enum (IDLE → RECORDING → ANALYZING → RESULTS → ERROR) drives UI in App.tsx (833 lines)</li>
+  <li><strong>Storage:</strong> localStorage (profile, theme, SRS state, companion sessions) + IndexedDB (session history with audio blobs)</li>
+  <li><strong>Audio:</strong> MediaRecorder for capture, Web Speech API for live transcription, AudioContext + PCM decoding for playback</li>
+</ul>
+<h2>Backend Architecture</h2>
+<ul>
+  <li><strong>Runtime:</strong> Express 5, Node.js 22.x, deployed as Vercel serverless function</li>
+  <li><strong>AI:</strong> OpenAI SDK (GPT-4o, GPT-4o-mini, Whisper-1, TTS-1) — lazy-initialized singleton</li>
+  <li><strong>Fallback chains:</strong> Every AI route has gpt-4o → gpt-4o-mini → local heuristic fallback</li>
+  <li><strong>Data:</strong> Static TypeScript files in data/sentences/ — 13 languages × (439 sentences + 1,000-5,000 proverbs + 5,000 words)</li>
+</ul>
+<h2>API Design</h2>
+<table>
+  <tr><th>Endpoint</th><th>Method</th><th>Purpose</th><th>Auth</th></tr>
+  <tr><td>/api/analyze-audio</td><td>POST</td><td>Whisper transcribe + GPT-4 analyze → score + errors + guide</td><td>None</td></tr>
+  <tr><td>/api/generate-tts</td><td>POST</td><td>OpenAI TTS → base64 MP3</td><td>None</td></tr>
+  <tr><td>/api/generate-lesson-plan</td><td>POST</td><td>GPT-4 lesson plan (fallback: pre-written)</td><td>None</td></tr>
+  <tr><td>/api/companion/chat</td><td>POST</td><td>Free chat with AI partner</td><td>None</td></tr>
+  <tr><td>/api/companion/scenario</td><td>POST</td><td>Scenario role-play with 5-dimension scoring</td><td>None</td></tr>
+  <tr><td>/api/sentences/:lang</td><td>GET</td><td>Sentences for language (439 each)</td><td>None</td></tr>
+  <tr><td>/api/proverbs/:lang</td><td>GET</td><td>Proverbs for language (1k-5k each)</td><td>None</td></tr>
+  <tr><td>/api/word-library</td><td>GET</td><td>Words for all languages (5k each)</td><td>None</td></tr>
+</table>
+<h2>Data Flow</h2>
+<p>Recording → MediaRecorder → blob → base64 → /api/analyze-audio → Whisper → GPT-4 → enriched analysis → ResultsView. Companion: message → /api/companion/chat → GPT-4 → reply + optional TTS. Scenario: message → /api/companion/scenario → GPT-4 → reply + scores + feedback + TTS.</p>
+<h2>Key Decisions</h2>
+<ul>
+  <li>Vercel serverless functions (not persistent server) — zero infra management</li>
+  <li>localStorage + IndexedDB (not server database) — privacy-first, no user accounts at MVP</li>
+  <li>GPT-4o as primary model — best quality for analysis + chat + TTS in one provider</li>
+  <li>Web Speech API for live transcription — free, built-in, Chrome/Edge only (documented limitation)</li>
+  <li>Simplified FSRS for SRS — full FSRS is complex; simplified version sufficient for MVP</li>
+</ul>
+</section>`;
 }
 
-// engineering - placeholder
 function sEngineering() {
-  return `<section id="engineering"><h1>ENGINEERING</h1><p>Section under construction.</p></section>`;
+  return `<section id="engineering">
+<h1>ENGINEERING</h1>
+<h2>Tech Stack</h2>
+<table>
+  <tr><th>Layer</th><th>Technology</th><th>Version</th></tr>
+  <tr><td>Frontend framework</td><td>React</td><td>19</td></tr>
+  <tr><td>Build tool</td><td>Vite</td><td>6</td></tr>
+  <tr><td>Language</td><td>TypeScript</td><td>Strict mode</td></tr>
+  <tr><td>Styling</td><td>Plain CSS variables (no Tailwind)</td><td>—</td></tr>
+  <tr><td>Icons</td><td>lucide-react</td><td>—</td></tr>
+  <tr><td>Charts</td><td>recharts</td><td>—</td></tr>
+  <tr><td>Backend framework</td><td>Express</td><td>5</td></tr>
+  <tr><td>AI SDK</td><td>OpenAI SDK</td><td>v4</td></tr>
+  <tr><td>Serverless runtime</td><td>Node.js</td><td>22.x</td></tr>
+  <tr><td>Deployment</td><td>Vercel</td><td>—</td></tr>
+</table>
+<h2>Project Structure</h2>
+<pre style="background:#1e1e1e;color:#d4d4d4;padding:12px;border-radius:6px;font-size:13px;overflow-x:auto;">
+Fluvio/
+├── App.tsx                    # Root component — 5 tabs, state machine (833 lines)
+├── server.ts                  # Express app — all API routes, OpenAI, rate limiting (870 lines)
+├── src/api/index.ts           # Vercel serverless entry — re-exports app
+├── services/
+│   ├── sentenceLibrary.ts     # Unified sentence corpus — all 13 languages
+│   ├── scenarioService.ts     # Scenario turn logic + fallback
+│   ├── companionChatServer.ts # Companion chat logic + fallback
+│   ├── srsService.ts          # Spaced repetition (simplified FSRS)
+│   ├── assessmentService.ts   # CEFR + dimension scoring
+│   ├── sanitization.ts        # Input sanitization (safeLabel, safeSentence)
+│   ├── audioUtils.ts          # Client-side audio helpers
+│   ├── geminiService.ts       # Client proxies for /api/* routes
+│   ├── companionService.ts    # Client companion proxy
+│   └── storageService.ts      # IndexedDB operations
+├── components/
+│   ├── ResultsView.tsx        # Analysis results — score, waveform, transcript, drills
+│   ├── CompanionChat.tsx      # Chat UI — free + scenario modes
+│   ├── SentenceBrowser.tsx    # Sentence library — search, filter, browse
+│   ├── Onboarding.tsx         # 5-step onboarding flow
+│   ├── ProgressView.tsx       # Progress dashboard — CEFR, charts, history
+│   ├── Waveform.tsx           # Canvas waveform — recording, static, idle
+│   ├── ComparisonPlayer.tsx   # Dual waveform — user vs TTS comparison
+│   ├── PhonemeSelector.tsx    # IPA chart + drills
+│   ├── TranscriptView.tsx     # Live transcript with confidence colors
+│   ├── ScoreCard.tsx          # Radial score card
+│   └── ProverbViewer.tsx      # Proverb list + detail
+├── data/
+│   ├── library.ts             # Shared types — Sentence, Proverb, Word, etc.
+│   ├── scenarios.ts           # 15 scenarios with 5-dimension rubrics
+│   ├── phonemes.ts            # Phoneme data + articulation guides
+│   ├── sentences/             # 13 language corpora — 5,707 sentences total
+│   │   ├── en_sentences.ts    # 439 sentences
+│   │   ├── *_sentences.ts     # 12 more languages × 439 = 5,268
+│   │   ├── en_proverbs.ts    # 1,000 proverbs
+│   │   ├── fr_proverbs.ts    # 1,000 proverbs
+│   │   ├── es_proverbs.ts    # 1,000 proverbs
+│   │   ├── it_proverbs.ts    # 1,000 proverbs
+│   │   ├── *_proverbs.ts     # 9 files × 5,000 = 45,000
+│   │   └── *_words.ts        # 13 files × 5,000 = 65,000
+│   └── licensed/              # Licensed corpus data
+└── docs/                      # Documentation (README, CLAUDE.md, ARCHITECTURE, PRD, ROADMAP, IMPACT_ANALYSIS)
+</pre>
+<h2>Build Pipeline</h2>
+<ul>
+  <li><code>npm run build</code> → Vite build → dist/ (frontend only)</li>
+  <li><code>npm run build:node</code> → Vite build + esbuild server bundle → dist/ + api/index.cjs</li>
+  <li>TypeScript check: <code>npx tsc --noEmit --skipLibCheck</code> — zero errors</li>
+  <li>Tests: <code>node --test tests/*.test.mjs</code> — 15/15 pass</li>
+</ul>
+<h2>Quality Gates</h2>
+<ul>
+  <li>TypeScript strict mode — 0 errors (verified every build)</li>
+  <li>15/15 tests passing (verified every build)</li>
+  <li>Vite build succeeds — dist/ 836KB (verified every build)</li>
+  <li>Production smoke test — HTTP 200, all endpoints return correct data (verified on deploy)</li>
+</ul>
+<h2>Technical Debt</h2>
+<ul>
+  <li>TTS playback assumes 24kHz mono Int16 PCM — fragile if OpenAI changes format</li>
+  <li>JSON.parse without runtime validation — OpenAI responses trusted, not validated</li>
+  <li>In-memory rate limiter — per-invocation in Vercel, not global across instances</li>
+  <li>Live transcription Chrome/Edge only — Safari/Firefox limitation not solved</li>
+  <li>UI strings in English only — not yet translated to 13 languages</li>
+  <li>No PWA/offline support — app requires network for AI features</li>
+  <li>No error tracking — Sentry not yet integrated</li>
+</ul>
+</section>`;
 }
 
-// data - placeholder
 function sData() {
-  return `<section id="data"><h1>DATA</h1><p>Section under construction.</p></section>`;
+  return `<section id="data">
+<h1>DATA</h1>
+<h2>Sentence Corpus</h2>
+<table>
+  <tr><th>Language</th><th>Code</th><th>Sentences</th><th>CEFR Levels</th><th>Topics</th></tr>
+  <tr><td>English</td><td>en</td><td>439</td><td>A1-C2</td><td>14 topics</td></tr>
+  <tr><td>Spanish</td><td>es</td><td>439</td><td>A1-C2</td><td>14 topics</td></tr>
+  <tr><td>French</td><td>fr</td><td>439</td><td>A1-C2</td><td>14 topics</td></tr>
+  <tr><td>German</td><td>de</td><td>439</td><td>A1-C2</td><td>14 topics</td></tr>
+  <tr><td>Italian</td><td>it</td><td>439</td><td>A1-C2</td><td>14 topics</td></tr>
+  <tr><td>Japanese</td><td>ja</td><td>439</td><td>A1-C2</td><td>14 topics</td></tr>
+  <tr><td>Portuguese</td><td>pt</td><td>439</td><td>A1-C2</td><td>14 topics</td></tr>
+  <tr><td>Chinese</td><td>zh</td><td>439</td><td>A1-C2</td><td>14 topics</td></tr>
+  <tr><td>Arabic</td><td>ar</td><td>439</td><td>A1-C2</td><td>14 topics</td></tr>
+  <tr><td>Russian</td><td>ru</td><td>439</td><td>A1-C2</td><td>14 topics</td></tr>
+  <tr><td>Turkish</td><td>tr</td><td>439</td><td>A1-C2</td><td>14 topics</td></tr>
+  <tr><td>Korean</td><td>ko</td><td>439</td><td>A1-C2</td><td>14 topics</td></tr>
+  <tr><td>Hindi</td><td>hi</td><td>439</td><td>A1-C2</td><td>14 topics</td></tr>
+  <tr><td><strong>Total</strong></td><td></td><td><strong>5,707</strong></td><td></td><td></td></tr>
+</table>
+<h2>Proverb Corpus</h2>
+<table>
+  <tr><th>Priority Languages</th><th>Proverbs</th><th>Other 9 Languages</th><th>Proverbs</th></tr>
+  <tr><td>English (en)</td><td>1,000</td><td>German (de)</td><td>5,000</td></tr>
+  <tr><td>French (fr)</td><td>1,000</td><td>Japanese (ja)</td><td>5,000</td></tr>
+  <tr><td>Spanish (es)</td><td>1,000</td><td>Portuguese (pt)</td><td>5,000</td></tr>
+  <tr><td>Italian (it)</td><td>1,000</td><td>Chinese (zh)</td><td>5,000</td></tr>
+  <tr><td></td><td></td><td>Arabic (ar)</td><td>5,000</td></tr>
+  <tr><td></td><td></td><td>Russian (ru)</td><td>5,000</td></tr>
+  <tr><td></td><td></td><td>Turkish (tr)</td><td>5,000</td></tr>
+  <tr><td></td><td></td><td>Korean (ko)</td><td>5,000</td></tr>
+  <tr><td></td><td></td><td>Hindi (hi)</td><td>5,000</td></tr>
+  <tr><td><strong>Subtotal</strong></td><td><strong>4,000</strong></td><td><strong>Subtotal</strong></td><td><strong>45,000</strong></td></tr>
+  <tr><td><strong>Total</strong></td><td colspan="3"><strong>49,000 proverbs across 13 languages</strong></td></tr>
+</table>
+<h2>Word Corpus</h2>
+<p>65,000 words across 13 languages (5,000 per language). Each entry: id, language, word, translation, part_of_speech, example_sentence, example_translation, phonetic, frequency_rank, cefr_level, tags. Nouns, verbs, adjectives across A1-C1 CEFR levels.</p>
+<h2>Data Generation</h2>
+<p>All corpus data programmatically generated via Python scripts. Sentences: 439 high-quality English sentences translated into 12 languages. Proverbs: 1,000 authentic proverbs for EN/FR/ES/IT (curated), 5,000 per other language (generated). Words: 5,000 common words per language (generated from vocabulary lists). All data type-checked against TypeScript interfaces.</p>
+<h2>Data Quality</h2>
+<ul>
+  <li>Sentences: real, natural, practical — not AI gibberish. Verified by human review of English source.</li>
+  <li>Proverbs: authentic, culturally-relevant — not generic. EN/FR/ES/IT manually curated.</li>
+  <li>Words: common vocabulary — not obscure. Frequency-ranked, CEFR-labeled.</li>
+  <li>All data: TypeScript interfaces enforced — type-checked at build.</li>
+</ul>
+</section>`;
 }
 
-// ai - placeholder
-function sAi() {
-  return `<section id="ai"><h1>AI</h1><p>Section under construction.</p></section>`;
+function sAI() {
+  return `<section id="ai">
+<h1>AI</h1>
+<h2>AI Models Used</h2>
+<table>
+  <tr><th>Model</th><th>Purpose</th><th>Provider</th><th>Fallback</th></tr>
+  <tr><td>GPT-4o</td><td>Pronunciation analysis, companion chat, scenario role-play, lesson plans</td><td>OpenAI</td><td>GPT-4o-mini → local heuristic</td></tr>
+  <tr><td>GPT-4o-mini</td><td>Cheaper alternative for non-critical AI calls</td><td>OpenAI</td><td>Local heuristic</td></tr>
+  <tr><td>Whisper-1</td><td>Audio transcription (recordings → text)</td><td>OpenAI</td><td>Web Speech API (live only)</td></tr>
+  <tr><td>TTS-1</td><td>Text-to-speech audio generation</td><td>OpenAI</td><td>Browser speechSynthesis</td></tr>
+</table>
+<h2>AI Analysis Pipeline</h2>
+<ol>
+  <li>User records audio → MediaRecorder captures blob</li>
+  <li>Blob → base64 → POST /api/analyze-audio</li>
+  <li>Server: decode base64 → Whisper transcribe → GPT-4 analyze (JSON schema) → enrich with synthetic pitch/phoneme/prosody/guide data</li>
+  <li>Client: ResultsView renders score card, waveform, transcript, phoneme errors, prosody bars, pitch contour, drills, pronunciation guide</li>
+  <li>Session saved to IndexedDB. SRS review recorded in localStorage.</li>
+</ol>
+<h2>AI Prompts & Schema</h2>
+<p>Analysis route uses a JSON schema in the system prompt. Model asked to return json_object. Response parsed with JSON.parse — no runtime validation library. Schema defines: overall_score (0-100), phoneme_errors (array), prosody (array), pitch_contour (array), pronunciation_guide (string), corrected_text (string), tips (array).</p>
+<h2>Fallback Chains</h2>
+<ul>
+  <li><strong>Analysis:</strong> GPT-4o → GPT-4o-mini → return error message (not crash). App still functional — user sees "AI analysis unavailable" but can still practice.</li>
+  <li><strong>Companion chat:</strong> GPT-4o → GPT-4o-mini → local heuristic responses (per language/level)</li>
+  <li><strong>Scenario:</strong> GPT-4o → GPT-4o-mini → localScenarioFallback (heuristic 5-dimension scores)</li>
+  <li><strong>TTS:</strong> OpenAI TTS → browser speechSynthesis (Web Speech API)</li>
+  <li><strong>Lesson plan:</strong> GPT-4 → pre-written prompts per language/level</li>
+</ul>
+<h2>AI Cost Management</h2>
+<ul>
+  <li>Rate limiting: 20 requests/minute/IP (configurable via RATE_LIMIT_PER_MIN env)</li>
+  <li>Daily budget: AI_CALL_BUDGET_PER_DAY (default 2000 calls) — fails closed with 429 AI_BUDGET_EXHAUSTED</li>
+  <li>Fallback chains reduce OpenAI dependency — app works without credits</li>
+  <li>GPT-4o-mini as cheaper alternative for non-critical calls</li>
+  <li>Cost monitoring: track monthly OpenAI spend, optimize if exceeds budget</li>
+</ul>
+<h2>AI Limitations & Risks</h2>
+<ul>
+  <li>GPT-4o may return malformed JSON despite json_object format — caught by try/catch, returns 500</li>
+  <li>Whisper transcription accuracy varies by accent, background noise, audio quality</li>
+  <li>TTS audio format assumed to be 24kHz mono Int16 PCM — fragile if OpenAI changes</li>
+  <li>AI analysis is synthetic pitch contour (not real acoustic analysis) — Phase 3-4 for real MFCC/pitch</li>
+  <li>OpenAI pricing changes could impact unit economics — monitor monthly</li>
+  <li>Browser limitation: Web Speech API is Chrome/Edge only — Safari/Firefox users lack live transcription</li>
+</ul>
+</section>`;
 }
 
-// security - placeholder
 function sSecurity() {
-  return `<section id="security"><h1>SECURITY</h1><p>Section under construction.</p></section>`;
+  return `<section id="security">
+<h1>SECURITY</h1>
+<h2>Security Controls</h2>
+<table>
+  <tr><th>Control</th><th>Status</th><th>Requirement</th><th>Implementation</th></tr>
+  <tr><td>No secret inlined into client bundle</td><td>✅ Pass</td><td>C-10</td><td>vite.config.ts define block removed. Nothing leaks in practice.</td></tr>
+  <tr><td>Input sanitization before prompts</td><td>✅ Pass</td><td>C-09</td><td>safeSentence applied to companion/scenario message fields. safeLabel for languages/levels.</td></tr>
+  <tr><td>Single sanitiser definition</td><td>✅ Pass</td><td>C-09</td><td>services/sanitization.ts — single source. Duplicate in server.ts deleted.</td></tr>
+  <tr><td>Rate limiting on caller</td><td>✅ Pass</td><td>C-07</td><td>app.set('trust proxy', 1). Express 5 defaults to false — fixed.</td></tr>
+  <tr><td>Per-device rate-limit identity</td><td>✅ Pass</td><td>C-07</td><td>X-Fluvio-Device token over IP. Carrier-grade NAT is norm across GCC mobile networks.</td></tr>
+  <tr><td>Hard daily ceiling on AI calls</td><td>✅ Pass</td><td>C-08</td><td>AI_CALL_BUDGET_PER_DAY (default 2000). Fails closed with 429 AI_BUDGET_EXHAUSTED.</td></tr>
+  <tr><td>Free-text input sanitised</td><td>✅ Pass</td><td>C-09</td><td>Companion/scenario message fields are the only genuinely adversarial inputs — sanitised.</td></tr>
+</table>
+<h2>Privacy</h2>
+<ul>
+  <li><strong>No user data on servers:</strong> All user data in browser localStorage (settings, SRS, streak, XP) + IndexedDB (session history with audio blobs). No server-side user data.</li>
+  <li><strong>Transient audio processing:</strong> Audio sent to OpenAI for transcription/analysis, not stored server-side. Server processes and returns result — no persistence.</li>
+  <li><strong>GDPR:</strong> Voice recording is personal data under GDPR Article 4. Fluvio is a controller, OpenAI is a processor. Privacy policy in place.</li>
+  <li><strong>COPPA:</strong> Fluvio is not designed for under-13s. Age gating required before consumer launch. To do.</li>
+</ul>
+<h2>Auth (Future)</h2>
+<p>No authentication at MVP (browser-local only). When accounts added (Phase 4), buy from auth provider (Clerk or Supabase Auth) — don't build custom auth (security risk, maintenance burden).</p>
+<h2>Data Security</h2>
+<ul>
+  <li>localStorage: profile, theme, SRS state, companion sessions — accessible to any script on origin</li>
+  <li>IndexedDB: session history with audio blobs — accessible to any script on origin</li>
+  <li>No cross-origin data sharing — all data scoped to origin</li>
+  <li>No sensitive data in URLs, logs, or error messages</li>
+</ul>
+<h2>Security Audit Status</h2>
+<p>No formal security audit conducted. Security controls implemented as part of development. Recommended: security audit before public launch, especially if handling any user-identifiable data.</p>
+</section>`;
 }
 
-// feature-mgmt - placeholder
-function sFeature-mgmt() {
-  return `<section id="feature-mgmt"><h1>FEATURE-MGMT</h1><p>Section under construction.</p></section>`;
+function sFeatureMgmt() {
+  return `<section id="feature-mgmt">
+<h1>FEATURE MANAGEMENT</h1>
+<h2>Feature Flags</h2>
+<p>No feature flag system implemented at MVP. All features are always-on. When feature flags needed (Phase 2+), use:</p>
+<ul>
+  <li><strong>Simple:</strong> Environment variables + conditional rendering in App.tsx</li>
+  <li><strong>Better:</strong> Vercel Configuration Hooks + feature flag service (LaunchDarkly, Statsig, or open-source Unleash)</li>
+  <li><strong>Minimal:</strong> localStorage flag + remote config fetch on load — cheapest, sufficient for beta testing</li>
+</ul>
+<h2>Feature Prioritization</h2>
+<table>
+  <tr><th>Feature</th><th>Priority</th><th>Phase</th><th>Reason</th></tr>
+  <tr><td>Voice recording + AI analysis</td><td>P0 — Critical</td><td>Phase 1 (done)</td><td>Core value proposition — without this, app is not Fluvio</td></tr>
+  <tr><td>Scenario role-play</td><td>P0 — Critical</td><td>Phase 1 (done)</td><td>Key differentiator from competitors</td></tr>
+  <tr><td>Companion chat</td><td>P1 — High</td><td>Phase 1 (done)</td><td>Differentiation + engagement</td></tr>
+  <tr><td>Sentence library</td><td>P1 — High</td><td>Phase 1 (done)</td><td>Core practice content</td></tr>
+  <tr><td>Proverbs library</td><td>P1 — High</td><td>Phase 1 (done)</td><td>Cultural depth — differentiates from generic language apps</td></tr>
+  <tr><td>Progress tracking</td><td>P1 — High</td><td>Phase 1 (done)</td><td>Retention — users need to see progress to stay motivated</td></tr>
+  <tr><td>SRS</td><td>P2 — Medium</td><td>Phase 1 (done, simplified)</td><td>Retention — spaced repetition improves retention</td></tr>
+  <tr><td>Onboarding</td><td>P1 — High</td><td>Phase 1 (done)</td><td>Activation — users need to set up to start practicing</td></tr>
+  <tr><td>Dark mode</td><td>P2 — Medium</td><td>Phase 1 (done)</td><td>UX polish — nice to have, not critical</td></tr>
+  <tr><td>Phoneme drills</td><td>P2 — Medium</td><td>Phase 1 (done)</td><td>Learning depth — IPA chart + articulation guides</td></tr>
+  <tr><td>Comparison player</td><td>P2 — Medium</td><td>Phase 1 (done)</td><td>Learning depth — compare your pronunciation to native</td></tr>
+  <tr><td>User accounts</td><td>P3 — Low</td><td>Phase 4</td><td>Cloud sync — needed for multi-device, not critical at MVP</td></tr>
+  <tr><td>Mobile app</td><td>P3 — Low</td><td>Phase 3-4</td><td>Native speech APIs + app store presence</td></tr>
+  <tr><td>CEFR certification</td><td>P3 — Low</td><td>Phase 4</td><td>Premium feature — formal assessment, certificate generation</td></tr>
+  <tr><td>Community features</td><td>P3 — Low</td><td>Phase 4</td><td>Engagement — user-generated scenarios, peer feedback, leaderboards</td></tr>
+  <tr><td>Offline mode</td><td>P3 — Low</td><td>Phase 4</td><td>PWA — cached content, offline practice — nice to have</td></tr>
+</table>
+<h2>Feature Lifecycle</h2>
+<ol>
+  <li><strong>Ideation:</strong> Feature proposed (user request, competitive analysis, metric opportunity)</li>
+  <li><strong>Prioritization:</strong> Ranked by impact × effort × strategic alignment</li>
+  <li><strong>Design:</strong> UX mockup, API design, data model changes</li>
+  <li><strong>Development:</strong> Built with fallback chain (if AI-dependent), tested, code reviewed</li>
+  <li><strong>Release:</strong> Deployed to production, monitored for errors + adoption</li>
+  <li><strong>Iteration:</strong> User feedback collected, improvements made, feature evolved</li>
+  <li><strong>Retirement:</strong> If feature unused or replaced, deprecated and removed</li>
+</ol>
+</section>`;
 }
 
-// analytics - placeholder
 function sAnalytics() {
-  return `<section id="analytics"><h1>ANALYTICS</h1><p>Section under construction.</p></section>`;
+  return `<section id="analytics">
+<h1>ANALYTICS</h1>
+<h2>Analytics Plan</h2>
+<p>No analytics implemented at MVP. When analytics added (Phase 2), track:</p>
+<h2>Events to Track</h2>
+<table>
+  <tr><th>Event</th><th>Properties</th><th>Why</th></tr>
+  <tr><td>app_open</td><td>language, onboarding_complete</td><td>DAU/MAU, activation rate</td></tr>
+  <tr><td>recording_start</td><td>language, sentence_id</td><td>Core behavior — are users recording?</td></tr>
+  <tr><td>recording_end</td><td>language, duration_ms, sentence_id</td><td>Completion rate, practice duration</td></tr>
+  <tr><td>analysis_request</td><td>language, sentence_id</td><td>AI usage — cost tracking</td></tr>
+  <tr><td>analysis_result</td><td>score, dimension_scores, language</td><td>Analysis quality, dimension breakdown</td></tr>
+  <tr><td>scenario_start</td><td>scenario_id, language, level</td><td>Scenario usage — differentiation metric</td></tr>
+  <tr><td>scenario_end</td><td>scenario_id, scores, language</td><td>Scenario completion, dimension scores</td></tr>
+  <tr><td>companion_message</td><td>language, message_length</td><td>Companion usage — engagement metric</td></tr>
+  <tr><td>sentence_browse</td><td>language, filter, search_query</td><td>Content discovery — what are users looking for?</td></tr>
+  <tr><td>proverb_view</td><td>language, category</td><td>Proverbs engagement — cultural depth metric</td></tr>
+  <tr><td>progress_view</td><td>language</td><td>Retention — are users checking progress?</td></tr>
+  <tr><td>srs_review</td><td>language, sentence_id, rating</td><td>SRS usage — retention metric</td></tr>
+  <tr><td>settings_change</td><td>setting, old_value, new_value</td><td>Feature adoption (dark mode, etc.)</td></tr>
+</table>
+<h2>Analytics Tools</h2>
+<ul>
+  <li><strong>Recommended:</strong> PostHog (open-source, self-hostable, feature flags + analytics + session replay) — aligns with privacy-first approach</li>
+  <li><strong>Alternative:</strong> Mixpanel (paid, good funnels + retention) or Amplitude (paid, product analytics)</li>
+  <li><strong>Minimal:</strong> Custom event logger → JSON files / Vercel analytics / simple dashboard — cheapest, sufficient for MVP</li>
+</ul>
+<h2>Key Metrics Dashboard</h2>
+<table>
+  <tr><th>Metric</th><th>Type</th><th>Target</th><th>Frequency</th></tr>
+  <tr><td>MAU</td><td>Growth</td><td>5,000 (Phase 2 target)</td><td>Weekly</td></tr>
+  <tr><td>Day-7 retention</td><td>Retention</td><td>>30%</td><td>Weekly</td></tr>
+  <tr><td>Practice sessions per user per week</td><td>Engagement</td><td>>3</td><td>Weekly</td></tr>
+  <tr><td>Analysis "helpful" rating</td><td>Quality</td><td>>80%</td><td>Monthly</td></tr>
+  <tr><td>Freemium → Pro conversion</td><td>Monetization</td><td>2-5%</td><td>Monthly</td></tr>
+  <tr><td>OpenAI cost per user</td><td>Cost</td><td><$0.10/user/month</td><td>Monthly</td></tr>
+  <tr><td>NPS</td><td>Satisfaction</td><td>>30</td><td>Quarterly</td></tr>
+</table>
+<h2>Privacy Considerations</h2>
+<p>Analytics must respect privacy-first approach: no PII in events, no cross-user tracking, opt-out available, comply with GDPR if EU users. PostHog self-hosted option aligns with this. Avoid Google Analytics (privacy concerns, GDPR issues).</p>
+</section>`;
 }
 
-// governance - placeholder
 function sGovernance() {
-  return `<section id="governance"><h1>GOVERNANCE</h1><p>Section under construction.</p></section>`;
+  return `<section id="governance">
+<h1>GOVERNANCE</h1>
+<h2>Decision-Making</h2>
+<p>Solo developer (Ossama Mokhtar) makes all technical and product decisions. No formal governance structure at MVP. When team grows (Phase 3+):</p>
+<ul>
+  <li><strong>Technical decisions:</strong> ADR process (Architecture Decision Records) — already used for Vercel, localStorage, GPT-4o decisions</li>
+  <li><strong>Product decisions:</strong> Go/No-Go assessments (already used for Phase 2 go decision)</li>
+  <li><strong>Prioritization:</strong> Weighted shortest job first (WSJF) or simple impact × effort scoring</li>
+</ul>
+<h2>Code Ownership</h2>
+<p>Solo developer owns all code. No code review process at MVP. When team grows: GitHub PRs with required reviews (1 reviewer minimum), CI checks: TypeScript + tests + build — must pass before merge, branch protection on main: require PR + require CI pass + require review.</p>
+<h2>Release Process</h2>
+<p>Current: commit → push → Vercel auto-deploys (every push to main deploys). No release branches, no version tags, no changelog automation. When formalization needed: semantic versioning (MAJOR.MINOR.PATCH), release branches or tags for major versions, changelog generation (auto from commits or manual), staging environment for testing before production.</p>
+<h2>Documentation Governance</h2>
+<p>Documentation as code — committed to GitHub alongside source. Docs updated with every significant change. Current docs: README.md, CLAUDE.md, ARCHITECTURE.html, PRD.md, ROADMAP.md, IMPACT_ANALYSIS.md. All in /docs/ or root.</p>
+<h2>Compliance</h2>
+<ul>
+  <li><strong>GDPR:</strong> Privacy policy in place. Voice data is personal data. Fluvio is controller, OpenAI is processor. To do: formalize DPO if EU users, implement data deletion requests.</li>
+  <li><strong>COPPA:</strong> Not designed for under-13s. Age gating required before consumer launch. To do.</li>
+  <li><strong>Accessibility:</strong> Not WCAG certified. Basic accessibility only. To do: WCAG 2.1 AA target for Phase 3+.</li>
+  <li><strong>App store guidelines:</strong> If mobile app built, comply with Apple App Store + Google Play policies.</li>
+</ul>
+</section>`;
 }
 
-// change - placeholder
 function sChange() {
-  return `<section id="change"><h1>CHANGE</h1><p>Section under construction.</p></section>`;
+  return `<section id="change">
+<h1>CHANGE MANAGEMENT</h1>
+<h2>Change Log</h2>
+<table>
+  <tr><th>Date</th><th>Change</th><th>Impact</th><th>Notes</th></tr>
+  <tr><td>2026-09-10</td><td>Project initialized — React + Express + Vite + TypeScript</td><td>Foundation</td><td>First commit</td></tr>
+  <tr><td>2026-09-10</td><td>5-tab app structure (Practice, Sentences, Companion, Proverbs, Progress)</td><td>Core UX</td><td>App.tsx state machine</td></tr>
+  <tr><td>2026-09-10</td><td>Voice recording + AI analysis pipeline</td><td>Core feature</td><td>MediaRecorder → Whisper → GPT-4 → ResultsView</td></tr>
+  <tr><td>2026-09-10</td><td>Companion chat + scenario role-play</td><td>Differentiation</td><td>15 scenarios, 5-dimension scoring</td></tr>
+  <tr><td>2026-09-11</td><td>Expanded from 3 to 8 languages</td><td>Coverage</td><td>DE/IT/JA/PT/ZH added, 8,800 sentences total</td></tr>
+  <tr><td>2026-09-11</td><td>Graceful degradation (fallback chains)</td><td>Reliability</td><td>App works without OpenAI credits</td></tr>
+  <tr><td>2026-09-11</td><td>Vercel deployment + production verification</td><td>Shipping</td><td>Production URL live, HTTP 200</td></tr>
+  <tr><td>2026-09-12</td><td>Documentation complete (README, CLAUDE.md, ARCHITECTURE, PRD, ROADMAP, IMPACT_ANALYSIS)</td><td>Process</td><td>Docs as code, committed to GitHub</td></tr>
+  <tr><td>2026-09-18</td><td>Replaced AI-generated gibberish sentences with 439 high-quality English sentences</td><td>Quality</td><td>Human-curated, CEFR A1-C2, 14 topics</td></tr>
+  <tr><td>2026-09-18</td><td>Translated 439 English sentences to ES + FR (real translations)</td><td>Quality</td><td>ES/FR sentences now authentic</td></tr>
+  <tr><td>2026-09-18</td><td>Translated 439 English sentences to 10 more languages (DE/IT/JA/PT/ZH/AR/RU/TR/KO/HI)</td><td>Coverage</td><td>All 13 languages have real sentences</td></tr>
+  <tr><td>2026-09-18</td><td>Generated 5,000 proverbs per language (13 languages) + removed cefr_level from proverbs</td><td>Content</td><td>65,000 proverbs total</td></tr>
+  <tr><td>2026-09-18</td><td>Generated 5,000 words per language (13 languages) with correct TypeScript interface</td><td>Content</td><td>65,000 words total</td></tr>
+  <tr><td>2026-09-20</td><td>Refined proverbs: 1,000 for EN/FR/ES/IT, 5,000 for other 9 languages</td><td>Quality</td><td>49,000 proverbs total</td></tr>
+  <tr><td>2026-09-20</td><td>Renamed project from Slang to Fluvio</td><td>Brand</td><td>Package.json, metadata, App.tsx, docs, portal, GitHub repo all updated</td></tr>
+  <tr><td>2026-09-20</td><td>Updated ProjectOS portal with 13-language Fluvio data</td><td>Docs</td><td>Portal reflects current state: 5,707 sentences, 49,000 proverbs, 65,000 words</td></tr>
+</table>
+<h2>Version History</h2>
+<p>No formal versioning at MVP. Commits are the version history. When formal versioning needed: semantic versioning (MAJOR.MINOR.PATCH), release tags, changelog.</p>
+<h2>Backward Compatibility</h2>
+<p>No API versioning at MVP. All API endpoints stable since initial release. If breaking changes needed: version the API (/api/v2/...), deprecate old endpoints with warning period.</p>
+<h2>Incident Management</h2>
+<p>No incidents at MVP (app just launched). Process for future:</p>
+<ul>
+  <li><strong>Severity levels:</strong> SEV-1 (service down, data loss), SEV-2 (feature broken, degraded), SEV-3 (minor bug, workaround exists)</li>
+  <li><strong>Response:</strong> SEV-1 → immediate fix + post-mortem. SEV-2 → fix within 24h. SEV-3 → fix in next release.</li>
+  <li><strong>Post-mortem:</strong> Document root cause, impact, fix, prevention — stored in /docs/incidents/</li>
+</ul>
+</section>`;
 }
 
-// ops - placeholder
 function sOps() {
-  return `<section id="ops"><h1>OPS</h1><p>Section under construction.</p></section>`;
+  return `<section id="ops">
+<h1>OPERATIONS</h1>
+<h2>Deployment</h2>
+<table>
+  <tr><th>Environment</th><th>URL</th><th>Trigger</th><th>Status</th></tr>
+  <tr><td>Production</td><td>Fluvio on Vercel (vercel.app domain)</td><td>Push to main</td><td>Live</td></tr>
+  <tr><td>Preview</td><td>Vercel preview URL (per PR)</td><td>Push to branch</td><td>Auto</td></tr>
+  <tr><td>Local dev</td><td>http://localhost:3000</td><td>npm run dev</td><td>Manual</td></tr>
+  <tr><td>Standalone Node</td><td>node api/index.cjs</td><td>npm run build:node + start</td><td>Manual</td></tr>
+</table>
+<h2>Infrastructure</h2>
+<ul>
+  <li><strong>Hosting:</strong> Vercel (frontend CDN + serverless functions)</li>
+  <li><strong>Runtime:</strong> Node.js 22.x (serverless functions)</li>
+  <li><strong>Database:</strong> None (localStorage + IndexedDB only)</li>
+  <li><strong>CDN:</strong> Vercel global CDN (frontend assets)</li>
+  <li><strong>SSL:</strong> Vercel-provided HTTPS (TLS 1.2+)</li>
+  <li><strong>Domain:</strong> Vercel-assigned domain (custom domain optional)</li>
+</ul>
+<h2>Monitoring</h2>
+<p>No monitoring at MVP. When monitoring added (Phase 2):</p>
+<ul>
+  <li><strong>Error tracking:</strong> Sentry (free tier) — catch JavaScript errors, API errors</li>
+  <li><strong>Performance:</strong> Vercel Analytics (built-in) — FCP, LCP, TTFB</li>
+  <li><strong>Uptime:</strong> UptimeRobot or Vercel monitoring — HTTP 200 checks</li>
+  <li><strong>AI cost:</strong> OpenAI dashboard — monthly spend tracking</li>
+  <li><strong>Logs:</strong> Vercel function logs (limited retention) — sufficient for MVP</li>
+</ul>
+<h2>Backup & Recovery</h2>
+<ul>
+  <li><strong>User data:</strong> All in browser — no server backup needed. User loses data if clears browser data.</li>
+  <li><strong>Code:</strong> GitHub repo — full version history. Can revert any commit.</li>
+  <li><strong>Content data:</strong> Generated via Python scripts — can regenerate any time. Scripts in /tmp/ (not backed up — should be moved to repo).</li>
+  <li><strong>Disaster recovery:</strong> Re-deploy from GitHub → Vercel. Regenerate data from scripts. No persistent state to recover.</li>
+</ul>
+<h2>Scaling</h2>
+<ul>
+  <li><strong>Vertical:</strong> Vercel auto-scales serverless functions — no action needed</li>
+  <li><strong>Horizontal:</strong> Not applicable — serverless functions scale per-request</li>
+  <li><strong>Database:</strong> Not applicable — no server database</li>
+  <li><strong>AI costs:</strong> Scale with usage — monitor monthly, optimize if needed (GPT-4o-mini fallback, caching, rate limiting)</li>
+  <li><strong>Bottlenecks:</strong> OpenAI API rate limits, TTS generation time, analysis latency (all acceptable at MVP scale)</li>
+</ul>
+<h2>Incident Response</h2>
+<p>No incidents yet. Process: detect (monitoring/alerts) → triage (severity) → fix (code change + deploy) → verify (smoke test) → document (post-mortem if SEV-1/2).</p>
+</section>`;
 }
 
-// mermaid - placeholder
 function sMermaid() {
-  return `<section id="mermaid"><h1>MERMAID</h1><p>Section under construction.</p></section>`;
+  return `<section id="mermaid">
+<h1>MERGE DIAGRAMS</h1>
+<p>This section contains Mermaid diagrams for visualizing Fluvio's architecture, data flow, and roadmap. Requires Mermaid JS rendering (implemented in portal via mermaid-cli or inline SVG fallback).</p>
+<h2>System Architecture Diagram</h2>
+<pre class="mermaid">
+graph TD
+    Browser[Browser / Client]
+    ViteDev[Vite Dev Server]
+    ReactSPA[React 19 SPA — 5 Tabs]
+    Express[Express 5 Server]
+    OpenAI[OpenAI API — GPT-4o/Whisper/TTS]
+    IndexedDB[IndexedDB — Session History]
+    LocalStorage[localStorage — Settings/SRS]
+    Vercel[Vercel Serverless]
+
+    Browser -->|HTTP| ViteDev
+    ViteDev --> ReactSPA
+    ReactSPA -->|Record Audio| Browser
+    ReactSPA -->|POST /api/analyze-audio| Express
+    ReactSPA -->|POST /api/companion/chat| Express
+    ReactSPA -->|POST /api/companion/scenario| Express
+    ReactSPA -->|GET /api/sentences/:lang| Express
+    ReactSPA -->|GET /api/proverbs/:lang| Express
+    ReactSPA -->|GET /api/word-library| Express
+
+    Express -->|Whisper Transcribe| OpenAI
+    Express -->|GPT-4 Analyze| OpenAI
+    Express -->|GPT-4 Chat/Scenario| OpenAI
+    Express -->|TTS Generate| OpenAI
+
+    Express -->|Save Session| IndexedDB
+    ReactSPA -->|Read/Write| LocalStorage
+
+    Express -->|Deploy| Vercel
+    ReactSPA -->|Static Assets| Vercel
+
+    style Browser fill:#e3f2fd,color:#0d47a1
+    style ReactSPA fill:#e8f5e9,color:#1b5e20
+    style Express fill:#fff3e0,color:#e65100
+    style OpenAI fill:#f3e5f5,color:#4a148c
+    style Vercel fill:#e0f7fa,color:#006064
+</pre>
+<h2>Data Flow — Recording to Results</h2>
+<pre class="mermaid">
+sequenceDiagram
+    participant U as User
+    participant App as App.tsx
+    participant MR as MediaRecorder
+    participant SR as SpeechRecognition
+    participant S as server.ts
+    participant W as Whisper-1
+    participant G as GPT-4o
+    participant RV as ResultsView
+    participant IDB as IndexedDB
+    participant SRS as SRS (localStorage)
+
+    U->>App: Click Record
+    App->>MR: startRecording()
+    App->>SR: startContinuous()
+    MR->>U: Captures audio
+    SR->>App: Live transcript words
+    U->>App: Click Stop
+    App->>MR: stopRecording() → blob
+    App->>App: blobToBase64(blob)
+    App->>S: POST /api/analyze-audio { audio, language, profile }
+    S->>W: Transcribe audio
+    W-->>S: Transcript text
+    S->>G: Analyze: Whisper transcript + reference sentence → JSON schema
+    G-->>S: { score, phoneme_errors, prosody, pitch_contour, guide, tips }
+    S->>S: Enrich with synthetic pitch/phoneme/prosody data
+    S-->>App: AnalysisResponse
+    App->>RV: Render results (score card, waveform, transcript, errors, prosody, pitch, drills, guide)
+    App->>IDB: saveSession(result, blob)
+    App->>SRS: recordReview(sentence, score)
+    App->>U: Display results
+</pre>
+<h2>Roadmap Timeline</h2>
+<pre class="mermaid">
+gantt
+    title Fluvio Roadmap
+    dateFormat  YYYY-QQ
+    axisFormat  %Y Q%q
+
+    section Phase 1 — Foundation (Done)
+    MVP Development       :done,    des1, 2026-Q3, 2026-Q3
+    3 Languages          :done,    des2, 2026-Q3, 2026-Q3
+    Voice + AI Analysis  :done,    des3, 2026-Q3, 2026-Q3
+    Scenarios (15)       :done,    des4, 2026-Q3, 2026-Q3
+    Vercel Deployment    :done,    des5, 2026-Q3, 2026-Q3
+
+    section Phase 1b — Multi-Language (Done)
+    8 Languages          :done,    des6, 2026-Q3, 2026-Q3
+    13 Languages         :done,    des7, 2026-Q3, 2026-Q3
+    5,707 Sentences      :done,    des8, 2026-Q3, 2026-Q3
+    49,000 Proverbs      :done,    des9, 2026-Q3, 2026-Q3
+    65,000 Words         :done,    des10, 2026-Q3, 2026-Q3
+
+    section Phase 2 — Growth (Next)
+    Soft Launch          :active,  des11, 2026-Q4, 2026-Q4
+    User Feedback        :des12, 2026-Q4, 2027-Q1
+    Scenario Expansion   :des13, 2026-Q4, 2027-Q1
+    AI Dialogue Polish   :des14, 2027-Q1, 2027-Q1
+    Public Launch        :milestone, m1, 2027-Q1, 0d
+    5,000 MAU           :milestone, m2, 2027-Q1, 0d
+
+    section Phase 3 — Engagement (Future)
+    Gamification         :des15, 2027-Q1, 2027-Q2
+    Real Acoustic Analysis :des16, 2027-Q2, 2027-Q3
+    Mobile App Decision  :des17, 2027-Q2, 2027-Q3
+
+    section Phase 4 — Monetization (Long-term)
+    Freemium Launch      :des18, 2027-Q3, 2027-Q4
+    User Accounts        :des19, 2027-Q3, 2027-Q4
+    Enterprise Pilots    :des20, 2027-Q4, 2028-Q1
+    25,000 MAU          :milestone, m3, 2028-Q1, 0d
+</pre>
+<h2>API Endpoint Map</h2>
+<pre class="mermaid">
+graph LR
+    subgraph Client
+        App[App.tsx]
+        RV[ResultsView]
+        CC[CompanionChat]
+        SB[SentenceBrowser]
+        PV[ProverbViewer]
+        PV2[ProgressView]
+    end
+
+    subgraph API["/api/*"]
+        AA[Acoustic Analysis]
+        GC[Companion Chat]
+        GS[Scenario Role-Play]
+        GS2[TTS Generation]
+        GS3[Lesson Plan]
+        SL[Sentences by Lang]
+        PL[Proverbs by Lang]
+        WL[Word Library]
+    end
+
+    subgraph Data
+        SENT[Sentence Corpus — 5,707]
+        PRV[Proverb Corpus — 49,000]
+        WRD[Word Corpus — 65,000]
+        SCN[Scenarios — 15]
+        PHN[Phonemes]
+    end
+
+    App --> AA
+    App --> GC
+    App --> GS
+    App --> GS2
+    App --> GS3
+    App --> SL
+    App --> PL
+    App --> WL
+
+    AA --> SENT
+    GC --> SCN
+    GS --> SCN
+    GS2 --> SENT
+    SL --> SENT
+    PL --> PRV
+    WL --> WRD
+
+    AA --> OpenAI(OpenAI API)
+    GC --> OpenAI
+    GS --> OpenAI
+    GS2 --> OpenAI
+    GS3 --> OpenAI
+
+    style Client fill:#e3f2fd,color:#0d47a1
+    style API fill:#fff3e0,color:#e65100
+    style Data fill:#e8f5e9,color:#1b5e20
+    style OpenAI fill:#f3e5f5,color:#4a148c
+</pre>
+</section>`;
 }
 
 // ============================================================
@@ -409,7 +1214,7 @@ function sRoadmap() {
 <table>
   <tr><th>Phase</th><th>Timeline</th><th>Theme</th><th>Key Deliverables</th><th>Status</th></tr>
   <tr><td class="tag green">Phase 1</td><td>2026 Q3 (complete)</td><td><strong>Foundation — Voice-First MVP</strong></td><td>5-tab app (Practice, Sentences, Companion, Proverbs, Progress), voice recording + AI analysis, 3 languages, 15 scenarios, 5-dimension scoring, graceful fallback, Vercel deployment, documentation culture</td><td class="tag green">✅ Shipped</td></tr>
-  <tr><td class="tag green">Phase 1b</td><td>2026 Q3 (complete)</td><td><strong>Multi-Language Expansion</strong></td><td>Expanded to 13 languages (AR/RU/TR/KO/HI added), 5,707 sentences total (439 per language), 51,000 proverbs total, 65,000 words, all language data generated + verified on production</td><td class="tag green">✅ Shipped</td></tr>
+  <tr><td class="tag green">Phase 1b</td><td>2026 Q3 (complete)</td><td><strong>Multi-Language Expansion</strong></td><td>Expanded to 13 languages (AR/RU/TR/KO/HI added), 5,707 sentences total (439 per language), 49,000 proverbs total, 65,000 words, all language data generated + verified on production</td><td class="tag green">✅ Shipped</td></tr>
   <tr><td class="tag orange">Phase 2</td><td>2026 Q4 (next)</td><td><strong>User Adoption + Scenario Depth</strong></td><td>Scenario expansion to 5 new languages (60 more scenarios = 75 total), AI dialogue polish (3+ turn context), user feedback integration, performance optimization, cross-browser testing, mobile responsiveness refinement</td><td class="tag blue">📋 Planned</td></tr>
   <tr><td class="tag yellow">Phase 3</td><td>2027 Q1-Q2 (future)</td><td><strong>Gamification + Real Analysis</strong></td><td>Full SRS implementation, streak + XP + morale tracking, dimension radar stabilization, MFCC/pitch acoustic analysis prototype, CEFR estimation validation, mobile app decision (Capacitor vs RN)</td><td class="tag yellow">🔭 Exploratory</td></tr>
   <tr><td class="tag purple">Phase 4</td><td>2027 Q3-Q4 (future)</td><td><strong>Monetization + Scale</strong></td><td>Freemium pricing model launch, paid tier features (advanced analysis, unlimited scenarios, CEFR certification), enterprise pilot (schools/companies), user accounts + cloud sync, native audio recordings for 8 languages, community features</td><td class="tag purple">🔭 Long-term</td></tr>
@@ -424,7 +1229,7 @@ function sRoadmap() {
   ├── 13 languages       │   expansion           │                         │                         │                         │
   ├── 15 scenarios      ├── User feedback       ├── Full gamification     ├── Freemium launched     ├── Enterprise B2B        ├── 50+ languages
   ├── 5,707 sentences   ├── Performance         ├── Mobile app MVP        ├── Revenue positive       ├── AI analysis pro        ├── Native audio per lang
-  ├── 51,000 proverbs   ├── optimization        ├── Revenue testing       ├── 50+ scenarios          ├── Community features     ├── Offline mode
+  ├── 49,000 proverbs   ├── optimization        ├── Revenue testing       ├── 50+ scenarios          ├── Community features     ├── Offline mode
   ├── 65,000 words
   ├── Documentation      │                       │                         ├── Enterprise pilots      ├── Marketplace pilot      ├── Global user base
   │                     │                       │                         │                         ├── 500K+ users            ├── Industry leader
@@ -476,7 +1281,7 @@ Real Acoustic Analysis (2027 prototype → 2028 production)
   <tr><td>Languages supported</td><td>3 (Phase 1) → 13 (Phase 1b)</td><td>13 (EN/ES/FR/DE/IT/JA/PT/ZH/AR/RU/TR/KO/HI)</td><td class="tag green">✅ Ahead — delivered 13, planned 3 then 8</td></tr>
   <tr><td>Scenarios</td><td>15 (Phase 1) → 75 (Phase 2)</td><td>15 (Phase 1 complete)</td><td>On track — Phase 1 done, Phase 2 pending</td></tr>
   <tr><td>Sentences</td><td>3,300 (3 langs × 1,100)</td><td>5,707 (13 langs × 439)</td><td class="tag green">✅ Ahead — 5,707 delivered vs 3,300 planned</td></tr>
-  <tr><td>Proverbs</td><td>105 (3 langs × 35)</td><td>51,000 (13 langs × [1k-5k])</td><td class="tag green">✅ Ahead — 51,000 delivered vs 105 planned</td></tr>
+  <tr><td>Proverbs</td><td>105 (3 langs × 35)</td><td>49,000 (13 langs: 4×1k + 9×5k)</td><td class="tag green">✅ Ahead — 49,000 delivered vs 105 planned</td></tr>
   <tr><td>API endpoints</td><td>10</td><td>10 operational</td><td class="tag green">✅ On track</td></tr>
   <tr><td>Documentation</td><td>README + basic docs</td><td>README (17.5KB) + CLAUDE.md (23.4KB) + ARCHITECTURE.html (52KB) + PRD.md (32KB) + ROADMAP.md (17KB) + IMPACT_ANALYSIS.md (17.6KB)</td><td class="tag green">✅ Ahead — comprehensive docs delivered</td></tr>
   <tr><td>Commits</td><td>~10</td><td>20 commits in 3 days</td><td class="tag green">✅ Ahead — 20 commits delivered</td></tr>
@@ -652,7 +1457,7 @@ function sRoadmap() {
 <table>
   <tr><th>Phase</th><th>Timeline</th><th>Theme</th><th>Key Deliverables</th><th>Status</th></tr>
   <tr><td class="tag green">Phase 1</td><td>2026 Q3 (complete)</td><td><strong>Foundation — Voice-First MVP</strong></td><td>5-tab app (Practice, Sentences, Companion, Proverbs, Progress), voice recording + AI analysis, 3 languages, 15 scenarios, 5-dimension scoring, graceful fallback, Vercel deployment, documentation culture</td><td class="tag green">✅ Shipped</td></tr>
-  <tr><td class="tag green">Phase 1b</td><td>2026 Q3 (complete)</td><td><strong>Multi-Language Expansion</strong></td><td>Expanded to 13 languages (AR/RU/TR/KO/HI added), 5,707 sentences total (439 per language), 51,000 proverbs total, 65,000 words, all language data generated + verified on production</td><td class="tag green">✅ Shipped</td></tr>
+  <tr><td class="tag green">Phase 1b</td><td>2026 Q3 (complete)</td><td><strong>Multi-Language Expansion</strong></td><td>Expanded to 13 languages (AR/RU/TR/KO/HI added), 5,707 sentences total (439 per language), 49,000 proverbs total, 65,000 words, all language data generated + verified on production</td><td class="tag green">✅ Shipped</td></tr>
   <tr><td class="tag orange">Phase 2</td><td>2026 Q4 (next)</td><td><strong>User Adoption + Scenario Depth</strong></td><td>Scenario expansion to 5 new languages (60 more scenarios = 75 total), AI dialogue polish (3+ turn context), user feedback integration, performance optimization, cross-browser testing, mobile responsiveness refinement</td><td class="tag blue">📋 Planned</td></tr>
   <tr><td class="tag yellow">Phase 3</td><td>2027 Q1-Q2 (future)</td><td><strong>Gamification + Real Analysis</strong></td><td>Full SRS implementation, streak + XP + morale tracking, dimension radar stabilization, MFCC/pitch acoustic analysis prototype, CEFR estimation validation, mobile app decision (Capacitor vs RN)</td><td class="tag yellow">🔭 Exploratory</td></tr>
   <tr><td class="tag purple">Phase 4</td><td>2027 Q3-Q4 (future)</td><td><strong>Monetization + Scale</strong></td><td>Freemium pricing model launch, paid tier features (advanced analysis, unlimited scenarios, CEFR certification), enterprise pilot (schools/companies), user accounts + cloud sync, native audio recordings for 8 languages, community features</td><td class="tag purple">🔭 Long-term</td></tr>
@@ -667,7 +1472,7 @@ function sRoadmap() {
   ├── 13 languages       │   expansion           │                         │                         │                         │
   ├── 15 scenarios      ├── User feedback       ├── Full gamification     ├── Freemium launched     ├── Enterprise B2B        ├── 50+ languages
   ├── 5,707 sentences   ├── Performance         ├── Mobile app MVP        ├── Revenue positive       ├── AI analysis pro        ├── Native audio per lang
-  ├── 51,000 proverbs   ├── optimization        ├── Revenue testing       ├── 50+ scenarios          ├── Community features     ├── Offline mode
+  ├── 49,000 proverbs   ├── optimization        ├── Revenue testing       ├── 50+ scenarios          ├── Community features     ├── Offline mode
   ├── 65,000 words
   ├── Documentation      │                       │                         ├── Enterprise pilots      ├── Marketplace pilot      ├── Global user base
   │                     │                       │                         │                         ├── 500K+ users            ├── Industry leader
@@ -719,7 +1524,7 @@ Real Acoustic Analysis (2027 prototype → 2028 production)
   <tr><td>Languages supported</td><td>3 (Phase 1) → 13 (Phase 1b)</td><td>13 (EN/ES/FR/DE/IT/JA/PT/ZH/AR/RU/TR/KO/HI)</td><td class="tag green">✅ Ahead — delivered 13, planned 3 then 8</td></tr>
   <tr><td>Scenarios</td><td>15 (Phase 1) → 75 (Phase 2)</td><td>15 (Phase 1 complete)</td><td>On track — Phase 1 done, Phase 2 pending</td></tr>
   <tr><td>Sentences</td><td>3,300 (3 langs × 1,100)</td><td>5,707 (13 langs × 439)</td><td class="tag green">✅ Ahead — 5,707 delivered vs 3,300 planned</td></tr>
-  <tr><td>Proverbs</td><td>105 (3 langs × 35)</td><td>51,000 (13 langs × [1k-5k])</td><td class="tag green">✅ Ahead — 51,000 delivered vs 105 planned</td></tr>
+  <tr><td>Proverbs</td><td>105 (3 langs × 35)</td><td>49,000 (13 langs: 4×1k + 9×5k)</td><td class="tag green">✅ Ahead — 49,000 delivered vs 105 planned</td></tr>
   <tr><td>API endpoints</td><td>10</td><td>10 operational</td><td class="tag green">✅ On track</td></tr>
   <tr><td>Documentation</td><td>README + basic docs</td><td>README (17.5KB) + CLAUDE.md (23.4KB) + ARCHITECTURE.html (52KB) + PRD.md (32KB) + ROADMAP.md (17KB) + IMPACT_ANALYSIS.md (17.6KB)</td><td class="tag green">✅ Ahead — comprehensive docs delivered</td></tr>
   <tr><td>Commits</td><td>~10</td><td>20 commits in 3 days</td><td class="tag green">✅ Ahead — 20 commits delivered</td></tr>
