@@ -26,11 +26,13 @@ export interface Word {
 
 export interface Proverb {
   id: string;
-  language: 'en' | 'es' | 'fr' | 'de' | 'it' | 'ja' | 'pt' | 'zh' | 'ar' | 'ru' | 'tr' | 'ko' | 'hi';
+  language: string;
   text: string;
   literal_translation: string;
   meaning: string;
-  usage_note: string;
+  usage_note?: string;
+  usage_examples?: string[];
+  origin?: string;
   tags: string[];
   common_variant?: string;
   category: string;

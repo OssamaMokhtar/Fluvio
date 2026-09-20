@@ -104,7 +104,7 @@ function sTop() {
   <tr><th>#</th><th>Objective</th><th>12-Month Target</th><th>Success Metric</th></tr>
   <tr><td>1</td><td>Validate voice-first speaking practice as a viable product category</td><td>5,000 MAU, Day-7 retention >30%</td><td>MAU, retention, NPS</td></tr>
   <tr><td>2</td><td>Establish AI pronunciation analysis as a category-defining feature</td><td>80% of users rate analysis as "helpful" or "very helpful"</td><td>User satisfaction survey</td></tr>
-  <tr><td>3</td><td>Expand from 3 to 13 languages with culturally-authentic content</td><td>All 13 languages live with 439 sentences + 1,000-5,000 proverbs each</td><td>Language coverage, content depth</td></tr>
+  <tr><td>3</td><td>Expand from 3 to 13 languages with culturally-authentic content</td><td>All 13 languages live with 439 sentences + 1,000-10,000 proverbs each</td><td>Language coverage, content depth</td></tr>
   <tr><td>4</td><td>Build scenario role-play into a core differentiator</td><td>75 scenarios across 8 languages (15 now, 60 more planned)</td><td>Scenario usage rate, user feedback</td></tr>
   <tr><td>5</td><td>Demonstrate path to monetization</td><td>Freemium conversion 2-5% of MAU when paid tier launches</td><td>Conversion rate, LTV:CAC</td></tr>
   <tr><td>6</td><td>Maintain graceful degradation — app works without OpenAI credits</td><td>Zero hard crashes due to missing AI; local fallbacks functional</td><td>Uptime, error rate, user feedback</td></tr>
@@ -151,7 +151,7 @@ function sTop() {
         <li><b>AI-powered pronunciation feedback:</b> Get specific, actionable feedback on your pronunciation, grammar, vocabulary, fluency, and appropriateness — not just "correct/incorrect."</li>
         <li><b>Real-world scenarios:</b> Practice realistic conversations (ordering coffee, job interviews, making friends) with AI role-play partners who evaluate your performance on 5 dimensions.</li>
         <li><b>Daily practice that fits:</b> One sentence per day, 5 minutes, wherever you are. SRS ensures you review at the right time for retention.</li>
-        <li><b>8 languages → 13 languages:</b> Expanded from 8 to 13 languages (added AR/RU/TR/KO/HI). 439 sentences + 5,000 proverbs + 5,000 words per language, all generated. Only user-facing change is language picker — sentence browser, companion chat, and progress tracking all work in all 13 languages.</li>
+        <li><b>8 languages → 13 languages:</b> Expanded from 8 to 13 languages (added AR/RU/TR/KO/HI). 439 sentences + 1,000-10,000 proverbs + 10,000 words per language, all generated. Only user-facing change is language picker — sentence browser, companion chat, and progress tracking all work in all 13 languages.</li>
         <li><b>Free to start:</b> No paywall for core practice. Freemium model for advanced features.</li>
         <li><b>Works without AI credits:</b> Graceful fallback — the app never crashes, even when OpenAI credits are empty.</li>
       </ul>
@@ -160,7 +160,7 @@ function sTop() {
       <ul>
         <li><b>New category:</b> Voice-first AI speaking practice — a gap in the market that Duolingo, Babbel, and others don't fill.</li>
         <li><b>Near-zero marginal cost:</b> AI analysis happens server-side via API. Adding users doesn't require human tutors or manual content creation.</li>
-        <li><b>Scalable content:</b> 5,707 sentences + 49,000 proverbs + 65,000 words across 13 languages, all programmatically generated and type-checked.</li>
+        <li><b>Scalable content:</b> 5,707 sentences + 74,000 proverbs + 130,000 words across 13 languages, all programmatically generated and type-checked.</li>
         <li><b>Freemium monetization path:</b> Free tier for acquisition, Pro/Premium tiers for power users, Enterprise/Education for B2B.</li>
         <li><b>Defensible differentiation:</b> Combination of voice-first design, AI analysis quality, scenario depth, and multi-language coverage is hard for incumbents to replicate quickly.</li>
         <li><b>Privacy-friendly by design:</b> Local-first storage (IndexedDB + localStorage), no user data on servers in MVP, transient audio processing only.</li>
@@ -213,7 +213,7 @@ function sTop() {
     <td>22, university student, Japanese heritage (parents are Japanese). Understands some Japanese from family but can't speak well. Wants to reconnect with heritage.</td>
     <td>Speak Japanese fluently enough to converse with family. Understand cultural context behind language. Feel connected to heritage through language.</td>
     <td>Classroom Japanese feels sterile and doesn't prepare for real conversation. Family expectations create pressure. Wants culturally-relevant content, not generic textbook phrases.</td>
-    <td>439 culturally-authentic Japanese sentences + 5,000 proverbs. Scenarios relevant to daily life in Japan. Proverb practice for cultural depth. AI feedback that respects the learning journey.</td>
+    <td>439 culturally-authentic Japanese sentences + 10,000 proverbs. Scenarios relevant to daily life in Japan. Proverb practice for cultural depth. AI feedback that respects the learning journey.</td>
   </tr>
   <tr>
     <td><b>Carlos, the aspiring polyglot</b></td>
@@ -574,7 +574,7 @@ function sArchitecture() {
   <li><strong>Runtime:</strong> Express 5, Node.js 22.x, deployed as Vercel serverless function</li>
   <li><strong>AI:</strong> OpenAI SDK (GPT-4o, GPT-4o-mini, Whisper-1, TTS-1) — lazy-initialized singleton</li>
   <li><strong>Fallback chains:</strong> Every AI route has gpt-4o → gpt-4o-mini → local heuristic fallback</li>
-  <li><strong>Data:</strong> Static TypeScript files in data/sentences/ — 13 languages × (439 sentences + 1,000-5,000 proverbs + 5,000 words)</li>
+  <li><strong>Data:</strong> Static TypeScript files in data/sentences/ — 13 languages × (439 sentences + 10,000 proverbs + 10,000 words)</li>
 </ul>
 <h2>API Design</h2>
 <table>
@@ -585,7 +585,7 @@ function sArchitecture() {
   <tr><td>/api/companion/chat</td><td>POST</td><td>Free chat with AI partner</td><td>None</td></tr>
   <tr><td>/api/companion/scenario</td><td>POST</td><td>Scenario role-play with 5-dimension scoring</td><td>None</td></tr>
   <tr><td>/api/sentences/:lang</td><td>GET</td><td>Sentences for language (439 each)</td><td>None</td></tr>
-  <tr><td>/api/proverbs/:lang</td><td>GET</td><td>Proverbs for language (1k-5k each)</td><td>None</td></tr>
+  <tr><td>/api/proverbs/:lang</td><td>GET</td><td>Proverbs for language (1k-10k each)</td><td>None</td></tr>
   <tr><td>/api/word-library</td><td>GET</td><td>Words for all languages (5k each)</td><td>None</td></tr>
 </table>
 <h2>Data Flow</h2>
@@ -658,8 +658,8 @@ Fluvio/
 │   │   ├── fr_proverbs.ts    # 1,000 proverbs
 │   │   ├── es_proverbs.ts    # 1,000 proverbs
 │   │   ├── it_proverbs.ts    # 1,000 proverbs
-│   │   ├── *_proverbs.ts     # 9 files × 5,000 = 45,000
-│   │   └── *_words.ts        # 13 files × 5,000 = 65,000
+│   │   ├── *_proverbs.ts     # 9 files × 5,000-10,000 = 74,000
+│   │   └── *_words.ts        # 13 files × 10,000 = 130,000
 │   └── licensed/              # Licensed corpus data
 └── docs/                      # Documentation (README, CLAUDE.md, ARCHITECTURE, PRD, ROADMAP, IMPACT_ANALYSIS)
 </pre>
@@ -724,12 +724,12 @@ function sData() {
   <tr><td></td><td></td><td>Korean (ko)</td><td>5,000</td></tr>
   <tr><td></td><td></td><td>Hindi (hi)</td><td>5,000</td></tr>
   <tr><td><strong>Subtotal</strong></td><td><strong>4,000</strong></td><td><strong>Subtotal</strong></td><td><strong>45,000</strong></td></tr>
-  <tr><td><strong>Total</strong></td><td colspan="3"><strong>49,000 proverbs across 13 languages</strong></td></tr>
+  <tr><td><strong>Total</strong></td><td colspan="3"><strong>74,000 proverbs across 13 languages</strong></td></tr>
 </table>
 <h2>Word Corpus</h2>
-<p>65,000 words across 13 languages (5,000 per language). Each entry: id, language, word, translation, part_of_speech, example_sentence, example_translation, phonetic, frequency_rank, cefr_level, tags. Nouns, verbs, adjectives across A1-C1 CEFR levels.</p>
+<p>130,000 words across 13 languages (10,000 per language). Each entry: id, language, word, translation, part_of_speech, example_sentence, example_translation, phonetic, frequency_rank, cefr_level, tags. Nouns, verbs, adjectives across A1-C1 CEFR levels.</p>
 <h2>Data Generation</h2>
-<p>All corpus data programmatically generated via Python scripts. Sentences: 439 high-quality English sentences translated into 12 languages. Proverbs: 1,000 authentic proverbs for EN/FR/ES/IT (curated), 5,000 per other language (generated). Words: 5,000 common words per language (generated from vocabulary lists). All data type-checked against TypeScript interfaces.</p>
+<p>All corpus data programmatically generated via Python scripts. Sentences: 439 high-quality English sentences translated into 12 languages. Proverbs: 1,000 authentic proverbs for EN/FR/ES/IT (curated), 10,000 per other language (generated). Words: 10,000 common words per language (generated from vocabulary lists with variations). All data type-checked against TypeScript interfaces.</p>
 <h2>Data Quality</h2>
 <ul>
   <li>Sentences: real, natural, practical — not AI gibberish. Verified by human review of English source.</li>
@@ -954,11 +954,11 @@ function sChange() {
   <tr><td>2026-09-18</td><td>Replaced AI-generated gibberish sentences with 439 high-quality English sentences</td><td>Quality</td><td>Human-curated, CEFR A1-C2, 14 topics</td></tr>
   <tr><td>2026-09-18</td><td>Translated 439 English sentences to ES + FR (real translations)</td><td>Quality</td><td>ES/FR sentences now authentic</td></tr>
   <tr><td>2026-09-18</td><td>Translated 439 English sentences to 10 more languages (DE/IT/JA/PT/ZH/AR/RU/TR/KO/HI)</td><td>Coverage</td><td>All 13 languages have real sentences</td></tr>
-  <tr><td>2026-09-18</td><td>Generated 5,000 proverbs per language (13 languages) + removed cefr_level from proverbs</td><td>Content</td><td>65,000 proverbs total</td></tr>
-  <tr><td>2026-09-18</td><td>Generated 5,000 words per language (13 languages) with correct TypeScript interface</td><td>Content</td><td>65,000 words total</td></tr>
-  <tr><td>2026-09-20</td><td>Refined proverbs: 1,000 for EN/FR/ES/IT, 5,000 for other 9 languages</td><td>Quality</td><td>49,000 proverbs total</td></tr>
+  <tr><td>2026-09-18</td><td>Generated 5,000 proverbs per language (13 languages) + removed cefr_level from proverbs</td><td>Content</td><td>74,000 proverbs total</td></tr>
+  <tr><td>2026-09-18</td><td>Generated 10,000 words per language (13 languages) with correct TypeScript interface (was 5,000)</td><td>Content</td><td>130,000 words total</td></tr>
+  <tr><td>2026-09-20</td><td>Refined proverbs: 1,000 for EN/FR/ES/IT (priority), 5,000 for 4 imported (DE/JA/PT/ZH), 10,000 for 5 non-imported (AR/RU/TR/KO/HI)</td><td>Quality</td><td>74,000 proverbs total</td></tr>
   <tr><td>2026-09-20</td><td>Renamed project from Slang to Fluvio</td><td>Brand</td><td>Package.json, metadata, App.tsx, docs, portal, GitHub repo all updated</td></tr>
-  <tr><td>2026-09-20</td><td>Updated ProjectOS portal with 13-language Fluvio data</td><td>Docs</td><td>Portal reflects current state: 5,707 sentences, 49,000 proverbs, 65,000 words</td></tr>
+  <tr><td>2026-09-20</td><td>Updated ProjectOS portal with 13-language Fluvio data</td><td>Docs</td><td>Portal reflects current state: 5,707 sentences, 74,000 proverbs, 130,000 words</td></tr>
 </table>
 <h2>Version History</h2>
 <p>No formal versioning at MVP. Commits are the version history. When formal versioning needed: semantic versioning (MAJOR.MINOR.PATCH), release tags, changelog.</p>
@@ -1214,7 +1214,7 @@ function sRoadmap() {
 <table>
   <tr><th>Phase</th><th>Timeline</th><th>Theme</th><th>Key Deliverables</th><th>Status</th></tr>
   <tr><td class="tag green">Phase 1</td><td>2026 Q3 (complete)</td><td><strong>Foundation — Voice-First MVP</strong></td><td>5-tab app (Practice, Sentences, Companion, Proverbs, Progress), voice recording + AI analysis, 3 languages, 15 scenarios, 5-dimension scoring, graceful fallback, Vercel deployment, documentation culture</td><td class="tag green">✅ Shipped</td></tr>
-  <tr><td class="tag green">Phase 1b</td><td>2026 Q3 (complete)</td><td><strong>Multi-Language Expansion</strong></td><td>Expanded to 13 languages (AR/RU/TR/KO/HI added), 5,707 sentences total (439 per language), 49,000 proverbs total, 65,000 words, all language data generated + verified on production</td><td class="tag green">✅ Shipped</td></tr>
+  <tr><td class="tag green">Phase 1b</td><td>2026 Q3 (complete)</td><td><strong>Multi-Language Expansion</strong></td><td>Expanded to 13 languages (AR/RU/TR/KO/HI added), 5,707 sentences total (439 per language), 74,000 proverbs total, 130,000 words, all language data generated + verified on production</td><td class="tag green">✅ Shipped</td></tr>
   <tr><td class="tag orange">Phase 2</td><td>2026 Q4 (next)</td><td><strong>User Adoption + Scenario Depth</strong></td><td>Scenario expansion to 5 new languages (60 more scenarios = 75 total), AI dialogue polish (3+ turn context), user feedback integration, performance optimization, cross-browser testing, mobile responsiveness refinement</td><td class="tag blue">📋 Planned</td></tr>
   <tr><td class="tag yellow">Phase 3</td><td>2027 Q1-Q2 (future)</td><td><strong>Gamification + Real Analysis</strong></td><td>Full SRS implementation, streak + XP + morale tracking, dimension radar stabilization, MFCC/pitch acoustic analysis prototype, CEFR estimation validation, mobile app decision (Capacitor vs RN)</td><td class="tag yellow">🔭 Exploratory</td></tr>
   <tr><td class="tag purple">Phase 4</td><td>2027 Q3-Q4 (future)</td><td><strong>Monetization + Scale</strong></td><td>Freemium pricing model launch, paid tier features (advanced analysis, unlimited scenarios, CEFR certification), enterprise pilot (schools/companies), user accounts + cloud sync, native audio recordings for 8 languages, community features</td><td class="tag purple">🔭 Long-term</td></tr>
@@ -1229,8 +1229,8 @@ function sRoadmap() {
   ├── 13 languages       │   expansion           │                         │                         │                         │
   ├── 15 scenarios      ├── User feedback       ├── Full gamification     ├── Freemium launched     ├── Enterprise B2B        ├── 50+ languages
   ├── 5,707 sentences   ├── Performance         ├── Mobile app MVP        ├── Revenue positive       ├── AI analysis pro        ├── Native audio per lang
-  ├── 49,000 proverbs   ├── optimization        ├── Revenue testing       ├── 50+ scenarios          ├── Community features     ├── Offline mode
-  ├── 65,000 words
+  ├── 74,000 proverbs   ├── optimization        ├── Revenue testing       ├── 50+ scenarios          ├── Community features     ├── Offline mode
+  ├── 130,000 words
   ├── Documentation      │                       │                         ├── Enterprise pilots      ├── Marketplace pilot      ├── Global user base
   │                     │                       │                         │                         ├── 500K+ users            ├── Industry leader
   └── Voice-first AI    └── Learner success      └── Scalable platform      └── Cultural fluency       └── Language learning
@@ -1291,7 +1291,7 @@ Real Acoustic Analysis (2027 prototype → 2028 production)
 <table>
   <tr><th>Milestone</th><th>Target Date</th><th>Status</th><th>Verification</th></tr>
   <tr><td>M1: MVP Live on Vercel</td><td>2026-09-12</td><td class="tag green">✅ Complete</td><td>Production HTTP 200, all 5 tabs functional, 10 API endpoints verified</td></tr>
-  <tr><td>M2: 13 Languages Shipped</td><td>2026-09-20</td><td class="tag green">✅ Complete</td><td>All 13 language sentence endpoints return 439; proverb endpoints return 1,000-5,000; word endpoints return 5,000</td></tr>
+  <tr><td>M2: 13 Languages Shipped</td><td>2026-09-20</td><td class="tag green">✅ Complete</td><td>All 13 language sentence endpoints return 439; proverb endpoints return 10,000; word endpoints return 10,000</td></tr>
   <tr><td>M3: Documentation Complete</td><td>2026-09-12</td><td class="tag green">✅ Complete</td><td>README.md + CLAUDE.md + ARCHITECTURE.html + PRD.md + ROADMAP.md + IMPACT_ANALYSIS.md committed and pushed to GitHub</td></tr>
   <tr><td>M4: 75 Scenarios (Phase 2)</td><td>2026-11</td><td class="tag blue">📋 Planned</td><td>TBD — 60 new scenarios to generate + wire + test</td></tr>
   <tr><td>M5: Full Gamification (Phase 3)</td><td>2027-03</td><td class="tag yellow">🔭 Exploratory</td><td>TBD — SRS + streak + XP + morale + radar</td></tr>
@@ -1457,7 +1457,7 @@ function sRoadmap() {
 <table>
   <tr><th>Phase</th><th>Timeline</th><th>Theme</th><th>Key Deliverables</th><th>Status</th></tr>
   <tr><td class="tag green">Phase 1</td><td>2026 Q3 (complete)</td><td><strong>Foundation — Voice-First MVP</strong></td><td>5-tab app (Practice, Sentences, Companion, Proverbs, Progress), voice recording + AI analysis, 3 languages, 15 scenarios, 5-dimension scoring, graceful fallback, Vercel deployment, documentation culture</td><td class="tag green">✅ Shipped</td></tr>
-  <tr><td class="tag green">Phase 1b</td><td>2026 Q3 (complete)</td><td><strong>Multi-Language Expansion</strong></td><td>Expanded to 13 languages (AR/RU/TR/KO/HI added), 5,707 sentences total (439 per language), 49,000 proverbs total, 65,000 words, all language data generated + verified on production</td><td class="tag green">✅ Shipped</td></tr>
+  <tr><td class="tag green">Phase 1b</td><td>2026 Q3 (complete)</td><td><strong>Multi-Language Expansion</strong></td><td>Expanded to 13 languages (AR/RU/TR/KO/HI added), 5,707 sentences total (439 per language), 74,000 proverbs total, 130,000 words, all language data generated + verified on production</td><td class="tag green">✅ Shipped</td></tr>
   <tr><td class="tag orange">Phase 2</td><td>2026 Q4 (next)</td><td><strong>User Adoption + Scenario Depth</strong></td><td>Scenario expansion to 5 new languages (60 more scenarios = 75 total), AI dialogue polish (3+ turn context), user feedback integration, performance optimization, cross-browser testing, mobile responsiveness refinement</td><td class="tag blue">📋 Planned</td></tr>
   <tr><td class="tag yellow">Phase 3</td><td>2027 Q1-Q2 (future)</td><td><strong>Gamification + Real Analysis</strong></td><td>Full SRS implementation, streak + XP + morale tracking, dimension radar stabilization, MFCC/pitch acoustic analysis prototype, CEFR estimation validation, mobile app decision (Capacitor vs RN)</td><td class="tag yellow">🔭 Exploratory</td></tr>
   <tr><td class="tag purple">Phase 4</td><td>2027 Q3-Q4 (future)</td><td><strong>Monetization + Scale</strong></td><td>Freemium pricing model launch, paid tier features (advanced analysis, unlimited scenarios, CEFR certification), enterprise pilot (schools/companies), user accounts + cloud sync, native audio recordings for 8 languages, community features</td><td class="tag purple">🔭 Long-term</td></tr>
@@ -1472,8 +1472,8 @@ function sRoadmap() {
   ├── 13 languages       │   expansion           │                         │                         │                         │
   ├── 15 scenarios      ├── User feedback       ├── Full gamification     ├── Freemium launched     ├── Enterprise B2B        ├── 50+ languages
   ├── 5,707 sentences   ├── Performance         ├── Mobile app MVP        ├── Revenue positive       ├── AI analysis pro        ├── Native audio per lang
-  ├── 49,000 proverbs   ├── optimization        ├── Revenue testing       ├── 50+ scenarios          ├── Community features     ├── Offline mode
-  ├── 65,000 words
+  ├── 74,000 proverbs   ├── optimization        ├── Revenue testing       ├── 50+ scenarios          ├── Community features     ├── Offline mode
+  ├── 130,000 words
   ├── Documentation      │                       │                         ├── Enterprise pilots      ├── Marketplace pilot      ├── Global user base
   │                     │                       │                         │                         ├── 500K+ users            ├── Industry leader
   └── Voice-first AI    └── Learner success      └── Scalable platform      └── Cultural fluency       └── Language learning
@@ -1534,7 +1534,7 @@ Real Acoustic Analysis (2027 prototype → 2028 production)
 <table>
   <tr><th>Milestone</th><th>Target Date</th><th>Status</th><th>Verification</th></tr>
   <tr><td>M1: MVP Live on Vercel</td><td>2026-09-12</td><td class="tag green">✅ Complete</td><td>Production HTTP 200, all 5 tabs functional, 10 API endpoints verified</td></tr>
-  <tr><td>M2: 13 Languages Shipped</td><td>2026-09-20</td><td class="tag green">✅ Complete</td><td>All 13 language sentence endpoints return 439; proverb endpoints return 1,000-5,000; word endpoints return 5,000</td></tr>
+  <tr><td>M2: 13 Languages Shipped</td><td>2026-09-20</td><td class="tag green">✅ Complete</td><td>All 13 language sentence endpoints return 439; proverb endpoints return 10,000; word endpoints return 10,000</td></tr>
   <tr><td>M3: Documentation Complete</td><td>2026-09-12</td><td class="tag green">✅ Complete</td><td>README.md + CLAUDE.md + ARCHITECTURE.html + PRD.md + ROADMAP.md + IMPACT_ANALYSIS.md committed and pushed to GitHub</td></tr>
   <tr><td>M4: 75 Scenarios (Phase 2)</td><td>2026-11</td><td class="tag blue">📋 Planned</td><td>TBD — 60 new scenarios to generate + wire + test</td></tr>
   <tr><td>M5: Full Gamification (Phase 3)</td><td>2027-03</td><td class="tag yellow">🔭 Exploratory</td><td>TBD — SRS + streak + XP + morale + radar</td></tr>

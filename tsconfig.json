@@ -30,6 +30,7 @@
     "node_modules",
     "dist",
     "data/_deprecated",
-    "tests"
+    "tests",
+    "data/sentences"
   ]
 }
