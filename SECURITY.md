@@ -4,7 +4,7 @@
 **Last verified:** 2026-09-12 against commit `0279736` + remediation batch.
 
 > Every control marked ✅ below is asserted by an executable check in
-> [`scripts/verify-claims.mjs`](../scripts/verify-claims.mjs) and fails CI if it
+> [`scripts/verify-claims.mjs`](scripts/verify-claims.mjs) and fails CI if it
 > stops being true. A control with no check is marked ⬜ *Planned* and is not
 > claimed. This replaces the previous version of this file, which claimed a
 > build-time secret check that did not exist.

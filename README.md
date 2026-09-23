@@ -2,6 +2,8 @@
 Fluidity + fluency + forward motion.
 AI-powered language learning app — speak into your microphone, get instant pronunciation feedback, practice real-world scenarios with an AI role-play partner, and track your progress over time.
 
+**Architecture docs:** [full set](docs/README.md) · [system architecture](docs/01-system-architecture.md) · [AI architecture](docs/04-ai-architecture.md) · [evaluation and quality gates](docs/07-evaluation.md) · [decision log](docs/10-decision-log.md) · [ADR-0001 acoustic scoring](docs/adr/0001-acoustic-scoring.md) · [gaps](docs/GAPS.md)
+
 **Status:** deployed on Vercel (see [Deployment](#deployment)); no tracked users yet. Cost per scored utterance is now logged per request (see [Cost telemetry](#cost-telemetry)).
 
 ---

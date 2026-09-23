@@ -12,7 +12,7 @@ A React + Express AI language learning app. It lives in the **Fluvio** repo but 
 
 ## What Fluvio does (real, built, shipped)
 
-1. **Pronunciation analysis** — Record yourself speaking a sentence; the app transcribes your audio with Whisper, compares it against the reference text using GPT-4, and returns a detailed breakdown: overall score, phoneme errors with timestamps, prosody deviations, pitch contour comparison, prioritized corrective actions, and a pronunciation guide.
+1. **Pronunciation feedback** — Record yourself speaking a sentence; Whisper transcribes it and GPT-4o judges the transcript against the reference text, returning a score, likely problem sounds, prioritized actions and a pronunciation guide. This is a language-model judgement over text, not an acoustic measurement; the response says so in its `measurement` field. Acoustic scoring is the accepted plan in [ADR-0001](adr/0001-acoustic-scoring.md).
 2. **AI Language Companion** — Chat with an AI partner in your target language. The companion corrects grammar gently, suggests idioms and proverbs, and adapts to your level (beginner / intermediate / advanced).
 3. **Scenario role-play** — 15 real-world scenarios (ordering at a cafe, job interview, debating remote work, etc.) across English, Spanish, and French. The AI plays a specific role, responds in character with TTS audio, and scores your turn on 5 dimensions: pronunciation, grammar, vocabulary, fluency, and appropriateness.
 4. **Sentence library** — 436 sentences per language, 13 languages (5,668 total). Translations blank pending review.
