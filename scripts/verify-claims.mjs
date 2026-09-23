@@ -196,6 +196,28 @@ claim('C-17', 'README §License', 'The licence statement matches the LICENSE fil
   return isMit ? 'MIT, stated consistently' : 'non-MIT licence, stated consistently';
 });
 
+// ------------------------------------------------------------ corpus honesty
+claim('C-18', 'README §Data Counts, docs/DATA-QUALITY.md', 'Corpus files hold unique entries and no echo translations', () => {
+  const dir = 'data/sentences';
+  const files = readdirSync(join(root, dir)).filter((f) => f.endsWith('.ts'));
+  let entries = 0;
+  for (const f of files) {
+    const src = read(join(dir, f));
+    const key = f.includes('_words') ? 'word' : 'text';
+    const re = new RegExp(`\\b${key}:\\s*(["'\`])((?:\\\\.|(?!\\1).)*)\\1`, 'g');
+    const vals = [...src.matchAll(re)].map((m) => m[2].trim().toLowerCase());
+    const dupes = vals.length - new Set(vals).size;
+    if (dupes > 0) throw new Error(`${f}: ${dupes} duplicate ${key} entries`);
+    if (f.includes('_sentences')) {
+      const echo = [...src.matchAll(/text: `((?:\\.|[^`])*)`,\s*translation: `((?:\\.|[^`])*)`/g)].filter((m) => m[1] === m[2]).length;
+      if (echo > 0) throw new Error(`${f}: ${echo} translations copy the source text`);
+      if (/native_audio_available:\s*true/.test(src)) throw new Error(`${f}: claims native audio that does not exist`);
+    }
+    entries += vals.length;
+  }
+  return `${files.length} files, ${entries} unique entries, no echo translations`;
+});
+
 // --------------------------------------------------------------------- run
 let failed = 0;
 const pad = (s, n) => String(s).padEnd(n);
