@@ -226,6 +226,24 @@ claim('C-18', 'README §Data Counts, docs/DATA-QUALITY.md', 'Corpus files hold u
   return `${files.length} files, ${entries} unique entries, no echo translations`;
 });
 
+// ------------------------------------------------------- per-device identity
+claim('C-19', 'SECURITY.md §Controls, PRIVACY.md', 'Every client API POST carries the device header the server keys on', () => {
+  const header = (code('server.ts').match(/req\.get\("([^"]+)"\)/) || [])[1];
+  if (header !== 'x-slang-device') throw new Error(`server reads "${header}", expected x-slang-device`);
+  if (!code('services/deviceId.ts').includes(`'${header}'`)) throw new Error('deviceId.ts does not send the header');
+  const files = ['App.tsx', 'services/geminiService.ts', 'services/companionService.ts', 'components/CompanionChat.tsx'];
+  let posts = 0;
+  for (const f of files) {
+    const src = code(f);
+    for (const m of src.matchAll(/fetch\(\s*['"`]\/api\/[^'"`]+['"`]\s*,\s*\{([\s\S]{0,200}?)body:/g)) {
+      posts++;
+      if (!m[1].includes('apiHeaders()')) throw new Error(`${f}: an /api POST is missing apiHeaders()`);
+    }
+  }
+  if (posts < 7) throw new Error(`expected at least 7 billable POSTs, found ${posts}`);
+  return `${posts} POSTs send ${header}`;
+});
+
 // --------------------------------------------------------------------- run
 let failed = 0;
 const pad = (s, n) => String(s).padEnd(n);

@@ -6,10 +6,11 @@
 |---|---|---|
 | 00 | [Architecture and status](00-architecture-and-status.md) | What is built, what isn't, deployment |
 | 01 | [System architecture](01-system-architecture.md) | Components and request flow |
+| 02 | [Data model](02-data-model.md) | Browser storage, server memory, static corpus |
 | 03 | [API](03-api.md) | All server routes |
 | 04 | [AI architecture](04-ai-architecture.md) | Speech pipeline, fallback chains, what is and isn't measured |
 | 07 | [Evaluation and quality gates](07-evaluation.md) | Tests, the claims verifier, what is not validated |
-| 08 | [Security](../SECURITY.md) | Controls, each backed by an executable check |
+| 08 | [Security and privacy](08-security-and-privacy.md) | Trust boundaries, threats, controls with evidence ([SECURITY.md](../SECURITY.md) · [PRIVACY.md](../PRIVACY.md)) |
 | 10 | [Decision log](10-decision-log.md) | ADRs with reversal triggers |
 | — | [ADR-0001: acoustic scoring](adr/0001-acoustic-scoring.md) | Why transcript judgement can't measure pronunciation, and the replacement |
 | — | [Data quality](DATA-QUALITY.md) | Corpus inflation found and removed |

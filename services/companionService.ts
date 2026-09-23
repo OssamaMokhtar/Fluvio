@@ -1,4 +1,5 @@
 import { CompanionSession } from '../data/library';
+import { apiHeaders } from './deviceId';
 
 export interface CompanionReply {
   response: string;
@@ -21,7 +22,7 @@ export const companionChat = async (
 ): Promise<CompanionReply> => {
   const response = await fetch('/api/companion/chat', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: apiHeaders(),
     body: JSON.stringify({
       sessionId: session.id,
       message,
