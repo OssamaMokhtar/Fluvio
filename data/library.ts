@@ -81,12 +81,9 @@ export interface SentenceLibrary {
   total_count: number;
   by_level: Record<string, number>;
   by_topic: Record<string, number>;
+  by_category?: Record<string, number>;
 }
 
 export type LibraryType = SentenceLibrary | WordLibrary | ProverbLibrary;
 
-export interface ProverbLibrary {
-  language: string;
-  proverbs: Proverb[];
-  total_count: number;
-}
+

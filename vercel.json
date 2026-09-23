@@ -1,9 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm run build && npm run build:node",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "functions": {
-    "api/index.cjs": { "runtime": "@vercel/node@4.0.0" }
-  },
-  "rewrites": [{ "source": "/api/(.*)", "destination": "/api/index.cjs" }]
+    "api/*.ts": {
+      "runtime": "@vercel/node@4.0.0"
+    }
+  }
 }

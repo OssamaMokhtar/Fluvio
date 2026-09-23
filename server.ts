@@ -7,18 +7,11 @@ import {
   pickDailySentence,
   getWordLibrary,
 } from "./services/sentenceLibrary.ts";
-import { EN_PROVERBS } from "./data/sentences/en_proverbs.ts";
-import { ES_PROVERBS } from "./data/sentences/es_proverbs.ts";
-import { FR_PROVERBS } from "./data/sentences/fr_proverbs.ts";
-import { DE_PROVERBS } from "./data/sentences/de_proverbs.ts";
-import { IT_PROVERBS } from "./data/sentences/it_proverbs.ts";
-import { JA_PROVERBS } from "./data/sentences/ja_proverbs.ts";
-import { PT_PROVERBS } from "./data/sentences/pt_proverbs.ts";
-import { ZH_PROVERBS } from "./data/sentences/zh_proverbs.ts";
 import { addCompanionMessage, generateCompanionReply } from "./services/companionChatServer.ts";
 import { getScenarioById, SCENARIOS } from "./data/scenarios.ts";
 import { generateScenarioTurn } from "./services/scenarioService.ts";
 import { safeLabel, safeSentence } from "./services/sanitization.ts";
+import { loadProverbs } from "./services/proverbLoader.ts";
 
 const app = express();
 const PORT = Number(process.env.PORT) || 3000;
@@ -609,15 +602,13 @@ app.post("/api/generate-lesson-plan", async (req, res) => {
 // ---------------------------------------------------------------------------
 // Sentence library API
 // ---------------------------------------------------------------------------
-app.get("/api/sentences/:lang", (req, res) => {
+app.get("/api/sentences/:lang", async (req, res) => {
   try {
     const lang = safeLabel(req.params.lang, 10);
     const code = toLanguageCode(lang);
     if (!code) return res.status(404).json({ error: `Unsupported language: ${lang}` });
-    const lib = getSentenceLibrary(lang);
+    const lib = await getSentenceLibrary(lang);
     res.json({
-      // SL-14: this previously returned "en" for every language outside en/es/fr,
-      // so a German request came back labelled English.
       language: code,
       total_count: lib.total_count,
       by_level: lib.by_level,
@@ -629,11 +620,11 @@ app.get("/api/sentences/:lang", (req, res) => {
   }
 });
 
-app.get("/api/sentences/:lang/search", (req, res) => {
+app.get("/api/sentences/:lang/search", async (req, res) => {
   try {
     const lang = safeLabel(req.query.lang as string || 'English', 10);
     const query = safeLabel(req.query.q as string || '', 100);
-    const lib = getSentenceLibrary(lang);
+    const lib = await getSentenceLibrary(lang);
     const results = searchSentences(lib, query);
     res.json({ sentences: results, count: results.length });
   } catch (err) {
@@ -642,11 +633,11 @@ app.get("/api/sentences/:lang/search", (req, res) => {
   }
 });
 
-app.get("/api/sentences/:lang/random", (req, res) => {
+app.get("/api/sentences/:lang/random", async (req, res) => {
   try {
     const lang = safeLabel(req.query.lang as string || 'English', 10);
     const level = safeLabel(req.query.level as string || 'intermediate', 20);
-    const lib = getSentenceLibrary(lang);
+    const lib = await getSentenceLibrary(lang);
     const sentence = pickDailySentence(lib, level);
     if (!sentence) return res.status(404).json({ error: "No sentence found" });
     res.json(sentence);
@@ -660,12 +651,12 @@ app.get("/api/sentences/:lang/random", (req, res) => {
 // Full library endpoints (for client-side pagination)
 // ---------------------------------------------------------------------------
 
-app.get("/api/sentence-library", (req, res) => {
+app.get("/api/sentence-library", async (req, res) => {
   try {
     const lang = safeLabel(req.query.lang as string || 'English', 10);
     const code = toLanguageCode(lang);
     if (!code) return res.status(404).json({ error: `Unsupported language: ${lang}` });
-    const lib = getSentenceLibrary(lang);
+    const lib = await getSentenceLibrary(lang);
     res.json({
       sentences: lib.sentences.slice(0, 1000),
       total_count: lib.total_count,
@@ -677,12 +668,12 @@ app.get("/api/sentence-library", (req, res) => {
   }
 });
 
-app.get("/api/words/:lang", (req, res) => {
+app.get("/api/words/:lang", async (req, res) => {
   try {
     const lang = safeLabel(req.params.lang, 10);
     const code = toLanguageCode(lang);
     if (!code) return res.status(404).json({ error: `Unsupported language: ${lang}` });
-    const lib = getWordLibrary(lang);
+    const lib = await getWordLibrary(lang);
     res.json({
       language: code,
       total_count: lib.total_count,
@@ -694,12 +685,12 @@ app.get("/api/words/:lang", (req, res) => {
   }
 });
 
-app.get("/api/word-library", (req, res) => {
+app.get("/api/word-library", async (req, res) => {
   try {
     const lang = safeLabel(req.query.lang as string || 'English', 10);
     const code = toLanguageCode(lang);
     if (!code) return res.status(404).json({ error: `Unsupported language: ${lang}` });
-    const lib = getWordLibrary(lang);
+    const lib = await getWordLibrary(lang);
     res.json({
       words: lib.words.slice(0, 1000),
       total_count: lib.total_count,
@@ -711,19 +702,11 @@ app.get("/api/word-library", (req, res) => {
   }
 });
 
-app.get("/api/proverbs/:lang", (req, res) => {
+app.get("/api/proverbs/:lang", async (req, res) => {
   try {
     const lang = safeLabel(req.params.lang, 10);
     const code = toProverbCode(lang) ?? 'en';
-    let proverbs: any[] = [];
-    if (code === 'en') proverbs = EN_PROVERBS;
-    else if (code === 'es') proverbs = ES_PROVERBS;
-    else if (code === 'fr') proverbs = FR_PROVERBS;
-    else if (code === 'de') proverbs = DE_PROVERBS;
-    else if (code === 'it') proverbs = IT_PROVERBS;
-    else if (code === 'ja') proverbs = JA_PROVERBS;
-    else if (code === 'pt') proverbs = PT_PROVERBS;
-    else if (code === 'zh') proverbs = ZH_PROVERBS;
+    const proverbs = await loadProverbs(code);
     res.json({ language: code, proverbs, total_count: proverbs.length });
   } catch (err) {
     console.error("Proverbs error:", err);
@@ -899,25 +882,136 @@ app.post("/api/companion/scenario", async (req, res) => {
 });
 
 // Proverbs random endpoint
-app.get("/api/proverbs/:lang/random", (req, res) => {
+app.get("/api/proverbs/:lang/random", async (req, res) => {
   try {
     const lang = safeLabel(req.params.lang, 10);
     const code = toProverbCode(lang) ?? 'en';
-    let proverbsList: any[] = [];
-    if (code === 'en') proverbsList = EN_PROVERBS;
-    else if (code === 'es') proverbsList = ES_PROVERBS;
-    else if (code === 'fr') proverbsList = FR_PROVERBS;
-    else if (code === 'de') proverbsList = DE_PROVERBS;
-    else if (code === 'it') proverbsList = IT_PROVERBS;
-    else if (code === 'ja') proverbsList = JA_PROVERBS;
-    else if (code === 'pt') proverbsList = PT_PROVERBS;
-    else if (code === 'zh') proverbsList = ZH_PROVERBS;
+    const proverbsList = await loadProverbs(code);
     if (proverbsList.length === 0) return res.status(404).json({ error: "No proverbs for this language" });
     const proverb = proverbsList[Math.floor(Math.random() * proverbsList.length)];
     res.json(proverb);
   } catch (err) {
     console.error("Proverbs random error:", err);
     res.status(500).json({ error: "Failed to get proverb" });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// Content Gates — shareable access-controlled content
+// ---------------------------------------------------------------------------
+type ContentPayload = {
+  content: string;
+  contentType: 'sentence' | 'proverb' | 'word' | 'custom';
+  language?: string;
+  title?: string;
+  description?: string;
+  expiresInHours?: number;
+};
+
+type GateRecord = {
+  id: string;
+  token: string;
+  content: ContentPayload;
+  created_at: number;
+  expires_at?: number;
+  access_count: number;
+  last_accessed?: number;
+  revoked: boolean;
+};
+
+const gates = new Map<string, GateRecord>();
+const tokenToGate = new Map<string, string>();
+
+function generateToken(): string {
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  let token = '';
+  for (let i = 0; i < 20; i++) token += chars[Math.floor(Math.random() * chars.length)];
+  return token;
+}
+
+app.post("/api/content", async (req, res) => {
+  try {
+    const body = req.body as ContentPayload;
+    if (!body?.content || !body?.contentType) {
+      return res.status(400).json({ error: "content and contentType are required" });
+    }
+
+    const id = crypto.randomUUID();
+    const token = generateToken();
+    const now = Date.now();
+    const expiresInHours = body.expiresInHours ?? 168; // 7 days default
+    const expires_at = now + expiresInHours * 60 * 60 * 1000;
+
+    const gate: GateRecord = {
+      id,
+      token,
+      content: {
+        content: body.content,
+        contentType: body.contentType,
+        language: body.language,
+        title: body.title,
+        description: body.description,
+      },
+      created_at: now,
+      expires_at,
+      access_count: 0,
+      revoked: false,
+    };
+
+    gates.set(id, gate);
+    tokenToGate.set(token, id);
+
+    res.status(201).json({
+      id,
+      token,
+      content: gate.content,
+      created_at: new Date(now).toISOString(),
+      expires_at: new Date(expires_at).toISOString(),
+      access_count: 0,
+    });
+  } catch (err) {
+    console.error("Create content error:", err);
+    res.status(500).json({ error: "Failed to create content" });
+  }
+});
+
+app.get("/api/content/:token", async (req, res) => {
+  try {
+    const { token } = req.params;
+    const id = tokenToGate.get(token);
+
+    if (!id) {
+      return res.status(404).json({ error: "Content not found" });
+    }
+
+    const gate = gates.get(id);
+    if (!gate) {
+      return res.status(404).json({ error: "Content not found" });
+    }
+
+    if (gate.revoked) {
+      return res.status(410).json({ error: "Content has been revoked" });
+    }
+
+    if (gate.expires_at && Date.now() > gate.expires_at) {
+      return res.status(410).json({ error: "Content has expired" });
+    }
+
+    gate.access_count += 1;
+    gate.last_accessed = Date.now();
+
+    res.json({
+      id: gate.id,
+      token,
+      content: gate.content,
+      created_at: new Date(gate.created_at).toISOString(),
+      expires_at: gate.expires_at ? new Date(gate.expires_at).toISOString() : null,
+      access_count: gate.access_count,
+      last_accessed: gate.last_accessed ? new Date(gate.last_accessed).toISOString() : null,
+    });
+  } catch (err) {
+    console.error("Get content error:", err);
+    res.status(500).json({ error: "Failed to get content" });
   }
 });
 

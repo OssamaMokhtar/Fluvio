@@ -8,7 +8,7 @@ AI-powered language learning app — speak into your microphone, get instant pro
 
 ## Project Overview
 
-**Fluvio** is a full-stack web application that helps learners improve pronunciation and fluency in 13 languages through AI-powered speech analysis, conversational practice, and spaced repetition.
+**Fluvio** is a full-stack web application that helps learners improve pronunciation and fluency in **8 languages** through AI-powered speech analysis, conversational practice, and spaced repetition.
 
 **What it does:**
 
@@ -96,7 +96,7 @@ Analyzes a recorded utterance against a reference text.
 }
 ```
 
-**Flow:** Decode base64 → Whisper transcription → GPT-4 analysis (JSON schema enforced) → enrich with synthetic pitch contour, phoneme errors, prosody deviations, and pronunciation guide.
+**Flow:** Decode base64 → Whisper transcription → GPT-4 analysis (JSON schema enforced) → enrich with **synthetic** pitch contour, phoneme errors, prosody deviations, and pronunciation guide (pitch/prosody are generated, not measured from the user's audio).
 
 ---
 
@@ -347,7 +347,7 @@ Sentence data files live in `data/sentences/` (e.g. `en_sentences.ts`, `de_sente
 ## Project Structure
 
 ```
-Slang/
+Fluvio/
 ├── App.tsx                          # Root React component — 5 tabs, onboarding, dark mode, SRS, scenario state
 ├── server.ts                        # Express app: all API routes, rate limiting, OpenAI client, sanitization
 ├── src/api/index.ts                 # Vercel serverless entry — re-exports app from server.ts
