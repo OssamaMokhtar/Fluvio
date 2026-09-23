@@ -63,15 +63,23 @@ claim('C-03', 'PRD §Data', 'No ipa field is the source text wrapped in slashes'
   return `${rows.length} rows carry real IPA`;
 });
 
-claim('C-04', 'README §Languages', 'Practice languages advertised = languages the library serves', () => {
+claim('C-04', 'README §Data Counts', 'Languages listed in the README = languages the library serves', () => {
+  // The first version of this check matched `if (code === 'xx') return`, a
+  // pattern the library stopped using; it then passed on an empty list. A
+  // check that cannot find its subject must fail, not pass.
   const lib = read('services/sentenceLibrary.ts');
-  const served = [...lib.matchAll(/if \(code === '(\w+)'\) return/g)].map((m) => m[1]);
-  const quarantined = exists('data/_deprecated')
-    ? readdirSync(join(root, 'data/_deprecated')).map((f) => f.slice(0, 2))
-    : [];
-  const leak = served.filter((c) => quarantined.includes(c));
-  if (leak.length) throw new Error(`serving quarantined corpora: ${leak.join(', ')}`);
-  return `practice languages: ${served.join(', ')}`;
+  const block = lib.match(/const LANG_CODES[\s\S]*?\};/);
+  if (!block) throw new Error('LANG_CODES not found in services/sentenceLibrary.ts');
+  const served = [...block[0].matchAll(/'([A-Z][a-z]+)':\s*'[a-z]{2}'/g)].map((m) => m[1]);
+  if (served.length === 0) throw new Error('no served languages parsed');
+  const readme = read('README.md');
+  const line = readme.match(/\*\*Languages:\*\*([^\n]*)/);
+  if (!line) throw new Error('README has no **Languages:** line');
+  const listed = line[1].split(',').map((x) => x.replace(/[.\s]/g, '')).filter(Boolean);
+  const missing = served.filter((l) => !listed.includes(l));
+  const extra = listed.filter((l) => !served.includes(l));
+  if (missing.length || extra.length) throw new Error(`served but not listed: ${missing}; listed but not served: ${extra}`);
+  return `${served.length} languages, README and library agree`;
 });
 
 // ------------------------------------------------------------ no fabrication
@@ -194,6 +202,46 @@ claim('C-17', 'README §License', 'The licence statement matches the LICENSE fil
     throw new Error(`LICENSE is MIT but README declares: "${decl.trim()}"`);
   }
   return isMit ? 'MIT, stated consistently' : 'non-MIT licence, stated consistently';
+});
+
+// ------------------------------------------------------------ corpus honesty
+claim('C-18', 'README §Data Counts, docs/DATA-QUALITY.md', 'Corpus files hold unique entries and no echo translations', () => {
+  const dir = 'data/sentences';
+  const files = readdirSync(join(root, dir)).filter((f) => f.endsWith('.ts'));
+  let entries = 0;
+  for (const f of files) {
+    const src = read(join(dir, f));
+    const key = f.includes('_words') ? 'word' : 'text';
+    const re = new RegExp(`\\b${key}:\\s*(["'\`])((?:\\\\.|(?!\\1).)*)\\1`, 'g');
+    const vals = [...src.matchAll(re)].map((m) => m[2].trim().toLowerCase());
+    const dupes = vals.length - new Set(vals).size;
+    if (dupes > 0) throw new Error(`${f}: ${dupes} duplicate ${key} entries`);
+    if (f.includes('_sentences')) {
+      const echo = [...src.matchAll(/text: `((?:\\.|[^`])*)`,\s*translation: `((?:\\.|[^`])*)`/g)].filter((m) => m[1] === m[2]).length;
+      if (echo > 0) throw new Error(`${f}: ${echo} translations copy the source text`);
+      if (/native_audio_available:\s*true/.test(src)) throw new Error(`${f}: claims native audio that does not exist`);
+    }
+    entries += vals.length;
+  }
+  return `${files.length} files, ${entries} unique entries, no echo translations`;
+});
+
+// ------------------------------------------------------- per-device identity
+claim('C-19', 'SECURITY.md §Controls, PRIVACY.md', 'Every client API POST carries the device header the server keys on', () => {
+  const header = (code('server.ts').match(/req\.get\("([^"]+)"\)/) || [])[1];
+  if (header !== 'x-slang-device') throw new Error(`server reads "${header}", expected x-slang-device`);
+  if (!code('services/deviceId.ts').includes(`'${header}'`)) throw new Error('deviceId.ts does not send the header');
+  const files = ['App.tsx', 'services/geminiService.ts', 'services/companionService.ts', 'components/CompanionChat.tsx'];
+  let posts = 0;
+  for (const f of files) {
+    const src = code(f);
+    for (const m of src.matchAll(/fetch\(\s*['"`]\/api\/[^'"`]+['"`]\s*,\s*\{([\s\S]{0,200}?)body:/g)) {
+      posts++;
+      if (!m[1].includes('apiHeaders()')) throw new Error(`${f}: an /api POST is missing apiHeaders()`);
+    }
+  }
+  if (posts < 7) throw new Error(`expected at least 7 billable POSTs, found ${posts}`);
+  return `${posts} POSTs send ${header}`;
 });
 
 // --------------------------------------------------------------------- run

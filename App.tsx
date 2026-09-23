@@ -19,6 +19,7 @@ import SentenceBrowser from './components/SentenceBrowser';
 import CompanionChat from './components/CompanionChat';
 import ProverbViewer from './components/ProverbViewer';
 import { createCompanionSession, addCompanionMessage } from './services/companionClient';
+import { apiHeaders } from './services/deviceId';
 
 const TARGET_LANGUAGES = ['English', 'Spanish', 'French', 'German', 'Italian', 'Japanese', 'Portuguese', 'Chinese'];
 const NATIVE_LANGUAGES = ['Spanish', 'French', 'German', 'Chinese', 'Japanese', 'Korean', 'Portuguese', 'Russian', 'Italian', 'Arabic', 'Hindi', 'Turkish', 'Vietnamese', 'English'];
@@ -391,7 +392,7 @@ export default function App() {
     try {
       const response = await fetch('/api/companion/chat', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: apiHeaders(),
         body: JSON.stringify({
           sessionId: companionSession.id,
           message: companionInput,
@@ -594,7 +595,7 @@ export default function App() {
                               try {
                                 const res = await fetch('/api/generate-tts', {
                                   method: 'POST',
-                                  headers: { 'Content-Type': 'application/json' },
+                                  headers: apiHeaders(),
                                   body: JSON.stringify({ text: currentPrompt }),
                                 });
                                 const data = await res.json();

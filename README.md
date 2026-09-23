@@ -1,22 +1,24 @@
-# Fluvio Language
+# Fluvio
 Fluidity + fluency + forward motion.
 AI-powered language learning app — speak into your microphone, get instant pronunciation feedback, practice real-world scenarios with an AI role-play partner, and track your progress over time.
 
-**Live demo:** [vercel.com/…](#deployment)
+**Architecture docs:** [full set](docs/README.md) · [system architecture](docs/01-system-architecture.md) · [AI architecture](docs/04-ai-architecture.md) · [evaluation and quality gates](docs/07-evaluation.md) · [decision log](docs/10-decision-log.md) · [ADR-0001 acoustic scoring](docs/adr/0001-acoustic-scoring.md) · [gaps](docs/GAPS.md)
+
+**Status:** deployed on Vercel (see [Deployment](#deployment)); no tracked users yet. Cost per scored utterance is now logged per request (see [Cost telemetry](#cost-telemetry)).
 
 ---
 
 ## Project Overview
 
-**Fluvio** is a full-stack web application that helps learners improve pronunciation and fluency in **8 languages** through AI-powered speech analysis, conversational practice, and spaced repetition.
+**Fluvio** is a full-stack web application that helps learners improve pronunciation and fluency in **13 practice languages** (English, Spanish and French are the reviewed core; the other 10 are unreviewed machine-generated sets, see [Data quality](docs/DATA-QUALITY.md)) through AI-powered speech analysis, conversational practice, and spaced repetition.
 
 **What it does:**
 
-- **Pronunciation analysis** — Record yourself speaking a sentence; the app transcribes your audio with Whisper, compares it against the reference text using GPT-4, and returns a detailed breakdown: overall score, phoneme errors with timestamps, prosody deviations, pitch contour comparison, prioritized corrective actions, and a pronunciation guide.
+- **Pronunciation analysis** — Record yourself speaking a sentence; the app transcribes your audio with Whisper, compares it against the reference text using GPT-4, and returns an overall score, model-judged phoneme and prosody notes, prioritized corrective actions, and a pronunciation guide. **These are language-model judgements over the transcript, not acoustic measurements**: no pitch or phoneme timing is measured from your audio, and the response says so in its `measurement` field.
 - **AI Language Companion** — Chat with an AI partner in your target language. The companion corrects grammar gently, suggests idioms and proverbs, and adapts to your level (beginner / intermediate / advanced).
 - **Scenario role-play** — 15 real-world scenarios (ordering at a cafe, job interview, debating remote work, etc.) across English, Spanish, and French. The AI plays a specific role, responds in character with TTS audio, and scores your turn on 5 dimensions: pronunciation, grammar, vocabulary, fluency, and appropriateness.
-- **Sentence library** — 1,100 curated sentences per language (8,800 total) tagged by CEFR level (A1–C2) and topic, with translations and IPA hints.
-- **Proverbs & idioms** — 35 proverbs per language (280 total) with literal translations, meanings, usage notes, and tags.
+- **Sentence library** — 436 sentences per language (5,668 total) tagged by CEFR level (A1–C2) and topic. Translations are blank until reviewed: every generated "translation" was a copy of the source sentence.
+- **Proverbs & idioms** — 268 in total, from 10 to 54 per language, with literal translations and meanings. Unreviewed, and some are invented rather than traditional.
 - **Spaced repetition (SRS)** — Simplified FSRS algorithm schedules sentence reviews; due counts are surfaced in the UI.
 - **Progress tracking** — Session history stored in IndexedDB; CEFR level estimation, score trend charts, dimension radar, and frequent-error breakdown via Recharts.
 - **Phoneme drills** — Interactive IPA chart with articulation guides for English, Spanish, Italian, and more.
@@ -96,7 +98,7 @@ Analyzes a recorded utterance against a reference text.
 }
 ```
 
-**Flow:** Decode base64 → Whisper transcription → GPT-4 analysis (JSON schema enforced) → enrich with **synthetic** pitch contour, phoneme errors, prosody deviations, and pronunciation guide (pitch/prosody are generated, not measured from the user's audio).
+**Flow:** Decode base64 → Whisper transcription → GPT-4o judgement against the reference text (JSON schema enforced) → pronunciation guide. Nothing is synthesised: `pitch_contour` is not returned, and `measurement` states `audio_analysed: false`, `pitch_measured: false`. The response also carries `cost_estimate_usd` for the Whisper + GPT-4o calls. (Until SL-07, pitch and prosody were generated with `Math.random()` and drawn as measurements; that code is deleted.)
 
 ---
 
@@ -334,11 +336,14 @@ Persisted to localStorage under key `slang_srs_state`.
 
 | Resource | Per language | Total |
 |---|---|---|
-| Sentences | 1,100 | 8,800 (8 languages × 1,100) |
-| Proverbs | 35 | 280 (8 languages × 35) |
+| Sentences | 436 | 5,668 (13 × 436) |
+| Proverbs | 10–54 | 268 |
+| Words | 175–421 | 3,753 |
 | Scenarios | — | 15 (English, Spanish, French only) |
 
-**Languages:** English, Spanish, French, German, Italian, Japanese, Portuguese, Chinese.
+**Languages:** English, Spanish, French, German, Italian, Japanese, Portuguese, Chinese, Arabic, Russian, Turkish, Korean, Hindi.
+
+These are unique entries. An earlier commit advertised "10,000 proverbs + 10,000 words per language"; the files reached those numbers by repeating as few as 10 entries up to 500 times, and by prefixing German filler words to Arabic, Korean and Turkish proverbs. The 23 Sep 2026 audit removed the duplicates and filler. Details and the review plan are in [`docs/DATA-QUALITY.md`](docs/DATA-QUALITY.md). A CI claim (C-18) now fails if duplicates or echo-translations return.
 
 Sentence data files live in `data/sentences/` (e.g. `en_sentences.ts`, `de_sentences.ts`). Proverb files follow the same pattern (e.g. `en_proverbs.ts`, `zh_proverbs.ts`).
 
@@ -399,7 +404,8 @@ Fluvio/
 ### Install
 
 ```bash
-cd Slang
+git clone https://github.com/OssamaMokhtar/Fluvio.git
+cd Fluvio
 npm install
 ```
 
@@ -451,6 +457,16 @@ npm run preview
 ```
 
 ---
+
+## Cost telemetry
+
+Every billable call records an estimated cost (`services/costMeter.ts`): one JSON log line per call (`{"event":"ai_cost","route","model","usd",...}`), and `/api/analyze-audio` returns `cost_estimate_usd` for the scored utterance.
+
+- Whisper is priced per minute from the WAV header's duration; if the duration cannot be read, it is billed at the 1-minute worst case rather than zero.
+- GPT-4o uses the token counts the API returns. TTS is priced per character.
+- Prices are list prices dated `PRICES_AS_OF` and can be overridden with env vars (`PRICE_GPT4O_INPUT_PER_1M` and similar).
+
+**Not yet measured:** real cost per active learner per week. That needs usage data from real users. A contract test (COST-01) fails CI if a scored route stops recording cost.
 
 ## Deployment
 

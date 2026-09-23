@@ -3,6 +3,7 @@ import { Send, Sparkles, Loader2, BookOpen, RefreshCcw, Globe, Play, Volume2 } f
 import { companionChat, CompanionReply } from '../services/companionService';
 import { CompanionSession, addCompanionMessage, CompanionMessage } from '../services/companionClient';
 import { Scenario } from '../data/scenarios';
+import { apiHeaders } from '../services/deviceId';
 
 // Message type for scenario mode (AI messages have scores, tts_audio, feedback)
 interface ScenarioMessage {
@@ -97,7 +98,7 @@ export default function CompanionChat({ session, onSessionUpdate, targetLanguage
         // Scenario mode: send to /api/companion/scenario
         const res = await fetch('/api/companion/scenario', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: apiHeaders(),
           body: JSON.stringify({
             sessionId: session.id,
             scenarioId: scenario.id,

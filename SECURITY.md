@@ -4,7 +4,7 @@
 **Last verified:** 2026-09-12 against commit `0279736` + remediation batch.
 
 > Every control marked ✅ below is asserted by an executable check in
-> [`scripts/verify-claims.mjs`](../scripts/verify-claims.mjs) and fails CI if it
+> [`scripts/verify-claims.mjs`](scripts/verify-claims.mjs) and fails CI if it
 > stops being true. A control with no check is marked ⬜ *Planned* and is not
 > claimed. This replaces the previous version of this file, which claimed a
 > build-time secret check that did not exist.
@@ -23,7 +23,7 @@
 |---|---|---|---|
 | No secret inlined into the client bundle | ✅ | `C-10` | `vite.config.ts` previously used `define` to inline `GEMINI_API_KEY` into client code as `process.env.API_KEY`. Nothing leaked in practice — no such key was set after the OpenAI migration — but the mechanism was armed. The `define` block is gone and C-10 fails the build if it returns. |
 | Rate limiting keys on the caller, not the proxy | ✅ | `C-07` | `app.set('trust proxy', 1)`. Express 5 defaults to `false`, so `req.ip` used to resolve to the platform proxy and every caller shared one bucket. |
-| Per-device rate-limit identity | ✅ | `C-07` | Prefers an `X-Fluvio-Device` token over IP. Carrier-grade NAT is the norm across GCC mobile networks, so IP is a poor identity there. |
+| Per-device rate-limit identity | ✅ | `C-19` | Prefers an `x-slang-device` token over IP. The client mints it once (`services/deviceId.ts`) and sends it on every API call. Until 23 Sep 2026 the server accepted the header but the client never sent it, so this row was untrue. Carrier-grade NAT is the norm across GCC mobile networks, so IP is a poor identity there. |
 | Hard daily ceiling on billable AI calls | ✅ | `C-08` | `AI_CALL_BUDGET_PER_DAY` (default 2000). Fails **closed** with `429 AI_BUDGET_EXHAUSTED`. All three billable routes are gated. |
 | Free-text input sanitised before prompts | ✅ | `C-09` | `safeSentence` is applied to the companion and scenario `message` fields — the only genuinely adversarial inputs. Previously every closed-vocabulary field was sanitised and this one was not. |
 | Single sanitiser definition | ✅ | `C-09` | `services/sanitization.ts`. A byte-identical duplicate in `server.ts` was deleted. |
