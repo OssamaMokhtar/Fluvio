@@ -63,15 +63,23 @@ claim('C-03', 'PRD §Data', 'No ipa field is the source text wrapped in slashes'
   return `${rows.length} rows carry real IPA`;
 });
 
-claim('C-04', 'README §Languages', 'Practice languages advertised = languages the library serves', () => {
+claim('C-04', 'README §Data Counts', 'Languages listed in the README = languages the library serves', () => {
+  // The first version of this check matched `if (code === 'xx') return`, a
+  // pattern the library stopped using; it then passed on an empty list. A
+  // check that cannot find its subject must fail, not pass.
   const lib = read('services/sentenceLibrary.ts');
-  const served = [...lib.matchAll(/if \(code === '(\w+)'\) return/g)].map((m) => m[1]);
-  const quarantined = exists('data/_deprecated')
-    ? readdirSync(join(root, 'data/_deprecated')).map((f) => f.slice(0, 2))
-    : [];
-  const leak = served.filter((c) => quarantined.includes(c));
-  if (leak.length) throw new Error(`serving quarantined corpora: ${leak.join(', ')}`);
-  return `practice languages: ${served.join(', ')}`;
+  const block = lib.match(/const LANG_CODES[\s\S]*?\};/);
+  if (!block) throw new Error('LANG_CODES not found in services/sentenceLibrary.ts');
+  const served = [...block[0].matchAll(/'([A-Z][a-z]+)':\s*'[a-z]{2}'/g)].map((m) => m[1]);
+  if (served.length === 0) throw new Error('no served languages parsed');
+  const readme = read('README.md');
+  const line = readme.match(/\*\*Languages:\*\*([^\n]*)/);
+  if (!line) throw new Error('README has no **Languages:** line');
+  const listed = line[1].split(',').map((x) => x.replace(/[.\s]/g, '')).filter(Boolean);
+  const missing = served.filter((l) => !listed.includes(l));
+  const extra = listed.filter((l) => !served.includes(l));
+  if (missing.length || extra.length) throw new Error(`served but not listed: ${missing}; listed but not served: ${extra}`);
+  return `${served.length} languages, README and library agree`;
 });
 
 // ------------------------------------------------------------ no fabrication
