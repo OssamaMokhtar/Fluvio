@@ -12,18 +12,18 @@ A React + Express AI language learning app. It lives in the **Fluvio** repo but 
 
 ## What Fluvio does (real, built, shipped)
 
-1. **Pronunciation analysis** — Record yourself speaking a sentence; the app transcribes your audio with Whisper, compares it against the reference text using GPT-4, and returns a detailed breakdown: overall score, phoneme errors with timestamps, prosody deviations, pitch contour comparison, prioritized corrective actions, and a pronunciation guide.
+1. **Pronunciation feedback** — Record yourself speaking a sentence; Whisper transcribes it and GPT-4o judges the transcript against the reference text, returning a score, likely problem sounds, prioritized actions and a pronunciation guide. This is a language-model judgement over text, not an acoustic measurement; the response says so in its `measurement` field. Acoustic scoring is the accepted plan in [ADR-0001](adr/0001-acoustic-scoring.md).
 2. **AI Language Companion** — Chat with an AI partner in your target language. The companion corrects grammar gently, suggests idioms and proverbs, and adapts to your level (beginner / intermediate / advanced).
 3. **Scenario role-play** — 15 real-world scenarios (ordering at a cafe, job interview, debating remote work, etc.) across English, Spanish, and French. The AI plays a specific role, responds in character with TTS audio, and scores your turn on 5 dimensions: pronunciation, grammar, vocabulary, fluency, and appropriateness.
-4. **Sentence library** — ~1,100 curated sentences per language (8,800 total) tagged by CEFR level (A1–C2) and topic, with translations and IPA hints.
-5. **Proverbs & idioms** — 35 proverbs per language (280 total) with literal translations, meanings, usage notes, and tags.
+4. **Sentence library** — 436 sentences per language, 13 languages (5,668 total). Translations blank pending review.
+5. **Proverbs & idioms** — 268 unique entries across 13 languages (10–54 each), unreviewed.
 6. **Spaced repetition (SRS)** — Simplified FSRS algorithm schedules sentence reviews; due counts are surfaced in the UI.
 7. **Progress tracking** — Session history stored in IndexedDB; CEFR level estimation, score trend charts, dimension radar, and frequent-error breakdown via Recharts.
 8. **Phoneme drills** — Interactive IPA chart with articulation guides for English, Spanish, Italian, and more.
 
 ## What Fluvio does not do (honest gaps)
 
-- **Pitch contour and prosody deviations are synthetic, not measured.** The analysis pipeline enriches results with synthetic pitch/phoneme/prosody data. These fields are described in the README as if they were measured from the user's real audio. They are not — they are generated as part of the enrichment step. This is a known accuracy gap; documenting it here rather than leaving reviewers to find it.
+- **Pitch contour and prosody are not measured, and no longer faked.** SL-07 deleted the `Math.random()` generators. The analysis is a language-model judgement over the Whisper transcript; `pitch_contour` is not returned, and the `measurement` field says what was and was not measured. (This line previously said the data was still synthetic, which was out of date.)
 - **TTS playback assumes 24kHz mono Int16 PCM.** The client decodes OpenAI TTS MP3 bytes as if they were PCM. This works in the current SDK version but is fragile. If TTS breaks, check `server.ts` lines 422–453 and the client `playPCM`.
 - **JSON.parse without validation.** OpenAI responses are parsed with raw `JSON.parse`. If the model returns malformed JSON, the route returns 500. The system prompt includes a schema, but it's not enforced at runtime.
 - **Rate limiting is per-invocation in Vercel.** The in-memory Map means each serverless invocation gets its own rate limiter state. For global rate limiting you'd need an external store.
@@ -37,13 +37,11 @@ A React + Express AI language learning app. It lives in the **Fluvio** repo but 
 
 ## Languages (honest count)
 
-**8 languages:** English, Spanish, French, German, Italian, Japanese, Portuguese, Chinese.
-
-The README lead says "13 languages" in one place and "8 languages" in another. The project supports **8 languages**. Scenarios cover only English (8), Spanish (4), and French (4) — 15 total.
+**13 practice languages are served** (`services/sentenceLibrary.ts`): English, Spanish, French, German, Italian, Japanese, Portuguese, Chinese, Arabic, Russian, Turkish, Korean, Hindi. Only English, Spanish and French have scenarios (15 total). The "8 languages" line written earlier on 23 Sep was wrong: the code serves 13. Corpus quality for the 10 non-core languages is unreviewed; see `docs/DATA-QUALITY.md`.
 
 ## Deployment
 
-**Live on Vercel:** `https://slang-e6mm37v73-ossamamokhtars-projects.vercel.app` — HTTP 200 confirmed.
+**Live on Vercel:** `https://slang-e6mm37v73-ossamamokhtars-projects.vercel.app` (HTTP 200 as reported on 23 Sep 2026; not re-checked in the audit pass, which had no network route to vercel.app). This is a deployment-specific URL; assign a stable production domain before linking it anywhere public.
 
 **Note:** The deployment URL uses the "slang" subdomain (from the repo's earlier name). The canonical project name is Fluvio.
 

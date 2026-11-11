@@ -20,6 +20,8 @@ jobs:
           node-version: '22'
           cache: 'npm'
 
+      - name: Docs (links resolve, Mermaid closed, status lines)
+        run: bash scripts/check-docs.sh
       - run: npm ci
 
       - name: Typecheck

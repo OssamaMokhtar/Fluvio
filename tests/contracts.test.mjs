@@ -45,3 +45,22 @@ test('SL-21: body limit is inside the platform cap', () => {
   const m = stripped.match(/BODY_LIMIT \|\| "(\d+)mb"/);
   assert.ok(m && Number(m[1]) <= 4, 'body limit exceeds the 4.5MB platform cap');
 });
+
+test('COST-01: every scored utterance records Whisper + GPT-4o cost and returns an estimate', () => {
+  const i = stripped.indexOf('app.post("/api/analyze-audio"');
+  const j = stripped.indexOf('app.post("/api/generate-tts"');
+  const route = stripped.slice(i, j);
+  assert.ok(/recordCost\(\{[\s\S]*?model: "whisper-1"/.test(route), 'whisper cost not recorded');
+  assert.ok(/recordCost\(\{[\s\S]*?model: "gpt-4o"/.test(route), 'gpt-4o cost not recorded');
+  assert.ok(route.includes('cost_estimate_usd'), 'response lacks cost_estimate_usd');
+  const tts = stripped.slice(j, j + 3000);
+  assert.ok(/recordCost\(\{ route: "generate-tts"/.test(tts), 'tts cost not recorded');
+});
+
+test('COST-02: cost meter prices are dated and env-overridable', () => {
+  const meter = readFileSync('services/costMeter.ts', 'utf8');
+  assert.ok(/PRICES_AS_OF = "\d{4}-\d{2}"/.test(meter));
+  for (const k of ['PRICE_GPT4O_INPUT_PER_1M', 'PRICE_GPT4O_OUTPUT_PER_1M', 'PRICE_WHISPER_PER_MIN', 'PRICE_TTS1_PER_1M_CHARS']) {
+    assert.ok(meter.includes(k), `${k} not configurable`);
+  }
+});

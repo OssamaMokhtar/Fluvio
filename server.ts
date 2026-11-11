@@ -1,4 +1,5 @@
 import express from "express";
+import { recordCost, chatCost, whisperCost, ttsCost, wavSeconds } from "./services/costMeter";
 import path from "path";
 import { OpenAI } from "openai";
 import {
@@ -367,6 +368,14 @@ app.post("/api/analyze-audio", async (req, res) => {
       response_format: 'text',
     });
     const transcription = typeof whisperResult === 'string' ? whisperResult : (whisperResult as any)?.text || '';
+    const audioSeconds = wavSeconds(buf);
+    const whisperEvent = recordCost({
+      route: "analyze-audio",
+      model: "whisper-1",
+      audioSeconds,
+      // Unknown duration is billed at the 1-minute worst case, not zero.
+      usd: whisperCost(audioSeconds ?? 60),
+    });
 
     // Send transcription + reference to GPT-4 for analysis
     const analysisPrompt = `
@@ -385,6 +394,14 @@ app.post("/api/analyze-audio", async (req, res) => {
       response_format: { type: "json_object" },
       temperature: 0.4,
       max_tokens: 2048,
+    });
+
+    const chatEvent = recordCost({
+      route: "analyze-audio",
+      model: "gpt-4o",
+      inputTokens: response.usage?.prompt_tokens ?? 0,
+      outputTokens: response.usage?.completion_tokens ?? 0,
+      usd: chatCost(response.usage?.prompt_tokens ?? 0, response.usage?.completion_tokens ?? 0),
     });
 
     const textResponse = response.choices[0]?.message?.content;
@@ -424,6 +441,9 @@ app.post("/api/analyze-audio", async (req, res) => {
       note: "Scores are inferred by a language model comparing the ASR transcript to the reference text. No acoustic analysis is performed. Do not present as phonetic measurement.",
     };
     delete analysis.pitch_contour;
+    // Estimated cost of this scored utterance (Whisper + GPT-4o), for the
+    // cost-per-utterance metric. An estimate from list prices, not an invoice.
+    analysis.cost_estimate_usd = Math.round((whisperEvent.usd + chatEvent.usd) * 1e6) / 1e6;
     if (!Array.isArray(analysis.phoneme_errors)) analysis.phoneme_errors = [];
     if (!Array.isArray(analysis.prosody_deviations)) analysis.prosody_deviations = [];
 
@@ -455,6 +475,7 @@ app.post("/api/generate-tts", async (req, res) => {
       voice: (voice || 'alloy').toLowerCase(),
       response_format: 'mp3',
     });
+    recordCost({ route: "generate-tts", model: "tts-1", characters: String(text).length, usd: ttsCost(String(text).length) });
 
     // Collect the streaming response into a buffer
     const stream = speech;

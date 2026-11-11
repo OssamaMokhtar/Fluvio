@@ -1,4 +1,5 @@
 import { AnalysisResponse, UserProfile } from "../types";
+import { apiHeaders } from './deviceId';
 
 export const analyzeAudio = async (
   audioBase64: string,
@@ -9,9 +10,7 @@ export const analyzeAudio = async (
   try {
     const response = await fetch("/api/analyze-audio", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
+      headers: apiHeaders(),
       body: JSON.stringify({
         audioBase64,
         userProfile,
@@ -36,9 +35,7 @@ export const generateTTS = async (text: string): Promise<string> => {
   try {
     const response = await fetch("/api/generate-tts", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
+      headers: apiHeaders(),
       body: JSON.stringify({ text }),
     });
 
@@ -59,9 +56,7 @@ export const generateLessonPlan = async (userProfile: UserProfile): Promise<{ pr
   try {
     const response = await fetch("/api/generate-lesson-plan", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
+      headers: apiHeaders(),
       body: JSON.stringify({ userProfile }),
     });
 
